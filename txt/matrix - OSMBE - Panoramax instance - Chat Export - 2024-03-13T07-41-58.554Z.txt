@@ -1,0 +1,342 @@
+Thu, Aug 3, 2023, 21:35:24 - Thibaultmol joined the room
+Thu, Aug 3, 2023, 21:35:24 - Thibaultmol made the room invite only.
+Thu, Aug 3, 2023, 21:35:24 - Thibaultmol has allowed guests to join the room.
+Thu, Aug 3, 2023, 21:35:24 - Thibaultmol made future room history visible to all room members, from the point they are invited.
+Thu, Aug 3, 2023, 21:35:24 - Thibaultmol changed the room name to OSMBE - GeoVisio instance.
+Thu, Aug 3, 2023, 21:35:55 - Thibaultmol invited joost_schouppe
+Thu, Aug 3, 2023, 21:36:06 - joost_schouppe joined the room
+Thu, Aug 3, 2023, 21:36:07 - Thibaultmol: joost_schouppe what permission on this room?
+Thu, Aug 3, 2023, 21:36:20 - Thibaultmol: allow people part of the osmbe space to join? or invite only
+Thu, Aug 3, 2023, 21:36:31 - Thibaultmol invited Marc_marc
+Thu, Aug 3, 2023, 21:36:37 - joost_schouppe: Maybe invite only for now
+Thu, Aug 3, 2023, 21:36:42 - Thibaultmol invited pierreserpe
+Thu, Aug 3, 2023, 21:36:48 - joost_schouppe: And full history for everyone who joins
+Thu, Aug 3, 2023, 21:36:57 - Thibaultmol made future room history visible to anyone.
+Thu, Aug 3, 2023, 21:37:07 - joost_schouppe: Also, thanks for creating this room! :)
+Thu, Aug 3, 2023, 21:37:28 - joost_schouppe invited Jonathan
+Thu, Aug 3, 2023, 21:37:47 - joost_schouppe invited eMerzh
+Thu, Aug 3, 2023, 21:38:49 - Thibaultmol changed the topic to "Discussing hosting and management of the GeoVisio instance".
+Thu, Aug 3, 2023, 21:39:34 - Thibaultmol changed the room avatar.
+Thu, Aug 3, 2023, 21:40:42 - Thibaultmol changed the topic to "Discussing hosting and management of the GeoVisio instance
+https://gitlab.com/geovisio".
+Thu, Aug 3, 2023, 21:44:59 - Marc_marc joined the room
+Thu, Aug 3, 2023, 21:47:38 - Thibaultmol: So yeah, I know a little bit about hosting even though i've barely hosted anything myself XD (just picking up things from listening to linux/Selhosting podcast/youtubechannels.
+
+
+Thu, Aug 3, 2023, 21:50:09 - Thibaultmol: I haven't really look at how geovisio does it's storage.
+
+How I assume it works is that there will be a place to store images waiting to be processed. and then a final location for published photos.
+
+I think we need to be careful about where the temp processing happens. The final images of course are fine, cause everything *should be* blurred.
+That is one nice thing about having your own server is that you don't need to worry about that. (unless if the server software turns out to have a security hole of course).
+In the ideal world images are blurred before they reach us, but seems like that's not an approach that geovisio seemed feasable (I guess cause of processing power on the client end)
+Thu, Aug 3, 2023, 21:54:38 - Marc_marc: blurring image at the client side need to have client that can do that 🙂 so on win+linux+android+iod and so on:)
+Thu, Aug 3, 2023, 21:54:41 - Thibaultmol: For the published photos storage:
+
+- the big three: Gcloud, AWS, Azure: they're all expensive honestly.
+- Backblaze: probably the cheapest you'll find
+    - pro: price
+    - con: you do need to pay every time something is downloaded from the bucket BUT you can put Cloudfare in front of it as a cache. Backblze has a deal with Cloudflare that makes it so that traffic between them is fully free. Cloudflare itself has a freetier but no idea how much that would cover us
+- Wasabi
+    - Slightly more expensive than Backblaze BUT they don't charge you for downloads...... Until you download more than the total size of the amount of files you store. Then they start charging you
+    - pro: would mean there is one less thing in the chain than compared to backblaze
+    - do note: they have a thing where they will charge you if you remove the images from the bucket in the first 6 months iirc. Shouldn't affect us in the long term but if we start the instance over and clear the storage bucket. We might feel that $$$
+- IPFS: i have always been a big fan of the idea of just bundling a community's collective internet for a storage pool. (IPFS is kinda like if you did Torrenting but more like storage bucket).
+The idea is super cool.... but I dunno... i was expecting it to be super easy to host a collective storage bucket at this point but that hasn't turned out to be the case.
+Part of me hoped that the geovisio team would come up with some kind of actual torrent based system (cause you can now http stream torrents and stuff). But I understand that would add a lot complexity while they probably should continue focusing on the actual user experience and server management side
+- Storj: it's kinda confusing cause they technically are decentralized but they heavily focusing on you buying storage from them. Not actually "we store and use collectively together" kinda thing. 
+Thu, Aug 3, 2023, 21:55:12 - Thibaultmol: <@marc_marc:matrix.org "blurring image at the client sid..."> it's def possible. But it would be horribly slow if you just want to do the simple 'cpu works on all machines. So we'll do cpu only'
+Thu, Aug 3, 2023, 21:55:21 - Thibaultmol: So I can understand their approach of doing it server side
+Thu, Aug 3, 2023, 21:56:18 - Thibaultmol: Wouuld be nice if they gave you the option. I mean I guess anyone could run something on their own before uploading. But you know. an easy application included in the service with a toggle to do it on machine. Most people have machines that can run it
+Thu, Aug 3, 2023, 22:03:48 - Marc_marc: the problem is scaleup: when there's only one person uploading, it's much faster to do it on the server's GPU (when the server has one). if you have X people, you have to compare X cpu with the server's gpu, and the more X increases, the more the advantage of the server's GPU decreases compared with the power of users' cpu
+Thu, Aug 3, 2023, 22:06:09 - Thibaultmol: Exactly. We'll probably HAVE to have a GPU on the instance. But make it easy for people uploading to it locally on their end if hardware allows for it
+Thu, Aug 3, 2023, 22:07:26 - pierreserpe joined the room
+Thu, Aug 3, 2023, 22:16:53 - Thibaultmol: Now for some gross math:
+Thu, Aug 3, 2023, 22:17:48 - Thibaultmol: to estimate the amount of pics currently on mapillary for belgium. our best metric is probably the belgium leaderboards: https://www.mapillary.com/app/leaderboard/Belgium?location=Belgium&focus=map&lat=50.280238359183755&lng=-0.05817498171995794&z=7.4223162964514575
+
+summing the top 100 contributors of all time. We get about 23.2M images
+Thu, Aug 3, 2023, 22:48:11 - Thibaultmol: an average GoPro Max image is: 3.2 MB
+an average GoPro image is: 2.3MB
+
+it's fair to assume that many images on mapillary right now aren't gopro. But let's just go with this.
+
+Assuming that only 1/4 of the images on Mapillary belgium is 360
+
+gopro: 23.2 x 10⁶ x 0.75 x 2.3MB = 40TB
+gopromax: 23.2 x 10⁶ x 0.25 x 3.2MB = 18.6 TB
+So that's 58.6 TB in total.
+
+
+Thu, Aug 3, 2023, 22:49:50 - Thibaultmol: Let's look at Backblaze (which is the cheapest):
+0.005$ x 58600 GB => 267 euro/month
+Thu, Aug 3, 2023, 22:50:06 - Thibaultmol: And that's just storage. no bandwidth usage yet. Dunno how much that is with how cloudflare works
+Thu, Aug 3, 2023, 22:58:55 - Marc_marc: strange... you posted 7 TiB 7M files on the other channel
+Thu, Aug 3, 2023, 23:09:02 - Thibaultmol: That is just what i currently have in my archive.
+Thu, Aug 3, 2023, 23:09:26 - Thibaultmol: ---
+in this calculcation i'm estimating the full mapillary belgium amount
+Thu, Aug 3, 2023, 23:09:42 - Thibaultmol: I haven't really done actual downloading from mapillary except for one user. cause downloading is a bit of mess.
+Fri, Aug 4, 2023, 07:32:22 - Thibaultmol: A cool approach would be if we could use distributed storage. So that all of us can contribute some disk space  and internet bandwidth.
+There are things like webtorrents that allow a browser to directly download something via a torrent. So using torrents could work. 
+With the backup option in case the browser doesn't support webtorrent of torrenting is blocked on that network: have the geovisio server be the middleman that grabs it from the torrent and serves it over http to the user.
+But you can't create a torrent for every file, I'm pretty sure. You'd have to create one every x amounts of gb's or something. But this that's get messy probably.
+
+The best solution is something that can automatically balance which hosts have which files and such. I'll look into solutions. But yeah, it's a niche thing
+Fri, Aug 4, 2023, 07:43:53 - Thibaultmol: Even then. We'd need a lot of storage, for such a system you realistically want 3 copies of each file. Meaning we need 175 TB across all our volunteers...  
+Fri, Aug 4, 2023, 07:44:33 - Thibaultmol: (there's a reason why Mapilarry had to sell to meta. Probably cause they couldn't afford their servers and storage)
+Fri, Aug 4, 2023, 09:26:13 - Jonathan joined the room
+Fri, Aug 4, 2023, 11:15:17 - Thibaultmol: hmm... this looks promising actually https://github.com/seaweedfs/seaweedfs
+Fri, Aug 4, 2023, 21:23:47 - Thibaultmol changed the room avatar.
+Wed, Aug 16, 2023, 22:52:13 - eMerzh joined the room
+Mon, Sep 18, 2023, 14:55:34 - Thibaultmol: Hetzner storage boxes are also an option btw. That would come down to +- 145 euro/month
+BUT doesn't have any kid of redundancy (in the sense that they do use RAID BUT if they were to have a datacenter 🔥like OVH had a couple years ago.. that data would be gone, i'm pretty sure.
+Mon, Sep 18, 2023, 14:55:38 - Thibaultmol: https://www.hetzner.com/storage/storage-box
+Mon, Sep 18, 2023, 14:55:50 - Thibaultmol: unlimited bandwidth though, supposedly
+Tue, Sep 26, 2023, 20:15:59 - joost_schouppe invited hans.vandenabeele
+Tue, Sep 26, 2023, 20:38:36 - hans.vandenabeele joined the room
+Wed, Sep 27, 2023, 17:44:35 - joost_schouppe invited pietervdvn
+Wed, Sep 27, 2023, 17:44:53 - pietervdvn joined the room
+Fri, Oct 6, 2023, 15:15:07 - Thibaultmol invited kvde
+Fri, Oct 6, 2023, 15:18:04 - Thibaultmol: @kvde so I haven't actually done anything yet. I don't really know if I trust myself if hosting something that important. Yet.
+
+What I did do in a thread a couple messages ago was have a rough cost estimate of at least the storage part of running such an instance.
+
+I did make a quite extreme estimation in the sense that I made the assumption that we would upload all the existing Mapillary imagery for Belgium that is currently on their servers. 
+
+Obviously the instance doesn't need to host all of those images but I think in a sense of being independent from meta it would be quite nice if we could have all the images on there.
+Fri, Oct 6, 2023, 15:19:46 - kvde joined the room
+Fri, Oct 6, 2023, 15:35:03 - pierreserpe: Did you know that OSM France get a native server for hosting data from Free telecom. Adrie Pavie told me it was offered as a sponsor because it is opensource. Do you thing we could get a similar favor with Proximus, Orange pour anything else?
+(I did ask a friend who works for Proximus to check it)
+Fri, Oct 6, 2023, 15:38:25 - kvde: to be honest: I think the best way to start is to involve Adrien Pavie who did the initial development. That way you can work out a workable solution fast and do a pricing estimate at that point. Because I think working out a solution yourself will be hard. This might mean we will have to pay a consultancy fee to  Adrien. 
+Fri, Oct 6, 2023, 15:39:19 - Thibaultmol: <@pierreserpe:matrix.org "Did you know that OSM France get..."> That'd be good! I don't know what kind of server performance they will have available. We still will need storage because I highly doubt they'll offer free storage that's enough for our needs. But image processing wise they might.
+Fri, Oct 6, 2023, 15:45:17 - pierreserpe: Also according to Adrien, it s not a bad thing to invest in a native server and place it somewhere safe with a good connection. It allows more control for deployment etc.
+Fri, Oct 6, 2023, 15:50:50 - Thibaultmol: I'm assuming he's referring to a Colocation? (datacenter companies allowing you to put a server in their rack and they'll provide networking and power for it (optionally 'remote hands' to physically do something to the machine if needed)
+Fri, Oct 6, 2023, 15:50:50 - joost_schouppe: <@pierreserpe:matrix.org "Also according to Adrien, it s n..."> that's exactly what Jonathan wanted to avoid :)
+Fri, Oct 6, 2023, 15:51:24 - joost_schouppe: Adrien has already offered to help, he would be able to help some on a volunteer basis
+Fri, Oct 6, 2023, 15:51:43 - joost_schouppe: we have a bit of budget, we can start small, get it online, and find a sponsor later
+Fri, Oct 6, 2023, 15:52:03 - joost_schouppe: I think the most important thing is to get started now, iterate and improve later!
+Fri, Oct 6, 2023, 16:00:25 - kvde: What is a bit of budget because we will be looking at €200/month servercosts very fast.
+Fri, Oct 6, 2023, 16:01:01 - kvde: and decentralizing it looks very hard to me
+Fri, Oct 6, 2023, 16:01:26 - joost_schouppe: I mean I'd have to check with the rest of the board, but we could do that - say for a year, and then evaluate
+Fri, Oct 6, 2023, 16:01:43 - joost_schouppe: I see this as firmly on the "nice to have" list as well. Real fun to experiment with, but shouldn't be a blocker
+Fri, Oct 6, 2023, 17:08:19 - Jonathan: I know we have some money available but I'm afraid this will be quite expensive quite fast and not manageable financially to be honest.
+Fri, Oct 6, 2023, 17:09:00 - Jonathan: I don't want to reiterate the recent experience we have with OKBE where the organisation is not able to pay for it's own infrastructure.
+Fri, Oct 6, 2023, 17:20:28 - joost_schouppe: how complicated is it to get a decent forecast?
+Fri, Oct 6, 2023, 17:22:37 - Jonathan: We would need to know what CPU/RAM and dusk space is needed.
+But if I remember correctly Thibaultmol already made some estimation a while back (I don't know if it's still valid though).
+Fri, Oct 6, 2023, 17:23:30 - Jonathan: And yes, having our own server hosted somewhere will most likely be cheaper but a nightmare to maintain.
+Fri, Oct 6, 2023, 17:49:51 - Thibaultmol: <@jbelien:matrix.org "We would need to know what CPU/R..."> https://matrix.to/#/!gqtmWOhOdLHbtuLgmt:matrix.org/$Az48VDx4q3BxXaZnhDm4D_p3fK7A79bQ0sSSZJ2YGWY?via=matrix.org
+
+I only looked at storage. I don't know about cpu/gpu/bandwidth requirements.
+Sat, Oct 7, 2023, 22:20:11 - Thibaultmol: So if you put it on a graph to compare Backblaze and Hetzner:
+Backblaze has the advantage of pricing going up linearly as storage usage goes up BUT if you look at hetzner, they're cheaper. I did two lines for hetzner: one if you upgrade the storage server as you scale (you can upgrade and downgrade with some downtime, from the sounds of it) OR if you buy 20TB boxes each time
+Sat, Oct 7, 2023, 22:20:24 - Thibaultmol: Message deleted
+Sat, Oct 7, 2023, 22:29:49 - Thibaultmol: oh, no downtime if you upgarde or downgrade. ok
+
+> Will there be any downtime?No, the upgrade takes place without downtime.
+Sat, Oct 7, 2023, 23:12:59 - Thibaultmol: Message deleted
+Sat, Oct 7, 2023, 23:16:07 - Thibaultmol: Message deleted
+Sun, Oct 8, 2023, 10:02:19 - Thibaultmol: Screenshot_20231008_100120.png (Media omitted)
+Mon, Oct 9, 2023, 11:07:04 - Thibaultmol: Got confirmation from Hetnzer: it is indeed all on one server. So if that server were to go **poof** somehow. All the data would be gone.
+
+While with Backblaze it's replicated across sections of the entire datacenter
+Thu, Oct 12, 2023, 20:02:57 - hans.vandenabeele: Hi, I'm trying to get started on all OSM infrastructure, usage, ... From earlier data center work, application resource consumption, scalability, operations, ..., I think indeed a grasp is needed on the overall picture. Pulling the whole architecture internally to be "freed", means a window of ... 3+ years must be covered. Often, I point to aids like this https://aws.amazon.com/s3/pricing/?p=ft&c=wa&z=2 (and handies like https://docs.aws.amazon.com/pricing-calculator/latest/userguide/save-share-estimate.html ) to collect an idea. As well, all organisations move to cloud (in particular for non-confidential data etc) and avoid hardware, dedicated machines, ... For OSM, I try to get only on dockers, as that permits also to make several environments for playing and testing upgrades, have batch processing in a container, doing AI without (over)loading the main instance, ... And surely, disaster recovery of 175TB... (with 100% growth per year?) ... is a CHALLENGE. Anyone having ideas on actuals (statistics, ...)?
+Thu, Oct 12, 2023, 21:21:30 - Thibaultmol: I was avoiding AWS on purpose. Because S3 is damn expensive.
+Sure you could S3 deep glacier for an emergency 3rd location backup. But other than that, I think using other (cheaper) cloudproviders would make more sense
+Thu, Oct 12, 2023, 21:23:38 - Thibaultmol: AWS is great if you need a lot of other AWS services. I don't think for this setup we would.
+
+I think what we need is
+
+- The main server that hosts the web interface and databases
+- A secondary server, potentially with a gpu, for doing (for now) mainly the license plate and face blurring
+- Some kind of storage pool
+
+    - One in the cloud, that will be accessed most frequently
+    - One could be my server at home
+    - One more location to have 3 different storage locations... (this could be a server located at someone else's house tbf.. it might be cheaper).
+Although one of the two backup locations should ideally have gigabit upload for fast* recovery... And I don't have fiber at my building let alone symmetrical fiber.
+Thu, Oct 12, 2023, 21:25:00 - Thibaultmol: image.png (Media omitted)
+Fri, Oct 13, 2023, 13:05:08 - joost_schouppe: Thibault, would you mind summarizing this, perhaps in an email to the board? We were thinking maybe say: "hey, here is 1000 euro, set something up and see how far you get with it"
+Fri, Oct 13, 2023, 13:22:36 - Thibaultmol: Will do 🫡
+Fri, Oct 13, 2023, 18:44:44 - hans.vandenabeele: Sorry, my first posts might be recalibrated with my growing understanding. I did not suggest AWS (or another provider) but I aimed at showing "aids ... to collect an idea on what the TCO could be". Storage sure, but all CPU/GPU, I/O, gigabit network, ... costs too. Such aids in hands of architects and TCO-folks would help here to see how to fund and operate.  
+Fri, Oct 13, 2023, 18:53:19 - hans.vandenabeele: Mind the bandwidth of my car with disks in! To have DRP/BCP, till about 10 years ago, I helped small companies and organisations with "mobile data centers". These days, that maps to permanent sync's of data for who wants to go wild without network. If TBs count, I use sets of 2 or 3 same disks (each backup of each other, in different places) like https://www.fruugo.be/externe-harde-schijf-2tb-8tb-16tb-32tb-draagbare-externe-solid-state-drive-waterdicht-en-schokbestendig-40-korting/p-233494393-499377512?language=nl but for important "backups" or speed number crunching, I still buy https://www.coolblue.be/nl/product/871697/sandisk-extreme-portable-ssd-2tb-v2.html for GB/s throughput (on a machine with enough USB bus power). If someone else wants the same data for other purpose, no "SDSL"/symmetrical fiber needed, just hand over the small SSD. Has anyone worked in that direction? PS: no matter what internet provider gives such volumes;-) If shipped by bpost, DHL, ... even: 32TB per 2-3 days (put 2 or 3 such monsters in a solid carton...). Thanks to parcel machines, physical exchange can be even 24/7 for about no cost (5€ upto 2kg https://parcel.bpost.be/nl/parcel-detail) 
+Fri, Oct 13, 2023, 18:54:31 - hans.vandenabeele: Pragmatic question: I read somewhere (if my memory is still ok, it's not yet SSD;-)), the DB is 175TB. Could it be put on a set of such SSD (as own backup for any analysis & processing)?
+Fri, Oct 13, 2023, 19:00:29 - joost_schouppe: <@hans.vandenabeele:matrix.org "Pragmatic question: I read somew..."> Which DB are you talking about exactly? And what exactly is the problem you want to solve?
+Fri, Oct 13, 2023, 19:17:21 - hans.vandenabeele: Ha, I found it back: Thibault on Aug 4th: https://matrix.to/#/!gqtmWOhOdLHbtuLgmt:matrix.org/$7qy5PxrfbhTdbOrT7O6PUHtaTZkKay5L8ZyQ3nx-Zgk?via=matrix.org 
+Fri, Oct 13, 2023, 19:19:53 - hans.vandenabeele: The problem I want to solve: what architecture (versus cost) to allow us to do much more processing without central server(s)/storage that costs too much. If we have disks with the (raw) footage, we could use local computing power without network/I/O/... on the data. The results then are much smaller in volume when uploaded to the main instance our end-users access.
+Fri, Oct 13, 2023, 23:07:41 - hans.vandenabeele: image.png (Media omitted)
+Fri, Oct 13, 2023, 23:19:59 - hans.vandenabeele: Question: one thing I use to rather aggressively prune on "upfront-known useless derivation of data" is ... skipping any footage that is too close in time or space to a previous derived dataset for that location. GoogleStreetview has 1 image per year (say, at most), while I had (and found on mapillary) many about identical photos, with only weeks/days difference e.g. typically on highways (at the same side, anyone drives in the same direction and has the same images, except cars/trucs/weather conditions/day-night/... I doubt that gives valuable new derived data. For a lot of processing, if I have multiple recordings (without yet pruning), I first extract the background and only use that. For details (traffic signs e.g.), that could be applied selectively and avoid (like in the screen shot of the map just added) 10-20 or more virtually identical sequences. Courtesy to who took the effort to make the footage and upload, but capacity-wise, we/mapillary/meta aims at efficiency too, I assume. The "density" heuristics that I use is for a sequence depending the focus/application: time-distance: 1 second between frames, irrespective the speed, and space-distance: at most per 10 meter (well, GPS granularity), which is irrelevant at high speeds (above 36km/h=10m/s). I have no recollection of combining these, unless in the case where the algorithm searches for "sufficient difference between 2 consecutive frames" (dull straight highway lanes might result in 1 frame per minute: there is nothing interesting...).
+Sat, Oct 14, 2023, 10:29:15 - Thibaultmol: currently I'm not storing that much. Keep in mind the figure I mentioned there is the needed storage for all the current footage on mapillary's server X 3. (cause that specific message was about if were to do distributed storage.)
+The actual storage mapillary currently does is +-60TB I reckon: https://matrix.to/#/!gqtmWOhOdLHbtuLgmt:matrix.org/$owbpXtdChmLB6ku44lDqqcPTzHfLmaMy_jrpB8HZsLk?via=matrix.org
+
+I don't know how much mapillary currently takes up for all of belgium's footage. I don't have it downloaded either. I made an estimation based on what the general file sizes are and the amount of the top 100 contributors on mapillary in Belgium. Used that to calculate a very rough estimate of the amount of storage it might taking up.
+
+Currently I am storing a handful of TB's of actual raw footage that contributors have given me over the years.
+Sat, Oct 14, 2023, 10:32:02 - Thibaultmol: I agree that we shouldn't need to do as much in the cloud as mapillary does. We could utilize existing computational power we have from just pc's at people's homes. But honestly having worked with BOINC in the past, it seems like quite a complicated thing to setup. 
+
+Ideally we'd do something simpler but it would still have to be developed. And so the question is: do we have the resources to actually setup such a thing (because we would want some kind of redundancy for these home servers).
+
+I think the overal web server is going to be in the cloud. And the intitial face/license plate blur application might also need to be in the cloud? Or atleast limited to specific locations. Because we're dealing with actual face and license plate data, we can't just send those files randomly to any person's pc.
+Sat, Oct 14, 2023, 10:32:25 - Thibaultmol: obv the object detection (which isn't a thing yet in GeoVisio) could totally be done on regular home computers
+Sat, Oct 14, 2023, 10:36:48 - Thibaultmol: also: I'm aware of sneakernet https://en.wikipedia.org/wiki/Sneakernet
+and it makes sense to do that.
+
+But the reason why I didn't mention it was because it's not super relevant here. Cause the data would be needed in the cloud anyway. And very few companies support sending your harddrive to be transffered to the cloud. Backblaze technically does but I don't know if that applies to their european customers as well.
+Sat, Oct 14, 2023, 10:37:33 - Thibaultmol: also ssd's: are faster sure, but also still much more expensive than HDD's. I know prices have come down over the years. But unless you get bottom barrel ssd's that might fail without warning, I don't think storing THAT amount of data makes sense
+Sat, Oct 14, 2023, 10:44:26 - Thibaultmol: mermaid-diagram-2023-10-14-104413.png (Media omitted)
+Sat, Oct 14, 2023, 10:48:22 - Thibaultmol: We recently installed battery towers, so the server rack can actually be operated a couple hours even if a power cut happens. which honestly is rare in belgium.
+I also have quadruple redundant internet (just not fast...).
+I have proximus and telenet. (both have a 50mbps up) and each has a 4G backup.
+
+If i could get more upload speed, I would. But proximus and telenet be like 🖕
+Sat, Oct 14, 2023, 10:50:45 - Thibaultmol: And honestly just for reliability sake, having the storage bucket in the cloud, is probably the best. 
+Hence why i see the bottom blue servers on the diagram more as 'backups'.
+With hetzner we don't need to worry about bandwidth use on the storage buckets. With Bacbkblaze we would, although with the amount we're storing and the amount that will be accessed.... I don't think that we'd hit their free bandwidth usage limits either
+Sat, Oct 14, 2023, 10:51:32 - Thibaultmol: Keep in mind obv: when object detection doe start becoming a thing, nothing is preventing whatever system we eventually have, to first try and access the backup mirror on my server first, and only if that fails, go the cloud storage backup.
+
+Sat, Oct 14, 2023, 18:41:00 - hans.vandenabeele: <@thibaultmol:matrix.org "currently I'm not storing that m..."> Thanks! I start getting it;-)
+Sat, Oct 14, 2023, 18:54:22 - hans.vandenabeele: <@thibaultmol:matrix.org "I agree that we shouldn't need t..."> As (ex)member of Seti@home, BOINC and a few others: it's not that complicated: it's all about dispatching work to be done, and services like "double check results (forgeries)", assuring packets do get processed... at large scale. I guess we do not need 1000's of such clients (worker PCs of people). The "bookkeeping" can be kept easy. I agree on the "central" server, learned a new term (one of many for the same) "sneakernet". I'm not looking to use SSD/HDD for upload of original footage, but to avoid traffic with the central server for things that would only upload derived data. SSDs and HDDs are different in what they are: just look at weight/volume and MB/s read or write. I prefer 1TB at 1GB/s (versus 5TB at maybe 100MB/s). The use is simply different. Reliability of HDDs under transport is not terrible: I have several ones that died after 2-3 years, and magnetic surfaces seem not perfect for ever neither. That's why I always now buy storage and keep them synced per 2 identical devices (or 3 to have a real redundant backup).
+Sat, Oct 14, 2023, 19:20:37 - hans.vandenabeele: image.png (Media omitted)
+Sat, Oct 14, 2023, 19:23:43 - hans.vandenabeele: <@thibaultmol:matrix.org "sent an image."> Indeed. However, I aim at (low volume) derived data, say as per yellow arrows in this scheme. Sooner or later, (validated) derived data (much lower in dimension and volume than the raw footage) should go backup "up" to the central DB server (50Mbps non-redundant seems more than enough - if my JPGs are 1-4+MB each, the derived data/annotations/... are mostly <1kB JSONs).
+Wed, Nov 15, 2023, 10:26:07 - kvde set a profile picture
+Sun, Dec 17, 2023, 11:44:24 - joost_schouppe: Thibaultmol: could you add panoramax to the name here? And make me an admin :)
+Sun, Dec 17, 2023, 11:49:22 - Thibaultmol changed the room name from OSMBE - GeoVisio instance to OSMBE - Panoramax instance.
+Sun, Dec 17, 2023, 11:49:34 - Thibaultmol changed the power level of joost_schouppe from Default to Admin.
+Sun, Dec 17, 2023, 11:56:36 - Thibaultmol changed the topic to "Discussing hosting and management of the Belgian Panoramax instance
+https://gitlab.com/geovisio".
+Sun, Dec 17, 2023, 11:57:04 - Thibaultmol: <@joost_schouppe:matrix.org "Thibaultmol: could you add panor..."> Done
+Sun, Dec 17, 2023, 11:58:19 - joost_schouppe changed the topic to "Discussing hosting and management of the Belgian Panoramax instance
+https://hackmd.io/rQOzcUAjTY-XtNKlVc7DWg?view ".
+Sun, Dec 17, 2023, 17:29:30 - Thibaultmol: I finally have some time to get working on the test setup. (Still not sure if this server is going to do or not because we definitely can't fit a graphics card in here unless we do some funny business)
+Sun, Dec 17, 2023, 17:29:49 - Thibaultmol sent an image. (Media omitted)
+Sun, Dec 17, 2023, 17:29:53 - Thibaultmol: Ignore the sketchy copper heat sink, it's fine
+Fri, Dec 29, 2023, 14:47:42 - Thibaultmol: I have been stressing about the complex setup I wanted to have redunancy and stuff. But seems like the original panoramax osmfr instance doesn't have any of that either... So guess we won't worry about that for now either 😆
+Fri, Dec 29, 2023, 14:47:47 - Thibaultmol: https://forum.geocommuns.fr/t/current-server-infrastrcuture-panoramax/1241/5?u=thibaultmol
+Fri, Dec 29, 2023, 14:55:46 - Thibaultmol: I was already thinking about a whole setup with failover and stuff (tbf, I did notice the documenation didnn't mention much about it)
+Fri, Dec 29, 2023, 14:56:18 - Thibaultmol: I'm still going to make that happen. but I guess getting the physical server bought and setup and running the basic setup, with a good backup. Really is nr1 prio atm
+Fri, Dec 29, 2023, 14:56:53 - Thibaultmol: Expect to have a working version up and running for next week's meetup. And should also have the price of the hardware that I think would be best
+Fri, Dec 29, 2023, 14:59:38 - Thibaultmol sent an image. (Media omitted)
+Fri, Dec 29, 2023, 14:59:55 - Thibaultmol: (very much not final setup, just a guide for me mentally as i was thinking about it)
+Fri, Dec 29, 2023, 15:48:12 - joost_schouppe: Awesome work! And yeah, consider all things Panoramax as a working demo for now :D
+Wed, Jan 17, 2024, 09:28:01 - joost_schouppe: We talked to NCCN about them hosting an instance. While they were enthused and want to work together, they also rule out hosting a public instance on their infrastructure. However, they would be willing to do all the image processing etc, if we can find a way to let one server talk to another one
+Wed, Jan 17, 2024, 09:52:42 - Thibaultmol: Understandable tbf
+So I guess the ideal setup then would be something like this
+Wed, Jan 17, 2024, 09:52:53 - Thibaultmol: Message deleted
+Wed, Jan 17, 2024, 09:53:00 - Thibaultmol: (simplified version)
+Wed, Jan 17, 2024, 09:53:32 - Thibaultmol sent an image. (Media omitted)
+Wed, Jan 17, 2024, 09:54:49 - Thibaultmol invited MikiDi
+Wed, Jan 17, 2024, 09:55:14 - Thibaultmol: MikiDi what companies did you mention again for potential server hosting/rackspace?
+Wed, Jan 17, 2024, 10:01:31 - joost_schouppe: something like that, indeed
+Wed, Jan 17, 2024, 10:01:44 - joost_schouppe: with an extra server on the NCCN side with images they want to keep private
+Wed, Jan 17, 2024, 10:09:02 - Thibaultmol: I don't know if they would use two different panoramax instances or just one but with different data sets. 
+
+Maybe they set up two servers and then have a 'meta' server like panoramax fr does (which shows all federated data together)
+Wed, Jan 17, 2024, 10:14:05 - Thibaultmol: also, unix solutions (the one that I mentioned in brussels) does have a public pricing page btw. haven't emailed them yet though
+Wed, Jan 17, 2024, 10:14:09 - Thibaultmol: image.png (Media omitted)
+Wed, Jan 17, 2024, 10:14:25 - Thibaultmol: that 1mbit 95% means:
+ Standaard heeft u 1Mbit 95% dataverkeer. Dit wil zeggen dat er 95% van het hoogst gemeten verbruik wordt geteld. De 5% hoogste pieken vallen weg wat voordeliger is dan een prijs per GB te betalen. Bij een prijs per GB wordt immers alle dataverkeer in rekening gebracht. Theoretisch zal u met 1Mbit 95% ongeveer 320GB dataverkeer kunnen genereren. In de praktijk zal dit echter tussen de 160 en 250GB liggen. 
+Wed, Jan 17, 2024, 15:33:50 - MikiDi joined the room
+Wed, Jan 17, 2024, 16:03:47 - MikiDi: At my work we recently have been in contact with unix solutions. "goed contact. denken vlot mee." is what my colleague recalled.
+Wed, Jan 17, 2024, 16:07:08 - Thibaultmol: <@mikidi-2:matrix.org "At my work we recently have been..."> Aight, good to hear!
+Wed, Jan 17, 2024, 16:07:47 - Thibaultmol: <@thibaultmol:matrix.org "Aight, good to hear!"> <a data-mention-type="user" href="https://matrix.to/#/@joost_schouppe:matrix.org" contenteditable="false">@joost_schouppe</a> you mailed lennert i assume?
+Wed, Jan 17, 2024, 16:07:53 - MikiDi: https://kangaroot.net was in the back of my mind, but judging from their website, hosting doesn't seem to be a particular focus nowadays. Let alone rackspace for a dedicated server.
+Wed, Jan 17, 2024, 16:09:13 - MikiDi: My napkin calculations for something with Hetzner resulted in a similar amount to what you mentioned during the meetup (doesn't matter what exactly it was ... unaffordable)
+Wed, Jan 17, 2024, 16:15:18 - Thibaultmol: yep pretty much.
+Wed, Jan 17, 2024, 16:16:06 - Thibaultmol: the realistic hybrid solution would be: VPS in the cloud but storage at home. That way, the reliability is high, speed of the database is high. And storage is cheap. (in this setup you would have to probably put some kind of CDN between it)
+Wed, Jan 17, 2024, 16:16:26 - Thibaultmol: downside: my internet is still only 50 mbps upload speed... so that would be a pretty decent bottleneck... I think
+Wed, Jan 17, 2024, 16:24:43 - joost_schouppe: <@thibaultmol:matrix.org "<a data-mention-type="user" href..."> aaaaah I forgot about that
+Wed, Jan 17, 2024, 16:25:08 - joost_schouppe: or rather, it's still on my todo list
+Wed, Jan 17, 2024, 16:38:30 - Thibaultmol: <@mikidi-2:matrix.org "https://kangaroot.net was in the..."> i've been on their website a couple times. I always find it funny how a company 'excited about open source' is not on mastodon... Like.. that seems somewhat obv to do in my opinion 😆
+Thu, Jan 18, 2024, 09:33:21 - Thibaultmol: It's a stupid shower thought and not realistic for Panoramax. But could be cool if you could send clips of dashcam footage directly to Wegen & Verkeer so they have an idea of what each road looks like in snowy conditions, in real time.
+Sun, Jan 28, 2024, 21:36:25 - Thibaultmol set the main address for this room to #osmbe-panoramax:matrix.org.
+Mon, Jan 29, 2024, 17:22:31 - Thibaultmol: So turns out that the docker compose files on the git repo aren't actually meant for production and more for testing and demo purposes... ok... (seems a bit weird, cause then how are you supposed to know  what to deploy to prod)
+But yeah, got very close to a working Panoramax instance (just in a vm on my gaming pc, not with the proper storage setup and such. Because i don't have that hardware yet).
+But currently a bit stuck.
+
+Now emailing with Adrien Pavie (main dev) on tips for hosting an actual prod version of geovisio. Sounds like he prefers hosting the database at an actual hosting company. Not sure why yet, cause having everything contained in one server seems like the best/easiest to backup and manage. But i'm all ears. Waiting to hear back from him now
+Mon, Jan 29, 2024, 17:25:53 - joost_schouppe: maybe he just prefers a not-in-the-basement solution :D
+Mon, Jan 29, 2024, 22:45:22 - MikiDi: > So turns out that the docker compose files on the git repo aren't actually meant for production and more for testing and demo purposes... ok... (seems a bit weird, cause then how are you supposed to know  what to deploy to prod)
+
+Priorities on this might be influenced by Christian. He literally said during the presentation that "he is too old-school for Docker" and installs everything native 😶
+Wed, Jan 31, 2024, 10:17:02 - kvde: I just recieved a testing vm from work (IOK) and I would like to set up something like NCCN with a one way mirror. 
+We want a private server because we make a lot of pictures on private property mixed in with public property. Shared spaces in bussiness parks etc. 
+any guidance how to set this up will be greatly appriciated. 
+If there is an clear and easy way to give back to the community let me know. I will lobby to get IOK to also give back to the community.
+Wed, Jan 31, 2024, 10:26:20 - Thibaultmol: So far our instance isn't close to being setup
+Wed, Jan 31, 2024, 10:27:11 - Thibaultmol: I was trying to get atleast a working version of the instance up this week. But having some difficulties.
+The documentation is ok... https://gitlab.com/geovisio/api/-/tree/develop/docs
+Wed, Jan 31, 2024, 10:28:09 - Thibaultmol: but as I stated on monday, their own docker images aren't considered production ready. So i'm a bit confused as to what's expected from a production grade geovisio/panoramax setup.
+
+also I don't think in the current version there is any kind of actually mirroring built in
+Wed, Jan 31, 2024, 10:28:16 - Thibaultmol: so that will be something we/I have to figure out
+Wed, Jan 31, 2024, 10:32:21 - Thibaultmol: and yeah, as mikidi said. the official osmfr instance doesn't use docker at all... which... Honestly I don't know if that's good or not.
+
+I thought the advantage of docker was that it was easier to update and maintain. but yeah
+Wed, Jan 31, 2024, 10:33:27 - Thibaultmol: docker (well. kubernetes) makes it easier to do failover and high availability and stuff.
+
+They don't have HA atm, which yeah.. is because they're not using docker 😆
+Wed, Jan 31, 2024, 10:53:35 - kvde: What step are you stuck on? I might try to set somthing up this week or next week.
+Wed, Jan 31, 2024, 11:05:33 - joost_schouppe: well there is also the NCCN version we're going to make (or Jonathan is going to make :)). When you say one-way, do you mean from you to us or from us to you?
+Wed, Jan 31, 2024, 11:11:27 - Thibaultmol: well, i'm just setting it up from my home network, and I don't exactly want to expose the ip('s) of my home/pharmacy network.
+So the VM on it's own isolated VLAN. then I'm sing cloudflare tunnels to expose it.
+and while cloudflare says the tunnel is connected, it doesn't actually show me the site
+Wed, Jan 31, 2024, 11:12:16 - Thibaultmol: I had gotten it working at some point but then it broke and I forgot what I might have done that broke it (cause multiple things broke at some point, so i lost track)
+Wed, Jan 31, 2024, 11:13:33 - Thibaultmol: docker-compose-full-withoutkeycloak.yml (Media omitted)
+Wed, Jan 31, 2024, 11:13:55 - Thibaultmol: this is the docker compose I created, based on the geovisio one. (secrets are stored in a separate file)
+Wed, Jan 31, 2024, 11:14:03 - Thibaultmol: Screenshot 2024-01-31 at 11-13-06 Cloudflare One.png (Media omitted)
+Wed, Jan 31, 2024, 11:14:07 - Thibaultmol: cloudflare config also looks correct to me
+Wed, Jan 31, 2024, 11:15:25 - Thibaultmol: the api does work (the containers are currently not running btw) but it throws an error about ssl. probably cause the containers weren't meant for using sub sub domains or something. But either way. originally I got the website container working and showing the main page (which then showed it couldn't connect to it's own backend atleast)
+Wed, Jan 31, 2024, 11:16:14 - Thibaultmol: now I'm getting nothing at all when I go to panoramax-test.thibaultmol.link (again, containers are currently down). which is weird... Cause you'd expect atleast the usual cloudflare erorr page, but it's just a regular http error page
+Wed, Jan 31, 2024, 13:04:12 - kvde: <@joost_schouppe:matrix.org "well there is also the NCCN vers..."> from OSM public to IOK local. not the other way around. Because we will be making images on private property. I will emphasize the importance of uploading public data to OSM public as wel. But that will need to be clear in the manual.
+Wed, Jan 31, 2024, 13:12:35 - joost_schouppe: Ok, right. Because maybe nccn private to iok private and vice versa would also make sense
+Wed, Jan 31, 2024, 13:39:21 - Thibaultmol: <@joost_schouppe:matrix.org "Ok, right. Because maybe nccn pr..."> So what is exactly is private about the nccn data then? I thought it was sensitive imagery?
+(Or do i have the iok in my head?)
+Wed, Jan 31, 2024, 13:44:34 - joost_schouppe: Well yeah, me might take images within seveso sites for example. But we do want to share those images with firefighters for example. So if iOK can make a case for using our (hypothetical!) images, we might be able to share them
+Wed, Jan 31, 2024, 14:12:00 - kvde: yes, makes sense. But that's a feature request for the future.
+Wed, Jan 31, 2024, 14:22:05 - joost_schouppe: your setup is quite close to what Jonathan would need to build, so you guys should stay in touch. And of course you and Thibault will be able to share experience
+Wed, Jan 31, 2024, 14:23:37 - joost_schouppe: still, I'd like to avoid a situation where OSMbe is just providing content with nothing in exchange. We're not really interested in money, but things like help with setting things up or even just finding us someone who would be able to host our machine, ... would be quite helpful
+Wed, Jan 31, 2024, 14:27:30 - kvde: Hosting something in our environment is something we don't want to do. We are really scared this will create security issues. We don't want to be the next hack on national news.
+Wed, Jan 31, 2024, 14:28:17 - kvde: But I'm aware that we have a moral obligation to give back to the community.
+Wed, Jan 31, 2024, 14:29:05 - joost_schouppe: yeah, the hosting itself, I get that
+Wed, Jan 31, 2024, 14:29:55 - joost_schouppe: also, I don't want to stiffle the efforts of early adopters, so I don't want to put much pressure on iok either!
+Fri, Feb 2, 2024, 20:31:46 - Thibaultmol sent an image. (Media omitted)
+Fri, Feb 2, 2024, 20:31:51 - Thibaultmol: was curious how much storage all of europ's mapillary footage might be (very much an estimation. it's probably below this though)
+Fri, Feb 16, 2024, 12:24:22 - kvde: trying to install docker on a windows server is already a very difficult proces.
+Fri, Feb 16, 2024, 13:31:59 - Thibaultmol: Keep in mind: their docker files aren't actually ready for production xd
+Fri, Feb 16, 2024, 13:39:10 - Thibaultmol: So I went to talk to some people at some people from NLNET.
+They said that a funding application for creating integrations on JOSM/ID/Mapcomplete/... for showing/uploading images via Panoramax, is something that's very likely to get funded
+
+They also said that a funding application for creating a good/robust/High-availability/secure server config for hosting a Panoramax instance, would also be something they would probably accept. (they did hint at there being a higher chance of acceptance if you request a NIX config than if you request a regular config request).
+So in this application, it would include a full manual on how to get a production ready server up.
+If it is going to be NIX based, then a lot of that manual won't have to be written, because the NIX files itself will be the manual for a lot of things.
+(Short version of what NIX is: NIX/NIXOS is a way of defining an entire (usually linux) server/pc using config files. So instead of having manual with every single step of what you need to do. You can just use the NIX config files which get your server configured correctly.
+You might know of Ansible, which is another server automation tool. The problem with Ansible is that they modify a server by doing certain tasks. The difference with NIX is that NIX will automatically do whatever it needs to do, to reach the desired state that you created in the config.
+I am personally messing around with NIX, always wanted to, but the learning curve is very high.
+
+With regards to providing money for server hardware: yeah no.
+Fri, Feb 16, 2024, 19:10:51 - joost_schouppe: So they would fund the work of setting up the server, but nothing else related to servering?
+Fri, Feb 16, 2024, 19:13:11 - Thibaultmol: <@joost_schouppe:matrix.org "So they would fund the work of s..."> pretty much yeah. They said that paying someone (they have/know NIX specialists) to create the server config files. And at that point it's just click install and go
+Fri, Feb 16, 2024, 19:14:14 - Thibaultmol: If after that, we run into problems. There's a reasonable chance I might be able to figure out what's wrong and fix it. If not, worst case we (osmbe) could pay the same person to help fix the problem?
+(I don't want to make the financial decision here, i'm just saying, that seems like the reasonable option)
+Fri, Feb 16, 2024, 19:15:00 - Thibaultmol: Using NIX for server setup is much easier than a regular setup. Because it's "'reproducable". If we have a problem, it's likely they would be able to recreate the problem using their config files
+Fri, Feb 16, 2024, 19:18:44 - joost_schouppe: This sounds awesome. Could you add this to the osmbe official meeting agenda?
+Fri, Feb 16, 2024, 19:19:34 - joost_schouppe: We should check with Christian before applying of course
+Fri, Feb 16, 2024, 19:23:08 - Thibaultmol: Him, Antoine Desbordes and "Adrien Pavie  are also informed already via email
+Sun, Feb 18, 2024, 16:53:13 - kvde: small update: I'm giving up for now. Running the panoramax on a windows server within the IOK environment to get to a non production ready solution is costing me too much time. I can't defend that time investment to my employer. 
+If there is a clear path for a production ready server setup that's maintainable I will try again.
+What kind of funding are we talking here? something in the €10 000 range? Maybe (don't get your hopes up) I can convice IOK to contribute a small amount.
+
+Sun, Feb 18, 2024, 17:09:52 - Thibaultmol: <@kvde:matrix.org "small update: I'm giving up for ..."> Honestly, no idea. Much less then that though. Does it have to be windows btw?
+Sun, Feb 18, 2024, 18:06:33 - kvde: IT only has windows servers today. They have no procedures etc in place to maintain a linux server. I didn't get a "No Never" but a "rather not". So If it becomes a linux server they will need a way to update it etc. Also I can't be a single point of failure for something in production. So a solution like it exists today has two disadvantages for us: 1) OS not supported by IT 2) not production ready according to the people who build it.
+I hoped to get it running in a few hours time to test so we could evaluate but after three hours I didn't make much progress and this makes me think I will spend multiple days to just get the test running. So my current evaluation is: postpone and try again later.
+Sun, Feb 18, 2024, 18:29:24 - Thibaultmol: So a linux vm on your windows server would be a no-go as well then?
+Sun, Feb 18, 2024, 18:30:19 - Thibaultmol: I'll send an email to nlnet to see what they think is best. I think NIX would be best, but then in your situation (and your company would not be the only one) that would run into this problem I guess... hmm
+Mon, Feb 19, 2024, 08:37:11 - kvde: linux vm on a windows server on vmware is just asking for problems. I don't know about NCCN but my guess is they are also a mostly windows server environment. If the linux server setup is production ready I can probably convince IT to run an ubuntu or other well known distro.
+I'm not pushing for a windows server solution here. I think we should have linux servers because of the open nature of what we are doing. 
+
+Mon, Feb 19, 2024, 08:41:43 - Thibaultmol: (this might be THE way to trojan horse linux into your enviroment xd)
+Mon, Feb 19, 2024, 08:41:54 - Thibaultmol: I'll ask nlnet what they think
+Tue, Feb 20, 2024, 10:32:45 - Thibaultmol: so do you guys have kubernetes at all? (sorry if I already asked)
+Tue, Feb 20, 2024, 10:33:05 - Thibaultmol: what kinda stuff do you use in the IOK env?
+Tue, Feb 20, 2024, 18:56:17 - Jonathan: We use Linux at NCCN. On premise, VMWare (I don't know the detail by heart) and Kubernetes in the cloud.
+Wed, Feb 21, 2024, 21:24:21 - kvde: I'm not in the IT department but as far as I know we don't have any containers. Also no cloud environment. 
+Wed, Feb 21, 2024, 21:26:09 - Thibaultmol: I guess ask them to give some kind of summary on how they run stuff. Like. if you show them a piece of software, what are the things they look at to see if it can run

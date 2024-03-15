@@ -1,0 +1,498 @@
+Thu, Nov 9, 2023, 22:37:33 - joost_schouppe joined the room
+Thu, Nov 9, 2023, 22:37:34 - joost_schouppe made future room history visible to all room members.
+Thu, Nov 9, 2023, 22:37:34 - joost_schouppe has prevented guests from joining the room.
+Thu, Nov 9, 2023, 22:37:34 - joost_schouppe changed who can join this room.
+Thu, Nov 9, 2023, 22:37:34 - joost_schouppe changed the room name to Osmbe - watercooler.
+Thu, Nov 9, 2023, 22:37:51 - joost_schouppe made the room public to whoever knows the link.
+Thu, Nov 9, 2023, 22:38:19 - joost_schouppe invited Sharko [BE-WHT]
+Thu, Nov 9, 2023, 22:54:56 - Michel Stuyts joined the room
+Thu, Nov 9, 2023, 22:55:16 - Sharko [BE-WHT] joined the room
+Thu, Nov 9, 2023, 22:55:26 - Sharko [BE-WHT]: ** Unable to decrypt: DecryptionError: The sender's device has not sent us the keys for this message. **
+Thu, Nov 9, 2023, 23:11:10 - jxpsert joined the room
+Thu, Nov 9, 2023, 23:11:39 - jxpsert: ** Unable to decrypt: DecryptionError: The sender's device has not sent us the keys for this message. **
+Thu, Nov 9, 2023, 23:12:50 - joost_schouppe changed the power level of Sharko [BE-WHT] from Default to Moderator.
+Thu, Nov 9, 2023, 23:20:38 - Thibaultmol joined the room
+Thu, Nov 9, 2023, 23:35:13 - Seppe joined the room
+Fri, Nov 10, 2023, 07:38:16 - Sharko [BE-WHT]: morning
+Fri, Nov 10, 2023, 12:12:47 - s8evq joined the room
+Fri, Nov 10, 2023, 13:19:23 - Sharko [BE-WHT]: ok so my loca kfc did open
+Fri, Nov 10, 2023, 13:19:32 - Sharko [BE-WHT]: (it already has 7 reviews on google maps)
+Fri, Nov 10, 2023, 13:31:05 - midgard joined the room
+Fri, Nov 10, 2023, 14:06:27 - joost_schouppe: I've never seen such enthusiasm about a KFC :D
+Fri, Nov 10, 2023, 14:28:12 - Sharko [BE-WHT]: <@joost_schouppe:matrix.org "I've never seen such enthusiasm ..."> at least I won't have to travel 30km 
+Fri, Nov 10, 2023, 14:28:19 - Sharko [BE-WHT]: (to the one in Saint-Ghislain)
+Fri, Nov 10, 2023, 15:32:51 - midgard: sorry if i came across as an intolerant boomer
+Fri, Nov 10, 2023, 15:33:33 - midgard: i'm actually also often not serious in other chat channels
+Fri, Nov 10, 2023, 15:41:21 - joost_schouppe: Pictures or it didn't happen
+Fri, Nov 10, 2023, 15:58:44 - Sharko [BE-WHT]: pictures of what
+Fri, Nov 10, 2023, 16:00:26 - joost_schouppe: Pictures of 
+Midgard not being serious
+Fri, Nov 10, 2023, 16:02:58 - Sharko [BE-WHT]: o
+Fri, Nov 10, 2023, 16:33:50 - midgard: you should see the chat of my student club!
+Fri, Nov 10, 2023, 16:40:05 - midgard sent an image. (Media omitted)
+Fri, Nov 10, 2023, 16:40:41 - midgard: joost_schouppe: ^
+Fri, Nov 10, 2023, 20:19:21 - W3ZZ3 joined the room
+Fri, Nov 10, 2023, 21:48:56 - Stéphane De Greef joined the room
+Fri, Nov 10, 2023, 22:22:43 - Sharko [BE-WHT]: 👋
+Sat, Nov 11, 2023, 09:19:00 - s8evq: Welke matrix client gebruiken jullie op Linux? Ik heb steeds Element gebruikt, maar ik vind die threads zo verwarrend, en destijds kon je dit niet uitschakelen. Cinny is wat buggy en toont niet correct de read/unread. En Thunderbird heeft ook een implementatie, maar dat zag er niet te fraai uit... iemand een suggestie?
+Sat, Nov 11, 2023, 09:19:09 - s8evq: (misschien toch terug naar Element...)
+Sat, Nov 11, 2023, 09:46:36 - midgard: Ik heb nog nooit een deftige Matrixclient gezien, op gelijk welk platform 🙃. Ook Element (web) hier
+Sat, Nov 11, 2023, 12:19:01 - W3ZZ3: Element web gaat het beste om met threads idd. 
+Sat, Nov 11, 2023, 12:19:24 - W3ZZ3: Maar ook daar is read/unread een ramp.
+Sun, Nov 12, 2023, 07:11:37 - Thibaultmol: Element inderdaad 
+Sun, Nov 12, 2023, 12:18:16 - Sharko [BE-WHT] sent an image. (Media omitted)
+Sun, Nov 12, 2023, 12:18:16 - Sharko [BE-WHT]: ah yes
+Sun, Nov 12, 2023, 16:12:20 - Thibaultmol: Refresh the app
+Mon, Nov 13, 2023, 11:06:43 - Sharko [BE-WHT]: I did
+Mon, Nov 13, 2023, 11:12:59 - joost_schouppe: Try to cross validate sessions again?
+Sun, Nov 19, 2023, 11:00:28 - Sharko [BE-WHT]: looks like I broke my editing streak
+Sun, Nov 19, 2023, 11:00:54 - Sharko [BE-WHT] sent an image. (Media omitted)
+Wed, Nov 22, 2023, 02:26:22 - midgard: The choir I sing in has a concert on Wednesday 6 and Thursday 7 December in Gent! The venue is at walking distance from Gent-Sint-Pieters station.
+We're doing a variety of genres, with jazz, classical choral, modern choral and pop.
+https://gentsuniversitairkoor.be/project-view/veladacantada/
+
+Wed, Nov 22, 2023, 11:37:16 - Sharko [BE-WHT]: oh goodie
+Wed, Nov 22, 2023, 11:37:23 - Sharko [BE-WHT]: the traffic in Binche is gonna get chaotic again
+Wed, Nov 22, 2023, 11:37:27 - Sharko [BE-WHT] sent an image. (Media omitted)
+Wed, Nov 22, 2023, 11:37:42 - Sharko [BE-WHT]: (context: this church is literally falling apart, plus it's on national road 90, so there's quite a bit of traffic)
+Mon, Dec 4, 2023, 11:17:53 - paul.brunner joined the room
+Mon, Dec 4, 2023, 17:49:06 - Thibaultmol sent an image. (Media omitted)
+Mon, Dec 4, 2023, 17:49:39 - Thibaultmol: blueblike 1 euro subsidie from the gov is going away... kind of ironic how the gov is trying to be more eco and bike minded.. yet does this...
+Mon, Dec 4, 2023, 20:31:04 - Thibaultmol sent an image. (Media omitted)
+Wed, Dec 6, 2023, 12:06:24 - Sharko [BE-WHT]: interesting
+Wed, Dec 6, 2023, 12:06:29 - Sharko [BE-WHT]: la louvière is now rendered in 3D on google earth
+Wed, Dec 6, 2023, 12:07:00 - Sharko [BE-WHT] sent an image. (Media omitted)
+Wed, Dec 6, 2023, 12:11:20 - joost_schouppe: Ooh it's been ages since I played with that
+Wed, Dec 6, 2023, 12:11:34 - joost_schouppe: Still needs software or is there a webapp these days?
+Wed, Dec 6, 2023, 12:17:31 - Sharko [BE-WHT]: <@joost_schouppe:matrix.org "Still needs software or is there..."> there's a webapp
+Wed, Dec 6, 2023, 12:17:51 - Sharko [BE-WHT]: though I'll personally stick with the desktop version
+Mon, Dec 11, 2023, 16:01:24 - midgard: Everytime I see the topic ["Où sont les prisons ? Belgique"](https://community.openstreetmap.org/t/ou-sont-les-prisons-belgique/106818) on the Belgian forum, I think of https://youtube.com/watch?v=aFT9uHn6eYM&t=09m17s (from 9:17 through 9:28)
+Mon, Dec 11, 2023, 16:04:32 - joost_schouppe: thank you. Now I shall do the same...
+Mon, Dec 11, 2023, 16:21:08 - joost_schouppe: "Begin 2012 zal de laatste vleugel, en daarmee de hele gevangenis, gerenoveerd zijn. Zij zal dan plaats bieden aan 750 gedetineerden."
+Fed gov website is ...slightly... out of date
+Mon, Dec 11, 2023, 16:22:25 - joost_schouppe: (meanwhile wikipedia says "should have been closed already"
+Wed, Dec 13, 2023, 10:05:19 - Thibaultmol sent an image. (Media omitted)
+Wed, Dec 13, 2023, 10:05:21 - Thibaultmol: wonder if that's why some of the lights at NMBS stations are blue. (which just happens to match their color scheme)
+
+Wed, Dec 13, 2023, 15:29:16 - paul.brunner: <@thibaultmol:matrix.org "wonder if that's why some of the..."> Some places use blue light that so people can't see their veins when trying to inject drugs. The blue leads to lower contrast of the veins on the skin, making them harder to see.
+Wed, Dec 13, 2023, 20:40:47 - Thibaultmol sent an image. (Media omitted)
+Thu, Dec 14, 2023, 09:59:35 - Thibaultmol: https://mastodon.nl/@ErikSchouten73/111577937222164695
+Sun, Dec 24, 2023, 21:33:56 - Sharko [BE-WHT]: me when my alt is still on the osm world discord almost 2 months after my main got banned
+Sun, Dec 24, 2023, 21:36:43 - Sharko [BE-WHT]: 😌
+Sun, Dec 24, 2023, 21:37:07 - Sharko [BE-WHT]: me when nobody has mentioned me since then
+Sun, Dec 24, 2023, 21:37:11 - Sharko [BE-WHT] sent an image. (Media omitted)
+Sun, Dec 24, 2023, 22:32:58 - W3ZZ3: YOU ARE BANNED?! 
+Sun, Dec 24, 2023, 23:00:48 - Sharko [BE-WHT]: <@wes.coomans:matrix.org "YOU ARE BANNED?!"> yep
+Sun, Dec 24, 2023, 23:22:36 - W3ZZ3: It happens... I somehow got banned in several chats and rooms before. 🤷🏻‍♂️ I've never been disrespectful but I tend to be stubborn an passionate. 
+I'm also a high functioning autist that doesn't seem to be so high functioning when it comes to online communication. It took me a while to get that 🤷🏻‍♂️
+Mon, Dec 25, 2023, 03:16:24 - midgard: It takes two to communicate
+Mon, Dec 25, 2023, 03:19:15 - midgard: Also: communication is a skill that you can train just like any other skill
+Mon, Dec 25, 2023, 03:26:48 - midgard: When I notice there's a disagreement, my self-imposed policy is to read very well what the disagreeing parties are writing and acknowledge their points; avoid emotional rhetoric such as sarcasm, mockery and passive-aggressiveness; never attack persons, only ideas and behaviour; retain respect for the personhood and dignity of other individuals even when it's not reciprocated*; not exaggerate or lie; and apologise as soon as possible when I notice I've breached this policy.
+
+↑ It's not the only way, but this is a guaranteed recipe for better communication in times of conflict. If you adhere to it, you have a good chance of working things out constructively and otherwise there's no chance any reasonable mod would ban you.
+
+*Don't let others walk over you though. But oftentimes, they will start to show respect very soon when you listen to their concerns and treat them with respect.
+
+I've never told him, but I think I arrived at this policy by watching joost_schouppe. 🤭 Watch him at work here: https://community.openstreetmap.org/t/osmf-local-chapter-re-application-osm-belgium/107234
+
+An addition to this sauce is: start from the point of view of the people who disagree with you and work with them to arrive at yours, or in the process change your own mind, or reach the conclusion that you cannot agree.
+
+Mon, Dec 25, 2023, 03:32:05 - midgard: Also: biased moderators exist
+Mon, Dec 25, 2023, 03:35:22 - midgard: And now after this information-dense helpfully-intended seriousness, some light fun: https://invidious.fdn.fr/watch?v=qCIlcC6c1i8
+Mon, Dec 25, 2023, 04:06:38 - midgard: <@midgard:matrix.rumores.eu "When I notice there's a disagree..."> Actually a lot of this can also be found at https://community.openstreetmap.org/faq
+Mon, Dec 25, 2023, 07:53:15 - joost_schouppe: Well I just got the best Christmas gift of the season. Quite a compliment. (Still feel like I can learn a lot, but I really like your rules of thumb - they allow yourself to make mistakes and just correct them, instead of beating yourself up over not being perfect) 
+
+The linked example was a tough one, because I was fuming. I had to get in the right headspace first. There is a cost to the approach - without the catharsis of a nice and good fight, I spent two days in a bad mood.
+
+I have needled Simon at some other points, but that never went well. He's blocked me and straight up insulted me when I mocked him just slightly. 
+Mon, Dec 25, 2023, 08:18:14 - W3ZZ3: Your intervention was quite impressive. 
+Mon, Dec 25, 2023, 11:25:47 - midgard: It has indeed a certain cost in the form of self-restraint, yet it is also the most effective strategy I have observed so far without using tactics that I have moral objections to. (Such as emotional manipulation or violence)
+Mon, Dec 25, 2023, 12:51:41 - W3ZZ3: I've read up on the thread. He raises some understandable questions but I agree that his style is inappropriate. Well done indeed. 
+Mon, Dec 25, 2023, 15:09:51 - joost_schouppe: <@wes.coomans:matrix.org "It happens... I somehow got bann..."> at least more and more people are conscious of neurodiversity these days. I guess online communities can be quite diverse and somewhat hard to read on what they find acceptable or not? At first glance, I would expect it to be somewhat more of a level playing field? (without all the non-verbal cues and all the "noise" surrounding IRL interactions)
+Mon, Dec 25, 2023, 16:00:49 - midgard: A lot can be said about that, none of it conclusive, since I haven't met two people yet who functioned in the same way
+Mon, Dec 25, 2023, 16:09:26 - midgard: A friend of mine who has an autism diagnosis is considered "weird" in real life by some people until they get to know her, but in the end gets along great, while also being not good at chatting.
+Mon, Dec 25, 2023, 16:14:57 - midgard: I'm also skeptical of the current scientific understanding of autism and similar personality features, but that's another story I guess
+Mon, Dec 25, 2023, 20:15:50 - midgard: I've very likely said too much at once though
+Thu, Jan 4, 2024, 16:41:22 - W3ZZ3 sent an image. (Media omitted)
+Thu, Jan 4, 2024, 16:41:46 - W3ZZ3: <p>Beautiful land cover map of Belgium.</p>
+<p>And how it's made: https://youtu.be/bvlB5yb_uVQ</p>
+Fri, Jan 5, 2024, 11:23:32 - paul.brunner: Persoon 1: "Kom, wij gaan gewoon onze familienaam gebruiken voor onze zaak."
+Persoon 2: "En wat verkopen wij?"
+Persoon 1: "Busjes."
+Fri, Jan 5, 2024, 11:23:44 - paul.brunner sent an image. (Media omitted)
+Fri, Jan 5, 2024, 11:23:52 - paul.brunner sent an image. (Media omitted)
+Thu, Jan 11, 2024, 00:29:41 - Thibaultmol: Interesting thing to see: You don't often see a project getting TOO MANY donations 😆
+Thu, Jan 11, 2024, 00:29:49 - Thibaultmol sent an image. (Media omitted)
+Thu, Jan 11, 2024, 00:30:09 - Thibaultmol: I know we have money in the bank as well, but their in/out ratio is off the charts considering the length of time
+Thu, Jan 11, 2024, 20:15:23 - Thibaultmol sent an image. (Media omitted)
+Fri, Jan 12, 2024, 17:19:47 - midgard: <@thibaultmol:matrix.org "I know we have money in the bank..."> Who is this?
+Fri, Jan 12, 2024, 17:20:06 - midgard: And can they give some of that money to osm.be? 😬
+Fri, Jan 12, 2024, 17:36:03 - Thibaultmol: Don't think so, it's from a Mastodon instance somewhere
+Fri, Jan 12, 2024, 17:36:06 - Thibaultmol: xd
+Fri, Jan 12, 2024, 17:57:40 - Thibaultmol: Hoppin moment
+Fri, Jan 12, 2024, 17:59:17 - Thibaultmol: so De Lijn stop 505060 is discontinued. (it does not have Hoppin branding because it's going away they just haven't physically taken it away yet).
+On the delijn website they do acknowledge it's going away.
+
+Hoppin app though.... I don't know what dataset it uses, if it literally relies on Google Maps api (god I hope not) but they still list this bus stop as a bus stop. (you can't get a hoppin to depart from there, you need to walk to a different bus stop to get a Hoppin... but like... why is it still in the app then)
+Fri, Jan 12, 2024, 22:49:26 - midgard: De Lijn's data still includes two versions of the stop: one ACTIVE (which has a validTo date in the past) and one CLOSED
+Fri, Jan 12, 2024, 22:50:15 - midgard: I don't know why Hoppin does what it does, but I could imagine that they forget to check the validFrom/validTo properties
+Fri, Jan 12, 2024, 22:51:34 - midgard: (For the technical peeps, here's an extract from the API that De Lijn's own website uses: https://rumores.eu/files/505060.json)
+Sat, Jan 13, 2024, 10:48:45 - Thibaultmol: btw, if anyone here has any De Lijn cards physically (not mobib) that you can check the remaining amount of trips of online,
+Maartje on Mastodon made an app that uses the delijn api to allow you to easily keep track of them
+Sat, Jan 13, 2024, 10:48:46 - Thibaultmol: https://blahaj.social/@maartje/111744012446378586
+Sat, Jan 13, 2024, 10:48:57 - Thibaultmol: https://blahaj.social/@maartje/111737570830695276
+Sat, Jan 13, 2024, 10:49:10 - Thibaultmol sent an image. (Media omitted)
+Sat, Jan 13, 2024, 10:49:17 - Thibaultmol: it's so convenient
+Mon, Jan 15, 2024, 10:28:20 - joost_schouppe: what on earth is "getting a hoppin"? Did they not just name the new "intermodal stations" hoppin, but also some sort of vehicle service too?
+Mon, Jan 15, 2024, 13:42:45 - Thibaultmol: Hoppin is the concept of the new public transport system in Flanders of which tDe Lijn is part of the solution, so is NMBS, bike sharing, car sharing etc
+Mon, Jan 15, 2024, 13:43:26 - Thibaultmol: Hoppinpunten are locations that have multiple serivces coming together (atleast that's the theory). So for example "there's a bus stop here, and a car sharing thing, and a train station" fore xample
+Mon, Jan 15, 2024, 13:43:53 - joost_schouppe: but you said "to get a Hoppin"
+Mon, Jan 15, 2024, 13:44:10 - Thibaultmol: Oh, sorry, should have said De Lijn Flexbus
+Mon, Jan 15, 2024, 13:44:22 - Thibaultmol: not to be confused with 'flex vervoer'
+Mon, Jan 15, 2024, 13:44:55 - joost_schouppe: oh ok, I just thought I'd missed something
+Mon, Jan 15, 2024, 13:45:49 - Thibaultmol: Flexbus: the taxi like service from De Lijn using small vans (and I assume the existing Belbus vehicles)
+They only can pickup/drop off at De lijn haltes
+
+flex vervoer: for people with disabilities, and they can come to and from any location (but these also use the flexbus network i think)
+Mon, Jan 15, 2024, 13:48:43 - Thibaultmol: Farmer protestors are flipping town name signs?
+Mon, Jan 15, 2024, 13:48:48 - Thibaultmol sent an image. (Media omitted)
+Mon, Jan 15, 2024, 13:49:03 - Thibaultmol: image.png (Media omitted)
+Mon, Jan 15, 2024, 17:24:18 - Thibaultmol: Damn, the video about the disks on the ground that I posted in the osmbe channel really took off on youtube. Even Tom Scott mentioned it in his weekly newsletter
+Mon, Jan 15, 2024, 17:24:19 - Thibaultmol sent an image. (Media omitted)
+Tue, Jan 16, 2024, 20:17:18 - W3ZZ3: Tom Ford 🤩
+Edit: OMG! Of course I meant to write Tom Scott 🤦🏻‍♂️
+Tue, Jan 16, 2024, 21:05:32 - Thibaultmol: Interesting: There are tunnels with bluetooth beacons (that give location) so that you can get location without gps signal. Gmaps supports it, wonder if osmand supports it
+https://www.theverge.com/2024/1/16/24039896/google-maps-android-tunnels-bluetooth-beacons
+Wed, Jan 17, 2024, 09:30:14 - s8evq: <@thibaultmol:matrix.org "Interesting: There are tunnels w..."> It would make sense if the general geolocation service of Android uses it, so every app using location has it
+(I didn't read the articel :) )
+Wed, Jan 17, 2024, 09:38:09 - Thibaultmol: I would asume so as well yeah
+Wed, Jan 17, 2024, 15:17:44 - W3ZZ3 left the room
+Wed, Jan 17, 2024, 15:18:13 - W3ZZ3 joined the room
+Wed, Jan 17, 2024, 15:19:51 - W3ZZ3: Hmm... in de webversie va element chat enkel 'Unable to decrypt message' te lezen. Het antwoord is hier al eerder gegeven maar what tot do? In mijn app kan ik de berichten wel lezen?
+Wed, Jan 17, 2024, 15:40:34 - joost_schouppe: kruiselings je sessies valideren
+Thu, Jan 18, 2024, 14:35:53 - midgard: trying to make a wikidata item for Hoppin. maar wat is hoppin eigenlijk? gelukkig is er een pagina die exact mijn vraag beantwoord, [Wat is Hoppin?](https://hoppin.be/nl/wat-is-hoppin/): Hoppin, dat is de mobiliteit van morgen. ah, dank u Vlaamse Overheid, nu weet ik veel meer
+Thu, Jan 18, 2024, 14:38:59 - joost_schouppe: blijft een vaag concept hé
+Thu, Jan 18, 2024, 14:39:55 - midgard: https://www.wikidata.org/wiki/Q124310711
+Thu, Jan 18, 2024, 14:40:03 - joost_schouppe: eigenlijk is het een beejte een lichtgewicht public_transport=station 
+Thu, Jan 18, 2024, 14:40:19 - midgard: idd
+Thu, Jan 18, 2024, 14:40:44 - joost_schouppe: goh, t is niet voor de vervoervisie in 't algemeen hé. Het is, euh, "een plaats die meerdere vervoersmodi samenbrengt onder één label"?
+Thu, Jan 18, 2024, 14:41:06 - joost_schouppe: da's denk ik de key: georganiseerd, meerdere modi
+Thu, Jan 18, 2024, 14:41:12 - midgard: "personenvervoervisie"?
+Thu, Jan 18, 2024, 14:41:38 - midgard: dat sluit (deel)fietsen eigenlijk ook uit
+Thu, Jan 18, 2024, 14:41:46 - joost_schouppe: neenee, ik bedoel, hoppinpunten zijn maar een deeltje van die visie. De meeste buslijnen afschaffen een ander deel van die visie
+Thu, Jan 18, 2024, 14:42:15 - midgard: de toon is gezet
+Thu, Jan 18, 2024, 14:42:26 - joost_schouppe: hey, 't is hier de watercooler voor iets hé
+Thu, Jan 18, 2024, 14:43:57 - midgard: er is ten minste een wikidata-item nu, dat voor `brand:wikidata` kan dienen
+Thu, Jan 18, 2024, 14:44:13 - midgard: straks voeg ik nog het logo toe
+
+edit: voila: https://commons.wikimedia.org/wiki/File:Hoppin_logo.svg
+Thu, Jan 18, 2024, 14:47:56 - midgard: ik vind geen betere beschrijving dan openbaarvervoervisie of personenvervoervisie
+Thu, Jan 18, 2024, 14:52:17 - joost_schouppe: ik heb er al "deel van" gemaakt
+Thu, Jan 18, 2024, 14:52:27 - joost_schouppe: dan is 't alleszins niet fout
+Thu, Jan 18, 2024, 15:57:06 - W3ZZ3: ''Voor een vlotte overstap kunnen we terecht in een Hoppinpunt. Dat zijn knooppunten van verschillende, op elkaar afgestemde vervoersmogelijkheden.''
+Thu, Jan 18, 2024, 16:00:18 - W3ZZ3: The plot thickens: https://www.vlaanderen.be/basisbereikbaarheid/combimobiliteit/hoppinpunten/types-hoppinpunten#nav-4-types-hoppinpunten
+Thu, Jan 18, 2024, 16:00:32 - W3ZZ3 sent an image. (Media omitted)
+Sun, Jan 21, 2024, 15:20:25 - midgard: Waw de detailpagina van een Hoppinpunt is echt fantastisch
+Sun, Jan 21, 2024, 15:20:29 - midgard: Bv https://hoppin.be/vind-hoppinpunten/549/
+Sun, Jan 21, 2024, 15:23:47 - midgard: Je kunt dan de gigantische hoofdingen "Bushalte", "Treinstation" en "Deelfiets" openklappen om dan in elke categorie een zee van aanb… ik bedoel exact één hyperlink te vinden, en die brengt je direct naar de detailpagi... ik bedoel naar de hoofdpagina van dat bedrijf, want dat is wat je wou zien, right? RIGHT? Aaaaaaaaa—
+Thu, Jan 25, 2024, 18:08:30 - Thibaultmol: https://youtu.be/bVr8xx6W-78?si=5LxRAqAbTHx4txeB
+Tue, Jan 30, 2024, 11:50:02 - Thibaultmol: Don't remember if I shared this one here or not 
+Tue, Jan 30, 2024, 11:50:09 - Thibaultmol sent an image. (Media omitted)
+Wed, Feb 7, 2024, 10:29:21 - midgard invited Luna
+Wed, Feb 7, 2024, 10:29:49 - Luna joined the room
+Wed, Feb 7, 2024, 10:30:43 - midgard: Very few things are boolean when you look closely
+Wed, Feb 7, 2024, 10:31:28 - midgard: They say autists do "hokjesdenken", but I see it in everyone
+Wed, Feb 7, 2024, 10:31:54 - Luna: I don't think we do it more often, maybe even less
+Wed, Feb 7, 2024, 10:32:41 - midgard: Probably because the "hokjes" don't match up with what the others expect, so you're forced to give them up
+Wed, Feb 7, 2024, 10:33:09 - midgard: I say "you", I could also say "we", although I do not have an autism diagnosis
+Wed, Feb 7, 2024, 10:33:20 - Luna: Yea that's a reasonable explanation
+Wed, Feb 7, 2024, 10:33:24 - midgard: (Because it was never tested)
+Wed, Feb 7, 2024, 10:33:41 - Luna: And the professional diagnosis isn't accurate
+Wed, Feb 7, 2024, 10:33:54 - Luna: Anyways what's this watercooler room?
+Wed, Feb 7, 2024, 10:34:02 - Luna: Is there free water here or?
+Wed, Feb 7, 2024, 10:34:59 - midgard: Yes! And we have a talk, meeting colleagues while getting some water (that's the analogy, from offices)
+Wed, Feb 7, 2024, 10:35:59 - Luna: Ah yes, I've never worked, but on my department at uni we always drank tea
+Wed, Feb 7, 2024, 10:36:29 - Luna: Both my promotor and supervisor were British sooo
+Wed, Feb 7, 2024, 10:40:39 - paul.brunner: <@midgard:matrix.rumores.eu "Very few things are boolean when..."> I guess things are either boolean or they're not. 
+Wed, Feb 7, 2024, 10:41:25 - Luna: Therefore they're boolean!
+Wed, Feb 7, 2024, 10:41:29 - midgard: ... You know, even that... Some things might be *more* boolean-like then others? 😁
+Wed, Feb 7, 2024, 10:41:51 - midgard: So gender is a boolean: my gender is "no"
+Wed, Feb 7, 2024, 10:42:18 - Luna: Was about to say "I identify as false" lol
+Wed, Feb 7, 2024, 10:42:37 - Luna: Funny how we both went for the false option instead of true
+Wed, Feb 7, 2024, 10:46:00 - midgard: <@queerthoughts:matrix.org "Both my promotor and supervisor ..."> https://invidious.fdn.fr/watch?v=MGQASun9d8E&t=66
+Wed, Feb 7, 2024, 10:46:56 - Luna: Literally
+Wed, Feb 7, 2024, 10:47:18 - Luna: During meetings my promotor often asked what tea I wanted lol
+Wed, Feb 7, 2024, 10:47:36 - midgard: Naturally
+Wed, Feb 7, 2024, 10:48:08 - Luna: You sound like a tea drinker
+Wed, Feb 7, 2024, 10:48:21 - midgard: Why yes, of course!
+Wed, Feb 7, 2024, 10:48:48 - midgard: But not a *very* advanced one, just a regular one
+Wed, Feb 7, 2024, 10:49:08 - Luna: So I think we can represent this as a boolean value: drink tea or don't
+Wed, Feb 7, 2024, 10:49:24 - midgard: 🤔
+Wed, Feb 7, 2024, 10:49:57 - midgard: I don't think I know literally anyone who would be completely "false"
+Wed, Feb 7, 2024, 10:50:25 - midgard: But yes, tea drinking is a quite clear-cut action, there's not even much ontological confusion possible
+Wed, Feb 7, 2024, 10:50:57 - Luna: I think at this point it's pretty safe to assume you're autistic lol
+Wed, Feb 7, 2024, 10:51:44 - Luna: Even "with or without milk" isn't boolean because it can depend on the type of milk
+Wed, Feb 7, 2024, 10:52:37 - midgard: <@queerthoughts:matrix.org "I think at this point it's prett..."> I don't know, I do have certain autistic problems, but I don't label *people* as such
+Wed, Feb 7, 2024, 10:53:15 - Luna: Well there's a reason labelling exists
+Wed, Feb 7, 2024, 10:53:39 - midgard: Yes, so it's easy to say "it's *you* who has the disorder!"
+Wed, Feb 7, 2024, 10:53:47 - Luna: To convey the essence of who you are, NOT to describe it fully
+Wed, Feb 7, 2024, 10:54:16 - midgard: <@midgard:matrix.rumores.eu "Yes, so it's easy to say "it's *..."> (This is a very hot take, and maybe not literally the reason it was invented, but it still has this effect)
+Wed, Feb 7, 2024, 10:54:25 - Luna: <@midgard:matrix.rumores.eu "Yes, so it's easy to say "it's *..."> Someone once made a description of neurotypicality as if it's from the DSM-5
+Wed, Feb 7, 2024, 10:54:45 - midgard: I see the problems more as arising out of how conforming-oriented our society is
+Wed, Feb 7, 2024, 10:55:08 - Luna: <@midgard:matrix.rumores.eu "(This is a very hot take, and ma..."> Some people still like to use the label though
+Wed, Feb 7, 2024, 10:55:32 - midgard: You can use it for yourself, I don't want nor can stop you
+Wed, Feb 7, 2024, 10:55:36 - Luna: <@midgard:matrix.rumores.eu "I see the problems more as arisi..."> I'd say within the ND community there's less pressure
+Wed, Feb 7, 2024, 10:57:18 - midgard: Do you still experience some challenge there? (Like I've done now)
+Wed, Feb 7, 2024, 10:57:49 - midgard: I mean, daring to challenge ideas
+Wed, Feb 7, 2024, 10:57:50 - Luna: Within the community? Not really
+Wed, Feb 7, 2024, 10:57:54 - Luna: Outside, sure
+Wed, Feb 7, 2024, 10:58:45 - midgard: Challenging ideas is important for me, and it's certainly not something to be taken personal when an idea you have is objected to
+Wed, Feb 7, 2024, 10:58:51 - Luna: <@midgard:matrix.rumores.eu "I mean, daring to challenge idea..."> I mean there's absolutely no need to label yourself, but my experience (mainly from fedi) is that a lot of ND people do that
+Wed, Feb 7, 2024, 11:00:49 - midgard: What I'm getting at: from the outside, I just have the impression that some of these communities are a bit confirming each other's problems too much, while problems aren't so definitive. Which is one reason I'm not thrilled to join one
+Wed, Feb 7, 2024, 11:02:05 - Luna: There's little harm in confirming other's problems, because we're assuming others are honest about them
+Wed, Feb 7, 2024, 11:04:01 - s8evq: Are any local belgian OSM mappers also climbers? I see a lot of well tagged climbing gyms.
+Wed, Feb 7, 2024, 11:04:26 - midgard: Oh yes, I don't doubt that. Just that you can shape your environment to have less problems, and then experience personal growth wherein you build capacity to deal with problems in other situations
+Wed, Feb 7, 2024, 11:04:49 - midgard: The mindset of how you deal with problems is so important
+Wed, Feb 7, 2024, 11:05:11 - midgard: (Views expressed are my own)
+Wed, Feb 7, 2024, 11:05:34 - midgard: pietervdvn and I are both climbers
+Wed, Feb 7, 2024, 11:05:57 - midgard: I once did some web search for words like "climbing gym" and mapped all that I found in Flanders :D
+Wed, Feb 7, 2024, 11:06:04 - s8evq: There's a new gym in Oudenburg, probably close to both of you.
+Wed, Feb 7, 2024, 11:06:15 - midgard: Already mapped
+Wed, Feb 7, 2024, 11:06:30 - midgard: KlimKaffee, iirc
+Wed, Feb 7, 2024, 11:06:44 - midgard: https://www.openstreetmap.org/node/11202409701
+Wed, Feb 7, 2024, 11:06:59 - s8evq: Yes, after a 15 year hiatus, I started climbing there again :)
+Wed, Feb 7, 2024, 11:07:39 - midgard: \o/
+Wed, Feb 7, 2024, 11:07:50 - Luna: Often the problem lies in what you cannot control yourself rather than in what you can
+Wed, Feb 7, 2024, 11:08:23 - Luna: This is a main issue I see with the Belgian autism “treatment” approach: there's a difference between what's a personal issue and what's a systemic (sociological) issue and those should be treated differently
+Wed, Feb 7, 2024, 11:09:21 - Luna: Mindset can help, but it shouldn't be an excuse to conceal systematic issues as being personal in order to not have to fix them nation-wide
+Wed, Feb 7, 2024, 11:11:22 - midgard: I climb in Ghent (boulder, toprope, lead) mostly. Zeebrugge (boulder) and Brugge (toprope) are closer for me. Oudenburg (18 km by bike) is a bit further than Ghent (8 km by bike, then train, 3 km by bike)
+Wed, Feb 7, 2024, 11:11:37 - midgard: Hang on, this is not as big a difference as I thought
+Wed, Feb 7, 2024, 11:12:11 - s8evq: I didn't know Zeebrugge has a boulder gym.
+Wed, Feb 7, 2024, 11:12:50 - s8evq: It look nice.
+Wed, Feb 7, 2024, 11:12:51 - midgard: https://www.openstreetmap.org/node/6924341411
+Wed, Feb 7, 2024, 11:13:35 - midgard: I can certainly come to Oudenburg once!
+Wed, Feb 7, 2024, 11:13:57 - midgard: Good point
+Wed, Feb 7, 2024, 11:14:23 - s8evq: <@midgard:matrix.rumores.eu "I can certainly come to Oudenbur..."> 👍️
+Wed, Feb 7, 2024, 11:15:48 - midgard: Would next week on Mo, Th, Sa or Su work for you?
+Wed, Feb 7, 2024, 11:16:54 - midgard: I'm a big fan of improving society too, instead of focussing on individuals
+Wed, Feb 7, 2024, 11:17:50 - midgard: About me having autism, it's also documented that people with high intelligence, creativity, curiosity and fearless thinking are often misdiagnosed with autism
+Wed, Feb 7, 2024, 11:18:29 - Luna: Belgium is a tough case because the “mainstream” healthcare procedures are so widespread, people often see a therapist before knowing the autistic community.
+Wed, Feb 7, 2024, 11:18:31 - midgard: I don't understand anything about autism diagnosis (I plan to investigate some time), so I can't comment a lot more
+Wed, Feb 7, 2024, 11:18:43 - Luna: <@midgard:matrix.rumores.eu "About me having autism, it's als..."> What type of diagnosis are you talking about here?
+Wed, Feb 7, 2024, 11:18:57 - midgard: Autism
+Wed, Feb 7, 2024, 11:19:03 - Luna: Forget professional ones (well don't forget them entirely, but in this context)
+Wed, Feb 7, 2024, 11:19:06 - midgard: And ADHD too, for that matter
+Wed, Feb 7, 2024, 11:19:38 - midgard: I don't understand "what type of diagnosis" and "forget professional ones" together
+Wed, Feb 7, 2024, 11:19:44 - Luna: Essentially, professional diagnoses merely answer the question “do I meet the exact wordings of the DSM-5?”, while self-diagnoses answer the question “do I have <neurotype>?”
+Wed, Feb 7, 2024, 11:20:06 - Luna: So you should choose a professional dx or self-dx depending on what information you're trying to obtain.
+Wed, Feb 7, 2024, 11:20:36 - Luna: Want to find out whether you're autistic? Do a self-dx. Want some kind of government recognition for your autism? Get a professional dx.
+Wed, Feb 7, 2024, 11:21:05 - Luna: So, “misdiagnosed” in this context only means “does not meet the criteria of the DSM-5”, and those criteria aren't accurate in any case.
+Wed, Feb 7, 2024, 11:22:16 - midgard: "Misdiagnosed" meant "patient's behaviour meets the criteria of the DSM-5 so he's autistic" while actually there isn't an autism neurodevelopment disorder at the basis
+Wed, Feb 7, 2024, 11:22:43 - midgard: So, autistic-like behaviour for reasons other than an autism neurodevelopment disorder
+Wed, Feb 7, 2024, 11:22:51 - Luna: Ah well then you have a false positive instead of the false negative I mentioned but both are false in the end.
+Wed, Feb 7, 2024, 11:23:09 - Luna: Also, the basis for both is that the DSM-5 criteria are inaccurate.
+Wed, Feb 7, 2024, 11:23:22 - Luna: Or for nuance maybe I should say “incomplete and overly restrictive”.
+Wed, Feb 7, 2024, 11:23:53 - midgard: Or, for the case of the profile I described, not restrictive enough
+Wed, Feb 7, 2024, 11:24:25 - Luna: No, extending them only would exclude more cases because the symptoms of autism vary so much.
+Wed, Feb 7, 2024, 11:24:33 - s8evq: I'm mostly going on thursday evening, but I can choose actually
+Wed, Feb 7, 2024, 11:24:52 - s8evq: Monday or thursday preferably :)
+Wed, Feb 7, 2024, 11:24:57 - Luna: The essential problem here is that the medical industry (and I'm deliberately calling it an “industry”) constantly attempts to categorise stuff which isn't categorisable.
+Wed, Feb 7, 2024, 11:29:29 - midgard: > because the symptoms of autism vary so much.
+
+So much that I have no idea what it actually is
+Wed, Feb 7, 2024, 11:29:48 - midgard: It seems to be defined in terms of symptoms, but then the symptoms vary wildly? What is this madness? :p
+Wed, Feb 7, 2024, 11:30:19 - Luna: If you look at this for long enough you start to see the parallel with binary gender.
+Wed, Feb 7, 2024, 11:30:40 - Luna: In the end what matters is “can I relate to other autistic people”, “do some symptoms overlap” etc.
+Wed, Feb 7, 2024, 11:31:17 - Luna: I'd even go as far as saying that no psychological condition can be defined by an exhaustive list of symptoms, because by definition you cannot know what will be discovered in the future.
+Wed, Feb 7, 2024, 11:31:32 - midgard: That's where I personally mostly just ignore the "autism" label and ask the questions "can I relate to other people", "do some personality traits overlap"
+Wed, Feb 7, 2024, 11:34:11 - Luna: Well the reason some people label themselves is for ease, you can put “am autistic” in a bio but not list all of your symptoms (also that'd possibly give privacy issues).
+Wed, Feb 7, 2024, 11:34:17 - Luna: Same with gender labels in the end.
+Wed, Feb 7, 2024, 11:34:52 - midgard: I'm on the fence on what that helps with
+Wed, Feb 7, 2024, 11:35:08 - Luna: What does that mean?
+Wed, Feb 7, 2024, 11:35:28 - midgard: I'm on the fence = I don't know what to think
+Wed, Feb 7, 2024, 11:36:01 - Luna: Well if you just look at the current situation, some people seem to prefer labelling themselves while others do not.
+Wed, Feb 7, 2024, 11:36:23 - Luna: So that's purely descriptive. Then one could hypothesise why that is the case. Which is what I tried to explain.
+Wed, Feb 7, 2024, 11:36:59 - midgard: The people where I've noticed the labelling most (irl, and on internet profiles) is those where they take it as an excuse not to be considerate of others
+Wed, Feb 7, 2024, 11:37:14 - midgard: (This is certainly just my impression which may be biased)
+Wed, Feb 7, 2024, 11:37:27 - Luna: Well, define “others”
+Wed, Feb 7, 2024, 11:37:30 - midgard: Autism is not an excuse to be a self-centered asshole
+Wed, Feb 7, 2024, 11:37:50 - Luna: There's no reason to be considerate of people who want you dead
+Wed, Feb 7, 2024, 11:37:59 - midgard: <@queerthoughts:matrix.org "Well, define “others”"> You mean to explore the concept of the Self?
+Wed, Feb 7, 2024, 11:38:31 - midgard: <@queerthoughts:matrix.org "There's no reason to be consider..."> I'm not talking about interactions with people who want autists to die
+Wed, Feb 7, 2024, 11:39:08 - Luna: You mean others within the ND community or?
+Wed, Feb 7, 2024, 11:39:51 - midgard: A friend of a friend got an autism diagnosis and started acting all self-righteous and saying "it's just my autism, I can't help it"
+Wed, Feb 7, 2024, 11:40:31 - Luna: Well there's 2 things here, (1) what I pointed out earlier about sociological issues and (2) why put the burden on the victim?
+Wed, Feb 7, 2024, 11:41:40 - Luna: That's an ethical question of course, but is it really preferable to ask a group which already has severe issues even surviving to further conform to a norm that isn't even what humans used to be like?
+Wed, Feb 7, 2024, 11:41:59 - Luna: Or is that just because NTs always want minorities to adapt to the majority?
+Wed, Feb 7, 2024, 11:43:10 - midgard: The friend is autistic too, and she's not imposing unrealistic norms on others. In fact, she's one of the most open-minded and accepting people I know. I can't share a lot more about the situation for reasons of privacy, alas
+Wed, Feb 7, 2024, 11:43:55 - Luna: I assume you're familiar with the paradox of acceptance and the related “viewing acceptance as a social contract”?
+Wed, Feb 7, 2024, 11:44:05 - Luna: That's essentially the reasoning behind it.
+Wed, Feb 7, 2024, 11:44:18 - Luna: Tolerance*
+Wed, Feb 7, 2024, 11:44:25 - midgard: <@queerthoughts:matrix.org "There's no reason to be consider..."> I'm from another school of thought but I'm threading on thin ice here, so I'll just offer a video: https://invidious.fdn.fr/watch?v=ORp3q1Oaezw
+Wed, Feb 7, 2024, 11:45:01 - midgard: Not that I expect this from others, but this is my school of thought
+Wed, Feb 7, 2024, 11:47:01 - midgard: I'm familiar with the paradox of tolerance, but my solution to it is to think more systemically. How can I act in a way that makes others act nicer to me, creating a self-reinforcing virtuous circle?
+Wed, Feb 7, 2024, 11:47:09 - Luna: I mean the paradox of tolerance is flawed because it uses itself as the assumption (but then so does a lot of physics??), yet still there are cases which support this, although there are also cases which indicate the other (the cordon sanitaire against VB clearly didn't result in them dying off).
+Wed, Feb 7, 2024, 11:47:37 - Luna: <@midgard:matrix.rumores.eu "I'm familiar with the paradox of..."> Well I think the paradox assumes that people never change their mind or personality, while you're assuming they can.
+Wed, Feb 7, 2024, 11:48:04 - midgard: Not only they can, they are very likely to if you show that you're a compassionate person
+Wed, Feb 7, 2024, 11:48:24 - Luna: There's also the ethical question of course: apart from “*can* we work with the rest”, “do we *want* to work with the rest”?
+Wed, Feb 7, 2024, 11:48:27 - midgard: In personal matters of course, which includes not going to toxic online swamps
+Wed, Feb 7, 2024, 11:48:34 - Luna: Yes
+Wed, Feb 7, 2024, 11:48:59 - Luna: In self-regulating smaller communities, connecting with the broader society often means giving more and taking less.
+Wed, Feb 7, 2024, 11:49:20 - midgard: Not wanting to work with others is self-destructive for the individual and anti-social, I reject that
+Wed, Feb 7, 2024, 11:49:37 - Luna: Well would you work with anyone then?
+Wed, Feb 7, 2024, 11:50:02 - midgard: No, but you're lumping all of "the rest" together here
+Wed, Feb 7, 2024, 11:50:16 - midgard: There are people from anywhere that I would like to work together with
+Wed, Feb 7, 2024, 11:50:40 - Luna: I think you could put it as “I have a problem with person X” but then “my group has a problem with group X”
+Wed, Feb 7, 2024, 11:52:34 - Luna: The autistic community in Belgium is well “integrated” into the regular society (compared to other countries), and what benefit exactly does that provide? Healthcare on an oudated model? Medication only on prescription basis? Gradual breakdown of the autistic community?
+Wed, Feb 7, 2024, 12:01:18 - midgard: I am not familiar with how well integrated autism is compared to other countries, but some benefits that I can imagine that could be there: that other people are more aware and considerate of the challenges we face; that people are more open-minded when encountering other people; that there is less group-think in autism-related communities and other communities
+Wed, Feb 7, 2024, 12:04:47 - midgard: Let's say Thursday 15 Feb then!
+Wed, Feb 7, 2024, 12:05:18 - Luna: The issue is that those benefits do not actually arise. Yes, some countries (e.g. US) are more polarised, but this isn't specific to autism. Autism awareness is maybe higher in Belgium compared to average, but then again, a lot of this “awareness” is outdated medical information, so this is of absolutely no benefit to the community. If I think about how much time I spend debunking myths about autism which aren't spread online, but are spread by conventional media and even the medical sector, that is something I find shocking.
+Wed, Feb 7, 2024, 12:05:57 - Luna: Even if those benefits would result, which isn't the case (at least no fully), the disadvantages would still vastly outweigh the advantages.
+Wed, Feb 7, 2024, 12:06:29 - midgard: Ah yes, such as https://www.vrt.be/vrtnws/nl/2023/04/13/voor-het-eerst-medewerker-met-autisme-aan-de-slag-bij-infrabel/
+Wed, Feb 7, 2024, 12:06:51 - midgard: This headline and article are absolutely ridiculous
+Wed, Feb 7, 2024, 12:07:12 - Luna: In the end, the person that knows “you” best is always “you”, so the community that knows itself best is always itself, and this is why I'm an advocate for community self-regulation.
+Wed, Feb 7, 2024, 12:07:19 - midgard: > Hij is daarmee de eerste medewerker met ASS bij Infrabel
+
+*Highly* doubt
+Wed, Feb 7, 2024, 12:07:27 - Luna: <@midgard:matrix.rumores.eu "This headline and article are ab..."> Can you elaborate a bit? Sarcastic or not?
+Wed, Feb 7, 2024, 12:08:04 - Luna: The whole Belgian approach to “helping autistic people find a job” is also a very good example of why I think integration within the broader society is not necessary good.
+Wed, Feb 7, 2024, 12:09:07 - Luna: <@midgard:matrix.rumores.eu "*Highly* doubt"> Could be the first with a recognised diagnosis though.
+Wed, Feb 7, 2024, 12:09:34 - midgard: Not sarcastic, I object that they're portraying people with autism spectrum disorder as one type: the type that likes repetitive things
+Wed, Feb 7, 2024, 12:10:07 - midgard: And that it's so uncommon for people with autism to find a job that this would be the first one at Infrabel
+Wed, Feb 7, 2024, 12:11:23 - midgard: <@queerthoughts:matrix.org "Even if those benefits would res..."> I find that a hard to accept conclusion. Are you advocating for segregation here? On what domains?
+Wed, Feb 7, 2024, 12:13:19 - Luna: <@midgard:matrix.rumores.eu "Not sarcastic, I object that the..."> Yes, and again, this is a very narrow description of what autism is.
+Wed, Feb 7, 2024, 12:14:59 - Luna: <@midgard:matrix.rumores.eu "I find that a hard to accept con..."> There aren't many examples of the ND community self-regulating (because it's not recognised), but the examples that exist generally indicate that self-regulation works. Same goes for the ADHD community (disclaimer: I don't have ADHD, neither diagnosed nor suspected, but I ran an ADHD Discord server for a few years; someone with ADHD ran it and I did the technical side of things) and the gender-diverse community.
+Wed, Feb 7, 2024, 12:16:35 - Luna: This is a statement I make quite often: the reason I'm an advocate for self-regulation is not because I think segregation is good, integration is bad, or I hate the government or others. In the end, it's all a spectrum, and neither extreme is of advantage. But the current situation is far leaning *away* from self-regulation, and we should attempt at getting closer to that. Unless evidence pops up disproving its functioning.
+Wed, Feb 7, 2024, 12:20:50 - midgard: I agree that having such places is a good idea and I'm not questioning that they can be self-governing. But it looked like you are blanket-opposing integration of neurodiversity into wider society, which seems to contradict your goal of societal change. The problem of less active autism communities you raise seem also rather simple to solve (compared to the rest of the problems lol): have healthcare professionals spread the word that there are support communities
+Wed, Feb 7, 2024, 12:22:03 - Luna: Except that healthcare “professionals” often spread the opposite: that you should seek professional help. And if they point you to “support groups”, these are all too often also government-organised.
+Wed, Feb 7, 2024, 12:22:31 - midgard: I see
+Wed, Feb 7, 2024, 12:22:47 - Luna: It's not just a coincidence that in countries with better healthcare, autism communities are less tight.
+Wed, Feb 7, 2024, 12:23:02 - midgard: You're often referring to it as _the_ community, is there a single one in Belgium that you're thinking of?
+Wed, Feb 7, 2024, 12:23:54 - Luna: I often give this example: as a Belgian what to do when you suspect you have autism, they will tell you to see a therapist or get a diagnosis. Ask that in most countries and they will advise you to find other autistic people and talk with them.
+Wed, Feb 7, 2024, 12:24:48 - Luna: <@midgard:matrix.rumores.eu "You're often referring to it as ..."> It's just a way of saying, everyone who (1) is autistic and (2) labels themselves as being part of the community (some people don't and that's fine). Compare with “the transgender community” or even “the OSM community”.
+Wed, Feb 7, 2024, 12:26:42 - midgard: I have to go now. Thanks a lot for the nice discussion!
+Wed, Feb 7, 2024, 12:26:59 - Luna: See you! And no problem!
+Wed, Feb 7, 2024, 12:44:02 - Thibaultmol: <@midgard:matrix.rumores.eu "Ah yes, such as https://www.vrt...."> 🤦/r/NotTheOnion (looks like a parody headline)
+Wed, Feb 7, 2024, 12:53:23 - Thibaultmol: Obligatory mapcomplete plug
+https://mapcomplete.org/climbing
+Wed, Feb 7, 2024, 13:21:28 - s8evq: That's great, I'm mostly there between 18 and 20 h
+Wed, Feb 7, 2024, 15:48:57 - joost_schouppe: Jonathan has gotten into climbing too, recently
+Wed, Feb 7, 2024, 20:32:19 - midgard: <message expired>
+Wed, Feb 7, 2024, 20:59:47 - midgard: I wonder what made you think that it's "pretty safe to assume I have autism". Are you aware of it and could you point it out?
+Wed, Feb 7, 2024, 21:01:54 - midgard: (You're not the first one to think this, by the way)
+Wed, Feb 7, 2024, 22:50:11 - Luna: <@midgard:matrix.rumores.eu "I wonder what made you think tha..."> Feeling, and so far it hasn't failed. That's a weak basis, though, and you need something stronger than my word. When I have the time (most likely tomorrow), what about I do the tests on the links you shared, and see what results I get?
+Thu, Feb 8, 2024, 11:26:18 - Luna: Alright midgard, here are my results:
+AQ: 32
+Aspie-quiz: 54/119, 99 % chance of being NT
+CAT-Q: 45
+RAADS-R: 72
+Thu, Feb 8, 2024, 11:26:42 - Luna: So there's a big difference between us except for the Aspie-quiz one, which seemed to be a bit outdated to me anyway.
+Thu, Feb 8, 2024, 11:27:09 - Luna: Also other comment: the Aspie-quiz one asks about your gender assigned at birth and country, neither of which is relevant. Red flag?
+Thu, Feb 8, 2024, 11:33:29 - Thibaultmol: <@queerthoughts:matrix.org "Also other comment: the Aspie-qu..."> as one if it's questions to base it's score on or just in general?
+Thu, Feb 8, 2024, 11:34:43 - Luna: Prior to taking the test, they ask about your year and month of birth, sex assigned at birth, country and some prior diagnoses.
+Thu, Feb 8, 2024, 15:09:39 - midgard: <@queerthoughts:matrix.org "Also other comment: the Aspie-qu..."> I think that's for their stats
+Thu, Feb 8, 2024, 15:13:44 - midgard: What bothered me most was that there was no option for "unknown" for the autism/ADHD fields, only "no", "suspected/self-diagnosed" or "professionally diagnosed". Like, why do you think I'm taking this test, ya silly
+Thu, Feb 8, 2024, 15:16:51 - midgard: As well as some quizzes having questions of "I learned social behaviour by copying others". Well, yes, *duh*, everyone does that, not everyone has to do it intentionally or is conscious about it. I am conscious of these sociocultural memes, but I don't have to make an effort to learn them.
+Asking such dorky questions quite lowers my confidence in the test
+Thu, Feb 8, 2024, 15:23:10 - midgard: I'm not disregarding signs of intuition, "crowd-sourced intuition" is great for finding possible correlations. But indeed, it's not enough to make conclusions off when the results matter
+Thu, Feb 8, 2024, 20:18:44 - Luna: <@midgard:matrix.rumores.eu "I think that's for their stats"> If it's for their stats, the field should be “gender”, not “sex assigned at birth”. It is not relevant.
+Thu, Feb 8, 2024, 20:19:32 - Luna: <@midgard:matrix.rumores.eu "As well as some quizzes having q..."> These were my thoughts as well, but I didn't wanna give too much criticism in here 😅
+Thu, Feb 8, 2024, 20:21:00 - Luna: <@midgard:matrix.rumores.eu "I'm not disregarding signs of in..."> My intuition is just like the “gaydar” concept: as you say, not enough to draw conclusions from. What I find more interesting, though, is that you said multiple people noticed it before. Even if you're not autistic, maybe this could be a sign of some other neurotype (or “condition”)? Still worth looking into IMO.
+Thu, Feb 8, 2024, 20:36:40 - W3ZZ3: <@midgard:matrix.rumores.eu "As well as some quizzes having q..."> I was raised in a bar. My mom, a single parent, always explained to me what behaviour was to be expected from me. This all to be a good bartender. She didn't realize that her training gave me the skills to be undetected. I've learned that people expect eye contact from time to time. I learned to cater to peoples needs. That's why it was hard to believe when I got diagnosed with ADD/ASS aged 29. At the meantime the sky cleared and things connected. 
+Thu, Feb 8, 2024, 23:33:01 - midgard: It's only just two people though: one close friend and someone else when they were drunk. The rest seem to be "meh, could be", or are just not telling
+Thu, Feb 8, 2024, 23:37:05 - midgard: <@queerthoughts:matrix.org "My intuition is just like the “g..."> But to what end?
+Thu, Feb 8, 2024, 23:40:51 - midgard: If it can help with challenges I face, sure. I'm already doing that in fact: I found a nice book
+Thu, Feb 8, 2024, 23:49:35 - Luna: <@midgard:matrix.rumores.eu "But to what end?"> I mean it's not required or anything, but it can help with developing your identity (if you never thought about this, ignore it), or indeed, if there are specific symptoms you find annoying, could help.
+Fri, Feb 9, 2024, 09:03:00 - midgard invited Jonathan
+Fri, Feb 9, 2024, 09:03:41 - midgard: https://matrix.to/#/@jbelien:matrix.org, get in here :D
+Fri, Feb 9, 2024, 17:44:18 - Jonathan joined the room
+Fri, Feb 9, 2024, 17:48:26 - Jonathan: Hello ... No idea what that watercooler thing is but 👋
+(Other messages are still pending)
+Fri, Feb 9, 2024, 17:51:23 - joost_schouppe: It's a bit of a parallel universe, focused on ... not being focused, I guess
+Fri, Feb 9, 2024, 17:51:39 - Jonathan: I'm out I'm out 😱
+Fri, Feb 9, 2024, 18:06:16 - Jonathan: Other messages are STILL pending ! I'm so curious now ! What is this about ? 😁
+Fri, Feb 9, 2024, 19:03:34 - Thibaultmol: Oh yeah, this channel is encrypted by default. Which is getting better with matrix but can be a bit finicky at times.
+ 
+Fri, Feb 9, 2024, 19:04:44 - Thibaultmol: Tldr: Multiple osmbe'ers wanting to go climbing together (I myself have gone climbing, but only bouldering. Bit of a fear of heights. But not feeling like going myself. Maybe in the future)
+Fri, Feb 9, 2024, 20:19:54 - Jonathan: Dank u Thibaultmol ! 😁
+Fri, Feb 9, 2024, 20:20:39 - Jonathan: I've started climbing a few months ago. If it fits in my agenda, I'll most probably come.
+Fri, Feb 9, 2024, 22:37:53 - midgard: Thursday 15 February s8evq and I are going bouldering in [Oudenburg](https://www.openstreetmap.org/node/11202409701)
+Fri, Feb 9, 2024, 22:41:36 - midgard: The name comes from an analogy of offices where you can have social, off-topic chat with colleagues when getting water at the watercooler
+Sun, Feb 11, 2024, 13:32:45 - Jonathan: <@midgard:matrix.rumores.eu "Thursday 15 February s8evq and I..."> I'll gladly join but not this time.
+A bit too heavy at work at the moment and a bit too far (and doesn't seem easy to reach with public transport ^^).
+Sun, Feb 11, 2024, 14:18:20 - midgard: Do you go length climbing too? I like coming to the climbing church in Vorst too some time ([Maniak Padoue](https://www.openstreetmap.org/node/10998267989))
+Sun, Feb 11, 2024, 19:08:43 - Jonathan: I climb mostly in Maniak Padoue. 😁
+And sometimes in Monkeys Climbing and Pink Peaks.
+Sun, Feb 11, 2024, 23:50:02 - Stéphane De Greef: I used to climb at Arkose Canal, now at Camp de Base.
+Mon, Feb 12, 2024, 00:33:21 - midgard: <@jbelien:matrix.org "I climb mostly in Maniak Padoue...."> So that can be a thing too then :D
+Mon, Feb 12, 2024, 00:33:44 - midgard: <@stefdegreef:matrix.org "I used to climb at Arkose Canal,..."> Another climber!
+Tue, Feb 13, 2024, 12:43:59 - Thibaultmol: I have been noticing a lot of signs from delijn that clearly do not have the hoppin branding and still mention belbus. Those signs obviously need to have been removed or changed. 
+I waited with contacting them because I assumed that they were still just busy changing those but it's been a month now and a lot of signs that I pass seemed to not have been changed yet. so I have a suspicion that something has gone wrong internally
+Tue, Feb 13, 2024, 12:44:48 - Thibaultmol: 1000017427.png (Media omitted)
+Tue, Feb 13, 2024, 15:08:06 - midgard: In my neighbourhood too. My De Lijn insider contact said that this change of the signs has been outsourced and that it's a catastrophe
+Tue, Feb 13, 2024, 15:25:22 - Thibaultmol: Sure feels like it.... Great xd
+Tue, Feb 13, 2024, 18:04:45 - Thibaultmol: damn, 'Scottish and Southern Electricity Networks' really opened up all their elec/fiber data,  wow
+https://chaos.social/@russss/111907044277990291
+Thu, Feb 15, 2024, 14:25:14 - midgard: s8evq: I'm not going to be able to make it tonight... Too tired and I hit my head earlier today
+Fri, Feb 16, 2024, 17:08:15 - midgard: > <Seppe> As Joost said, there is no single source of truth, you just have to choose one for yourself.
+
+Unexpectedly applicable in all of life
+Sat, Feb 24, 2024, 14:56:48 - Thibaultmol sent an image. (Media omitted)
+Wed, Feb 28, 2024, 18:56:20 - Luna: I got stuck in a locked SNCB train today 🥴
+Thu, Feb 29, 2024, 14:38:00 - midgard: How?
+Thu, Feb 29, 2024, 16:06:45 - Luna: I was in a section (one class 41 DMU if you're a fellow train nerd) that was supposed to be closed off, but wasn't. Conductor checked but not properly, closed the entire section, so I couldn't get off anywhere except at the terminus. Normally I only needed to go one stop 🥴
+Thu, Feb 29, 2024, 16:07:05 - Luna: I talked to the conductor afterwards, he was very friendly and apologised a number of times for the mistake he made lol
+Thu, Feb 29, 2024, 20:13:43 - midgard: Hm, and I suppose in those coaches there's no passenger alarm like there is in the M6 and M7 (and I11 too maybe? Not at all sure actually)
+Thu, Feb 29, 2024, 20:14:38 - midgard: A few weeks ago I got to use the passenger alarm because there was *ambras* between some passengers
+Thu, Feb 29, 2024, 20:15:12 - midgard: (I'm not *that* big of a train nerd. Medium-sized train nerd I'd say)
+Thu, Feb 29, 2024, 20:35:05 - Luna: <@midgard:matrix.rumores.eu "Hm, and I suppose in those coach..."> There's no “help” button, I don't know about an alarm
+Thu, Feb 29, 2024, 20:36:00 - Luna: Desiros (AM 08) also have “SOS” buttons
+Thu, Feb 29, 2024, 20:36:01 - Luna: If I actually couldn't get out at all, I'd probably have called Securail
+Thu, Feb 29, 2024, 20:36:48 - midgard: Those "assistance" buttons in M6 the train guards call the passenger alarm and they're what sets off the *terrible* alarm sound
+Thu, Feb 29, 2024, 20:37:07 - Luna: I don't think I've ever heard that, maybe, not sure
+Thu, Feb 29, 2024, 20:37:18 - midgard: M7 and Desiro have a different solution with an intercom, indeed
+Thu, Feb 29, 2024, 20:37:58 - Luna: But yes, I couldn't contact them in any way because that part was supposed to be empty
+Fri, Mar 1, 2024, 15:04:57 - midgard: Screenshot_20240301-150243_VLC.jpg (Media omitted)
+Fri, Mar 1, 2024, 15:05:36 - midgard: The IC train that goes AAAAAAAAAAAAAA
+Fri, Mar 1, 2024, 15:08:03 - Luna: Yea that's a class 41
+Fri, Mar 1, 2024, 15:08:23 - Luna: The pride of SNCB 🥴
+Fri, Mar 1, 2024, 19:46:03 - midgard: Look at the headsign :D
+Fri, Mar 1, 2024, 19:51:23 - Luna: Nice 😂
+Sun, Mar 3, 2024, 14:00:57 - Sharko [BE-WHT]: <@queerthoughts:matrix.org "I got stuck in a locked SNCB tra..."> oh no
+Sun, Mar 3, 2024, 14:00:59 - Sharko [BE-WHT]: anyway
+Sun, Mar 3, 2024, 19:25:23 - W3ZZ3: Dude, this the watercooler channel. Anything goes but stay kind and considerate.
+Sun, Mar 3, 2024, 20:25:35 - Thibaultmol: (it's fine. It's a meme
+https://knowyourmeme.com/memes/oh-no-anyway )
+Sun, Mar 3, 2024, 21:26:23 - midgard: (the meme does express "feigned concern before immediately moving on" according to your link though)
+Sun, Mar 3, 2024, 21:27:00 - midgard: (i'd say it's open to interpretation :p )
+Mon, Mar 4, 2024, 06:27:15 - W3ZZ3: I'm aware of the meme. It's another way to say you don't care. 
+Wed, Mar 6, 2024, 13:38:12 - Thibaultmol: new version of the nmbs on train app:   https://beta.bikeontrain.belgianmobility.io/nl/
+Wed, Mar 6, 2024, 13:38:13 - Thibaultmol sent an image. (Media omitted)
+Wed, Mar 6, 2024, 13:39:42 - Thibaultmol sent an image. (Media omitted)
+Wed, Mar 6, 2024, 13:39:47 - Thibaultmol sent an image. (Media omitted)
+Wed, Mar 6, 2024, 13:39:54 - Thibaultmol: just an example route to show the different types of data
+Wed, Mar 6, 2024, 14:27:49 - midgard: I can see a suggestion already
+Wed, Mar 6, 2024, 15:25:53 - Luna: I assume this is not open data?
+Wed, Mar 6, 2024, 15:26:58 - Luna: Wheelchair accessibility depends on the type of rolling stock, so the development of an app like this implies that a database with the rolling stock per route is used, and such information isn't open data as far as I know (but something us train nerds are always looking for 😅)
+Wed, Mar 6, 2024, 15:29:21 - Luna: <@thibaultmol:matrix.org "sent an image."> I'm also surprised to see it says you can take 18 bikes here. The 513 (on weekdays) has bicycle departments in the 2 (renovated) I10 coaches, so this would mean 9 bicycles per coach, which honestly I find quite a lot given the space available (don't even try with cargo bikes or tandems)
+Wed, Mar 6, 2024, 15:40:22 - Thibaultmol: there's a feedback button at the bottom of the site, I recommend you ask them questions and get in touch
+Wed, Mar 6, 2024, 15:40:52 - Thibaultmol: iirc NMBS is working with OSM for accessibility but I don't remember if this bike project currently uses it or not.
+Wed, Mar 6, 2024, 15:42:24 - Thibaultmol: btw Luna I assume you know about SMOP but in case you don't: https://smartmobilityplanner.be/
+from that company that was acquired by the large mobility providers in belgium
+Wed, Mar 6, 2024, 15:44:40 - Luna: <@thibaultmol:matrix.org "btw Luna I assume you know about..."> We literally talked about Smart Mobility Planner last Sunday 😅
+Wed, Mar 6, 2024, 15:44:53 - Luna: However, I thought it was discontinued?
+Wed, Mar 6, 2024, 15:46:22 - Thibaultmol: <@queerthoughts:matrix.org "We literally talked about Smart ..."> wasn't sure you meant that that tool aight
+Wed, Mar 6, 2024, 15:46:24 - Luna: <@thibaultmol:matrix.org "there's a feedback button at the..."> I mean, for the 18 bikes thingy I mentioned, I assume they did proper calculations themselves, just saying I was confused that you can fit 9 bicycles on an I10
+Wed, Mar 6, 2024, 15:46:41 - Thibaultmol: again, ask em. 
+Wed, Mar 6, 2024, 15:46:50 - Thibaultmol: and yeah, probably not open data. Also worth asking about
+Wed, Mar 6, 2024, 15:47:04 - Luna: Like, AM 96 or M6D, it's quite obvious what the accessibility with a bike is; I10, not so, but that's just my opinion
+Wed, Mar 6, 2024, 15:48:03 - Luna: This assumes (for the Oostende-Eupen route) that it's all renovated I10s, but I think in practice a small amount is still run with old I10s (you can tell the difference from the windows: old can be opened, new ones can't)
+Wed, Mar 6, 2024, 15:48:43 - Luna: If they're smart, they use the old I10s *with bicycle compartments*, but it's SNCB and we know how stuff goes there 😅
+Wed, Mar 6, 2024, 15:49:13 - Luna: <@thibaultmol:matrix.org "there's a feedback button at the..."> Might to do this if I have the time
+Wed, Mar 6, 2024, 15:51:16 - Thibaultmol: <@thibaultmol:matrix.org "btw Luna I assume you know about..."> seems like it is yeah
+Mon, Mar 11, 2024, 08:17:33 - midgard: Luna, was it you who were looking for pictures of NMBS/SNCB trash cans recently?
+https://commons.wikimedia.org/wiki/Category:Sorted_waste_containers_in_Belgium has you covered
+Mon, Mar 11, 2024, 08:56:57 - Luna: It was Thibaultmol, and I took the picture
+Mon, Mar 11, 2024, 08:57:14 - Luna: I'm at work now but will add my picture to that category later
+Mon, Mar 11, 2024, 08:57:47 - Luna: You can try and find it if you want, my username is `Trainsgender`
+Mon, Mar 11, 2024, 12:21:06 - midgard: Oh, I see that someone (Stratoswift) already did

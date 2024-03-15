@@ -1,0 +1,464 @@
+Wed, Nov 11, 2020, 20:23:04 - s8evq joined the room
+Wed, Nov 11, 2020, 20:23:05 - s8evq made the room invite only.
+Wed, Nov 11, 2020, 20:23:05 - s8evq made future room history visible to all room members.
+Wed, Nov 11, 2020, 20:23:05 - s8evq has allowed guests to join the room.
+Wed, Nov 11, 2020, 20:23:05 - s8evq changed the room name to Fixmystreet Vlaanderen.
+Wed, Nov 11, 2020, 20:23:46 - s8evq invited Seppe
+Wed, Nov 11, 2020, 20:23:47 - s8evq invited joost_schouppe
+Wed, Nov 11, 2020, 20:23:48 - s8evq invited Thibaultmol
+Wed, Nov 11, 2020, 20:23:49 - s8evq invited @thierry1030:matrix.org
+Wed, Nov 11, 2020, 20:23:52 - Thibaultmol joined the room
+Wed, Nov 11, 2020, 20:24:01 - Thibaultmol: Nice!
+Wed, Nov 11, 2020, 20:25:00 - s8evq: Ik heb een kleine VPS gehuurd (4 euro 🤣) en dat alvast eens geinstalleerd: http://www.fixmijnstraat.be:3000/
+Wed, Nov 11, 2020, 20:25:08 - joost_schouppe joined the room
+Wed, Nov 11, 2020, 20:25:21 - s8evq: Voorlopig nog niet veel te zien.
+Wed, Nov 11, 2020, 20:28:05 - joost_schouppe: ben al wat aan het spelen
+Wed, Nov 11, 2020, 20:29:19 - joost_schouppe: 52% vertaald naar Nederlands: https://www.transifex.com/mysociety/fixmystreet/
+Wed, Nov 11, 2020, 20:29:56 - s8evq: Log je in met je gmail adres joost_schouppe ? Anders kan ik je admin maken
+Wed, Nov 11, 2020, 20:30:30 - s8evq: en thibaultmol jouw emailadres heb ik niet.
+Wed, Nov 11, 2020, 20:30:43 - Thibaultmol: heb net account proberen aanmaken
+Wed, Nov 11, 2020, 20:30:56 - joost_schouppe: yup, me too - via gmail indeed
+Wed, Nov 11, 2020, 20:31:08 - Thibaultmol: krijg geen verificatiemail
+Wed, Nov 11, 2020, 20:32:27 - joost_schouppe: ik ook niet :)
+Wed, Nov 11, 2020, 20:35:58 - joost_schouppe: ik zou het vooral eens willen zien langs de kant van een lokaal bestuur
+Wed, Nov 11, 2020, 20:36:16 - s8evq: ja, die mail server zal nog niet marcheren. Joost kan inloggen met 1Xt9qmctObkZWgAO als password en thibaultmol met 3brVw6b649p9XEvo
+Wed, Nov 11, 2020, 20:37:00 - Thibaultmol: thx, veranderd naar een ander nu
+Wed, Nov 11, 2020, 20:37:06 - Seppe joined the room
+Wed, Nov 11, 2020, 20:38:14 - joost_schouppe: ik geraak daarmee niet ingelogd
+Wed, Nov 11, 2020, 20:40:05 - joost_schouppe: eigenlijk wil je hiermee zo iets doen: https://www.societyworks.org/how-to-buy/
+Wed, Nov 11, 2020, 20:41:05 - joost_schouppe: betaalde service om de toepassing te integreren in bestaande werkingen. Ik vermoed dat als je dat niét doet, er nog eens een ticket wordt gegenereerd aan de andere kant, en of "ons" ticket dan gesloten wordt als "zij hun" ticket sluiten - dat vraag ik me af?!
+Wed, Nov 11, 2020, 20:42:08 - s8evq: Inderdaad, wat je bedoelt kan misschien via Open311? https://fixmystreet.org/glossary/#open311 Geen idee, ik ben daar niet vertrouwd mee.
+Wed, Nov 11, 2020, 20:44:14 - joost_schouppe: op zich denk ik dat het ook wel kan als je gewoon mails over het systeem laat gaan, mits enkele code-afspraken
+Wed, Nov 11, 2020, 20:46:17 - s8evq: <@joost_schouppe:matrix.org "ik geraak daarmee niet ingelogd"> Ik zal eens zoeken, het hangt momenteel maar met haken en ogen aan elkaar. Ik laat iets weten als het zou werken.
+Wed, Nov 11, 2020, 20:47:22 - joost_schouppe: :)
+Wed, Nov 11, 2020, 22:35:31 - s8evq: Er zou een password reset email gezonden zijn (misschien in spam als gmail heel streng is)
+Wed, Nov 11, 2020, 22:38:40 - @thierry1030:matrix.org joined the room
+Wed, Nov 11, 2020, 22:41:59 - @thierry1030:matrix.org: goeieavond heren! Kunnen jullie me (nog eens) kort vertellen wat het plan is van deze groep? heeft dit iets met de verkeersborden te maken of is het nog iets anders? 🙂
+Wed, Nov 11, 2020, 22:46:10 - joost_schouppe: T is een beetje uit de hand aan het lopen :) 
+Wed, Nov 11, 2020, 22:47:00 - joost_schouppe: Het fixmystreet platform is ideaal om bijvoorbeeld zotte verkeersborden te melden (en en passant in kaart te brengen). Maar je kan het veel breder als dat gebruiken 
+Wed, Nov 11, 2020, 22:47:40 - s8evq: Seppe vertelde me over dit project "fixmystreet". Ik wou even testen en kijken als dit haalbaar is om ook bij ons te draaien. Dat is nog niet zeker, we moeten eens onderzoeken wat er allemaal bij komt kijken.
+Wed, Nov 11, 2020, 22:49:01 - s8evq: Het draait momenteel op een test server, als je wil kan ik je administrator maken, maar momenteel is er eigenlijk nog niets geconfigureerd. Als ik er even tijd voor heb, kijk ik om het nog verder te configureren.
+Wed, Nov 11, 2020, 22:50:01 - Seppe: Ondertussen in Aalter:
+Wed, Nov 11, 2020, 22:50:19 - @thierry1030:matrix.org: en wat is het opzet om het "ook bij ons te draaien"? wat moet ik me daar bij voorstellen?
+Wed, Nov 11, 2020, 22:50:20 - s8evq: We zouden eesn in kaart moeten brengen wat er nodig is om dit project op te starten, en als het uberhaupt haalbaar is.
+Wed, Nov 11, 2020, 22:50:22 - Seppe sent an image. (Media omitted)
+Wed, Nov 11, 2020, 22:50:23 - Seppe sent an image. (Media omitted)
+Wed, Nov 11, 2020, 22:50:24 - Seppe sent an image. (Media omitted)
+Wed, Nov 11, 2020, 22:50:59 - s8evq: <@thierry1030:matrix.org "en wat is het opzet om het "ook ..."> Een site zoals https://fixmystreet.brussels/ maar dan voor Vlaanderen (of Wallonie er bij)
+Wed, Nov 11, 2020, 22:51:57 - s8evq: Hoe dan ook dacht ik om alvast de onnozele verkeersborden te verzamelen, los van fixmystreet. Eventueel zelfs gewoon op een wiki.openstreetmap.org pagina.
+Wed, Nov 11, 2020, 22:52:29 - Seppe: Persoonlijk zou ik de scope initieel beperkt houden, bijv. een verzameling van verkeersborden die "niet kloppen" (dat was het originele uitgangspunt). Bij die use case dan de beste technische oplossing zoeken (zou fixmystreet kunnen zijn, maar zoals s8evq al aangaf kan het even goed ook iets meer light weight zijn)
+Wed, Nov 11, 2020, 22:52:44 - @thierry1030:matrix.org: fix my street in Brussel ken ik en werkt voor zover ik weet redelijk goed (lees: de ene gemeente volgt al wat sneller/beter op dan de andere)
+Wed, Nov 11, 2020, 22:53:23 - @thierry1030:matrix.org: via de wiki lijkt me voldoende ... waarom toch de keuze voor fix my street?
+Wed, Nov 11, 2020, 22:54:08 - joost_schouppe: Alternatief : github issues. Dat is heel gemakkelijk voor opvolging en dossiertje bij te houden. En je zou er relatief eenvoudig een geojson van moeten kunnen maken om het op een umap ofzo to laten zien
+Wed, Nov 11, 2020, 22:54:28 - s8evq: <@thierry1030:matrix.org "via de wiki lijkt me voldoende ...."> Ah ja, ik heb dat eens bekeken en vond het wel een leuk project 😂
+Wed, Nov 11, 2020, 22:55:25 - @thierry1030:matrix.org: <@joost_schouppe:matrix.org "Alternatief : github issues. Dat..."> lijkt me een prima, zelfs beter plan
+Wed, Nov 11, 2020, 22:56:15 - joost_schouppe: Bij mij kriebelt dat fixmystreet idee ook wel moet ik zeggen. Irriteert me al een jaar of tien dat Vlaanderen dat nog niet centraal heeft opgezet 
+Wed, Nov 11, 2020, 22:58:07 - Thibaultmol: Ik stuur regelmatig opmerkingen naar de facebook pagina van onze gemeente met bepaalde zaken die moeten opgelost worden.
+Ging op een bepaald moment eens naar het gemeentehuis en sprak toevallig met de persoon die verantwoordelijk was voor het antwoorden van de berichten daar. Krijgt blijkbaar regelmatig een hele schandpaal aan berichten toegestuurd. Mijn berichten waren van de weinige vriendelijke 
+😐️
+Wed, Nov 11, 2020, 22:58:22 - @thierry1030:matrix.org: <@joost_schouppe:matrix.org "Bij mij kriebelt dat fixmystreet..."> nog 2 jaar wachten, en dan is de persoon die dat tegenhoudt op pensioen ... 🤣
+Wed, Nov 11, 2020, 22:59:04 - joost_schouppe: Can't tell if your joking or not. Wat het alvast "een goei" maakt
+Wed, Nov 11, 2020, 23:00:04 - @thierry1030:matrix.org: <@joost_schouppe:matrix.org "Can't tell if your joking or not..."> ben ermee aan't lache omdat het zo triestig en wraakroepend is
+Wed, Nov 11, 2020, 23:00:14 - joost_schouppe: Stad Halle heeft een meldingsformuliertje, dat werkt wel redelijk ok. Natuurlijk geen enkele manier om te weten wat er allemaal gemeld wordt
+Wed, Nov 11, 2020, 23:00:38 - @thierry1030:matrix.org: idem op Vlaams niveau met het meldpunt wegen
+Wed, Nov 11, 2020, 23:02:21 - joost_schouppe: Toen ik nog bij Stad Antwerpen werkte, was er een eerste mobiele website voor meldingen. Vanuit de GIS doesn't werden we gek - I ze gebruikten de coördinaten van de gebruiker om het dichtstbijzijnde adres op te zoeken, en da's het enige dat in de databank bewaard bleef. Fun times! Draait wellicht nog altijd op die manier
+Wed, Nov 11, 2020, 23:02:58 - joost_schouppe: Daarmee dus dat het idee om simpelweg een bestaande, open en gratis tool op te zetten wel leuk vind. 
+Wed, Nov 11, 2020, 23:04:07 - joost_schouppe: Ik zou daarom geneigd zijn toch dit te proberen voor onze verkeersbordjes. Dan doen we de ervaring op om te zien of we het verder kunnen uitrollen
+Wed, Nov 11, 2020, 23:04:14 - @thierry1030:matrix.org: <@joost_schouppe:matrix.org "Daarmee dus dat het idee om simp..."> maar dus als ik het goed begrijp enkel voor "verkeersborden" dan ... ja? en is het enkel voor "ons" als osm community of ook voor de overheid bedoeld? op termijn?
+Wed, Nov 11, 2020, 23:05:05 - Seppe: Wat ik zelf interessant/belangrijk vind aan het idee van een centraal platform voor verkeerde verkeersborden: overheden doen vaak maar wat, het is frappant hoeveel foute signalisatie er op het terrein staat en hoe weinig mensen daar om geven. Als we alles verzamelen en zichtbaar maken, dan gaat men daar misschien eens meer aandacht aan besteden in de planningsfase. Meldingsformulieren die behandeld worden door sympathieke ambtenaren zijn leuk, maar 't zou soms mooi zijn mocht de nood daaraan enkel tot uitzonderingen beperkt blijven.
+Wed, Nov 11, 2020, 23:05:22 - Seppe: <@thierry1030:matrix.org "maar dus als ik het goed begrijp..."> Vanuit OSM is er alleszins de vraag/nood.
+Wed, Nov 11, 2020, 23:05:43 - Seppe: En door wat we doen, vallen de foute situaties ons ook direct op
+Wed, Nov 11, 2020, 23:06:54 - @thierry1030:matrix.org: dat is waar ja 🙂
+Wed, Nov 11, 2020, 23:08:15 - @thierry1030:matrix.org: dus samengevat:
+we inventariseren foutieve verkeersborden via github of fixmystreet en we houden het voorlopig voor "ons eigen" met optie om er op termijn mee naar overheden te gaan ...
+Wed, Nov 11, 2020, 23:08:32 - @thierry1030:matrix.org: zeg maar wat ik kan doen om te starten ... 🙂
+Wed, Nov 11, 2020, 23:08:36 - joost_schouppe: <@thierry1030:matrix.org "maar dus als ik het goed begrijp..."> Eerst effe enkel voor ons, en verder en verder uitrollen naar gelang wat werkt - met als einddoel de verovering van de wereld
+Wed, Nov 11, 2020, 23:09:07 - joost_schouppe: Ik zou ook wel direct melden naar overheid ook.
+Wed, Nov 11, 2020, 23:09:31 - @thierry1030:matrix.org: en zou't ge dat kunnen "automatiseren"?
+Wed, Nov 11, 2020, 23:09:34 - joost_schouppe: Tegelijk ontstaat dan ook archief aan issues. En idee van hei snel dit opgepakt wordt eens gemeld
+Wed, Nov 11, 2020, 23:09:41 - Seppe: <@joost_schouppe:matrix.org "Ik zou ook wel direct melden naa..."> +1
+Wed, Nov 11, 2020, 23:10:49 - Thibaultmol: Let normaal gezien niet echt erop of verkeersborden foutief zijn of niet. Zal langzaam verandering in komen denk ik XD
+Wed, Nov 11, 2020, 23:11:48 - joost_schouppe: Bij mij is het een beetje een pet peeve aan het worden. I blame s8evq :) 
+Wed, Nov 11, 2020, 23:13:48 - Seppe: joost_schouppe: Als je er van eerste keer een meldingssysteem voor het Vlaamse volk van wil maken, ook goed hé. Da's natuurlijk wel wat ambitieuzer
+Wed, Nov 11, 2020, 23:15:59 - joost_schouppe: Awel euh, als zou blijken dat dat haalbaar is he
+Wed, Nov 11, 2020, 23:16:03 - Seppe: Zijn er specifieke features van de Github issues die we specifiek voor dit doel goed kunnen gebruiken?
+Wed, Nov 11, 2020, 23:17:07 - joost_schouppe: Biedt gewoon de basics van een case opvolgen (en classificeren etc) 
+Wed, Nov 11, 2020, 23:17:19 - Seppe: Ok
+Wed, Nov 11, 2020, 23:24:59 - Seppe: Would there be an easy way to add geocoordinates to the issues?
+Wed, Nov 11, 2020, 23:26:16 - @thierry1030:matrix.org: use only georeferenced pictures
+Wed, Nov 11, 2020, 23:26:18 - @thierry1030:matrix.org: ,
+Wed, Nov 11, 2020, 23:26:21 - @thierry1030:matrix.org: ?
+Wed, Nov 11, 2020, 23:26:27 - joost_schouppe: Well not for "normal people". But it should be as easy as making a "default issue" and marking the spot where you should paste some coordinates
+Wed, Nov 11, 2020, 23:26:42 - joost_schouppe: Suddenly, English :) 
+Wed, Nov 11, 2020, 23:26:52 - Seppe: ah oei :-)
+Wed, Nov 11, 2020, 23:27:14 - @thierry1030:matrix.org: "osm-misvorming" 🤣
+Wed, Nov 11, 2020, 23:27:54 - @thierry1030:matrix.org: tegenwoordig kan toch iedereen georeferenced foto's maken toch, niet?
+oftewel met gopro/garmin oftewel met de smartphone ...
+Wed, Nov 11, 2020, 23:30:21 - joost_schouppe: Sure - maar via github maak je niet zomaar een kaart, vandaar de nood aan echt coördinaten in de tekst van het issie
+Wed, Nov 11, 2020, 23:39:45 - Thibaultmol: github action bot ofzo die de coordinaten uit attachment haalt?
+Wed, Nov 11, 2020, 23:41:02 - joost_schouppe: Sure, maar wellicht toch weer wat meer werk dan gewoon tekst parsen
+Thu, Nov 12, 2020, 19:30:06 - s8evq: <@joost_schouppe:matrix.org "Sure - maar via github maak je n..."> Het is relatief eenvoudig om een kaart te tonen met markers op de locatie van de foto's. Als je op de marker klikt zie je de foto en een beetje uitleg.
+Thu, Nov 12, 2020, 19:30:24 - s8evq: Met bijvoorbeeld Wordpress zou dit gemakkelijk in elkaar te steken zijn
+Thu, Nov 12, 2020, 19:30:43 - s8evq: Maar dan heb je geen echt systeem om dat op te volgen (behalve tags 😕)
+Thu, Nov 12, 2020, 19:51:13 - s8evq: Maar als je zegt dat er beter ook direct gemeld wordt aan de gemeente/overheid, dan ga je wellicht al sneller bij fixmystreet uitkomen.
+Thu, Nov 12, 2020, 20:18:39 - joost_schouppe: Precies liever een opvolgingsysteem zonder kaart dan een kaart zonder opvolgingsysteem 
+Fri, Nov 13, 2020, 10:39:29 - joost_schouppe: Ingeschoten: Bij het in kaart brengen van uw gemeente in OpenStreetMap, viel me een verkeersbord op dat ik niet goed begrijp: op de Vorstsesteenweg (en in de omgeving) is er trajectcontrole die controleert op de maximum hoogte van een voertuig (max 3 meter). Voorbeeld. Wat is hier precies de bedoeling? Gaat het er gewoon om dat u erop wilt wijzen dat er hier en daar ANPR camera's staan die hierop controleren? Doorgaans wijst "trajectcontrole" op iets waarbij meerdere momentopnames gecombineerd worden om de snelheid over het hele traject te meten. Hoe moet ik het hier interpreteren?
+Fri, Nov 13, 2020, 10:39:38 - joost_schouppe: https://www.mapillary.com/app/?lat=50.79441549997222&lng=4.30234&z=17&pKey=njipHFElj2rWTkFLSSpkvg&focus=photo&signs=true&trafficSign%5B%5D=undefined&trafficSign%5B%5D=regulatory--end-of-maximum-speed-limit-30--g1&trafficSign%5B%5D=regulatory--end-of-maximum-speed-limit-30--g2&trafficSign%5B%5D=regulatory--maximum-speed-limit-30--g1&trafficSign%5B%5D=regulatory--maximum-speed-limit-30--g3&x=0.75286266944843&y=0.5956058825141066&zoom=1.6461170179323719&tab=uploads
+Fri, Nov 13, 2020, 10:39:52 - joost_schouppe: Antwoord: Om de verkeersveiligheid en leefbaarheid in het centrum van Ruisbroek te verbeteren, besliste het gemeentebestuur van Sint-Pieters-Leeuw in 2018 om een digitale vrachtwagensluis te installeren met een zonale hoogtebeperking van max. 3m. De ANPR camera’s voeren controle uit op vrachtwagens die het dorpscentrum van Ruisbroek gebruiken als sluikweg om de E19 te vermijden.
+De vrachtwagensluis werkt op basis van de camera’s met nummerplaatherkenning (ANPR) aan de in- en uitgang van Ruisbroek en de tijd dat een voertuig erover doet om door Ruisbroek te rijden. Op basis van deze tijd kan nagegaan worden of de vrachtwagen in Ruisbroek heeft geladen of gelost. Indien dat niet het geval is, stelt de politie een overtreding vast op de hoogtebeperking van 3 meter, die onbemand kan gehandhaafd worden.
+
+ 
+
+De zonale hoogtebeperking werd begrensd thv:
+
+    Fabriekstraat, ter hoogte van nr. 345
+    Stationsstraat, uitgang spoorwegtunnel komende van Kanaal Brussel-Charleroi
+    N266 Humaniteitslaan, ter hoogte van de Paul Gilsonlaan
+    Vorstsesteenweg, ter hoogte van de N266 Humaniteitslaan
+
+ 
+
+In 2019 besliste de gemeenteraad om voor Ruisbroek een zonale tonnagebeperking van max. 5ton in te voeren, als aanvulling op de zonale hoogtebeperking.
+
+Via de ANPR camera's worden voertuigen geregistreerd die hoger zijn dan 3m, dit dient dan als 'hit' om de tonnage van de zware voertuigen na te gaan en of ze bestemmings- of doorgaand verkeer zijn. 
+Fri, Nov 13, 2020, 10:42:16 - joost_schouppe: Mijn idee: Volgens mij zou hier dus een bord moeten staan "Zone maxweight 5ton zone maxheight 3m, uitgezonderd laden en lossen". En daarna eventueel "dit verbod wordt afgedwongen via trajectcontrole". Op dit moment lijkt het me dat dat je strikt gezien NIET in de zone mag komen als je hoger bent dan 3; en wie weet is dit bord niet eens legaal.
+Fri, Nov 13, 2020, 12:52:59 - Seppe: Amai :-)
+Als wij er al niet wijs uit geraken, wat moet een buitenlandse vrachtwagenchauffeur dan wel niet denken ...
+Fri, Nov 13, 2020, 15:58:22 - Thibaultmol: "fck it" waarschijnlijk 😆
+Sat, Nov 14, 2020, 09:03:28 - s8evq: Dit bestaat dus ook al: https://www.fixmystreetwallonie.be/about
+Tue, Dec 15, 2020, 22:08:20 - Seppe: Benieuwd ook naar
+Tue, Dec 15, 2020, 22:08:21 - Seppe sent an image. (Media omitted)
+Tue, Dec 15, 2020, 22:08:33 - Seppe: (daarnet aan bod gekomen in webinar Fietsersbond)
+Tue, Dec 15, 2020, 22:58:30 - @thierry1030:matrix.org: Seppe en al de rest: ik hou jullie op de hoogte als het concreet begint te worden
+Tue, Dec 15, 2020, 23:57:30 - @thierry1030:matrix.org: over "e-knelpuntenregister" nog:
+het bedrijf dat het platform ontwikkelt zou zo goed als klaar moeten zijn, het zit nu in testfase en in voorjaar 2021 zou het eerst in Brussel en Oost-Vlaanderen uitgerold worden omdat zij mee sponsoren
+Wed, Dec 16, 2020, 10:46:27 - @thierry1030:matrix.org: Dienstmededeling (uit de zojuist verstuurde Fietsersbond-nieuwsbrief) 🙂
+"In 2021 lanceren we een eerste versie van het knelpunten-register, een interactieve kaart om knelpunten te registreren. Deze tool wordt in eerste instantie voor jullie, de Fietsersbond afdelingen, ontwikkeld om het overzicht te houden van de knelpunten in jullie werkingsgebied. In een volgende fase is het de bedoeling om deze ook open te stellen naar een breder publiek zodat iedereen knelpunten kan melden.
+Wil je graag de komende weken en maanden meewerken aan een eerste versie om de bugs eruit te halen en jouw input te geven? Stuur dan als de bliksem een mailtje naar Werner (werner@fietsersbond.be) (Mensen die zich al eerder hadden opgegeven om mee te helpen testen, hoeven zich niet opnieuw aan te melden)."
+Wed, Dec 16, 2020, 11:35:28 - joost_schouppe: Beetje vijgen na pasen, maar had het niet veel eenvoudiger kunnen zijn om een fixmystreet op te zetten? Misschien kan je daar wel een eigen groep opzetten om fietserbondmeldingen te bundelen; maar alleszins heb je dan by default te mogelijkheid om te koppelen aan meldingen bij de gemeente of wegbeheerder
+Wed, Dec 16, 2020, 11:54:24 - s8evq: PS: Mijn fixmystreet website is voorlopig nog offline. Nog geen tijd gehad. Maar als die terug werkt post ik een link zodat we dat eens kunnen testen en mee spelen.
+Wed, Dec 16, 2020, 12:05:29 - @thierry1030:matrix.org: <@joost_schouppe:matrix.org "Beetje vijgen na pasen, maar had..."> goh, ik kan er zo moeilijk één op één op antwoorden, mijn bedenking: zowel in Brussel als nu blijkbaar Wallonie zit fixmystreet bij "de overheid" waarbij de opvolging publiek toegankelijk is, in Vlaanderen heb je het gesloten meldpuntwegen ...
+Wed, Dec 16, 2020, 12:05:53 - @thierry1030:matrix.org: zouden wij als FB zomaar het fixmystreet kunnen overnemen voor in Vlaanderen? 
+Wed, Dec 16, 2020, 12:13:52 - @thierry1030:matrix.org: joost_schouppe: kan ik iemand extern op dit chatkanaal uitnodigen? zo ja, hoe?
+Wed, Dec 16, 2020, 13:54:02 - s8evq changed the power level of @thierry1030:matrix.org from Default to Admin.
+Wed, Dec 16, 2020, 13:54:08 - s8evq: Nu normaal wel.
+Wed, Dec 16, 2020, 13:54:22 - s8evq: Rechts bovenaan heb je nu "invite to this room"
+Wed, Dec 16, 2020, 13:56:47 - @thierry1030:matrix.org: lukt niet, blijkbaar een probleem met "my identity server" 😕
+Wed, Dec 16, 2020, 13:57:00 - @thierry1030:matrix.org: is het mogelijk om wies.callens@fietsersbond.be toe te voegen? bedankt
+Wed, Dec 16, 2020, 13:57:55 - s8evq sent an invitation to wie...@fie... to join the room.
+Wed, Dec 16, 2020, 14:49:12 - joost_schouppe: moet er niet eerst een account op matrix zijn voor dat kan?
+Wed, Dec 16, 2020, 14:49:28 - joost_schouppe: <@thierry1030:matrix.org "zouden wij als FB zomaar het fix..."> wij waren dat met dit groepje al ongeveer van plan, dus waarom niet
+Wed, Dec 16, 2020, 14:49:35 - joost_schouppe: misschien zou OKBE dat zelfs willen steunen
+Wed, Dec 16, 2020, 14:52:23 - Thibaultmol: Daarmee denk ik dat bv zo'n link delen:
+Wed, Dec 16, 2020, 14:52:23 - Thibaultmol: > https://app.element.io/#/room/!ZOGOGPgSaKMmGOgqyX:matrix.org
+Wed, Dec 16, 2020, 14:52:48 - Thibaultmol: welp, element keeps changing my link. I meant to share this link: (zelfs als je het in code ` `zet wordt die link veranderd.....
+ https://hackmd.io/@Thibaultmol/Skrob5DhD
+Wed, Dec 16, 2020, 14:53:00 - s8evq changed the power level of Thibaultmol from Default to Admin.
+Wed, Dec 16, 2020, 14:55:51 - Thibaultmol: Met die link komen ze rechtstreeks op het scherm van element (moeten ze niet nadenken 'wat een matrix is' en gewoon rechtstreeks het account registratie scherm
+Wed, Dec 16, 2020, 14:56:44 - joost_schouppe: de truk is om de link als markdown te zetten, dus type vierkante haken / ronde haken
+Wed, Dec 16, 2020, 14:58:08 - Thibaultmol: [https://app.element.io/#/room/!ZOGOGPgSaKMmGOgqyX:matrix.org]
+Wed, Dec 16, 2020, 14:58:12 - Thibaultmol: ah inderdaad
+Wed, Dec 16, 2020, 14:58:18 - Thibaultmol: Had alles geprobeerd van Code block tot quote XD
+Thu, Dec 17, 2020, 09:02:17 - joost_schouppe: https://twitter.com/LambrechtAnnick/status/1339460966682116097
+Thu, Dec 17, 2020, 09:02:24 - joost_schouppe: zoals in main room gedropped
+Thu, Dec 17, 2020, 09:02:39 - joost_schouppe: ik heb daarop bij OKBE eens gehoord:
+Anyone seen this? SP.A parlementarian dissappointed there won't be a better app for reporting road issues in Flanders. She mentions the open source platform Fixmystreet that is used in Wallonia and Brussels. By coincidence, some people in the OSM community have been playing around with fixmystreet, to build a Flemish version. I think it's about a decade overdue that there is single place to report any kind of issue on the public domain for the entire territory - right now, you first have to know which of 20.000 apps or websites to use to make a complaint. Fixmystreet promises to be a single platform, which can forward the issues to the relevant authority. Since the governement isn't doing this, is this something OKBE would support if I find some people willing to work on this? Should I point Annick Lambrecht in our direction as a possible source of funding? (remember Groen funded the first version of MapComplete)
+Thu, Dec 17, 2020, 09:02:46 - joost_schouppe: eerste reacties zijn zeer positief
+Thu, Dec 17, 2020, 09:02:59 - joost_schouppe: zouden we niet eens een "startvergadering" doen?
+Thu, Dec 17, 2020, 10:18:24 - @thierry1030:matrix.org: joost_schouppe: mag ik u even bellen?
+Thu, Dec 17, 2020, 10:35:59 - @thierry1030:matrix.org: ter info: hier de discussie in de commissie Mobiliteit en Openbare Werken van het Vlaams-Parlement: https://www.vlaamsparlement.be/commissies/commissievergaderingen/1454140/verslag/1455963
+Thu, Dec 17, 2020, 10:36:52 - wiesfietsersbond accepted the invitation for wie...@fie...
+Thu, Dec 17, 2020, 10:36:52 - wiesfietsersbond joined the room
+Thu, Dec 17, 2020, 10:39:30 - @thierry1030:matrix.org: even voor mijn collega Wies die er bij gekomen herneem ik een aantal relevante passage's
+Thu, Dec 17, 2020, 10:40:59 - @thierry1030:matrix.org: goeieavond heren! Kunnen jullie me (nog eens) kort vertellen wat het plan is van deze groep? heeft dit iets met de verkeersborden te maken of is het nog iets anders? 🙂
+joost_schouppe
+T is een beetje uit de hand aan het lopen :) 
+Het fixmystreet platform is ideaal om bijvoorbeeld zotte verkeersborden te melden (en en passant in kaart te brengen). Maar je kan het veel breder als dat gebruiken
+s8evq
+Seppe vertelde me over dit project "fixmystreet". Ik wou even testen en kijken als dit haalbaar is om ook bij ons te draaien. Dat is nog niet zeker, we moeten eens onderzoeken wat er allemaal bij komt kijken.
+Het draait momenteel op een test server, als je wil kan ik je administrator maken, maar momenteel is er eigenlijk nog niets geconfigureerd. Als ik er even tijd voor heb, kijk ik om het nog verder te configureren.
+Thu, Dec 17, 2020, 10:42:50 - @thierry1030:matrix.org: en wat is het opzet om het "ook bij ons te draaien"? wat moet ik me daar bij voorstellen?
+Een site zoals https://fixmystreet.brussels/ maar dan voor Vlaanderen (of Wallonie er bij)
+Hoe dan ook dacht ik om alvast de onnozele verkeersborden te verzamelen, los van fixmystreet. Eventueel zelfs gewoon op een wiki.openstreetmap.org pagina.
+Seppe
+Persoonlijk zou ik de scope initieel beperkt houden, bijv. een verzameling van verkeersborden die "niet kloppen" (dat was het originele uitgangspunt). Bij die use case dan de beste technische oplossing zoeken (zou fixmystreet kunnen zijn, maar zoals s8evq al aangaf kan het even goed ook iets meer light weight zijn)
+thierry1030
+fix my street in Brussel ken ik en werkt voor zover ik weet redelijk goed (lees: de ene gemeente volgt al wat sneller/beter op dan de andere)
+via de wiki lijkt me voldoende ... waarom toch de keuze voor fix my street?
+joost_schouppe
+Alternatief : github issues. Dat is heel gemakkelijk voor opvolging en dossiertje bij te houden. En je zou er relatief eenvoudig een geojson van moeten kunnen maken om het op een umap ofzo to laten zien
+
+Thu, Dec 17, 2020, 10:43:58 - @thierry1030:matrix.org: joost_schouppe
+Bij mij kriebelt dat fixmystreet idee ook wel moet ik zeggen. Irriteert me al een jaar of tien dat Vlaanderen dat nog niet centraal heeft opgezet
+thibaultmol
+Ik stuur regelmatig opmerkingen naar de facebook pagina van onze gemeente met bepaalde zaken die moeten opgelost worden.
+Ging op een bepaald moment eens naar het gemeentehuis en sprak toevallig met de persoon die verantwoordelijk was voor het antwoorden van de berichten daar. Krijgt blijkbaar regelmatig een hele schandpaal aan berichten toegestuurd. Mijn berichten waren van de weinige vriendelijke 
+Thu, Dec 17, 2020, 10:46:08 - @thierry1030:matrix.org: joost_schouppe
+Stad Halle heeft een meldingsformuliertje, dat werkt wel redelijk ok. Natuurlijk geen enkele manier om te weten wat er allemaal gemeld wordt
+thierry1030
+idem op Vlaams niveau met het meldpunt wegen
+joost_schouppe
+Toen ik nog bij Stad Antwerpen werkte, was er een eerste mobiele website voor meldingen. Vanuit de GIS doesn't werden we gek - I ze gebruikten de coördinaten van de gebruiker om het dichtstbijzijnde adres op te zoeken, en da's het enige dat in de databank bewaard bleef. Fun times! Draait wellicht nog altijd op die manier
+Daarmee dus dat het idee om simpelweg een bestaande, open en gratis tool op te zetten wel leuk vind.
+Ik zou daarom geneigd zijn toch dit te proberen voor onze verkeersbordjes. Dan doen we de ervaring op om te zien of we het verder kunnen uitrollen
+Thu, Dec 17, 2020, 10:51:25 - Thibaultmol: Misschien interessant om eens concreet op te lijsten wat de problemen zijn met het bestaande platfrom van https://meldpuntwegen.be
+Thu, Dec 17, 2020, 11:14:23 - joost_schouppe invited nimdabe
+Thu, Dec 17, 2020, 11:15:59 - joost_schouppe: <@thierry1030:matrix.org "joost_schouppe: mag ik u even be..."> heel de dag meeting, dus niet direct
+Thu, Dec 17, 2020, 11:39:38 - nimdabe joined the room
+Thu, Dec 17, 2020, 12:21:09 - @thierry1030:matrix.org: Maar als je zegt dat er beter ook direct gemeld wordt aan de gemeente/overheid, dan ga je wellicht al sneller bij fixmystreet uitkomen.
+joost_schouppe
+Precies liever een opvolgingsysteem zonder kaart dan een kaart zonder opvolgingsysteem 
+Thu, Dec 17, 2020, 12:22:15 - @thierry1030:matrix.org: over "e-knelpuntenregister" nog:
+het bedrijf dat het platform ontwikkelt zou zo goed als klaar moeten zijn, het zit nu in testfase en in voorjaar 2021 zou het eerst in Brussel en Oost-Vlaanderen uitgerold worden omdat zij mee sponsoren
+Thu, Dec 17, 2020, 12:23:18 - @thierry1030:matrix.org: Dienstmededeling (uit de zojuist verstuurde Fietsersbond-nieuwsbrief) 🙂
+"In 2021 lanceren we een eerste versie van het knelpunten-register, een interactieve kaart om knelpunten te registreren. Deze tool wordt in eerste instantie voor jullie, de Fietsersbond afdelingen, ontwikkeld om het overzicht te houden van de knelpunten in jullie werkingsgebied. In een volgende fase is het de bedoeling om deze ook open te stellen naar een breder publiek zodat iedereen knelpunten kan melden.
+Wil je graag de komende weken en maanden meewerken aan een eerste versie om de bugs eruit te halen en jouw input te geven? Stuur dan als de bliksem een mailtje naar Werner (werner@fietsersbond.be) (Mensen die zich al eerder hadden opgegeven om mee te helpen testen, hoeven zich niet opnieuw aan te melden)."
+Thu, Dec 17, 2020, 12:23:45 - @thierry1030:matrix.org: joost_schouppe
+Beetje vijgen na pasen, maar had het niet veel eenvoudiger kunnen zijn om een fixmystreet op te zetten? Misschien kan je daar wel een eigen groep opzetten om fietserbondmeldingen te bundelen; maar alleszins heb je dan by default te mogelijkheid om te koppelen aan meldingen bij de gemeente of wegbeheerder
+Thu, Dec 17, 2020, 12:25:12 - @thierry1030:matrix.org: (Thierry) "goh, ik kan er zo moeilijk één op één op antwoorden, mijn bedenking: zowel in Brussel als nu blijkbaar Wallonie zit fixmystreet bij "de overheid" waarbij de opvolging publiek toegankelijk is, in Vlaanderen heb je het gesloten meldpuntwegen ...
+zouden wij als FB zomaar het fixmystreet kunnen overnemen voor in Vlaanderen?"
+Thu, Dec 17, 2020, 12:26:05 - @thierry1030:matrix.org: wiesfietsersbond: nu zou't ge mee moeten zijn 🙂
+Thu, Dec 17, 2020, 12:49:32 - joost_schouppe: s8evq: ik kan eigenlijk weinig doen op dit moment; je moet blijkbaar beginnen met een adres opzoeken (op pc toch), en dat werkt niet
+Thu, Dec 17, 2020, 13:04:18 - @thierry1030:matrix.org: @allen: bij deze schets ik toch nog kort graag de context rond het e-knelpuntenregister dat de Fietsersbond sowieso zal uitrollen in 2021:
+1) elke lokale afdeling van de Fietsersbond brengt in haar gemeente/werkingsgebied knelpunten in kaart, de ene doet dat met excel-sheets, de
+andere met punaises op een klassiek stratenplan, de andere met een heus digitaal (maar wel gesloten) aanmeldings- en opvolgingssysteem (bijv. Deinze) en
+zo kunnen we nog wel even doorgaan voor de meer dan 100 afdelingen
+2) sinds 2015-2016 bestaat er op het nationaal secretariaat de wens om dit te centraliseren op een "centraal platform" en de knelpunten ook op een
+"uniforme wijze" te kunnen registreren
+3) wegens gebrek aan knowhow in eigen huis en gebrek aan middelen hebben we dit niet uit de grond kunnen stampen TOT DIT JAAR
+4) dankzij de coördinatie door collega Werner en de financiële steun van provincie Oost-Vlaanderen en het Brussels Gewest hebben we een bedrijf
+de opdracht kunnen geven om het platform te kunnen ontwikkelen
+5) voor FB Nationaal is de absolute prioriteit OP DIT MOMENT dat de data (= de knelpunten) op een uniforme manier verzameld worden
+6) op termijn is het de bedoeling dat de data voor lobbywerk (zowel op lokaal als op provinciaal/Vlaams/federaal) niveau kan ingezet worden
+7) in eerste test/uitrol fase (voorjaar 2021) is het de bedoeling dat ENKEL onze lokale afdelingen meldingen zullen kunnen doen, dus ja, dit zal nog een gesloten systeem zijn, maar het is uiteraard wel de bedoeling om dit op termijn open te stellen voor het bredere publiek ...
+Thu, Dec 17, 2020, 13:07:32 - @thierry1030:matrix.org: wiesfietsersbond: vul gerust aan of corrigeer waar nodig 🙂
+Thu, Dec 17, 2020, 13:13:21 - s8evq: <@joost_schouppe:matrix.org "s8evq: ik kan eigenlijk weinig d..."> Klopt. Zo ver ben ik geraakt met de setup. Voorlopig ook alleen met adressen in Aalter.
+Thu, Dec 17, 2020, 13:13:49 - joost_schouppe: bij fietsersbond halle doen ze al een tijdje campagne onder het motto #meldenwerkt . Op die manier kan je de kleine succesjes in de verf zetten en goodwill kweken bij het gemeentebestuur. Maar zelfs dan merkten ze nog dat ze veel pijnpunten hadden waar ze eigenlijk nog nooit een ticket voor hadden ingeseind. Bij dit knelpuntenregister zeg je zelf ook nog niets over het echt melden van zaken. In een ideale wereld zou je knelpunt direct doorgestuurd worden naar de overheid, en komen hun reacties automatisch in het platform terecht
+Thu, Dec 17, 2020, 13:15:29 - joost_schouppe: Mij lijkt het veel moeilijker om dat achteraf in te bouwen, dan om achteraf in een meldingenplatform achteraf data rapportering mogelijk te maken. Ik weet dat natuurlijk niet hé. Vandaar dus de veel te late vraag: hebben jullie onderzocht of het niet interessanter was om te vertrekken van een bestaand platform en daar de mogelijkheden indien nodig van uit te bouwen?
+Thu, Dec 17, 2020, 13:15:59 - joost_schouppe invited pietervdvn
+Thu, Dec 17, 2020, 13:17:27 - s8evq: <@thierry1030:matrix.org "@allen: bij deze schets ik toch ..."> Reply op puntje 7: jullie systeem zou later opgensteld worden. Maar dan nog steeds enkel voor fiets gerelateerde issues veronderstel ik?
+Thu, Dec 17, 2020, 13:24:26 - nimdabe: het was wel even verwarrend om te zien dat de fixmystreet van Brussel eigenlijk nog eens een gemodificeerde versie van fixmystreet.org was die eigenlijk in Canada onder de vlag visiblegoverment.ca was aangepast
+Thu, Dec 17, 2020, 13:24:40 - pietervdvn joined the room
+Thu, Dec 17, 2020, 13:26:24 - nimdabe: ik zie ook dat fixmystreet.org snel deployable is in een docker container, dus ik ga dat de komende dagen ook eens proberen zodat ik wat beter snap hoe het platform in elkaar zit en wat je allemaal kan configureren. Dat gaat mij een beter inzicht geven voor welke doelgroepen dit allemaal kan dienen, en hoe gemakkelijk je dan meldingen ook van elkaar kan onderscheiden (voor fietsers, voor wegenwerken, voor de gemeente, voor trage wegen,...?)
+Thu, Dec 17, 2020, 13:28:33 - joost_schouppe: s8evq: ook adressen in Aalter werken niet voor mij
+Thu, Dec 17, 2020, 13:42:29 - @thierry1030:matrix.org: <@s8evq:matrix.org "Reply op puntje 7: jullie systee..."> s8evq: later openstellen voor fiets gerelateerde issues -> laat ons daar nu even van uit gaan ja
+Thu, Dec 17, 2020, 13:44:52 - @thierry1030:matrix.org: <@thierry1030:matrix.org "@allen: bij deze schets ik toch ..."> ik herneem even de punten voor pietervdvn die er zojuist bijgekomen is
+Thu, Dec 17, 2020, 13:45:37 - joost_schouppe: iedereen kan de hele geschiedenis zien, toch?
+Thu, Dec 17, 2020, 13:46:23 - @thierry1030:matrix.org: <@joost_schouppe:matrix.org "iedereen kan de hele geschiedeni..."> mijn collega wiesfietsersbond zei daarstraks van niet
+Thu, Dec 17, 2020, 13:48:51 - joost_schouppe: oh
+Thu, Dec 17, 2020, 13:50:13 - joost_schouppe: that shouldn't be: "s8evq heeft de toekomstige gespreksgeschiedenis zichtbaar gemaakt voor alle gespreksleden."
+Thu, Dec 17, 2020, 13:52:41 - joost_schouppe: zeg euh, fietsersbond-vrienden, 't is niet mijn bedoeling om jullie keuzes in vraag te stellen hé; ik denk gewoon vanuit "kunnen we met gedeelde inspanningen meer problemen tegelijk oplossen". maar als jullie andere parameters hebben of de afweging ook hebben gemaakt en het gewoon simpel wilden houden, ook alle respect!
+Thu, Dec 17, 2020, 14:41:52 - nimdabe: ik kan hier ook niet de volledige historiek zien
+Thu, Dec 17, 2020, 18:20:55 - joost_schouppe: Als iemand mij admin maakt kan ik eens kijken om aan te passen
+Thu, Dec 17, 2020, 18:50:25 - @thierry1030:matrix.org changed the power level of joost_schouppe from Default to Admin.
+Thu, Dec 17, 2020, 18:51:20 - @thierry1030:matrix.org: joost_schouppe: uw "machtsniveau" is nu beheerder 🤣
+Thu, Dec 17, 2020, 19:07:43 - joost_schouppe: woohoo
+Thu, Dec 17, 2020, 19:08:01 - joost_schouppe has prevented guests from joining the room.
+Thu, Dec 17, 2020, 19:08:01 - joost_schouppe made the room public to whoever knows the link.
+Thu, Dec 17, 2020, 19:08:02 - joost_schouppe has allowed guests to join the room.
+Thu, Dec 17, 2020, 19:08:02 - joost_schouppe made the room invite only.
+Thu, Dec 17, 2020, 19:08:19 - joost_schouppe made the room public to whoever knows the link.
+Thu, Dec 17, 2020, 19:08:19 - joost_schouppe has prevented guests from joining the room.
+Thu, Dec 17, 2020, 19:08:49 - joost_schouppe has allowed guests to join the room.
+Thu, Dec 17, 2020, 19:08:49 - joost_schouppe made the room invite only.
+Thu, Dec 17, 2020, 19:08:51 - joost_schouppe made future room history visible to all room members, from the point they are invited.
+Thu, Dec 17, 2020, 19:08:51 - joost_schouppe made future room history visible to all room members.
+Thu, Dec 17, 2020, 19:08:56 - joost_schouppe made future room history visible to all room members, from the point they joined.
+Thu, Dec 17, 2020, 19:09:04 - joost_schouppe made future room history visible to all room members.
+Thu, Dec 17, 2020, 19:09:48 - @thierry1030:matrix.org: joost_schouppe: indrukwekkend machtsniveau! 😂
+Thu, Dec 17, 2020, 19:11:35 - joost_schouppe: oh dear
+Thu, Dec 17, 2020, 19:11:43 - joost_schouppe: ik snap er niks van, sorry
+Thu, Dec 17, 2020, 19:12:41 - @thierry1030:matrix.org: "joost_schouppe heeft de toekomstige gespreksgeschiedenis zichtbaar gemaakt voor alle gespreksleden, vanaf het moment dat ze toegetreden zijn." -> het is toch OK zo niet? nimdabe ?
+Thu, Dec 17, 2020, 19:13:17 - joost_schouppe: maar zo stond het al ingesteld!
+Thu, Dec 17, 2020, 19:14:34 - @thierry1030:matrix.org: komt zo nauw niet denk ik ... als er iemand iets te vragen heeft, dat ie de vraag maar stelt ...
+Fri, Dec 18, 2020, 08:32:52 - nimdabe: <@thierry1030:matrix.org ""joost_schouppe heeft de toekoms..."> ik kan zien vanaf het moment dat ik toegevoegd ben aan deze room, maar niet de gesprekken daarvoor
+Fri, Dec 18, 2020, 08:36:51 - nimdabe: ik ben gisterenavond ook even aan de slag gegaan met het docker-compose voorbeeld dat op de github van fixmystreet staat, maar ik krijg het daarmee niet aan de praat. Het geeft fouten langs alle kanten, dus dat gaat nog wat zoeken worden om het aan de praat te krijgen
+Fri, Dec 18, 2020, 08:43:59 - joost_schouppe: zou s8evq je geen rechten op zijn versie kunnen geven?
+Fri, Dec 18, 2020, 08:45:11 - s8evq: Ja nimdabe Als je wil meekijken, ik heb een VPS genomen met Debian 10 en de manuele install gedaan. Draait nu in 'production mode' via apache in plaats van die development internal server.
+Fri, Dec 18, 2020, 08:45:23 - s8evq: www.fixmijnstraat.be/
+Fri, Dec 18, 2020, 08:45:42 - s8evq: Ik heb het al zo ver gekregen dat je nu een report kunt maken en foto uploaden.
+Fri, Dec 18, 2020, 08:46:01 - s8evq: Hier en daar zal er wel nog iets niet werken hoor. Ik heb het verder nog niet volledig getest.
+Fri, Dec 18, 2020, 08:47:20 - nimdabe: ik wil gerust wel verder mee kijken naar jouw installatie en testen. Thuis ben ik veel met docker bezig, dus ik dacht van daar een speeltuintje in te richten om er mee te spelen. 
+Fri, Dec 18, 2020, 08:55:38 - s8evq: Ik heb de gegevens in een direct message gestuurd.
+Fri, Dec 18, 2020, 09:05:50 - joost_schouppe: hmm, ik heb de indruk dat een data export enkel voorzien is de pro versie, zou dat kunnen? of staat er wel een API op ofzo?
+Sun, Dec 20, 2020, 20:52:50 - joost_schouppe: found another one! https://openstreetmap.be/nl/projects/mapcomplete.html
+Sun, Dec 20, 2020, 23:04:48 - Thibaultmol: Doe ik iets verkeerd op de fixmijnstraat website? Waarom lukt het niet om `Sint-Jorisstraat` in te geven als straat?
+Sun, Dec 20, 2020, 23:05:13 - s8evq: Werkt voorlopig enkel voor Aalter
+Sun, Dec 20, 2020, 23:05:30 - Thibaultmol: ah k
+Sun, Dec 20, 2020, 23:05:32 - s8evq: Zo was het iets gemakkelijker qua geheugen gebruik
+Sun, Dec 20, 2020, 23:05:37 - Thibaultmol: fair enough
+Thu, Jan 21, 2021, 11:07:25 - s8evq: Ik denk dat ik mijn test VPN van http://www.fixmijnstraat.be/ ga afsluiten.
+Ik heb de afgelopen weken geprobeerd, en vind het zeker een interessant project, maar zou moeten beheerd worden door iemand met meer tijd en meer development kennis :)
+Thu, Jan 21, 2021, 12:47:12 - Seppe: Merci alleszins om het op te zetten en eens uit te testen. Ik wou dat ik die iemand was, maar niet dus :-)
+Thu, Jan 21, 2021, 12:50:16 - joost_schouppe: voor onze use-case zouden we ook gewoon een geojson op github samen kunnen beheren en die in umap visualiseren
+Thu, Jan 21, 2021, 12:50:52 - joost_schouppe: of zelfs gewoon in umap werken, en "vreemden" laten mailen als ze iets willen toevoegen
+Sat, Feb 20, 2021, 23:25:35 - s8evq: Ik heb vanavond nog eens iets anders geprobeerd. Met Wordpress en de wp-osm plugin is ook het een en ander mogelijk. 
+Sat, Feb 20, 2021, 23:25:36 - s8evq: https://verkeerdeborden.be/
+Sat, Feb 20, 2021, 23:25:58 - s8evq: Wel behoorlijk wat manueel werk bij iedere post (pin op de kaart zetten etc...), maar werkt min of meer.
+Sat, Feb 20, 2021, 23:47:40 - pietervdvn: This one is pretty funny too
+Sat, Feb 20, 2021, 23:47:40 - pietervdvn sent an image. (Media omitted)
+Sat, Feb 20, 2021, 23:48:04 - pietervdvn: (Living streer implies a max speed of 20km/h)
+Sun, Feb 21, 2021, 09:10:26 - s8evq: <@pietervdvn:matrix.org "(Living streer implies a max spe..."> Cool. Weet je de preciese locatie? Dan kan ik die ook toevoegen.
+Sun, Feb 21, 2021, 09:10:47 - s8evq: Misschien kan ik later met accounts in wordpress werken, dan kunnen mensen zelf foto's toevoegen.
+Tue, Feb 23, 2021, 21:29:23 - Seppe: https://www.mapillary.com/map/im/jwusbmT5gBV6d3CPy8FguD
+Tue, Feb 23, 2021, 21:30:08 - Seppe: (fietsers moeten niet opletten voor koeien? of de doodlopende straat, behalve voor fietsers, loopt toch dood voor fietsers?)
+Tue, Feb 23, 2021, 21:34:58 - joost_schouppe: Breinbrekertje. Ik denk dat dat onderbord er al hing, en dat ze dan fiets stickertjes hebben gezet. En vergeten onderbord wegnemen
+Wed, Feb 24, 2021, 13:02:38 - pietervdvn: <@s8evq:matrix.org "Cool. Weet je de preciese locati..."> https://www.openstreetmap.org/?mlat=51.04788&mlon=3.68050#map=17/51.04788/3.68050
+Wed, Feb 24, 2021, 13:02:51 - pietervdvn: <@s8evq:matrix.org "Misschien kan ik later met accou..."> Waarom maak je geen mapcomplete-thema voor foute verkeersborden?
+Wed, Feb 24, 2021, 13:43:42 - Seppe: <@pietervdvn:matrix.org "Waarom maak je geen mapcomplete-..."> Voor de borden zelf lijkt me dat doenbaar, maar je wil wellicht nog iets meer info toevoegen dan wat je in OSM kwijt kan. Ik denk aan: beschrijving waarom het bord fout is, bord dat je zou verwachten / dat correct zou zijn, contact(en) met wegbeheerder.
+Wed, Feb 24, 2021, 13:45:08 - Seppe: Ik begin meer en meer te voelen voor het idee van Joost (geojson op github en die op een eenvoudige manier ergens visualiseren (bijv. leaflet) )
+Wed, Feb 24, 2021, 13:45:21 - Seppe: Je kan daar ook nog alle kanten mee op als je er iets fancier van wil maken
+Wed, Feb 24, 2021, 13:52:28 - joost_schouppe: umap met remote geojson, beginnen met een geojson waarin enkel coordinaten staan en een link naar een github issue
+Wed, Feb 24, 2021, 13:53:15 - joost_schouppe: en dan op termijn iets maken dat enige content uit dat issue laat zien
+Wed, Feb 24, 2021, 14:06:01 - pietervdvn: haha, ook goed, was maar een ideetje
+Wed, Feb 24, 2021, 19:10:22 - @thierry1030:matrix.org: voor alles wat met (foute) borden (op fietssnelweg-tracés)) te maken heeft is MOW wel geïntereseerd en kan evt. wat budget vrijmaken als we met een concreet voorstel afkomen ...
+Wed, Feb 24, 2021, 19:17:21 - joost_schouppe: Met een paar dagen developer tijd zouden we denk ik wel zo'n fixmystreet ding online kunnen krijgen
+Mon, Mar 15, 2021, 23:58:43 - @thierry1030:matrix.org: s8evq: voor uw bordencollectie -> https://www.google.com/maps/@50.8279,3.3040483,3a,53.4y,120.24h,73.24t/data=!3m6!1e1!3m4!1sKXWmii_CGn0x8p3HOk7KzQ!2e0!7i13312!8i6656
+Mon, Mar 15, 2021, 23:59:01 - @thierry1030:matrix.org: als lokale fietsers 'moooogt' ge hier dus fietsen 🤔
+Tue, Mar 16, 2021, 09:41:08 - @thierry1030:matrix.org: nog eentje: https://www.mapillary.com/map/im/vbpFbb7kcw5M9vDh-15tew
+Tue, Mar 16, 2021, 10:41:21 - pietervdvn: <@thierry1030:matrix.org "nog eentje: https://www.mapillar..."> Het stadsbestuur daar: "Fietsstraten zijn hot! Hebben wij al een fietsstraat???", "Nee, eigenlijk niet", "We moeten eentje maken!", "Ja, maar dan gaan automobilisten boos worden!", "Ja das waar... Maar toch moeten we een fietsstraat hebben!"
+Tue, Mar 16, 2021, 11:01:39 - s8evq: <@thierry1030:matrix.org "nog eentje: https://www.mapillar..."> Haha, die is grappig
+Tue, Mar 16, 2021, 11:01:50 - s8evq: Ik zal ze allemaal eens groeperen deze week
+Thu, Mar 18, 2021, 18:57:20 - pietervdvn: https://www.mapillary.com/app/?pKey=c8H2uKB2vYLO5Pi9euMheA&focus=photo&lat=51.13216388888889&lng=4.380577777777777&z=18.182907711989376&x=0.48921091473076084&y=0.5662614913526219&zoom=0
+Thu, Mar 18, 2021, 18:58:50 - pietervdvn: It has been corrected though with the correct "uitgezonderd fietsers"-one by now
+Sat, May 15, 2021, 13:04:32 - pietervdvn changed their profile picture
+Tue, Sep 14, 2021, 14:29:49 - Seppe: Telkens wanneer ik verkeerde borden tegenkom, denk ik terug aan onze gesprekken hier. Ik had al eens geprobeerd om een ideetje van hierboven op te zetten (geojson + github), maar dat leidde me al snel te ver (bijv.: hoe de link maken tussen de geojson en OSM-data).
+
+Afgelopen weekend had ik het idee om eens te zien hoe ver we zouden komen met enkel OSM en OSM-tools. Bij deze: https://mapcomplete.osm.be?userlayout=https://raw.githubusercontent.com/seppesantens/MapComplete-Themes/main/VerkeerdeBordenDatabank/VerkeerdeBordenDatabank.json
+Tue, Sep 14, 2021, 14:31:28 - Seppe: Het MapComplete thema is echt een eerste worp waar nog veel moet aan gebeuren, maar ik wilde al eens horen of jullie deze aanpak kunnen smaken of niet (bijv. gebruik van combinatie no:traffic_sign= ... + note= ...)
+Tue, Sep 14, 2021, 14:33:30 - Seppe: Ook heel het opvolgingsverhaal (bijv. communicatie met wegbeheerder) ontbreekt hier, daar is OSM niet/minder voor geschikt (op een survey:date na dan)
+Tue, Sep 14, 2021, 14:40:38 - Seppe: Nadeel van gewoon note te gebruiken is dat je ook wel andere opmerkingen oppikt (bijv.: "Deze eenrichting is tijdelijk, tot dat de nieuwe school gebouwd is."). Ook een note op een highway= ... met een traffic_sign = ... erop wordt getoond. Kan wellicht opgelost worden met een specifieke note:...=... tag of iets dergelijks. Op dit moment wel leuk om al die notes eens te zien, zitten ook redelijk wat zaken bij die een deftige cleaning kunnen gebruiken
+Tue, Sep 14, 2021, 14:43:25 - Seppe: En nog één iets: [dit issue](https://github.com/pietervdvn/MapComplete/issues/364) zorgt ervoor dat nieuwere Mapillary beelden voorlopig niet getoond worden.
+Tue, Sep 14, 2021, 15:02:40 - Seppe: ( s8evq: merci voor 't duwtje in de rug zondag om dit eens even te proberen :-) )
+Tue, Sep 14, 2021, 15:14:08 - @thierry1030:matrix.org: Seppe: wat zou je graag in 'no:traffic_sign=' willen steken?
+Tue, Sep 14, 2021, 15:15:50 - Seppe: Borden die er niet staan, maar er wel zouden moeten staan. 't Is een beetje een stretch, maar volgens mij komt het nog wel overeen met wat er in de wiki staat over de no: prefix.
+Voorbeeldje: https://mapcomplete.osm.be/?z=19&lat=51.08469&lon=3.447295&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fseppesantens%2FMapComplete-Themes%2Fmain%2FVerkeerdeBordenDatabank%2FVerkeerdeBordenDatabank.json&language=nl
+Aan de Dwarsstraat zou F111 in beide richtingen herhaald moeten worden.
+Tue, Sep 14, 2021, 15:17:03 - @thierry1030:matrix.org: "Bord ontbreekt, gemeentebestuur kondigde aan dat Sint-Gerolflaan tussen Brouwerijstraat en Maria-Middelareslaan een fietsstraat zou worden." -> is het al een fietsstraat of NOG NIET?
+Tue, Sep 14, 2021, 15:17:14 - Seppe: https://www.mapillary.com/app/?pKey=913174382929139 --> da's het begin van de straat, Dwarsstraat ligt beetje verder links
+Tue, Sep 14, 2021, 15:18:19 - Seppe: <@thierry1030:matrix.org ""Bord ontbreekt, gemeentebestuur..."> Eigenlijk telkens maar in één richting, zie ook opmerking bij https://www.openstreetmap.org/changeset/110355480
+Tue, Sep 14, 2021, 15:18:22 - @thierry1030:matrix.org: <@Seppe:matrix.org "https://www.mapillary.com/app/?p..."> pfff, wat is dat (voor een wraakroepende fiesstraat) zeg?!?! 
+Tue, Sep 14, 2021, 15:18:32 - @thierry1030:matrix.org: 🤔😡
+Tue, Sep 14, 2021, 15:18:38 - Seppe: <@thierry1030:matrix.org "pfff, wat is dat (voor een wraak..."> Ha, maar zo hebben we er nog hoor
+Tue, Sep 14, 2021, 15:20:51 - Seppe: Deze bijvoorbeeld: https://www.mapillary.com/app/?pKey=911181166488805 (enkele beeldjes eerder staat de F111) --> geen flauw idee waar ik hier moet fietsen
+Tue, Sep 14, 2021, 15:20:58 - Seppe: Al vind ik die duct tape wel nog schattig
+Tue, Sep 14, 2021, 15:21:21 - @thierry1030:matrix.org: ik kan me niet uitspreken of no:traffic_sign= de juiste manier is om het aan te geven, maar achter het principe kan ik me wel scharen ... ligt in de lijn van - uw zo geliefde (!) - de wenslijnen bij fietssnelwegen 😉 (https://www.openstreetmap.org/way/835341880)
+Tue, Sep 14, 2021, 15:22:58 - Seppe: Mja, eigenlijk vind ik dat allemaal niet zo mooi, wijkt een beetje af van de geest van OSM
+Maar alternatief is om alles gewoon te beschrijven in notes en daar kom je natuurlijk niet ver mee als je wil query'en of zo
+Tue, Sep 14, 2021, 15:23:10 - @thierry1030:matrix.org: <@Seppe:matrix.org "Deze bijvoorbeeld: https://www.m..."> amai, we gaan eens op 'borden-uitstap' moeten komen naar Aalter
+Tue, Sep 14, 2021, 15:23:14 - @thierry1030:matrix.org: 🤣
+Tue, Sep 14, 2021, 15:23:55 - Seppe: 'k Denk wel dat het hier en daar nog wat zal verbeteren, 'circulatieplan' is begin september uitgerold, maar met de nodige kinderziektes
+Tue, Sep 14, 2021, 15:24:26 - @thierry1030:matrix.org: die van de ductape ça va nog
+Tue, Sep 14, 2021, 15:24:57 - @thierry1030:matrix.org: ma deze noem ik toch geen kinderziekte -> https://www.mapillary.com/app/?pKey=913174382929139
+Tue, Sep 14, 2021, 15:29:30 - Seppe: Ze hebben wel de D7 weggehaald (https://www.mapillary.com/app/?pKey=531895831522855). Idee is denk ik dat je op straat rijdt hier, maar ik kan wel wat manieren bedenken om dat nog iets beter aan te geven of liever nog: de weg anders in te richten
+Tue, Sep 14, 2021, 15:31:13 - joost_schouppe: ah hier in Halle zijn ze nog altijd aan het twijfelen over het weghalen van D7s in de fietszone
+Tue, Sep 14, 2021, 15:34:06 - Seppe: Deze vond ik ook nog wel leuk: mooi logo, maar geen F111, wel een (slecht) fietspad: https://www.mapillary.com/app/?pKey=935299593864073
+Enkele meters verder: asfalt over het fietspad en fietskes erop als versiering: https://www.mapillary.com/app/?pKey=538185360626095
+En dan nog enkele tientallen meters verder: https://www.mapillary.com/app/?pKey=921091138476049
+Tue, Sep 14, 2021, 15:34:32 - Seppe: Soit, genoeg frustraties hier :-)
+Tue, Sep 14, 2021, 15:37:00 - @thierry1030:matrix.org: <@Seppe:matrix.org "Deze vond ik ook nog wel leuk: m..."> nog paar jaar wachten totdat de witte stippelijnen helemaal vervaagd zijn en dan is de situatie 'legaal' in orde 🥴
+Tue, Sep 14, 2021, 15:37:57 - Seppe: (toch als ze ook nog een bord zetten, anders is dat mooie logo op de baan ook maar voor niets)
+Tue, Sep 14, 2021, 15:38:10 - @thierry1030:matrix.org: bij wie zit bevoegdheid 'mobileite in Aalter? Zit dat ook bij Crembo?
+Tue, Sep 14, 2021, 15:41:10 - Seppe: <@thierry1030:matrix.org "bij wie zit bevoegdheid 'mobilei..."> yep: https://www.aalter.be/college
+Tue, Sep 14, 2021, 15:41:22 - Seppe: Misschien moet de Fietsersbond eens een audiëntie vragen?
+Tue, Sep 14, 2021, 15:46:28 - Seppe sent an image. (Media omitted)
+Tue, Sep 14, 2021, 15:46:29 - Seppe: haha
+Tue, Sep 14, 2021, 17:53:26 - pietervdvn: <@Seppe:matrix.org "En nog één iets: [dit issue](htt..."> Allé, 't is goed, 'k zal het fixen; maar enkel op voorwaarde dat je dan veel foto's maakt zo voor Toerisme Vlaanderen XD
+Tue, Sep 14, 2021, 18:04:15 - Seppe: 🙏
+Tue, Sep 14, 2021, 18:04:29 - Seppe: <@pietervdvn:matrix.org "Allé, 't is goed, 'k zal het fix..."> Ik zal mijn uiterste best doen!
+Tue, Sep 14, 2021, 19:23:06 - s8evq: <@Seppe:matrix.org "Mja, eigenlijk vind ik dat allem..."> Eventueel via een note met een hashtag #verkeerdeborden? Dan kan je daar op zoeken?
+Tue, Sep 14, 2021, 20:36:16 - Seppe: Goed idee. Wel nog nooit gezien, hashtags in notes. Iemand bezwaar of probeer ik dat gewoon eens?
+Wed, Sep 15, 2021, 07:57:01 - Seppe: <@Seppe:matrix.org "En nog één iets: [dit issue](htt..."> En da's ondertussen gefixt, merci pietervdvn !
+Wed, Sep 15, 2021, 08:00:04 - Seppe: <@pietervdvn:matrix.org "Waarom maak je geen mapcomplete-..."> 't Was wellicht deze vraag die in mijn onderbewustzijn was blijven hangen :-)
+Thu, Sep 16, 2021, 15:34:09 - Seppe: <@s8evq:matrix.org "Eventueel via een note met een h..."> Ik ging dit vanavond eens proberen, maar ik blijf toch twijfelen, omdat het toch wel een beetje het highjacken van een bestaande key is.
+Thu, Sep 16, 2021, 15:35:00 - Seppe: Ik zag ondertussen https://taginfo.openstreetmap.org/keys/traffic_sign%3Aissue
+Misschien is dat een betere / safere oplossing.
+Thu, Sep 16, 2021, 15:44:09 - Seppe: https://taginfo.openstreetmap.org/keys/note%3Atraffic_sign komt ook voor, maar dat is misschien wat raar als traffic_sign de main key is (dan is het logisch dat de note over de traffic_sign) gaat.
+Thu, Sep 16, 2021, 15:44:22 - Seppe: Nog andere suggesties?
+Thu, Sep 16, 2021, 15:44:57 - joost_schouppe: <@Seppe:matrix.org "Ik zag ondertussen https://tagin..."> Dat is perfect! 
+Thu, Sep 16, 2021, 15:51:19 - Seppe: ok, thanks
+Thu, Sep 16, 2021, 23:09:26 - Seppe: Ondertussen al enkele commits verder:
+https://mapcomplete.osm.be?userlayout=https://raw.githubusercontent.com/seppesantens/MapComplete-Themes/main/VerkeerdeBordenDatabank/VerkeerdeBordenDatabank.json
+
+Voorlopig nog geen presets toegevoegd om nieuwe situaties aan te maken. Commentaar bij de huidige versie? De moeite waard om eens in de main channel te gooien?
+Thu, Sep 16, 2021, 23:36:01 - joost_schouppe: Voor van die eerste versies is een gist wel handig, heb ik van Guillaume gepikt
+Thu, Sep 16, 2021, 23:36:08 - joost_schouppe: I love the working title
+Thu, Sep 16, 2021, 23:39:07 - joost_schouppe: Het zou de max zijn mochten de verkeersborden ook gevisualiseerd worden. Nu moet je wel echt expert zijn om een beetje mee te zijn. In mijn schoolstratending heb ik daar al een beetje aan gewerkt
+Thu, Sep 16, 2021, 23:48:04 - Seppe: <@joost_schouppe:matrix.org "Het zou de max zijn mochten de v..."> Ik was al bang dat iemand dat ging zeggen :-)
+Ik check alleszins het schoolstratending eens in wat meer detail
+Thu, Sep 16, 2021, 23:48:29 - joost_schouppe: Ik moet hem nog eens uitkuisen 
+Fri, Sep 24, 2021, 19:45:55 - Seppe: Er zijn wel veeeel verkeersborden hé en die kunnen dan nog eens op alle mogelijke manieren gecombineerd worden. 'k Weet niet of ik mij daar echt aan zou beginnen wagen ...
+Fri, Sep 24, 2021, 19:57:13 - joost_schouppe: Nah, misschien gewoon doorverwijzen naar de wiki dan 
+Tue, Oct 12, 2021, 21:36:16 - Seppe: https://www.mapillary.com/app/?pKey=877368522904021 🤔
+Tue, Oct 12, 2021, 21:40:39 - @thierry1030:matrix.org: <@Seppe:matrix.org "https://www.mapillary.com/app/?p..."> simple: Tourism administrations are inciting cyclists to break the law 
+Tue, Oct 12, 2021, 21:40:49 - @thierry1030:matrix.org: 🤔🥴😬
+Tue, Oct 12, 2021, 21:48:19 - Seppe: Depends on which sign was first :-)
+Wed, Oct 13, 2021, 08:31:09 - s8evq sent an image. (Media omitted)
+Wed, Oct 13, 2021, 08:34:13 - s8evq: Zou "uitgezonder aangelanden" hetzelfde effect hebben op fietsen als "uitgezonderd plaatselijk verkeer".
+Wed, Oct 13, 2021, 08:34:48 - s8evq: Ik dacht het niet eigenlijk, maar ben niet zeker.
+Wed, Oct 13, 2021, 08:35:07 - s8evq: Moeten aangelanden hun snelheid niet matigen? 😃
+Sat, Oct 16, 2021, 21:54:39 - Seppe: Het ziet er naar uit dat de nieuwe app van de Fietsersbond de ambitie heeft om een fixmystreet voor fietsers te worden. Spannend om te zien of hij gaat aanslaan
+Sat, Oct 16, 2021, 22:01:06 - @thierry1030:matrix.org: <@Seppe:matrix.org "Het ziet er naar uit dat de nieu..."> voor zij die de app graag willen uitproberen -> https://mailchi.mp/fietsersbond/nieuw-fietsersbond-app-download-hem-als-eerste?e=58bdd334b1
+Sat, Oct 16, 2021, 22:07:06 - @thierry1030:matrix.org: er zit trouwens al een euvel in die voorlopig niet eruit kan gekregen worden.
+Als je bijvoorbeeld een melding doet aan een jaagpad dat deel uitmaakt van de F6 of een fietsweg dat deel uitmaakt van de F106 (beiden zonder een adres: noch straat noch nummer) dan gaat ie automatisch de melding koppelen aan het dichtstbijzijnde adres
+Sat, Oct 16, 2021, 22:07:11 - @thierry1030:matrix.org: 🥴
+Sat, Oct 16, 2021, 22:08:53 - @thierry1030:matrix.org: tenzij de melding zelf goed geplaatst is en er een duidelijke foto bij genomen is, vrees ik dat er nu en dan wel wat 'verwarrende meldingen' te horen zullen zijn op het verkeersnieuws
+Sat, Oct 16, 2021, 22:09:47 - @thierry1030:matrix.org: ma bon, laat ons dit nog met de mantel der OSM-liefde bedekken 🙂
+Sat, Oct 16, 2021, 22:13:47 - Seppe: Normaal natuurlijk dat zulke dingen nog wat moeten groeien. Hopelijk is er nog wat budget over
+Sat, Oct 16, 2021, 22:55:30 - s8evq: <@thierry1030:matrix.org "er zit trouwens al een euvel in ..."> Als ik een bestaande melding bekijk op een jaagpad staat er "Op de undefined in .... "
+Sat, Oct 16, 2021, 22:55:53 - s8evq: Dat valt nog mee
+Sat, Oct 16, 2021, 22:56:09 - @thierry1030:matrix.org: ja Joost wist het me ook al te melden
+Sat, Oct 16, 2021, 22:57:33 - @thierry1030:matrix.org: ik kan zelf niet testen/kijken op de app (oude smartphone) maar ik hoop wel toegang te krijgen tot het meldingen-portaal ... dan kan ik daar eens kijken wat er zoal binnen komt 🙂
+Sat, Oct 16, 2021, 22:58:13 - @thierry1030:matrix.org: en ter info: Seppe en Joost wezen al op het ontbreken van OSM-attributie (Mapbox staat er wel) ... de mail staat klaar om maandag verstuurd te worden
+Sat, Oct 16, 2021, 23:23:29 - pietervdvn: <@thierry1030:matrix.org "en ter info: Seppe en Joost weze..."> Hmmm, is dat bij de B2W app wel in orde?
+Sat, Oct 16, 2021, 23:24:16 - @thierry1030:matrix.org: <@pietervdvn:matrix.org "Hmmm, is dat bij de B2W app wel ..."> da kan ik nu nie checken want mijn gsm sltaat tilt als ik nieuwe apps wil installeren
+Sat, Oct 16, 2021, 23:24:27 - @thierry1030:matrix.org: op de B2W-website alleszins wel
+Sat, Oct 16, 2021, 23:24:38 - @thierry1030:matrix.org: ma ik heb ook de vraag gesteld voor de B2W-app
+Mon, Oct 18, 2021, 09:07:24 - @thierry1030:matrix.org: ik heb ondertussen toegang tot VRT meldingen portaal
+Mon, Oct 18, 2021, 09:07:32 - @thierry1030:matrix.org: 1) goed nieuws: OSM-attributie is hier ook in orde
+Mon, Oct 18, 2021, 09:07:46 - @thierry1030:matrix.org: het is dus alleen maar in de app
+Mon, Oct 18, 2021, 09:08:54 - @thierry1030:matrix.org: 2) probleem van het adres wordt hier al duidelijk ... er is een melding van werken/obstakel ... het is wel degelijk "op het fietspad" (in het blauw) maar hij geeft de dichtsbijzijnde straat ...
+
+Mon, Oct 18, 2021, 09:08:57 - @thierry1030:matrix.org sent an image. (Media omitted)
+Mon, Oct 18, 2021, 09:09:25 - @thierry1030:matrix.org: (locatie: Bataviastraat in Melsbroek, vlak aan de luchthaven van Zaventem
+Mon, Oct 18, 2021, 12:41:37 - @thierry1030:matrix.org: Dag allen, Ik kreeg zonet onderstaande vraag van de ontwikkelaar van de VRT meldingen app doorgestuurd. Ik kan daar niet onmiddellijk op antwoorden. Kan iemand van jullie daar eens een kijkje naar nemen? Alvast bedankt.
+**_"Kan iemand van de OSM-gemeenschap even kijken naar de reverse geocoder van OSM?
+Wij krijgen namelijk op fietssnelwegen geen correcte informatie terug. Bij nazien op OSM zijn daar wel die wegen gekend. (voorbeeld: F8 in Tildonk is wel vindbaar/ aanwezig met een duidelijke beschrijving op OSM maar niet op de app die normaal ook diezelfde data zou moeten krijgen )
+Voor de reverse geocoding gebruiken we de nominatim service ..."_**
+Mon, Oct 18, 2021, 12:42:52 - joost_schouppe: Mafijn, is dat niet gewoon omdat die info enkel op de relatie staat en niet op de way
+Mon, Oct 18, 2021, 12:43:36 - joost_schouppe: Als ze gewoon nominatim gebruiken nu, gaat dat denk ik niet eenvoudig op te lossen zijn 
+Mon, Oct 18, 2021, 12:43:54 - @thierry1030:matrix.org: is er een alternatief?
+Mon, Oct 18, 2021, 12:44:26 - @thierry1030:matrix.org: (ik kan me trouwens niet onmiddellijk voorstellen wat een nominatim service juist doet)
+Mon, Oct 18, 2021, 12:45:16 - @thierry1030:matrix.org: ok ondertussen gevonden 🙂 -> https://wiki.openstreetmap.org/wiki/Nominatim
+Mon, Oct 18, 2021, 12:46:05 - @thierry1030:matrix.org: "a tool to search OSM data by name and address"
+Mon, Oct 18, 2021, 12:46:30 - @thierry1030:matrix.org: bestaat er niet iets gelijkaardigs "to search data by relation name"?
+Mon, Oct 18, 2021, 12:47:21 - joost_schouppe: Aan Jonathan vragen dat hij iets op maat bouwt? Iemand betalen om die feature in nominatim in te bouwen? Misschien zijn er wel Andree services die dit wel al kunnen
+Mon, Oct 18, 2021, 14:40:02 - pietervdvn: In theorie kunnen wij bij Anyways dat met onze 'snap'  - de API-call die een punt op een routeerbaar stuk weg afbeeldt. Ping @xivk, al is het natuurlijk een beetje lastig omdat we tot nu toe niet aan de app meewerkten
+Mon, Oct 18, 2021, 15:27:05 - joost_schouppe: ping gaat niet werken, want Ben is hier niet
+Mon, Oct 18, 2021, 15:29:39 - @thierry1030:matrix.org: pietervdvn: dank voor de info. Ik bel u hier nog over op
+Wed, Oct 27, 2021, 19:28:47 - s8evq: <@Seppe:matrix.org "Ondertussen al enkele commits ve..."> Ik krijg hier de error `TypeError: t.replace is not a function`
+Wed, Oct 27, 2021, 19:29:16 - s8evq: Maar seppe, als je geen tijd hebt om te kijken, laat maar hoor, ik wou gewoon eens kijken als mijn toevoeging op de mapcomplete kaart verschijnt.
+Wed, Oct 27, 2021, 19:59:13 - pietervdvn: <@s8evq:matrix.org "Ik krijg hier de error `TypeErro..."> That's on me, een fix zit in de pijplijn 
+Wed, Oct 27, 2021, 20:01:25 - joost_schouppe: Pieter toch :p
+Wed, Oct 27, 2021, 20:02:24 - pietervdvn: 't zou over een paar minuten live moeten zijn
+Wed, Oct 27, 2021, 20:02:40 - pietervdvn: <@joost_schouppe:matrix.org "Pieter toch :p"> Dat is het nadeel van de code continu op te kuisen en te refactoren (en geen tests te hebben)
+Wed, Oct 27, 2021, 20:03:33 - joost_schouppe: meh, de user generated themes kunnen als test dienen
+Wed, Oct 27, 2021, 20:04:08 - pietervdvn: haha, idd 😉
+Wed, Oct 27, 2021, 20:12:25 - s8evq: OK, werkt terug. Bedankt.
+Tue, Nov 23, 2021, 20:52:24 - s8evq changed the room name from Fixmystreet Vlaanderen to OSMBE - Fixmystreet Vlaanderen.
+Wed, Mar 16, 2022, 10:58:07 - pietervdvn: Seppe: Kandidaat voor de verkeerdeborden: https://old.reddit.com/r/belgium/comments/tfd2oh/let_me_just_step_out_and_read_this_before_i/
+Wed, Mar 16, 2022, 11:00:57 - s8evq: 😲
+Wed, Mar 16, 2022, 11:09:49 - Seppe sent an image. (Media omitted)
+Thu, Apr 7, 2022, 17:11:29 - Thibaultmol: stumbled across this recently: fixmystreet style platform in germany (fully open source from the looks of it)
+https://github.com/FixMyBerlin
+https://www.fixmycity.de/
+
+but more focused on cycling infrastructure? think it's more like like collecting feedback and not really reporting and followup of issues though
+Fri, Apr 29, 2022, 12:24:33 - @thierry1030:matrix.org removed their profile picture
+Fri, Apr 29, 2022, 12:24:40 - @thierry1030:matrix.org removed their display name (thierry1030)
+Fri, Apr 29, 2022, 12:24:48 - @thierry1030:matrix.org left the room
+Mon, Jun 13, 2022, 11:28:31 - thibaultmol changed their display name to Thibaultmol
+Fri, Jun 24, 2022, 16:09:44 - Seppe: In september 2017, I made a "GeoPunt melding" about an inconsistency of street names here in Aalter. Because I got no reply, I registered a new issue in Lara in february 2021. Today I got a reply: 
+Fri, Jun 24, 2022, 16:09:47 - Seppe sent an image. (Media omitted)
+Fri, Jun 24, 2022, 20:58:36 - joost_schouppe: hehe
+Wed, Jul 6, 2022, 11:50:57 - Seppe: Yet another "fix-my-street"-like initiative: https://www.hln.be/binnenland/doe-mee-aan-veloveilig-vlaanderen-samen-maken-we-fietsen-veiliger~a1dbae67/

@@ -1,0 +1,548 @@
+Tue, Dec 7, 2021, 09:40:04 - joost_schouppe joined the room
+Tue, Dec 7, 2021, 09:40:04 - joost_schouppe set the main address for this room to #osmbe-trafficsignproject:matrix.org.
+Tue, Dec 7, 2021, 09:40:04 - joost_schouppe made the room public to whoever knows the link.
+Tue, Dec 7, 2021, 09:40:05 - joost_schouppe made future room history visible to anyone.
+Tue, Dec 7, 2021, 09:40:05 - joost_schouppe changed the room name to OSMBE - traffic sign project.
+Tue, Dec 7, 2021, 09:40:20 - joost_schouppe invited vakonof
+Tue, Dec 7, 2021, 09:40:20 - joost_schouppe invited s8evq
+Tue, Dec 7, 2021, 09:40:21 - joost_schouppe invited Seppe
+Tue, Dec 7, 2021, 09:40:41 - joost_schouppe: je mag de vorige uitnodiging negeren; ik had per ongeluk een hele Space aangemaakt. 
+Tue, Dec 7, 2021, 09:41:00 - joost_schouppe: Ik heb naar Geert van de Verkeersborden databank wat feedback gestuurd, en wel een fijn antwoord gekregen
+Tue, Dec 7, 2021, 09:41:10 - vakonof joined the room
+Tue, Dec 7, 2021, 09:41:23 - joost_schouppe: "Ik heb zonet even een filter gemaakt van een C43 waar het opschrift leeg is en dit zijn er een dikke 300 dus deze worden dan in de DB voorgesteld als een C3 (lege C43)
+Dit ga ik manueel oplossen want geef idd voor ons ook fouten in de afgeleide snelheidsregimes. Op zich doet het algoritme hier niets raars mee want hier blijft de snelheid van voor het (lege) bord behouden.
+Ik ga wel een fix vragen om bij borden met opschriften een aanpassing te doen dat een opschrift steeds verplicht is zodat we deze fouten in de toekomst kunnen vermijden."
+Tue, Dec 7, 2021, 09:41:48 - joost_schouppe: dat naar aanleiding van de meest opvallende fout in de borden zelf die we bij nazicht effect in osm tegenkwamen
+Tue, Dec 7, 2021, 09:42:38 - vakonof: Nice :) 
+Tue, Dec 7, 2021, 09:43:31 - vakonof: Kan hij toevallig geen editor rechten fixen voor ons? 
+Tue, Dec 7, 2021, 09:43:41 - vakonof: Mits een afsprakenkader ofzo
+Tue, Dec 7, 2021, 09:45:01 - joost_schouppe: hij heeft zelfs niet geantwoord op mijn vraag of er een efficiënte manier is om te melden
+Tue, Dec 7, 2021, 09:45:12 - joost_schouppe: dus editeerrechten lijkt me een paar bruggen te ver
+Tue, Dec 7, 2021, 09:45:29 - joost_schouppe: maar misschien als we er eens wat dieper in duiken, dat we iets kunnen pushen
+Tue, Dec 7, 2021, 09:50:32 - s8evq joined the room
+Tue, Dec 7, 2021, 09:53:36 - s8evq: Ik vond het wel een goede en duidelijke email op talk-be van jou Joost,
+Tue, Dec 7, 2021, 09:53:48 - s8evq: Jammer dat ik de kans niet kreeg om maproulette challenges op te lossen
+Tue, Dec 7, 2021, 09:53:54 - s8evq: 😄
+Tue, Dec 7, 2021, 09:54:07 - s8evq: alles was reeds opgelost
+Tue, Dec 7, 2021, 09:57:09 - joost_schouppe: haha
+Tue, Dec 7, 2021, 09:57:15 - joost_schouppe: er komen nog wel kansen :)
+Tue, Dec 7, 2021, 09:57:27 - joost_schouppe: ik zoek wel nog een aanpak om eens een gemeente gans te checken
+Tue, Dec 7, 2021, 09:57:41 - joost_schouppe: maproulette lijkt me dan niet zo handig
+Tue, Dec 7, 2021, 10:05:39 - joost_schouppe: analyse resultaten maproulette.xlsx (Media omitted)
+Tue, Dec 7, 2021, 10:05:48 - joost_schouppe: hier nog de volledige analyse van de resultaten
+Tue, Dec 7, 2021, 10:08:42 - Seppe joined the room
+Tue, Dec 28, 2021, 20:03:05 - orchi joined the room
+Sun, Feb 20, 2022, 14:16:29 - joost_schouppe: Er staan een goeie 2000 nieuwe verkeersborden om te checken klaar in https://raw.githubusercontent.com/osmbe/traffic-sign-project/master/maproulette-readables/road_signs_selection_20220218.geojson , maar MapRoulette wil geen data binnenpakken op het moment
+Tue, Feb 22, 2022, 16:40:23 - joost_schouppe: https://maproulette.org/browse/challenges/23550
+Tue, Feb 22, 2022, 16:40:31 - joost_schouppe: ruim 2000 taakjes te gaan :)
+Wed, Feb 23, 2022, 10:07:21 - joost_schouppe: Miljaarde miljaarde: ik denk dat alle borden die ik in Gooik al heb toegepast ([nogal wat aanpassingen gedaan!](https://tyrasd.github.io/latest-changes/#14/50.7802/4.1204)) in werkelijkheid nog niet geplaatst zijn. Wie in communit@osm.be zit heeft mijn vraag aan Vlaanderen meegekregen
+Wed, Feb 23, 2022, 10:19:51 - timcouwelier joined the room
+Wed, Feb 23, 2022, 10:34:09 - stijn_claes joined the room
+Wed, Feb 23, 2022, 13:27:19 - @gh0st:matrix.org joined the room
+Wed, Feb 23, 2022, 14:25:50 - @thierry1030:matrix.org joined the room
+Thu, Mar 10, 2022, 11:36:36 - Jhowie Nitnek joined the room
+Wed, Mar 30, 2022, 15:56:53 - joost_schouppe: Djeez, nieuwe setback
+Wed, Mar 30, 2022, 15:57:26 - s8evq: Waarom?
+Wed, Mar 30, 2022, 15:57:32 - joost_schouppe: https://www.geopunt.be/kaart?viewer_url=https%3A%2F%2Fmaps.geopunt.be%2Fresources%2Fapps%2FGeopunt-kaart_app%2Findex.html%3Fid%3D8ab21c587f806620017fdb1ddf0302a1
+Wed, Mar 30, 2022, 15:58:19 - joost_schouppe: Deze borden zijn "uitgegrijsd". Dat lijkt me een duidelijke indicatie dat ze nog niet bestaan. [Effectief zo](https://www.mapillary.com/app/?lat=50.80824579999998&lng=3.85794199999998&z=19.848205890967414&pKey=660992201774271&focus=photo&x=0.06276540659163343&y=0.663600378637989&zoom=0). Maar ze zitten wel in de challenge
+Wed, Mar 30, 2022, 15:59:56 - joost_schouppe: Waarom? Omdat ik werk met de laag "borden", die de effectieve verkeersborden bevat. De informatie over "bestaat dit bord ook echt of niet", zit enkel de laag "opstellingen". Dus waar ik dacht te kunnen zeggen "dit bord is recent geplaatst", betekent die datum op niveau van "borden" niets meer dan "recent in de databank geplaatst"
+Wed, Mar 30, 2022, 16:01:26 - joost_schouppe: Ik moet dus niet de opstellingen nu ook proberen downloaden; en ik moet ze ook gebruiken om borden weg te gooien die niet bestaan. Dat betekent ook dat de "plaatsingsdatum" die ik nu gebruik om nieuwe borden te detecteren niet goed is, want ik vrees dat die NIET gaat veranderen als een bord verandert van "gepland" naar "bestaand"
+Wed, Mar 30, 2022, 16:01:36 - joost_schouppe: It's a proper headache
+Wed, Mar 30, 2022, 16:50:23 - vakonof: Ze hebben nochtans wel al 1 F111 staan? Klopt daar ook niet echt... 
+Wed, Mar 30, 2022, 16:52:02 - vakonof: <@joost_schouppe:matrix.org "Ik moet dus niet de opstellingen..."> Naja, idealiter stellen ze die natuurlijk in op het moment dat ze die dingen effectief plaatsen 
+Wed, Mar 30, 2022, 16:52:05 - joost_schouppe: <@vakonof:matrix.org "Ze hebben nochtans wel al 1 F111..."> op Mapillary te zien?
+Wed, Mar 30, 2022, 16:53:02 - joost_schouppe: awel ja, of wie weet verandert die datum wel automatisch. Maar weeral uitzoekwerk. En ik vrees dat het overal een beetje anders gebruikt gaat worden. Nu ja, ik hou van noten kraken. Houdt het wel interessant :D
+Wed, Mar 30, 2022, 16:53:31 - joost_schouppe: Als je de laag "weergaves" in JOSM actief hebt, dan zie je het sowieso wel als ze uitgegrijsd zijn
+Wed, Mar 30, 2022, 16:54:08 - vakonof: <@joost_schouppe:matrix.org "op Mapillary te zien?"> Ja
+Wed, Mar 30, 2022, 16:54:36 - vakonof: Er staan ook fotos van op de bordendatabank 
+Wed, Mar 30, 2022, 16:54:56 - joost_schouppe: <@vakonof:matrix.org "Er staan ook fotos van op de bor..."> ?
+Wed, Mar 30, 2022, 16:59:41 - vakonof sent an image. (Media omitted)
+Wed, Mar 30, 2022, 17:01:01 - vakonof: <@joost_schouppe:matrix.org "awel ja, of wie weet verandert d..."> kan bevestigen van niet. enkel datum laatste wijziging past zich aan
+Wed, Mar 30, 2022, 17:01:07 - joost_schouppe: Ahhhh ik zie het [ook op mapillary](https://www.mapillary.com/app/?lat=50.80700409999997&lng=3.858573100000058&z=17&pKey=657635758893171&focus=photo&x=0.22251984538507158&y=0.3850556912688549&zoom=0)
+Wed, Mar 30, 2022, 17:01:32 - joost_schouppe: nu, er begint mij iets te dagen dan!
+Wed, Mar 30, 2022, 17:02:06 - joost_schouppe: Dirk (die de foto's heeft genomen) heeft me gezegd dat hij "virtuele borden" heeft toegevoegd aan de databank in Lierde omdat er fouten in de afgeleide snelheidskaart zaten
+Wed, Mar 30, 2022, 17:02:33 - joost_schouppe: dus de gemeente zal gevonden hebben dat ze op die plaatste die ik toonde geen borden moesten staan, maar het algoritme wel!
+Wed, Mar 30, 2022, 17:02:36 - vakonof: Message deleted
+Wed, Mar 30, 2022, 17:02:59 - vakonof: ja, dat dus
+Wed, Mar 30, 2022, 17:03:04 - joost_schouppe: haha, we kwamen op hetzelfde moment tot de juiste conclusie :)
+Wed, Mar 30, 2022, 17:03:20 - vakonof: naja, zijn redenering klopt niet meer sinds augustus
+Wed, Mar 30, 2022, 17:03:35 - vakonof: nu ze maar geldig zijn tot het volgende kp
+Wed, Mar 30, 2022, 17:03:53 - joost_schouppe: haja, de besmettelijkheid van fietsstraat is veranderd zeker
+Wed, Mar 30, 2022, 17:04:07 - joost_schouppe: of is het het algoritme dat niet bijgewerkt is na augustus?
+Wed, Mar 30, 2022, 17:04:38 - joost_schouppe: weet je toevallig ook hoe het precies loopt met "geplande" borden? Of zou niemand dat gebruiken?
+Wed, Mar 30, 2022, 17:05:33 - vakonof: <@joost_schouppe:matrix.org "of is het het algoritme dat niet..."> nog niet, zie deze fietsstraat in Roeselare
+Wed, Mar 30, 2022, 17:05:37 - vakonof sent an image. (Media omitted)
+Wed, Mar 30, 2022, 17:05:55 - joost_schouppe: dus Dirk was "mapping for the algorithm" :)
+Wed, Mar 30, 2022, 17:06:02 - vakonof: Om echt goed te doen zouden hier op alle zijstraten virtuele F113s moeten geplaatst worden
+Wed, Mar 30, 2022, 17:07:59 - vakonof: Iets gelijkaardigs, in Torhout heeft men ook een fietsstraat zonder F113 op de kaart, waardoor de fietsstraat zogezegd doorliep tot in Roeselare, wat eigenlijk zeer vreemd is gezien de afstand 
+Wed, Mar 30, 2022, 17:08:03 - vakonof sent an image. (Media omitted)
+Wed, Mar 30, 2022, 17:08:25 - vakonof: Ben zo vrij geweest daar een virtuele F113 te plaatsen
+Wed, Mar 30, 2022, 17:13:15 - vakonof: <@joost_schouppe:matrix.org "weet je toevallig ook hoe het pr..."> wat bedoel je precies? ze worden alleszins niet meegenomen in snelheid.vlaanderen
+Wed, Mar 30, 2022, 17:17:17 - joost_schouppe: Ik bedoel ken je voor beelden in de praktijk, zodat ik de data eens kan bekijken. 
+Wed, Mar 30, 2022, 17:20:53 - stijn_claes: Dat heb ik in het verleden ook gedaan. Kan ook veroorzaakt zijn door slechte wegenregister-data (bijv. knip waar geen stukje 'fiets- en wandelweg' is opgenomen in wegenregister, waardoor algoritme doorgaat terwijl in de realiteit bijv. een auto niet kan doorgaan en men het dan overbodig vindt om een bord na de knip te plaatsen).
+Wed, Mar 30, 2022, 17:22:13 - joost_schouppe: 't is grappig, maar op zich perfect OK. Zo lang geen echte problemen daardoor on opgelost blijven
+Wed, Mar 30, 2022, 17:22:34 - stijn_claes: Zolang gemeenten niet rechtstreeks beheer van wegenregister in handen hebben...
+Wed, Mar 30, 2022, 17:23:01 - joost_schouppe: Oh, maar dat komt binnenkort hoor. Ten laatste tegen eind 2017!
+Wed, Mar 30, 2022, 17:24:09 - stijn_claes: Blijkbaar is er nu eind 2023 een harde deadline (servers Digitaal Vlaanderen die overgezet worden)
+Wed, Mar 30, 2022, 17:24:50 - stijn_claes: Maar Digitaal Vlaanderen voorziet geen LARA 2.0 dus alle gemeenten moeten bij Orbit, Geo-IT, CEVI e.d. langs de kassa passeren
+Wed, Mar 30, 2022, 17:27:18 - joost_schouppe: Ik gebruik Lara ook zeer vaak om te consulteren en te melden. Dus ik ga helemaal gezien zijn
+Wed, Mar 30, 2022, 17:28:05 - joost_schouppe: Ik vraag mij af hoeveel mensen er zo zijn, die intensief crab gebruiken en Lara als data en meldingsinterface gebruiken 
+Wed, Mar 30, 2022, 17:28:20 - joost_schouppe: Te weinig om relevant te zijn, als ze zich van de gemeenten als niks aantrekken
+Wed, Mar 30, 2022, 17:31:22 - stijn_claes: Ze redeneren: we bieden de API-services aan, dus je kunt er altijd zelf mee aan de slag. Maar dat is voor 99% van de gemeenten geen oplossing. Er wordt nu ook al wel veel gebruik gemaakt van toepassingen voor adressenbeheer van Geo-IT, Orbit en CEVI, maar er zijn nog wel wat steden en gemeenten die met LARA werken... Ben benieuwd...
+Wed, Mar 30, 2022, 17:35:22 - joost_schouppe: Met vvsg middelen verzamelen om iets open source te maken ? 
+Wed, Mar 30, 2022, 17:38:57 - stijn_claes: Die rol voor samenaankopen neemt VVSG niet op... en de services van Digitaal Vlaanderen zijn vrij beschikbaar, alleen (nog) niet omgezet naar een praktische open tool voor iedereen die dat wil
+Wed, Mar 30, 2022, 17:59:54 - vakonof: <@joost_schouppe:matrix.org "Ik bedoel ken je voor beelden in..."> in Roeselare zijn er een paar, bv opstelling 1244559
+Wed, Mar 30, 2022, 18:03:35 - joost_schouppe: Als ik het goed begrijp betekent [dit](https://www.mapillary.com/app/?lat=50.81591789999999&lng=3.8462276999721325&z=19.9&pKey=361504075866234&focus=photo&x=0.8964372678172086&y=0.5968267315247489&zoom=0.0014413291600792258) dat je vanaf [hier](https://www.openstreetmap.org/node/1129693294/) technisch gezien NIET meer op een fietsstraat zit
+Wed, Mar 30, 2022, 18:04:44 - vakonof: klopt, en in de andere richting is het zelfs geen fietsstraat
+Wed, Mar 30, 2022, 18:08:29 - joost_schouppe: djeez
+Wed, Mar 30, 2022, 18:08:51 - joost_schouppe: bon, ik ga het toch mappen zoals de wegbeheerder het bedoelde. Ik zal het melden ook
+Wed, Mar 30, 2022, 18:10:43 - joost_schouppe: <@vakonof:matrix.org "klopt, en in de andere richting ..."> gelukkig is het grootste stuk verkeersvrij :)
+Wed, Mar 30, 2022, 18:11:11 - vakonof: nja
+Wed, Mar 30, 2022, 18:23:45 - joost_schouppe: Acht jaar geleden heeft iemand de Waesberg op motorvehicle=no gezet. Is nooit waar geweest denk ik. [omweg](https://www.openstreetmap.org/directions?engine=graphhopper_car&route=50.8305%2C3.8403%3B50.8392%2C3.8400#map=15/50.8329/3.8476)
+Wed, Mar 30, 2022, 18:36:30 - joost_schouppe: https://overpass-api.de/achavi/?changeset=20246583
+Wed, Mar 30, 2022, 18:42:15 - joost_schouppe: ah vakonof you have [another style](https://www.openstreetmap.org/changeset/119123952) for "destination" than what I've learned from s8evq
+Wed, Mar 30, 2022, 18:44:04 - vakonof: ik gebruik wat er op de wiki staat https://wiki.openstreetmap.org/wiki/Road_signs_in_Belgium/C_Prohibitory_signs
+Wed, Mar 30, 2022, 18:44:28 - joost_schouppe: ik gebruik wat er elders op de wiki staat :)
+Wed, Mar 30, 2022, 18:44:33 - vakonof: aiai
+Wed, Mar 30, 2022, 18:44:34 - joost_schouppe: wacht
+Wed, Mar 30, 2022, 18:44:47 - joost_schouppe: ik kijk wat beter eerst
+Wed, Mar 30, 2022, 18:45:15 - vakonof: access=destination slaat toch ook op voetgangers op die manier? 
+Wed, Mar 30, 2022, 18:45:31 - joost_schouppe sent an image. (Media omitted)
+Wed, Mar 30, 2022, 18:45:55 - joost_schouppe: oei, die access=destination is een foutje!
+Wed, Mar 30, 2022, 18:46:40 - vakonof: ah, emergency en bus bedoel je dan? dat is wat luiheid 🙈
+Wed, Mar 30, 2022, 18:46:44 - joost_schouppe: haha
+Wed, Mar 30, 2022, 18:47:27 - joost_schouppe: ik was ook deels volledig in de war, ik denk door de conflict detection. Ligt inderdaad heel dicht bij wat ik normaal PROBEER te doen :)
+Wed, Mar 30, 2022, 18:47:57 - vakonof: ik neem aan dat hulpdiensten ook sowieso doorgang hebben, ookal staat er geen UPV onder de C3, niet?
+Wed, Mar 30, 2022, 18:48:16 - joost_schouppe: euh ja, zal wel niet zo belangrijk zijn, inderdaad
+Fri, Apr 1, 2022, 21:40:12 - joost_schouppe: vakonof: so is it true what I heard that in the VerkeersbordenDatabank tool they have a Mapillary layer
+Fri, Apr 1, 2022, 21:42:33 - vakonof: There is, but it doesn't work/I can't get it to work
+Fri, Apr 1, 2022, 21:49:34 - joost_schouppe: <@vakonof:matrix.org "There is, but it doesn't work/I ..."> hah maybe because mapillary breaks their own api every once in a while
+Fri, Apr 1, 2022, 21:49:49 - joost_schouppe: oooh or because you have facebook blockers
+Sat, Apr 2, 2022, 20:51:25 - vakonof: Could it have something to do with Adobe flash player? There is a message when you open the side panel with the different street level imagery services that says something about that 
+Sat, Apr 2, 2022, 21:48:39 - joost_schouppe: Flash ? Oh dear 
+Sun, Apr 3, 2022, 17:46:36 - vakonof: joost_schouppe: can you add signs B22/B23 to the challenge as well?
+Sun, Apr 3, 2022, 19:30:18 - joost_schouppe: Sure, put it in an issue
+Mon, Apr 4, 2022, 21:56:07 - vakonof: We have a new record. The calculated speed caused by a zonal speed sign in Zedelgem made its way over to Roeselare, a good 30 km away.
+Mon, Apr 4, 2022, 21:56:10 - vakonof sent an image. (Media omitted)
+Mon, Apr 4, 2022, 21:56:20 - vakonof sent an image. (Media omitted)
+Sat, Apr 9, 2022, 08:00:11 - Thibaultmol joined the room
+Mon, Apr 18, 2022, 13:55:13 - @wybpip:matrix.org joined the room
+Mon, Apr 18, 2022, 13:55:14 - @wybpip:matrix.org left the room
+Fri, Apr 29, 2022, 12:24:32 - @thierry1030:matrix.org removed their profile picture
+Fri, Apr 29, 2022, 12:24:39 - @thierry1030:matrix.org removed their display name (thierry1030)
+Fri, Apr 29, 2022, 12:24:47 - @thierry1030:matrix.org left the room
+Mon, May 2, 2022, 02:12:58 - @wybpip:matrix.org joined the room
+Mon, May 2, 2022, 02:12:59 - @wybpip:matrix.org left the room
+Mon, May 2, 2022, 18:41:05 - vakonof: Getting there :) 
+Mon, May 2, 2022, 18:41:09 - vakonof sent an image. (Media omitted)
+Mon, May 2, 2022, 19:04:36 - joost_schouppe: ooooh!
+Thu, May 5, 2022, 16:14:47 - timcouwelier: Can we submit imagery to 'brand' this project?
+Thu, May 5, 2022, 16:15:04 - timcouwelier sent an image. (Media omitted)
+Thu, May 5, 2022, 16:15:19 - timcouwelier: As there's likely not a better image then this.
+Thu, May 5, 2022, 16:26:48 - joost_schouppe: that's a beauty
+Thu, May 5, 2022, 16:35:34 - joost_schouppe: https://github.com/osmbe/traffic-sign-project
+Thu, May 5, 2022, 16:35:40 - joost_schouppe: done :D
+Thu, May 5, 2022, 16:41:37 - timcouwelier: (source = /r/belgium )
+Thu, May 5, 2022, 17:35:14 - vakonof: And it is completely illegal as a bonus
+Thu, May 5, 2022, 18:36:10 - timcouwelier: Yea.. it ticks all kinds of boxes
+Thu, May 5, 2022, 20:29:32 - joost_schouppe: what abouyt this one? https://www.openstreetmap.org/note/3166577#map=17/51.29567/4.78198&layers=N
+Thu, May 5, 2022, 20:29:37 - joost_schouppe: legal or not?
+Thu, May 5, 2022, 21:14:38 - timcouwelier: For zone 30 it’s allowed not sure if for this 
+Thu, May 5, 2022, 21:20:16 - timcouwelier: Unable to find any ‘plaatsingsvoorwaarden’ for the signage 
+Thu, May 5, 2022, 21:20:38 - timcouwelier: But if the ‘sign that folks in half’ is legal this likely is as well?
+Thu, May 5, 2022, 21:20:44 - timcouwelier: Folds*
+Thu, May 5, 2022, 21:27:17 - joost_schouppe: well I was doubting because the wegcode is quite detailed for this "schoolstraat is c3 + onderbord with the word schoolstraat". And, well, here schoolstraat is on top :)
+Thu, May 5, 2022, 22:34:04 - vakonof: <@joost_schouppe:matrix.org "what abouyt this one? https://ww..."> Not like they did it here, no
+Fri, May 6, 2022, 13:26:53 - timcouwelier: https://www.google.be/maps/@50.5873058,5.8521582,3a,51.5y,217.02h,81.37t/data=!3m7!1e1!3m5!1s-joNfRb0D1AJBGa5zaJBiA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D-joNfRb0D1AJBGa5zaJBiA%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D127.4873%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192
+Fri, May 6, 2022, 13:27:04 - timcouwelier: that's where they 'friterie' one is
+Fri, May 6, 2022, 13:55:16 - joost_schouppe: ah so a one-way trap :)
+Fri, May 6, 2022, 17:10:09 - vakonof sent an image. (Media omitted)
+Fri, May 6, 2022, 17:10:20 - vakonof: Seems like we'll be getting some new signs 
+Fri, May 6, 2022, 17:13:43 - joost_schouppe: just for parking spaces?
+Fri, May 6, 2022, 17:22:51 - vakonof: Only used for parking related stuff, yes
+Sat, May 7, 2022, 22:14:31 - vakonof: <@joost_schouppe:matrix.org "Dirk (die de foto's heeft genome..."> Hij zal ze binnenkort weer weg mogen doen
+Sat, May 7, 2022, 22:14:38 - vakonof sent an image. (Media omitted)
+Sat, May 7, 2022, 22:15:05 - vakonof: Beetje triest dat ze zo'n dingen niet uit zichzelf wijzigen... 
+Sat, May 7, 2022, 22:16:24 - vakonof: (mail betreft aan passing van het snelheidsalgoritme zodat het bord F111 slechts tot het volgende kruispunt loopt) 
+Sat, May 14, 2022, 19:13:49 - vakonof: joost_schouppe: om de hoeveel tijd doe je een update van de challenge met de nieuwe wijzigingen?
+Sat, May 14, 2022, 19:48:20 - joost_schouppe: Ik had zo ongeveer om de drie maand in gedachten. Zijn de taakjes al op? 
+Sat, May 14, 2022, 20:05:13 - vakonof: Ja
+Sat, May 14, 2022, 20:09:45 - joost_schouppe: OK, ik zal er eens naar kijken! 
+Sat, May 14, 2022, 20:13:31 - vakonof: Thx 
+Tue, May 31, 2022, 20:32:17 - joost_schouppe: Deze ga ik voorlopig niet doen: https://github.com/osmbe/traffic-sign-project/issues/1
+Tue, May 31, 2022, 22:10:26 - joost_schouppe: Ik heb een export gemaakt van alle feedback vooraleer aan te vullen. Morgen eens zien of er iets bij zit dat gemeld kan worden aan de bron
+Mon, Jun 13, 2022, 11:28:56 - thibaultmol changed their display name to Thibaultmol
+Sun, Jun 19, 2022, 20:16:41 - vakonof sent an image. (Media omitted)
+Sun, Jun 19, 2022, 20:16:56 - vakonof: Does Mapcomplete have some sort of a text limit per field? It looks like the some of it got cut off
+Sun, Jun 19, 2022, 20:16:57 - vakonof sent an image. (Media omitted)
+Sun, Jun 19, 2022, 21:13:55 - Thibaultmol: <@vakonof:matrix.org "sent an image."> Osm itself has a 255 charachter limit it seems
+Mon, Jun 20, 2022, 08:18:48 - joost_schouppe: thanks for pointing that upload error out stijn_claes , I'll ask the relevant contributor
+Wed, Jun 22, 2022, 14:24:39 - stijn_claes: joost_schouppe: ik weet niet of jij van dit idee op de hoogte bent: https://gzg.vlaanderen.be/projectvoorstel-VLAG-Linked-Asset-Gegevens
+Wed, Jun 22, 2022, 14:28:44 - joost_schouppe: had het al zien passeren
+Wed, Jun 22, 2022, 15:19:14 - joost_schouppe: ga jij daar iets in doen? Lijkt me alleszins wel een extra motivatie als we ze er op wijzen dat zowel wij als waze min of meer automatisch met die data aan de slag gaan. Al zou ik liever hebben dat ze eerst op Vlaams niveau middelen + verplichting voorzien ivm de verkeersborden zelf
+Wed, Jun 22, 2022, 15:19:25 - joost_schouppe: maar goed, dit kan alweer een worteltje worden
+Wed, Jun 22, 2022, 15:32:59 - stijn_claes: Nee, de 2 gemeenten die ik ondersteun zijn te klein en hebben hier te weinig interesse in, hoewel ik de principes wel genegen ben (evenals het feit dat dit ruimte zou vrijmaken bij AWV om de verkeersbordendatabank beter te maken en verder uit te breiden met bijv. wegmarkeringen)
+Wed, Jun 22, 2022, 15:34:19 - stijn_claes: Aangezien hier toch wel wat verkeersspecialisten zitten: een bord 'einde woonerf' wil dat automatisch ook zeggen dat je voorrang moet verlenen? En zo ja, waar staat dat ergens gedefinieerd in de verkeerscode?
+Wed, Jun 22, 2022, 15:35:39 - joost_schouppe: als er niets anders staat, zou ik veronderstellen dat voorrang van rechts geldt
+Wed, Jun 22, 2022, 15:38:23 - stijn_claes: ik dacht -en een collega met mij- dat einde woonerf eigenlijk hetzelfde is als wanneer je van een privé-grond zou komen en dus voorrang moet verlenen (al helemaal wanneer het voetpad op de weg waar het woonerf op uitkomt doorloopt, maw bestuurders kunnen niet goed verschil zien tussen de zijweg van het woonerf en een privé-op/uitrit)
+Wed, Jun 22, 2022, 15:38:54 - joost_schouppe: interessant. Geen idee! Iets voor vakonof 
+Wed, Jun 22, 2022, 15:40:33 - vakonof: <@stijn_claes:matrix.org "Aangezien hier toch wel wat verk..."> Neen, maar men is wel verplicht van een bord B1 'voorrang verlenen' te plaatsen aan de uitgang van het woonerf, tenzij deze in een zone 30 ligt
+Wed, Jun 22, 2022, 15:41:51 - vakonof: Hier en daar zijn er inderdaad situaties waar je voorrang zou moeten verlenen, maar waar de wegbeheerder de borden niet plaats 
+Wed, Jun 22, 2022, 15:42:24 - stijn_claes: Vanwaar die uitzondering "tenzij deze in zone 30 ligt"?
+Wed, Jun 22, 2022, 15:43:18 - vakonof: Art 8.1.4° 
+"Verkeersborden B1, of, zo nodig, verkeersborden B5, moeten aan de uitgangen van de woonerven geplaatst worden behalve wanneer het woonerf uitkomt in een zone afgebakend door de verkeersborden F4a en F4b"
+https://wegcode.be/wetteksten/secties/mb/mb-111076/863-hs2art8
+Wed, Jun 22, 2022, 15:44:35 - stijn_claes: Dit is zo'n situatie: https://goo.gl/maps/fCoEksTF3bWHuihn7
+Wed, Jun 22, 2022, 15:45:28 - vakonof: Ja inderdaad, als daar geen zone 30 is, moet daar een B1 of B5 staan
+Wed, Jun 22, 2022, 15:45:36 - vakonof: Idem hier in Izegem https://goo.gl/maps/iinXyBrmgfguBwY96
+Wed, Jun 22, 2022, 15:47:02 - stijn_claes: In jouw geval in functie van de fietsers e.d. dus (éénrichting voor wagens)
+Wed, Jun 22, 2022, 15:48:22 - vakonof: Voor zover er in de andere richting een C1 staat, ik zie hem alleszins niet direct ;)
+Wed, Jun 22, 2022, 15:49:21 - stijn_claes: En op de weg waarop het woonerf uitgeeft staat er dan best ook een B15f (eventueel een kleintje indien enkel voor fietsers)
+Wed, Jun 22, 2022, 15:49:24 - stijn_claes: ?
+Wed, Jun 22, 2022, 15:50:08 - timcouwelier: https://www.google.com/maps/@50.9236866,3.2281353,3a,75y,151.88h,72.91t/data=!3m6!1e1!3m4!1slRDtDtv-Qvp6LoxSV_UiEg!2e0!7i16384!8i8192
+Wed, Jun 22, 2022, 15:50:17 - timcouwelier: crap, daar staat er ook geen..
+Wed, Jun 22, 2022, 15:50:28 - timcouwelier: (en da's eentje die zowel ik als politiezone gemist hebben...)
+Wed, Jun 22, 2022, 15:50:40 - vakonof: Dat is facultatief, maar idealiter wel
+"De verkeersborden B9 of B15 moeten evenwel niet geplaatst worden
+d) Wanneer het verkeersbord B1 geplaatst is aan de uitgang van een zone afgebakend door de verkeersborden F12a en F12b"
+Wed, Jun 22, 2022, 15:52:11 - vakonof: <@timcouwelier:matrix.org "https://www.google.com/maps/@50...."> Ik draai de camera 45° en zie direct dit... 😖
+Wed, Jun 22, 2022, 15:52:17 - vakonof sent an image. (Media omitted)
+Wed, Jun 22, 2022, 15:52:37 - timcouwelier: Ik pleit volstrekt onschuldig! 
+Wed, Jun 22, 2022, 15:52:45 - vakonof: Gelukkig :P
+Wed, Jun 22, 2022, 15:54:23 - stijn_claes: <@vakonof:matrix.org "Art 8.1.4° "> Wil dat dan zeggen dat, in een zone 30, hier de voorrang van rechts geldt als er geen B1 (of B5) samen met het einde woonerf staat?
+Wed, Jun 22, 2022, 15:54:43 - vakonof: Inderdaad
+Wed, Jun 22, 2022, 15:55:20 - timcouwelier: onze wetgeving is gewoon hopeloos complex, en bij veel instanties (gemeentes en politiezones) is die deskundigheid er niet. Ik ga mezelf ook geen 'expert' noemen, noch beweren dat ik het altijd helemaal foutloos doe, maar ik zou toch niet te veel 'blunders' meer mogen maken.
+Wed, Jun 22, 2022, 15:55:39 - timcouwelier: maar verwachten dat de man in de straat het begrijpt... dat is soms wel heel erg de grens opzoeken.
+Wed, Jun 22, 2022, 15:56:11 - stijn_claes: <@vakonof:matrix.org "Inderdaad"> De inrichting van de weg (bijv. een "voetpad" dat doorloopt) speelt hier geen rol in
+Wed, Jun 22, 2022, 15:56:26 - stijn_claes: ?
+Wed, Jun 22, 2022, 15:57:15 - vakonof: Nee, maar als een voetpad over een kruispunt doorloopt zou ik niet direct de voorrang van rechts verwachten
+Wed, Jun 22, 2022, 15:57:36 - vakonof: Dat heeft timcouwelier mijn collega's onlangs ook nog moeten uitleggen :P
+Wed, Jun 22, 2022, 15:58:16 - timcouwelier: ik geef even een stukje conversatie mee, met diezelfde collega waar vakonof naar verwijst
+Wed, Jun 22, 2022, 15:58:20 - timcouwelier: De te voorziene fietsstraat loopt grotendeels gelijk met de te voorziene zone 30. Door deze combinatie heb ik dit moeten navragen bij onze verkeersexpert of de borden F4a/F4b ook moeten geplaatst worden op de zijstraten waar ook een ZF111 & ZF111/ geplaatst wordt. Gezien er hier geen plaatsingsvoorwaarden zijn bepaald, heeft onze verkeersexpert dit nagevraagd bij MOW. Het besluit luidt dat het begin van de fietsstraat de zone 30 opheft en hierdoor dus geen einde borden moeten geplaatst worden. Wanneer de zone 30 echter zou doorlopen ná de fietsstraat dan moeten de borden wel geplaatst worden.
+Wed, Jun 22, 2022, 15:59:01 - timcouwelier: Nu vraag ik: wie zal in hemelsnaam begrijpen dat een bord begin* fietszone inherent ook een einde zone 30 impliceert?
+Wed, Jun 22, 2022, 16:00:15 - timcouwelier: Nu, ik ga er van uit als die (naar ik begrijp dik betaalde 😛 ) expert dat aangeeft, het wel *technisch* correct zal zijn.
+Wed, Jun 22, 2022, 16:00:35 - timcouwelier: meestal ben ik van oordeel dat dat het beste soort van correct zijn is, maar dit is... *shrugs*
+Wed, Jun 22, 2022, 16:02:05 - stijn_claes: <@timcouwelier:matrix.org "onze wetgeving is gewoon hopeloo..."> Wordt dat eigenlijk soms door een lokaal bestuur gedaan? Een opdracht uitschrijven om de aanwezige bebording te screenen op geldigheid/correctheid? Zijn daar veel partijen die zoiets doen?
+Wed, Jun 22, 2022, 16:02:12 - vakonof: <@timcouwelier:matrix.org "De te voorziene fietsstraat loop..."> Belachelijk en waarschijnlijk niet eens juist
+Wed, Jun 22, 2022, 16:02:55 - vakonof: Jammer genoeg gaan ze zoiets ook doen bij de aanleg schoolomgeving Acaciastraat...
+Wed, Jun 22, 2022, 16:02:59 - timcouwelier: Gelet op de toon van de conversatie ervoor (je wel bekend) heb ik het laten rusten. Moeten nog samenwerken in de toekomst, niet veel zin er een 'dick measuring contest' van te maken ook.
+Wed, Jun 22, 2022, 16:03:58 - timcouwelier: maar rond Acaciastraat vond ik het even verwarrend. Als je overal grotere zones 30 rond je schoolomgevingen maakt, vind ik het vreemd wel een 'zone 30 herhaling' MET A23 te zetten rond je effectieve schoolomgeving.
+Wed, Jun 22, 2022, 16:04:41 - vakonof: F4a + herhaling is niet eens legaal
+met opschrift herhaling alleszins, met onderbord ga ik mij niet over uitspreken 
+Wed, Jun 22, 2022, 16:05:33 - timcouwelier: oh wacht ik ga de mist in met straatnamen
+Wed, Jun 22, 2022, 16:05:34 - vakonof: Message deleted
+Wed, Jun 22, 2022, 16:05:49 - timcouwelier: Acaciastraat is niet rond de Sint-jozefskerk, dat zijn andere bomen
+Wed, Jun 22, 2022, 16:06:06 - vakonof: dat is de Azalealaan :P
+Wed, Jun 22, 2022, 16:06:12 - timcouwelier: inderdaad
+Wed, Jun 22, 2022, 16:06:28 - timcouwelier sent an image. (Media omitted)
+Wed, Jun 22, 2022, 16:10:41 - vakonof: Bijlage 7_Sint-Lutgart_Acaciastraat.pdf (Media omitted)
+Wed, Jun 22, 2022, 16:11:28 - vakonof: Dit willen ze in de Acaciastraat aanpassen, ik begreep ook al niet waarom ze de borden F4b verwijderden terwijl de F4a's blijven hangen
+Wed, Jun 22, 2022, 16:13:33 - timcouwelier: hah, grappig dat je er nu zo achter komt
+Wed, Jun 22, 2022, 16:15:32 - timcouwelier: Acaciastraat verbaast me deels eigenlijk
+Wed, Jun 22, 2022, 16:15:51 - timcouwelier: de vereiste voor een goeie functionele fietsstraat is dat de fietser de dominante gebruiker is op het traject
+Wed, Jun 22, 2022, 16:16:01 - timcouwelier: en ik schat dat daar eigenlijk niet zo in.
+Wed, Jun 22, 2022, 16:16:03 - vakonof: ik was al vergeten dat hij dat gezegd had over de Ardooisesteenweg, al begreep ik het toen ook al niet waarom dat zo zou zijn
+Thu, Jun 23, 2022, 09:19:19 - joost_schouppe sent an image. (Media omitted)
+Thu, Jun 23, 2022, 09:19:26 - joost_schouppe: does that top sign means that dancing is obligatory?
+Thu, Jun 23, 2022, 11:12:33 - Seppe: Wow, what a funky sign, love it!
+Thu, Jun 23, 2022, 23:25:13 - timcouwelier: are we going to act like the other two signs aren't there? 😲
+Thu, Jun 23, 2022, 23:26:22 - timcouwelier: and like that end of built-up-area sign isn't ridiculously misplaced?
+Fri, Jun 24, 2022, 09:03:52 - Seppe: <@timcouwelier:matrix.org "are we going to act like the oth..."> Ok, they are funky as well
+Sat, Jun 25, 2022, 08:21:04 - @better_sleeping:converser.eu joined the room
+Sat, Jun 25, 2022, 08:21:10 - @better_sleeping:converser.eu left the room
+Tue, Jun 28, 2022, 17:03:22 - Thibaultmol changed their display name to irc.freenode.net Thibaultmol
+Tue, Jun 28, 2022, 17:03:27 - irc.freenode.net Thibaultmol changed their display name to Thibaultmol
+Thu, Jun 30, 2022, 14:33:13 - vakonof: Always nice when the challenge takes you back to a place that you edited in a previous round of challenges, only to find out other mappers have been messing with the traffic signs you added last time...
+Thu, Jun 30, 2022, 14:55:39 - joost_schouppe: hmmm
+Thu, Jun 30, 2022, 17:15:23 - Seppe: <@vakonof:matrix.org "Always nice when the challenge t..."> I hope I'm not an other mapper ...
+Thu, Jun 30, 2022, 17:16:28 - vakonof: Nope ;) 
+Thu, Jun 30, 2022, 17:19:48 - joost_schouppe: je had het je maar geimaginaired
+Mon, Jul 4, 2022, 14:33:48 - vakonof sent an image. (Media omitted)
+Mon, Jul 4, 2022, 14:33:55 - vakonof: zo, da's ook weer klaar
+Mon, Jul 4, 2022, 15:48:59 - timcouwelier: right, gij hebt verlof zeker? 🙂
+Mon, Jul 4, 2022, 17:08:37 - joost_schouppe: Oh wow
+Tue, Jul 5, 2022, 10:35:44 - vakonof: <@timcouwelier:matrix.org "right, gij hebt verlof zeker? 🙂"> idd :P
+Tue, Jul 26, 2022, 10:17:19 - joost_schouppe: Ik heb de code verder opgekuist https://github.com/osmbe/traffic-sign-project/commit/f825366a39593f4f33084a79a348b464b24cdf46 en ben klaar voor een update van de taakjes. Maar het downloaden zelf zal ik vanavond moeten doen, gedurende de dag crasht dat altijd
+Fri, Jul 29, 2022, 05:22:02 - @sis3020:matrix.org joined the room
+Fri, Jul 29, 2022, 05:22:03 - @sis3020:matrix.org: Message deleted by joost_schouppe
+Fri, Jul 29, 2022, 08:19:01 - joost_schouppe banned @sis3020:matrix.org: Spam
+Mon, Aug 1, 2022, 10:19:53 - joost_schouppe: De taak is aangevuld met 508 nieuwe borden, op https://maproulette.org/browse/challenges/23550
+Mon, Aug 1, 2022, 11:03:01 - timcouwelier: nice, looks like Roeselare is actually updating properly now
+Mon, Aug 1, 2022, 11:03:03 - timcouwelier: 🙂
+Mon, Aug 1, 2022, 14:42:01 - vakonof: I do my best. I'm preparing for the inevitable failure of the city trying to reinvent hot water by making a worse working traffic sign database
+Mon, Aug 1, 2022, 16:14:14 - joost_schouppe: There's several municipalities that have their own system that synchronises to the Flemish system. Of course, if there is a central system, that can be used for integrating more systems. Or all municipalities can make their own built of that. The latter is of course more efficient from a profit on the private sector point of view
+Mon, Aug 1, 2022, 16:51:44 - vakonof: Of the 8200 'opstellingen' Roeselare has currently been assigned, i seem to have edited half of them past 7 months, which i find hard to believe
+Mon, Aug 1, 2022, 16:51:53 - vakonof: i guess the stats don't lie though
+Mon, Aug 1, 2022, 18:03:19 - timcouwelier: <@vakonof:matrix.org "I do my best. I'm preparing for ..."> you mean, show off as innovative, cash the subsidies that come with the project, and end up not making proper use of the data?
+Mon, Aug 1, 2022, 18:04:00 - vakonof: Something like that 
+Mon, Aug 1, 2022, 18:04:52 - vakonof: I understand the point of being able to detect changes on the field with a camera, but why integrate it in a new database 
+Mon, Aug 1, 2022, 18:05:23 - vakonof: Surely they could just detect the differences and update it in verkeersborden.vlaanderen instead
+Mon, Aug 1, 2022, 18:05:24 - timcouwelier: and why not unlock some internal data as open datasets?
+Mon, Aug 1, 2022, 18:05:41 - vakonof: Maybe they will do that when it is 'finished' 
+Mon, Aug 1, 2022, 18:05:50 - timcouwelier: it never is.
+Mon, Aug 1, 2022, 18:06:38 - vakonof: Keep in mind they hired someone who AFAIK doesn't know anything special about traffic signs to do the work, so it will probably still be full of errors and wrong traffic sign codes etc
+Mon, Aug 1, 2022, 18:06:56 - vakonof: <@timcouwelier:matrix.org "it never is."> Well, when the backlog is processed 
+Mon, Aug 1, 2022, 18:07:10 - timcouwelier: well, i know of at least someone that helped train the AI for the image recognition...
+Mon, Aug 1, 2022, 18:07:44 - vakonof: I'm fine with that, but it should have been a system like maproulette that just shows you which ones need changing 
+Mon, Aug 1, 2022, 18:07:47 - timcouwelier: (our resident AED fanatic)
+Mon, Aug 1, 2022, 18:08:03 - timcouwelier: reminds me i have to upload pictures of 20ish AED in denmark lol
+Mon, Aug 1, 2022, 18:09:58 - vakonof: <@timcouwelier:matrix.org "well, i know of at least someone..."> Even with AI, there are tons of special signs the AI won't know about, nor will the lady who does the administration 
+Mon, Aug 1, 2022, 18:10:32 - vakonof: Whereas I put in the extra work to create custom traffic signs, there is no way she will do the same
+Mon, Aug 1, 2022, 18:10:35 - timcouwelier: you mean your detailed info on when you can pass by the shortcut at the busstops at the back of the railway station?
+Mon, Aug 1, 2022, 18:10:58 - vakonof: Yeah, for example
+Mon, Aug 1, 2022, 18:10:59 - timcouwelier: The HUGE color-coded sign for when you can access is almost hilarious
+Mon, Aug 1, 2022, 18:11:21 - vakonof: I doubt the imagery is high res enough to be able to read text like that 
+Mon, Aug 1, 2022, 18:11:44 - vakonof: <@timcouwelier:matrix.org "The HUGE color-coded sign for wh..."> Stupid, isn't it? Was made by the communications department 
+Mon, Aug 1, 2022, 18:12:02 - timcouwelier: they've done some good stuff
+Mon, Aug 1, 2022, 18:12:04 - timcouwelier: but this?
+Mon, Aug 1, 2022, 18:12:30 - timcouwelier: (the signs for the walking/running routes everywhere - mostly the general overview ones - I really like)
+Mon, Aug 1, 2022, 18:16:14 - vakonof: Message deleted
+Mon, Aug 1, 2022, 18:16:29 - vakonof: Hmm, that doesn't look right 
+Mon, Aug 1, 2022, 18:16:38 - timcouwelier: i prob have a picture
+Mon, Aug 1, 2022, 18:17:14 - vakonof: Something like that, right? 
+Mon, Aug 1, 2022, 18:17:25 - vakonof sent an image. (Media omitted)
+Mon, Aug 1, 2022, 18:20:23 - timcouwelier sent an image. (Media omitted)
+Mon, Aug 1, 2022, 18:21:05 - timcouwelier: Despite the size of the sign it could’ve been more .. readable
+Mon, Aug 1, 2022, 18:21:49 - timcouwelier: Or matching a 24h scale 
+Mon, Aug 8, 2022, 16:57:28 - sandg100 joined the room
+Wed, Aug 10, 2022, 17:37:11 - Seppe sent an image. (Media omitted)
+Wed, Aug 10, 2022, 17:43:51 - vakonof: Maybe there is height enforcement by camera? 
+Wed, Aug 10, 2022, 18:10:50 - timcouwelier: A certain city intends to use camera's to verify 'truck only' usage of a certain road...
+Wed, Aug 10, 2022, 18:11:15 - timcouwelier: although there's no physical measures to keep them out, bridge height seems to be a bit more... 'limiting'.
+Wed, Aug 10, 2022, 18:11:59 - timcouwelier: There's only one valid explanation here tbh
+Wed, Aug 10, 2022, 18:12:27 - timcouwelier: and that's locals drifting sideways to be less high when passing by the object that's limiting.
+Wed, Aug 10, 2022, 18:13:26 - timcouwelier: If there's a more sensible explanation let me know, but for now Occam's Razor says im right.
+Wed, Aug 10, 2022, 18:19:49 - vakonof: <@timcouwelier:matrix.org "A certain city intends to use ca..."> Ah yes, Roeselare in the Veldstraat
+Wed, Aug 10, 2022, 22:31:27 - timcouwelier: between the lines that almost reads like a 'we wanna get rid of the cars parking for free just outside the center' move, when I think about it
+Thu, Aug 11, 2022, 06:57:25 - vakonof: You can still park for free on loading zones. Chances of getting a ticket are close to none
+Thu, Aug 11, 2022, 11:54:28 - timcouwelier: <@vakonof:matrix.org "You can still park for free on l..."> because ''incorrect parking' is still a police matter, and not within scope for OPC ?
+Thu, Aug 11, 2022, 11:55:10 - timcouwelier: some of the loading zones have the ground detectors similar to the shop and go ones though
+Thu, Aug 11, 2022, 11:55:19 - timcouwelier: (at least, by memory I think so)
+Thu, Aug 11, 2022, 11:55:35 - timcouwelier: I wanna say the Ooststraat ones are like that, but Im not sure)
+Thu, Aug 11, 2022, 11:56:39 - vakonof: Yes, the city really needs to organise parking enforcement themselves. Would be more lucrative for the city + would be able to do something about the actual scumbags that park illegally 
+Thu, Aug 11, 2022, 11:56:50 - timcouwelier: Streetview disagrees with me on the detectors
+Thu, Aug 11, 2022, 11:59:26 - vakonof: Loading zones don't have sensors since nv parkeren can't do anything about it
+Mon, Aug 22, 2022, 19:45:29 - vakonof: Altijd interessant om nieuwe aanvullende reglementen te lezen. Zo blijkt dat de gemeente Wielsbeke denkt dat speed pedelecs niet toegelaten zijn op wegen met Vmax van 70 km/h en dat onderborden M3 en M12 onder een D7 worden geplaatst...
+Mon, Aug 22, 2022, 19:45:30 - vakonof sent an image. (Media omitted)
+Mon, Aug 22, 2022, 19:49:50 - joost_schouppe: D7 is altijd toegestaan voor pedelecs, toch? 
+Mon, Aug 22, 2022, 19:53:27 - vakonof: inderdaad, tenzij met onderbord M15/M16 "(B,)P verboden"
+Mon, Aug 22, 2022, 19:54:36 - joost_schouppe: Bizar dat ze daar niemand hebben die dat weet
+Mon, Aug 22, 2022, 21:15:36 - timcouwelier: Euhm.. 
+Mon, Aug 22, 2022, 21:15:43 - timcouwelier: Niet de gemeente denk ik 
+Mon, Aug 22, 2022, 21:15:52 - timcouwelier: Maar PZ MIDOW
+Mon, Aug 22, 2022, 21:16:08 - timcouwelier: Wel vaker eigenzinnige interpretaties als je het mij vraagt 
+Mon, Aug 22, 2022, 21:42:10 - vakonof: In realiteit staat er wel een C3, dus geen idee waarom ze denken dat het om een D7 zou gaan
+Mon, Aug 29, 2022, 14:26:12 - joost_schouppe: vakonof: hoe ben jij in Herentals te weten gekomen dat die hele fietszone nog niet bestaat? Zie vb https://www.openstreetmap.org/way/36238267/history . Mapillary? In de verkeersbordendatabank lijkt me dat helemaal als "dit bestaat wel degelijk" aangeduid te zijn
+Mon, Aug 29, 2022, 15:40:00 - vakonof: <@joost_schouppe:matrix.org "vakonof: hoe ben jij in Herental..."> https://matrix.to/#/!SqvNXrBsvdGHYRyota:matrix.org/$165476885271563mwoCY:matrix.org?via=matrix.org&via=matrix.domainepublic.net&via=multimob.be
+Mon, Aug 29, 2022, 15:43:35 - joost_schouppe: ha, merci. Speciaal wel. 
+Wed, Oct 19, 2022, 20:10:45 - vakonof sent an image. (Media omitted)
+Wed, Oct 19, 2022, 20:35:59 - joost_schouppe: Oooh
+Wed, Oct 19, 2022, 20:36:58 - joost_schouppe: Good timing. Ivan from TomTom wrote a python script last weekend to run an update, and I've been meaning to give it a shot. 
+Sun, Oct 23, 2022, 11:48:32 - joost_schouppe: Traffic signs updated! https://maproulette.org/browse/challenges/23550
+Tue, Oct 25, 2022, 13:19:09 - stijn_claes: Do you obtain all changes in your changeset? Last week I added several ZC15-17-signs in Oud-Turnhout (which I already tried to implement in OSM) but they did not show up in your maproulette.
+Tue, Oct 25, 2022, 13:20:59 - joost_schouppe: hmmm
+Tue, Oct 25, 2022, 13:22:40 - joost_schouppe: I start with ALL the signs, then just filter recent stuff. I'll need to look at the raw data. Could you give me a few exact locations?
+Tue, Oct 25, 2022, 14:41:40 - stijn_claes: Changes date from last week only, so maybe not yet in the "download" you did. For example, [here](https://www.geopunt.be/kaart?viewer_url=https%3A%2F%2Fmaps.geopunt.be%2Fresources%2Fapps%2FGeopunt-kaart_app%2Findex.html%3Fid%3D8ab240c183ac577601840f295d400251)
+Fri, Oct 28, 2022, 20:09:00 - joost_schouppe changed the room avatar.
+Fri, Oct 28, 2022, 20:12:23 - joost_schouppe: <@stijn_claes:matrix.org "Changes date from last week only..."> these signs were supposedly added in 2010, hence they get thrown away
+Sat, Oct 29, 2022, 18:58:07 - Thibaultmol: lol, the room icon change 
+Sat, Oct 29, 2022, 20:54:47 - joost_schouppe: Suitable, isn't it :) 
+Sun, Oct 30, 2022, 14:30:03 - stijn_claes: <@joost_schouppe:matrix.org "these signs were supposedly adde..."> the original signs with zone 50 could date back from 2010, but I've added the ZC5-C7 on the 18th of October: 
+Sun, Oct 30, 2022, 14:30:09 - stijn_claes sent an image. (Media omitted)
+Mon, Oct 31, 2022, 19:14:32 - vakonof: <@stijn_claes:matrix.org "sent an image."> The selected opstelling is linked to the wrong road, fyi
+Mon, Oct 31, 2022, 19:14:53 - vakonof: It'll mess with the afgeleide snelheidsregimes layer
+Mon, Oct 31, 2022, 19:19:35 - stijn_claes: Oh damn, well noticed! I will quickly adapt this!
+Mon, Oct 31, 2022, 19:21:01 - stijn_claes: Ok, done!
+Mon, Oct 31, 2022, 19:22:26 - vakonof: I've fixed dozens of such issues in other towns when doing the maproulette tasks. Too bad you have to fiddle with ownership of the signs to fix small stuff like that
+Mon, Oct 31, 2022, 19:27:02 - stijn_claes: I've heard from AWV they temporarily engaged some persons with difficulty to access the job market to fix these kind of issues
+Mon, Oct 31, 2022, 19:34:06 - vakonof: Good, because AWV causes a lot of these issues 
+Wed, Nov 2, 2022, 16:42:05 - joost_schouppe sent an image. (Media omitted)
+Wed, Nov 2, 2022, 16:42:24 - joost_schouppe: checked again: in my unprocessed dump they are all old
+Wed, Nov 2, 2022, 16:42:52 - joost_schouppe sent an image. (Media omitted)
+Wed, Nov 2, 2022, 20:51:08 - stijn_claes: Do you have other dates next to 'Datum plaatsing' in your data, e.g. 'Datum wijziging'?
+Wed, Nov 2, 2022, 20:56:53 - stijn_claes: Because this would mean you are missing quite a lot of changes which are introduced in the database...
+Wed, Nov 2, 2022, 21:02:12 - stijn_claes sent an image. (Media omitted)
+Wed, Nov 2, 2022, 23:39:20 - joost_schouppe: I think those are indeed missing
+Fri, Nov 4, 2022, 12:14:19 - hans.vandenabeele joined the room
+Fri, Nov 4, 2022, 17:21:52 - joost_schouppe: > hans.vandenabeele Ik zit aan de VO-kant: kan ik helpen voor https://github.com/osmbe/traffic-sign-project/issues/7 ?
+Fri, Nov 4, 2022, 17:22:18 - joost_schouppe: Ik zal je de laatste reactie vanuit Vlaanderen op feedback van ons even doormailen... Toen heb ik het een beetje opgegeven
+Fri, Nov 4, 2022, 17:25:01 - joost_schouppe: Deze is ook misschien handig: https://github.com/osmbe/traffic-sign-project/issues/11
+Fri, Nov 4, 2022, 18:04:41 - hans.vandenabeele: VO: soms 'n hele lange adem nodig... en/of omweg (met de juiste wegwijzers hé hé) Is er 'n idee van de data quality? Bij IMEC op 18/10: de een kijkt naar de ander. Zo hebben we zo'n 12+ partijen. OSM is bij mijn weten de enige vrijwel die niet op closed data zit. Is er ergens een link naar metadata om me te starten? Ik ben niet vertrouwd met die databron, ttz de problematiek.
+Fri, Nov 4, 2022, 18:22:02 - joost_schouppe: de eerste stap in dat python scriptje is de data binnentrekken - gewoon alle data van de borden zelf. Dat geeft al een idee misschien? Officiele metadata https://www.geopunt.be/catalogus/datasetfolder/110d9560-74a7-47f2-afa4-db81f4cba095 ; https://www.geopunt.be/catalogus/datasetfolder/d50048a3-3119-4b20-8e7a-a058dde2ca4d ; https://www.geopunt.be/catalogus/datasetfolder/f605bc8b-f5da-4d84-98b5-80640af6dffc
+Mon, Nov 7, 2022, 14:03:42 - hans.vandenabeele: Dank je Joost! python script, data... check. Nu graven;-) en actieplan distilleren. Jouw email voor https://github.com/osmbe/traffic-sign-project/issues/7 heb ik opgepikt. Er zijn nog een paar vraagjes... Zie email gisteren 2022-11-06 11:07
+Fri, Dec 23, 2022, 23:00:04 - vakonof: <@joost_schouppe:matrix.org "Deze is ook misschien handig: ht..."> Denk niet dat die data bestaat. De datum laatste wijziging en datum controle op het terrein slaat op de opstelling op zijn geheel, en is niet gekoppeld aan het bord.
+Sat, Dec 24, 2022, 10:39:38 - joost_schouppe: De opstelling kan je linken aan het bord. We gebruiken nu trouwens al de  opstelling id om bij elkaar horende borden samen te kunnen tonen
+Sat, Dec 24, 2022, 10:48:39 - vakonof: Nja, maar dan heb je toch wel beide data om mee te werken? 
+Sat, Dec 24, 2022, 10:49:12 - vakonof: Ik vermoed dat je daarmee wel nog niet kan weten of ze bord x of y bijgeplaatst hebben aan opstelling z, of ben ik mis? 
+Sat, Dec 24, 2022, 10:50:16 - joost_schouppe: Als ik mij goed herinner is de datum laatste check niet beschikbaar via de wfs van de opstellingen
+Sun, Jan 15, 2023, 18:20:50 - joost_schouppe: Interessante dinges in Nederland: https://community.openstreetmap.org/t/ndw-verkeersborden-geopackage-qgis/7594/8
+Sun, Jan 15, 2023, 18:20:57 - joost_schouppe: die hebben een nationale set die redelijk goed is
+Sun, Jan 15, 2023, 18:21:12 - joost_schouppe: in de laatste reactie van peewee ook een verwijzing naar een mooi qgis cloud project
+Sun, Mar 5, 2023, 21:58:27 - joost_schouppe: Aargh https://www.mapillary.com/app/?lat=50.973084999972&lng=4.800752&z=17&pKey=521601259439730&focus=photo&x=0.6848605971323811&y=0.2587718379966211&zoom=2.6613878298337106
+Wed, Mar 15, 2023, 19:54:02 - @sh.pazhouh:matrix.org joined the room
+Wed, Mar 15, 2023, 19:54:30 - @sh.pazhouh:matrix.org left the room
+Sat, Mar 18, 2023, 18:52:23 - vakonof sent an image. (Media omitted)
+Sat, Mar 18, 2023, 18:52:38 - vakonof: gemeente Aarschot gebruikt speciale methodes om foto's toe te voegen aan hun opstellingen 😛
+Sat, Mar 18, 2023, 18:54:16 - vakonof: (door een foto te maken van Street View met de app die wordt gebruikt om inventarisaties te doen op het terrein) 
+Sun, Mar 26, 2023, 13:21:33 - pi11 joined the room
+Sun, Mar 26, 2023, 13:48:20 - vakonof sent an image. (Media omitted)
+Sun, Mar 26, 2023, 13:48:24 - vakonof: 🥳
+Sun, Mar 26, 2023, 13:49:01 - vakonof: Je weet wat te doen joost_schouppe  :)
+Sun, Mar 26, 2023, 13:50:02 - joost_schouppe: yep yep
+Sun, Mar 26, 2023, 13:56:20 - joost_schouppe: ingekleurd volgens wie het gefixed heeft
+Sun, Mar 26, 2023, 13:56:22 - joost_schouppe sent an image. (Media omitted)
+Sun, Mar 26, 2023, 14:13:15 - joost_schouppe: voila, kaartje om terug te sturen: http://umap.openstreetmap.fr/nl/map/verkeerdeborden_889738#9/51.0871/4.2902
+Sun, Mar 26, 2023, 14:37:13 - vakonof: Oei, mijn woordenschat is waarschijnlijk wat onaangepast bij bepaalde comments 😂
+Sun, Mar 26, 2023, 15:58:36 - joost_schouppe: hehe
+Sun, Mar 26, 2023, 15:58:44 - joost_schouppe: ik had het precies ook gezien :)
+Sun, Mar 26, 2023, 16:54:26 - pi11: Wanneer komt een verkeersbord op bovenstaand kaartje terecht? 
+Sun, Mar 26, 2023, 17:30:21 - joost_schouppe: Als er een opmerking is achtergelaten 
+Sun, Mar 26, 2023, 17:31:05 - pi11: Aaah oke, goed dat te weten, bedankt!
+Mon, Mar 27, 2023, 11:55:07 - joost_schouppe: Ik heb ze gefiltered op dingen die effectief over een issue met het bord gaan; nog 269 cases over
+Mon, Mar 27, 2023, 11:57:08 - joost_schouppe: <@vakonof:matrix.org "Oei, mijn woordenschat is waarsc..."> ik heb je ook wat gecensureerd nu :)
+Mon, Mar 27, 2023, 11:58:27 - vakonof: Goed, 'k zal er wat constructievere feedback op zetten in de volgende ronde :P
+Mon, Mar 27, 2023, 12:07:35 - joost_schouppe: 't viel wel mee
+Mon, Mar 27, 2023, 21:46:39 - pi11: Ik weet niet of het de moeite is om het toe te voegen, maar dit bord is volgens mij ook verkeerd: https://www.openstreetmap.org/node/10761915682 
+Mon, Mar 27, 2023, 21:47:25 - pi11: Sorry, wist nog niet dat een opmerking bij de task voor registratie zorgt in umap, dus had het bord gewoon een traffic_sign:issue tag meegegeven
+Mon, Mar 27, 2023, 21:51:00 - joost_schouppe: ik kan de verkeerde borden in OSM in bulk afladen eventueel
+Mon, Mar 27, 2023, 21:51:22 - vakonof: 't staat daar zodat de mensen niet in paniek schieten als ze drempel daar in de verte zien liggen :P 
+Mon, Mar 27, 2023, 21:51:28 - vakonof sent an image. (Media omitted)
+Mon, Mar 27, 2023, 21:51:59 - vakonof: maar dat moet daar inderdaad niet staan
+Mon, Mar 27, 2023, 21:53:58 - pi11: <@vakonof:matrix.org "sent an image."> Erg veel nut heeft dat toch niet als je één kans op twee hebt dat je niet eens een drempel passeert? :P 
+Mon, Mar 27, 2023, 21:54:15 - vakonof: klopt
+Mon, Mar 27, 2023, 21:56:14 - vakonof sent an image. (Media omitted)
+Mon, Mar 27, 2023, 21:56:28 - vakonof: om helemaal goed te doen zouden ze het vlak na het kruispunt moeten zetten
+Mon, Mar 27, 2023, 21:56:42 - vakonof: maar da's natuurlijk zeer dichtbij
+Mon, Mar 27, 2023, 21:59:05 - vakonof: ik heb vandaag nog een paar drempels laten regulariseren in Roeselare waarbij ik ook wat heb moeten foefelen om geen dwaze opstellingen te laten plaatsen omdat er een kruispunt tussen zit
+Mon, Mar 27, 2023, 21:59:17 - vakonof sent an image. (Media omitted)
+Mon, Mar 27, 2023, 22:26:03 - pi11: Als ik het goed begrijp is er dus nood aan een extra onderbord dat aangeeft dat een verkeersbord enkel geldig is als een bepaalde afslag wordt genomen? ;) 
+Mon, Mar 27, 2023, 22:31:36 - vakonof: Ja, eigenlijk wel. Dergelijk onderbord bestaat trouwens wel in Duitsland 
+Mon, Mar 27, 2023, 22:42:17 - pi11: Aaah, dat wist ik niet.
+Mon, Mar 27, 2023, 22:42:21 - pi11: https://commons.wikimedia.org/wiki/File:Zeichen_590-11_-_Blockumfahrung_rechts,_rechts,_rechts_(600x600),_StVO_2009.svg
+Mon, Mar 27, 2023, 22:42:33 - pi11: Duitsland heeft wel wat bijzondere borden zo te zien...
+Mon, Mar 27, 2023, 22:43:56 - pi11: https://en.wikipedia.org/wiki/File:Zusatzzeichen_1049-12_-_nur_milit%C3%A4rische_Kettenfahrzeuge,_StVO_1992.svg
+Mon, Mar 27, 2023, 22:45:15 - vakonof: <@pi_above_tau:matrix.org "https://commons.wikimedia.org/wi..."> Ondertussen moeten we in België zelf dingen uit ons duim zuigen 
+https://maps.app.goo.gl/9Hng4mAn7z3jf6R97
+Mon, Mar 27, 2023, 22:45:45 - vakonof: timcouwelier: toevallig geen ontwerp van jou? ☝️
+Mon, Mar 27, 2023, 22:47:20 - pi11: Is dat een bord voor uitzonderlijk vervoer? 
+Mon, Mar 27, 2023, 22:49:50 - pi11: Zorgt Art 1.1 v.h. reglement voor de wegbeheerder niet voor problemen bij dit soort fantasietjes? 
+Mon, Mar 27, 2023, 22:52:47 - vakonof: Inderdaad, de Duitsers staan duidelijk verder met hun uitgebreide arsenaal aan borden
+Mon, Mar 27, 2023, 22:54:37 - vakonof: Ondertussen zitten we hier in het trieste België waar we nieuwe fietsverkeerslichten uitvinden waarvoor je als fietser niet moet stoppen als het rood is en waar we de manier om fietsstraten te signaleren al een half dozijn keer aangepast hebben op een paar jaar tijd
+Mon, Mar 27, 2023, 22:56:55 - pi11: Dat van die fietsstraten komt ook wel heel raar over. Geen logische draad in die beslissingen te bespeuren (behalve het terugbrengen van het einde fietsstraat bord).
+Mon, Mar 27, 2023, 22:58:29 - vakonof: Glenn Janssens zal content zijn dat 99% van de huidge fietsstraat en fietszone borden moeten vervangen worden. 
+Mon, Mar 27, 2023, 23:00:04 - vakonof: De 1% van de gemeentes die borden zonder tekst hebben aangekocht komen er wat goedkoper van af
+Mon, Mar 27, 2023, 23:08:57 - pi11: Gemeente Schilde pakt het slimmer aan:
+Mon, Mar 27, 2023, 23:09:23 - pi11 sent an image. (Media omitted)
+Mon, Mar 27, 2023, 23:11:00 - pi11: Als het sowieso al niet in de reglementen is opgenomen, kunnen ze het niet aanpassen, denken ze daar. 🧠
+Thu, Mar 30, 2023, 12:14:31 - timcouwelier: <@vakonof:matrix.org "timcouwelier: toevallig geen ont..."> De rotonde wel. Het bord, dat weet ik niet zo meteen meer.
+Thu, Mar 30, 2023, 12:16:22 - timcouwelier: Staat alleszins zo op het aanbestedingsplan.
+Thu, Mar 30, 2023, 12:17:16 - timcouwelier: Over het statuut van het bord kan je zeker discussiëren - maar het is zoals je zelf aangeeft omdat de wegcode niet veel betere opties aanreikt.
+Thu, Mar 30, 2023, 12:17:34 - timcouwelier: (en omdat de ruimte daar niet toeliet een ruimere bypass te verwerven voor die afslag)
+Thu, Mar 30, 2023, 12:18:35 - timcouwelier sent an image. (Media omitted)
+Thu, Mar 30, 2023, 12:18:38 - timcouwelier: lastig verwerven dwars door een hoogspanningspost 😛
+Thu, Mar 30, 2023, 12:21:44 - timcouwelier sent an image. (Media omitted)
+Thu, Mar 30, 2023, 12:22:22 - timcouwelier: De toegang voor vrachtverkeer zou daar eigenlijk op termijn er uit moeten, maar op de beoogde route zijn nog iets te veel werken te doen vooraleer dat kan. Het zou een tijdelijke oplossing moeten zijn.
+Thu, Mar 30, 2023, 12:23:03 - timcouwelier: Gewone vrachtwagen (geen oplegger) haalt die draaicirkel overigens wel.
+Thu, Mar 30, 2023, 12:24:52 - timcouwelier: Vraag me af hoe de GPS dat zou kunnen doen. Een vier-arms rotonde waar je de vijfde afslag moet nemen? 😄
+Fri, Mar 31, 2023, 17:35:34 - vakonof: <@pi_above_tau:matrix.org "Duitsland heeft wel wat bijzonde..."> Gerelateerd: https://youtu.be/Bpx-VSZcmG8
+Sun, Apr 2, 2023, 04:01:09 - pi11: Ik ben verder gegaan met het omzetten van de [E-borden op de wiki](https://wiki.openstreetmap.org/wiki/Road_signs_in_Belgium/E_Parking_signs) naar het nieuwe tagging-schema en heb de eerste tabel aangepast. Er zitten een aantal monstertags tussen (zeker voor E5 en E7) maar ik denk dat dit de enige manier is om dit te vertalen in OSM. Als iemand zich geroepen voelt om de eerste tabel te controleren op fouten, zou dat zeker geapprecieerd worden. :) 
+Sun, Apr 30, 2023, 14:20:08 - imlostlmao joined the room
+Tue, May 16, 2023, 07:05:06 - @ralph:fx45.in joined the room
+Tue, May 16, 2023, 18:55:34 - vakonof sent an image. (Media omitted)
+Tue, May 16, 2023, 18:55:35 - vakonof sent an image. (Media omitted)
+Tue, May 16, 2023, 18:55:52 - vakonof: Als de gemeente het niet wil fixen, doe ik het maar zelf
+Sun, May 21, 2023, 00:50:43 - @ralph:fx45.in left the room
+Thu, May 25, 2023, 20:14:48 - pi11 sent an image. (Media omitted)
+Thu, May 25, 2023, 20:15:23 - pi11 sent an image. (Media omitted)
+Thu, May 25, 2023, 20:15:24 - pi11: Wegenwerken in Schilde...
+Fri, May 26, 2023, 09:20:50 - joost_schouppe: very professional!
+Sat, Jun 24, 2023, 13:59:10 - joost_schouppe: vakonof: I think my update worked via https://github.com/osmbe/traffic-sign-project/actions/runs/5359869804
+Could you check if the new tasks look correct?
+Mon, Jun 26, 2023, 11:05:22 - vakonof: when was this data pulled?
+Mon, Jun 26, 2023, 15:02:20 - joost_schouppe: well... the idea was that it was yesterday
+Mon, Jun 26, 2023, 15:02:27 - joost_schouppe: but things may have gone wrong
+Mon, Jun 26, 2023, 15:05:51 - joost_schouppe: the signs themselves seem OK, however I have the impression that the description of the subsigns is missing
+Mon, Jun 26, 2023, 16:29:24 - vakonof: The data looks not that recent to me, I've changed a bunch of signs that should show up but don't.
+Mon, Jun 26, 2023, 16:29:48 - vakonof: Can you show the raw data that you get after the export? 
+Mon, Jun 26, 2023, 16:30:17 - vakonof: I should be able to export some stuff right from the application itself, maybe that is more reliable 
+Mon, Jun 26, 2023, 16:58:46 - joost_schouppe: No, the bulk is not kept. I can see pretty recent stuff in there though!
+Tue, Jun 27, 2023, 10:33:09 - joost_schouppe: <@vakonof:matrix.org "The data looks not that recent t..."> could you share some examples? "changes" might not show up, only actually new signs!
+Tue, Jun 27, 2023, 10:51:59 - vakonof: I've updated about 1500 signs in Wielsbeke last 2 months, so there should be more than the current 7 tasks
+Tue, Jun 27, 2023, 10:52:07 - vakonof: Schermafbeelding 2023-06-27 104943.jpg (Media omitted)
+Tue, Jun 27, 2023, 10:52:24 - vakonof: this one for example should show up, and wasn't in the database before
+Tue, Jun 27, 2023, 11:06:48 - vakonof: <@joost_schouppe:matrix.org "the signs themselves seem OK, ho..."> some are indeed missing, like M12, M18...
+Tue, Jun 27, 2023, 11:42:26 - joost_schouppe: Found this one near me: 
+Tue, Jun 27, 2023, 11:42:27 - joost_schouppe: afbeelding.png (Media omitted)
+Tue, Jun 27, 2023, 11:55:16 - joost_schouppe: afbeelding.png (Media omitted)
+Tue, Jun 27, 2023, 11:56:05 - joost_schouppe: slection is based on date of placement - and these signs are not "new". The "borden" dataset does not have a field with the date of digitisation.
+Tue, Jun 27, 2023, 12:17:00 - vakonof: that means that tons of changes go undetected then
+Tue, Jun 27, 2023, 12:18:04 - vakonof: can't you use 'datum laatste wijziging' instead?
+Tue, Jun 27, 2023, 12:22:33 - joost_schouppe: no, because that's not available in the borden wfs
+Tue, Jun 27, 2023, 12:23:55 - vakonof: is there a way to link the opstellingen dataset to the borden dataset via the 'id opstelling'?
+Tue, Jun 27, 2023, 12:24:37 - vakonof: since the opstellingen does have a record of the last edited date 
+Tue, Jun 27, 2023, 15:11:21 - joost_schouppe: Yes, that should be possible
+Tue, Jun 27, 2023, 19:26:18 - robki (Robin) joined the room
+Tue, Jun 27, 2023, 19:34:21 - robki (Robin) sent an image. (Media omitted)
+Tue, Jun 27, 2023, 19:34:24 - robki (Robin): Hallo, zou dit de correcte tag zijn voor dit bord?
+Ik vond niet direct voorbeelden op de map
+
+overtaking:hgv=no @ (Mo-Fr 05:00-10:00,15:00-20:00)
+
+
+Tue, Jun 27, 2023, 19:56:30 - vakonof: dat ziet er correct uit
+Tue, Jun 27, 2023, 19:59:54 - vakonof: ik zal dit voorbeeld ook aan de wiki toevoegen
+Tue, Jun 27, 2023, 20:29:13 - robki (Robin): Ik zie toch dat er op de E403 een stukje getagged is maar met conditional in de key
+Dit zal denk ik dan correcter zijn. Net ook de wikipage over 'conditinal restrictions' gevonden waarop er uitgebreide info genoteerd staat 😀
+
+overtaking:hgv:conditional=*
+Tue, Jun 27, 2023, 20:29:39 - vakonof: ah, juist ja
+Mon, Jul 3, 2023, 11:32:38 - timcouwelier: dan moet de conditional net het omgekeerde tijdsslot zijn ook dan?
+Mon, Jul 3, 2023, 11:32:45 - timcouwelier: of wordt de voorwaarde niet mee opgegeven?
+Fri, Jul 21, 2023, 13:51:22 - joost_schouppe: @room: I'm organizing an OSM garden party at my place on Sunday August 27th. All OSMbe community members welcome (and feel free to bring your partners, kids & pets). We'll provide food & drinks. My place is at walking distance from Halle station (only 15 minutes from Brussels-Centraal). Please [register here](https://docs.google.com/forms/d/e/1FAIpQLSekrCR-VVf1dyyJGYYhGcUcfki2TBwpjsbxQcMk3bDv_kZNPw/viewform?usp=sf_link) so I know how many people to expect!
+Mon, Jul 24, 2023, 10:13:16 - midgard joined the room
+Sat, Aug 5, 2023, 14:19:59 - pi11: Iemand anders problemen met de " Weergaves verkeersborden"-laag? Werkt 9/10 niet, en als het werk slechts intermitterend. Probleem manifesteert zich ook op geopunt. 
+Sat, Aug 5, 2023, 14:34:15 - joost_schouppe: Yep, sinds ongeveer de lancering van denneiuwe geopunt geeft die regelmatig problemen
+Sat, Aug 5, 2023, 18:34:45 - pi11: Wordt die laag niet voorzien door AWV? Is het dan niet raar dat de vernieuwing van de geopunt daar invloed op heeft? 
+Sat, Aug 5, 2023, 20:52:19 - stijn_claes: Ook bij de vorige Geopunt had die laag regelmatig problemen evenals in de gemeentelijke GIS-systemen... ligt wrschl ergens aan de versie, de server van AWV...
+Sun, Aug 6, 2023, 00:51:43 - pi11: Heb het meldingsformulier van Geopunt ingevuld. Geen idee of zij hier effectief iets aan kunnen doen, maar we kunnen hopen. 
+Wed, Aug 23, 2023, 22:54:14 - Sergio Massa joined the room
+Sat, Oct 7, 2023, 13:48:06 - joost_schouppe: Traffic signs updated: opnieuw een goeie 2000 taakjes erbij. Nieuw is dat je nu ook de dump van de hele WFS kunt downloaden: https://github.com/osmbe/traffic-sign-project/actions/runs/6440471415
+Thu, Nov 16, 2023, 15:01:11 - @gh0st:matrix.org left the room
+Wed, Dec 6, 2023, 12:01:05 - timcouwelier sent an image. (Media omitted)
+Wed, Dec 6, 2023, 12:01:13 - timcouwelier: for the 'weird signage' collection
+Wed, Dec 6, 2023, 12:01:23 - timcouwelier: https://www.google.be/maps/@50.7636171,3.4372876,3a,90y,4.48h,76.56t/data=!3m6!1e1!3m4!1s0XWRO3Yd8IEZe4498ll0aw!2e0!7i16384!8i8192?entry=ttu
+Wed, Dec 6, 2023, 12:01:28 - timcouwelier: spotted in Avelgem
+Wed, Dec 13, 2023, 18:16:15 - vakonof: CVP_DossierDePresse-V2_20230609_OrR_NL_AnV.pdf (Media omitted)
+Wed, Dec 13, 2023, 18:16:24 - vakonof: Er staat ons weer wat te wachten... 
+Wed, Dec 13, 2023, 21:36:18 - joost_schouppe: Just skimmed it a bit, bit that looks...big
+Fri, Dec 15, 2023, 09:22:29 - Thibaultmol: > Genderneutrale verkeersborden
+ 
+I'm down for general neutral things, but it's funny how not a single source including the official source actually says what this means... I'm guessing it's changing the bicycle icon to have a bicycle without the top bar so it's a unisex bicycle? Can't think of many other signs
+Fri, Dec 15, 2023, 09:30:34 - stijn_claes: I've seen an example: https://wiki.openstreetmap.org/wiki/File:Belgian_road_sign_A21.svg is clearly a man, they change that to a genderneutral picture
+Fri, Dec 15, 2023, 10:00:45 - s8evq: It's opening pandora's box here, but how do you clearly see it's a man? How would you fix it?
+Fri, Dec 15, 2023, 10:02:27 - s8evq: Probably the slightly bigger chest compared to waistline?
+Fri, Dec 15, 2023, 10:03:53 - stijn_claes: Also the head looks male to me...
+Fri, Dec 15, 2023, 10:06:09 - stijn_claes: As far as the info I've seen passing by on X is correct, it would become this:
+Fri, Dec 15, 2023, 10:06:17 - stijn_claes: image.png (Media omitted)
+Fri, Dec 15, 2023, 10:10:16 - s8evq: Probably, that looks like the one from the press release. Looks fine.
+Fri, Dec 15, 2023, 10:56:33 - Thibaultmol: oh good point actually. fair enough then
+Fri, Dec 15, 2023, 10:56:45 - Thibaultmol: so do they need to replace alle xisting signs? or just when it comes to renew them or something?
+Fri, Dec 15, 2023, 17:37:30 - vakonof: I think there will be a 20 (!) year transition period 
+Sat, Dec 16, 2023, 21:23:35 - midgard: <@stijn_claes:matrix.org "sent an image."> Why did they draw a pedestrian who crapped their pants though...
+Fri, Jan 5, 2024, 20:10:51 - vakonof: MOW heeft het algoritme van de afgeleide snelheidsregimes terug aangepast, zodat de borden F111 (begin fietszone) niet meer stoppen aan het volgend kruispunt. Dat zorgt er weer voor dat we in Roeselare terug last hebben van de gemeente Torhout die hun bordendatabank niet goed beheert (net zoals de signalisatie op het terrein trouwens), waardoor de volledige N32 nu groen kleurt aan een zijde van de baan...
+Fri, Jan 5, 2024, 20:10:56 - vakonof sent an image. (Media omitted)
+Fri, Jan 5, 2024, 20:11:55 - vakonof: Gelukkig bestaat de fietszone niet meer in Torhout, waardoor ik de problematische borden gewoon kan verwijderen 😅
+Sat, Jan 6, 2024, 12:19:58 - stijn_claes: Je zou een virtueel bord op de grens kunnen toevoegen om die problemen (tijdelijk) op te lossen. By the way: Digitaal Vlaanderen doet hier niets aan, het is Dept. MOW (AWV) die dat algoritme beheert
+Sat, Jan 6, 2024, 12:51:00 - vakonof: Ik heb het probleem bij de bron aangepakt ;) 
+Mon, Jan 15, 2024, 05:10:35 - pi11 sent an image. (Media omitted)
+Mon, Jan 15, 2024, 05:10:48 - pi11: Dit is nieuw.
+Mon, Jan 15, 2024, 07:58:08 - stijn_claes: Vermoedelijk om aan te geven dat er een Whatsapp-groep is als Buurtinformatienetwerk (die klassieke BIN-borden staan er ook veelvuldig)
+Mon, Jan 15, 2024, 16:13:31 - pi11: <@stijn_claes:matrix.org "Vermoedelijk om aan te geven dat..."> Is het eigenlijk mogelijk om elk bord (met aangepaste afbeelding) in de databank te plaatsen? 
+Mon, Jan 15, 2024, 16:33:51 - stijn_claes: Ja, dat wordt toegevoegd als XX-bord en vervolgens kan je met SVG-bestand (al dan niet opgemaakt op basis van een foto) de 'gerenderde afbeelding' meegeven.
+Mon, Jan 15, 2024, 16:40:51 - pi11: Oke, bedankt! 
+Mon, Jan 15, 2024, 18:28:52 - vakonof: Je kan ook andere custom borden opladen, hoeft niet steeds een XX te zijn
+Mon, Jan 15, 2024, 18:42:58 - stijn_claes: Inderdaad bijv. bij een F45 met nog wat zijstraten... Maar als het een "specialleke" is, lijkt het mij weinig logisch om dit als een welgedefinieerd bord toe te voegen.
+Wed, Jan 17, 2024, 12:55:10 - hans.vandenabeele: Beste Wensen! Ik ben zelf boer en vroeg me af wat de recenste "hype" boeren die verkeersborden omdraaien https://www.standaard.be/cnt/dmf20240116_95546651 betekent: er zullen er ongetwijfeld op fotos komen te staan, die gedecteerd zullen worden... Nieuw soort verkeersbordenpollutie? ;-)
+Wed, Jan 17, 2024, 15:03:44 - vakonof: echt een nutteloze actie, pure verspilling van middelen van de wegbeheerders die totaal niks te zien hebben met de problematiek waarvoor men tracht op te komen
+Wed, Jan 17, 2024, 18:58:38 - hans.vandenabeele: <@hans.vandenabeele:matrix.org "Beste Wensen! Ik ben zelf boer e..."> Beste vakonof: Ik sprak over een nieuw soort fouten rond verkeersborden in OSM en het lijkt me een topic voor deze room. PS: uw opmerking vind ik hoogst ongepast, en is voor een ander forum. U bent blijkbaar wél nog in de mogelijkheid uw erfenis en vaak familie-gebeuren met passie en fierheid te beleven en uit te bouwen, zonder 100.000 controles en gebash 24/7. Ik ben ook vrijwilliger bij Boeren op een Kruispunt en het aantal hulpoproepen, en (pogingen tot) zelfmoord is schrijnend. Beste wensen voor 2024.
+Wed, Jan 17, 2024, 21:56:08 - joost_schouppe: Da's genoeg politiek voor vandaag denk ik

@@ -1,0 +1,1803 @@
+Tue, Mar 7, 2017, 11:22:13 - lionel_giard joined the room
+Tue, Mar 7, 2017, 11:22:13 - lionel_giard made the room invite only.
+Tue, Mar 7, 2017, 11:22:13 - lionel_giard made future room history visible to all room members.
+Tue, Mar 7, 2017, 11:22:13 - lionel_giard has allowed guests to join the room.
+Tue, Mar 7, 2017, 11:22:14 - lionel_giard invited joost_schouppe
+Tue, Mar 7, 2017, 11:23:20 - lionel_giard: Hi i saw my contact at UCL for the national mapathon talking about the hackpad, but i'm not aware of an hackpad for this event :p Could you send me a link ? ^^
+Tue, Mar 7, 2017, 12:00:15 - joost_schouppe joined the room
+Tue, Mar 7, 2017, 13:10:25 - joost_schouppe: I'm not sure what they're talking about either
+Tue, Mar 7, 2017, 13:10:38 - joost_schouppe: there is only last year's hackpad and the current google doc
+Tue, Mar 7, 2017, 13:11:11 - lionel_giard: ah maybe they were talking about google doc (i have that one) and just tell "hackpad" instead^^"
+Tue, Mar 7, 2017, 13:11:27 - joost_schouppe: yeah :)
+Tue, Mar 7, 2017, 13:11:56 - joost_schouppe: https://hackpad.com/National-Missing-Maps-Mapathon-2016-April-16th-6yr1qJEQoqq
+Tue, Mar 7, 2017, 13:13:44 - lionel_giard: thanks anyway ! :-)
+Wed, Mar 15, 2017, 21:54:48 - joost_schouppe made the room public to whoever knows the link.
+Wed, Mar 15, 2017, 21:54:48 - joost_schouppe changed the room name to OSMBE - tasks.
+Wed, Mar 15, 2017, 21:59:07 - ThibPhil joined the room
+Wed, Mar 15, 2017, 22:01:13 - ThibPhil: task created, description almost OK... 1st SPW offset stored in imagery_offset_db JOSM plugin
+Wed, Mar 15, 2017, 22:01:59 - ThibPhil: still to send an email but we'll test some corrections.  Maybe we will have to refine tasks.
+Wed, Mar 15, 2017, 22:02:10 - ThibPhil: let's try it :-)
+Wed, Mar 15, 2017, 22:16:38 - ThibPhil: waouw waouw, waouw, a lot of things to correct...  maybe we'll split into different projects.
+Wed, Mar 15, 2017, 22:21:52 - joost_schouppe: Or smaller tiles?
+Wed, Mar 15, 2017, 22:22:49 - ThibPhil: yes but it's not easy because there are a lot of big buildings, not separated into individual houses for example
+Wed, Mar 15, 2017, 22:23:14 - ThibPhil: even in Medium tiles, I've to download surrounding areas
+Wed, Mar 15, 2017, 22:24:26 - lionel_giard: and the road network is often no well traced :s
+Wed, Mar 15, 2017, 22:24:29 - joost_schouppe: Mmm, you could try using statistical sectors like I did in project 3
+Wed, Mar 15, 2017, 22:24:38 - joost_schouppe: Might be too big too
+Wed, Mar 15, 2017, 22:25:02 - ThibPhil: yes, I'll have a look
+Wed, Mar 15, 2017, 22:26:12 - lionel_giard: But these buildings are h-o-r-r-i-b-l-e lol
+Wed, Mar 15, 2017, 22:26:18 - ThibPhil: ah yes, very good idea Joost !
+Wed, Mar 15, 2017, 22:27:03 - ThibPhil: yes, horrible !!!
+Wed, Mar 15, 2017, 22:27:21 - ThibPhil: the biggest buildings of the world !
+Wed, Mar 15, 2017, 22:27:50 - lionel_giard: ^_^
+Wed, Mar 15, 2017, 22:29:29 - ThibPhil: I didn't use ins9 for years !!! A lot of "souvenirs" !
+Wed, Mar 15, 2017, 22:30:15 - joost_schouppe: Haha, I use them daily since seven years
+Wed, Mar 15, 2017, 22:31:03 - ThibPhil: like I did before 2008..  now I'm on "IRIS" and "ILOTS"
+Wed, Mar 15, 2017, 22:34:12 - joost_schouppe: I don't even know those. I'll try and have a look some time :)
+Wed, Mar 15, 2017, 22:35:35 - ThibPhil: only used in France (IRIS).  FYI, about 50 000 objects.  And we built smaller objects : ILOTS (1.4 millions)
+Wed, Mar 15, 2017, 22:37:49 - joost_schouppe: Oh, that sounds similar to the Dutch 6 digit post codes
+Wed, Mar 15, 2017, 22:38:45 - ThibPhil: an ILOT is about a "paté de maison"...  hem, don't know in English
+Wed, Mar 15, 2017, 22:39:09 - joost_schouppe: Building block?
+Wed, Mar 15, 2017, 22:39:21 - ThibPhil: yes !  thanks
+Wed, Mar 15, 2017, 22:39:39 - joost_schouppe: Not sure that is proper English :)
+Wed, Mar 15, 2017, 22:40:52 - ThibPhil: maybe not but if we can understand each other... :-)   waouw, that's not proper...
+Wed, Mar 15, 2017, 22:41:03 - ThibPhil: not easy LLN.
+Wed, Mar 15, 2017, 22:41:17 - ThibPhil: are you OK lionel_giard  ?
+Wed, Mar 15, 2017, 22:41:45 - lionel_giard: I discovered that we should retag EVERY building of the university :D
+Wed, Mar 15, 2017, 22:41:51 - lionel_giard: they are all wrong
+Wed, Mar 15, 2017, 22:41:55 - ThibPhil: haha!
+Wed, Mar 15, 2017, 22:42:30 - lionel_giard: And the ideal would be to get a multipolygon with all the different part of the university at the end :p
+Wed, Mar 15, 2017, 22:43:09 - ThibPhil: yes...  but we will correct errors first
+Wed, Mar 15, 2017, 22:43:30 - ThibPhil: and add residential areas (next step...)
+Wed, Mar 15, 2017, 22:44:16 - lionel_giard: yes and add amenity=university area too (because it should be an area around building if they are close)
+Wed, Mar 15, 2017, 23:26:06 - ThibPhil: I work on "Ferme de Marbais" (experimental farm, linked to AGRO faculty.  all buildings are tagged as university.
+Wed, Mar 15, 2017, 23:27:09 - ThibPhil: I'll create an amenity area but how ?  amenity=university ?  landuse=farmyard + amenity relation ?
+Wed, Mar 15, 2017, 23:27:37 - ThibPhil: if you have an idea...
+Wed, Mar 15, 2017, 23:29:01 - lionel_giard: can we use landuse and amenity on the same thing ?
+Wed, Mar 15, 2017, 23:29:09 - ThibPhil: no
+Wed, Mar 15, 2017, 23:29:17 - lionel_giard: or maybe farmyard and operator=UCL ?
+Wed, Mar 15, 2017, 23:29:43 - ThibPhil: yes, maybe.
+Wed, Mar 15, 2017, 23:30:07 - lionel_giard: because it is not "university" but operated by :p
+Wed, Mar 15, 2017, 23:53:43 - ThibPhil: ok, time to go to sleep...  Don't think I'll have time to continue tomorrow.  Next tasks on Friday...
+Wed, Mar 15, 2017, 23:54:20 - lionel_giard: tomorrow is BeGEO so no time for me :p
+Wed, Mar 15, 2017, 23:55:00 - ThibPhil: Joost's idea (ins9) is nice.  we should have a look
+Wed, Mar 15, 2017, 23:55:14 - ThibPhil: see you!
+Wed, Mar 15, 2017, 23:55:22 - lionel_giard: yep see you ! :-)
+Thu, Mar 16, 2017, 07:24:47 - ThibPhil: About LLN, there are too many things  to re-draw. The project can't be validation errors​/warnings corrections only. I'll unpublish it today and we'll set up ins9 instead of squares, modify description and instructions.
+Thu, Mar 16, 2017, 07:25:52 - ThibPhil: Maybe we have to concentrate to buildings re-drawing for the 1st step
+Thu, Mar 16, 2017, 07:26:18 - ThibPhil: We'll speak about it soon :-)
+Thu, Mar 16, 2017, 08:36:21 - joost_schouppe changed the topic to "Discuss current tasks on tasks.osm.be".
+Thu, Mar 16, 2017, 09:55:18 - lionel_giard: Yes we should make it by steps
+Thu, Mar 16, 2017, 20:19:06 - Jonathan joined the room
+Thu, Mar 16, 2017, 20:20:58 - Jonathan: Oooh my little tasking manager has a second child !
+So happy for him :D
+Fri, Mar 17, 2017, 13:35:49 - eimai joined the room
+Fri, Mar 17, 2017, 13:36:24 - eimai: so many channels already 😄
+Fri, Mar 17, 2017, 13:47:51 - ThibPhil: hé, welcome to the channel eimai  😃
+Fri, Mar 17, 2017, 15:37:43 - Jonathan: (Could some admin put a capital T to Taks in the channel name ?)
+(Yes I know I should get treated for that kind of illness 😇)
+Fri, Mar 17, 2017, 15:41:52 - ThibPhil: ah, you too Jonathan  ?  Cool, I'm not alone...
+Fri, Mar 17, 2017, 15:42:57 - ThibPhil: and the main channel name is very different from the 2 others.  mmmh, disturbing 😃
+Fri, Mar 17, 2017, 15:43:20 - Jonathan: Nooo, that's ok :D
+Fri, Mar 17, 2017, 15:43:43 - lionel_giard: Main channel is the important one, it must be clear !
+Fri, Mar 17, 2017, 15:43:50 - ThibPhil: it's clear
+Fri, Mar 17, 2017, 15:44:15 - ThibPhil: you mean that other channels are "obscure" ones ?  😃
+Fri, Mar 17, 2017, 15:44:36 - ThibPhil: dark side of osmbe ?
+Fri, Mar 17, 2017, 15:44:48 - lionel_giard: OSMBE could be some sort of sect if you're not aware of Openstreetmap belgium :D
+Fri, Mar 17, 2017, 15:45:36 - joost_schouppe changed the room name from OSMBE - tasks to OSMBE - Tasks.
+Fri, Mar 17, 2017, 15:45:36 - joost_schouppe changed the topic to "Discuss current tasks on tasks.osm.be and make sure jbelien doesn't have a nervous breakdown".
+Fri, Mar 17, 2017, 15:45:50 - ThibPhil: are these channels completely open and visible ?  I suppose so, as Lionel joined first as Guest
+Fri, Mar 17, 2017, 15:46:08 - ThibPhil: haha, nice, Joost!
+Fri, Mar 17, 2017, 15:46:09 - lionel_giard: This channel was a private discussion with Joost
+Fri, Mar 17, 2017, 15:46:11 - lionel_giard: :D
+Fri, Mar 17, 2017, 15:46:24 - Jonathan: Thanks joost_schouppe I'll sleep MUCH better !
+Fri, Mar 17, 2017, 15:46:44 - lionel_giard: It explains why we were first two !
+Fri, Mar 17, 2017, 15:47:33 - Jonathan: And really honored to be mentionned in the channel description 😎
+Fri, Mar 17, 2017, 15:47:57 - ThibPhil: do you mean it was a "parallel" channel, like the one we created Lionel and where we spoke FRENCH about Chaumont and LLN ??? 😃
+Fri, Mar 17, 2017, 15:48:00 - lionel_giard: ahah i didn't see that 😄
+Fri, Mar 17, 2017, 15:48:13 - Jonathan: Thibaut Philippart: Anyone can create any channel :)
+You decide then if it's public or not.
+Fri, Mar 17, 2017, 15:48:19 - lionel_giard: Thibaut Philippart:
+Fri, Mar 17, 2017, 15:48:20 - lionel_giard: yes
+Fri, Mar 17, 2017, 15:48:41 - ThibPhil: yes I know but I wonder if this one is private or not (I didn't check in the settings)
+Fri, Mar 17, 2017, 15:49:09 - Jonathan: > Anyone who knows the room's link, including guests
+Fri, Mar 17, 2017, 15:49:11 - lionel_giard: It's only "invitation" by default
+Fri, Mar 17, 2017, 15:49:17 - lionel_giard: and we can change
+Fri, Mar 17, 2017, 15:49:29 - ThibPhil: ok, I just had a look to the settings.  So, forgot my question :-)
+Fri, Mar 17, 2017, 15:49:39 - ThibPhil: *forget
+Fri, Mar 17, 2017, 16:05:08 - ThibPhil: I don't remember...  statistical sectors are the smallest boundaries we have in Belgium ? Long time ago for me, sorry...
+Fri, Mar 17, 2017, 16:05:50 - ThibPhil: I just checked for LLN but objects are too big
+Fri, Mar 17, 2017, 16:06:16 - lionel_giard: It is smaller than the municipalities
+Fri, Mar 17, 2017, 16:06:27 - lionel_giard: :p
+Fri, Mar 17, 2017, 16:07:11 - ThibPhil: or INSPIRE tiles...  but not very different than tasking manager squares :-)
+Fri, Mar 17, 2017, 16:07:58 - ThibPhil: I think I'll spent some time on LLN project tonight.
+Fri, Mar 17, 2017, 16:08:28 - Jonathan: Satistical sectors (NIS 9) is indeed the smallest boundaries :)
+Fri, Mar 17, 2017, 16:09:11 - Jonathan: https://www.geo.be/#/map?x=506826.00&y=6539342.00&zoom=7&l=fr&topic=inspire&baseLayer=ngi.cartoweb.topo_bw.be&catalogNodes=733&layers=StatisticalDistrictsBelgium
+Fri, Mar 17, 2017, 16:09:20 - lionel_giard: We should define what are the different steps like landuse, buildings, roads, ... ?
+Fri, Mar 17, 2017, 16:09:44 - lionel_giard: So we can set up objectives that realistic !
+Fri, Mar 17, 2017, 16:10:18 - ThibPhil: Playing with QGIS now (with ins9)
+Fri, Mar 17, 2017, 16:11:37 - ThibPhil: landuse is not easy for now.  We have a lot of buildings, roads...  that are bad mapped.  Not easy to draw landuses.  Too many overlapping
+Fri, Mar 17, 2017, 16:12:02 - ThibPhil: we have some landuses for offices parks (Axis...)
+Fri, Mar 17, 2017, 16:12:20 - ThibPhil: but not up-to-date
+Fri, Mar 17, 2017, 16:13:20 - ThibPhil: I think we should begin with roads.  Could be easier.  and next step : buildings (but not so easy for LLN).  What do you think about it ?
+Fri, Mar 17, 2017, 16:13:43 - ThibPhil: And for the roads, we have to check all underground LLN roads !
+Fri, Mar 17, 2017, 16:14:12 - lionel_giard: I agree, and i was thinking that we can always explicitely use "filter" in josm to concentrate only on the roads for exemple (and ignore other problems for the moment)
+Fri, Mar 17, 2017, 16:14:39 - ThibPhil: yes, you're right
+Fri, Mar 17, 2017, 16:15:27 - lionel_giard: Maybe for roads, we can use bigger square in task manager ?
+Fri, Mar 17, 2017, 16:16:21 - ThibPhil: mmmh, no, they are small enough I think.  Not easy to have a global vision with little squares (to draw smooth objects)
+Fri, Mar 17, 2017, 16:17:08 - lionel_giard: yes that's true
+Fri, Mar 17, 2017, 16:18:08 - lionel_giard: For the underground part, we could assume they are quite correct and add systematically a "fixme=resurvey" tag to check it at some point !
+Fri, Mar 17, 2017, 16:22:35 - ThibPhil: yes we can do that.  Not easy to be accurate for underground roads :-)
+Fri, Mar 17, 2017, 16:23:26 - ThibPhil: We should check "layer" tags.  I just had a look and some roads are not cut at the correct points (between outdoor and underground"
+Fri, Mar 17, 2017, 16:24:26 - ThibPhil: hem...  for LLN ; ok for layer=-1 but on the field, it's all the city that is layer +1 😃  Thank you LLN architects !!!
+Fri, Mar 17, 2017, 16:25:40 - lionel_giard: it's only the bottom part that is technicaly +1 :D But yes we should agree on a standard to use with layer
+Fri, Mar 17, 2017, 16:26:00 - ThibPhil: yes, I was joking...
+Fri, Mar 17, 2017, 16:26:08 - lionel_giard: (and bottom part is even +2 because you have two layers of parkings)
+Fri, Mar 17, 2017, 16:26:29 - ThibPhil: another point : how to map underground parking limits !?!?!
+Fri, Mar 17, 2017, 16:26:57 - lionel_giard: local knowledge can help a lot (because the limit are generally roads or limit of the "dalle"
+Fri, Mar 17, 2017, 16:27:02 - ThibPhil: anyone has professional survey devices ? :-)
+Fri, Mar 17, 2017, 16:27:23 - lionel_giard: right now, parkings lot undeground are badly traced (like giant polygons)
+Fri, Mar 17, 2017, 16:27:36 - ThibPhil: the "dalle".  Like it !!  The LLN dalle
+Fri, Mar 17, 2017, 16:27:58 - lionel_giard: i don't know a term in english for this uniqueness :D
+Fri, Mar 17, 2017, 16:28:00 - ThibPhil: "la dalle, quoi..."
+Fri, Mar 17, 2017, 16:28:19 - ThibPhil: there is no english name for the "LLN dalle" 😃
+Fri, Mar 17, 2017, 16:29:16 - lionel_giard: so should we put layer +1/2 on every part on "la dalle" ? and be logical about it ?
+Fri, Mar 17, 2017, 16:32:36 - lionel_giard: my little heart of mapper has nearly an attack when i saw that :
+Fri, Mar 17, 2017, 16:32:40 - lionel_giard sent an image. (Media omitted)
+Fri, Mar 17, 2017, 16:33:00 - lionel_giard: how can we arrive to trace building like that :D
+Fri, Mar 17, 2017, 16:44:44 - ThibPhil: eyes closed...
+Fri, Mar 17, 2017, 16:45:28 - ThibPhil: I created a project for roads only.  No description yet (and still in draft)
+Fri, Mar 17, 2017, 16:46:41 - ThibPhil: I changed a little the area to have all the surrounding highways (E411, N235...) with "bretelles" (don't remember the English word)
+Fri, Mar 17, 2017, 16:46:53 - lionel_giard: added a "Part 1:" because that's important isn't it ?!
+Fri, Mar 17, 2017, 16:47:05 - ThibPhil: so we can keep the 1st project for validation
+Fri, Mar 17, 2017, 16:47:10 - ThibPhil: :-)
+Fri, Mar 17, 2017, 16:47:21 - ThibPhil: part 1 of 200
+Fri, Mar 17, 2017, 16:47:25 - lionel_giard: motorway_link :p
+Fri, Mar 17, 2017, 16:49:40 - lionel_giard: We will be able to practice with all the special tagging on highways 😃
+Fri, Mar 17, 2017, 16:51:41 - ThibPhil: ah yes, thanks...  what a shame...
+Fri, Mar 17, 2017, 16:54:24 - ThibPhil: maybe we should suggest new tags for LLN, like "limit of the dalle with visible concrete reinforcement"
+Fri, Mar 17, 2017, 16:54:56 - lionel_giard: "dalle=yes" ? :D
+Fri, Mar 17, 2017, 16:55:17 - ThibPhil: ah yes, dalle=yes.  nice shortcut !
+Fri, Mar 17, 2017, 16:56:10 - ThibPhil: should we put an "This project is more for intermediate to advanced mappers."  like in HOT project ?
+Fri, Mar 17, 2017, 16:57:19 - lionel_giard: Yes we should take good habits !
+Fri, Mar 17, 2017, 16:58:50 - joost_schouppe changed the power level of ThibPhil from Default to Admin.
+Fri, Mar 17, 2017, 16:58:57 - joost_schouppe changed the power level of Jonathan from Default to Admin.
+Fri, Mar 17, 2017, 22:29:20 - lionel_giard: What's the purpose of "route=bicycle" on a lot of path in LLN ? Is it an old tag ?
+Fri, Mar 17, 2017, 22:30:17 - ThibPhil: route=bicycle seems to be a tag used in relations involving roads.  In LLN there are a lot of these tags but without relation...
+Fri, Mar 17, 2017, 22:30:24 - ThibPhil: so, not necessary I think
+Fri, Mar 17, 2017, 22:30:54 - lionel_giard: i was thinking the same (on the wiki, it's said that "route=*" is only for relation)
+Fri, Mar 17, 2017, 22:31:00 - lionel_giard: So remove !
+Fri, Mar 17, 2017, 22:31:12 - ThibPhil: so, we can remove them if there are no relation
+Fri, Mar 17, 2017, 22:31:17 - ThibPhil: remove! :-)
+Fri, Mar 17, 2017, 22:32:39 - ThibPhil: I've here a park snapped to surroundings buildings, roads, paths...  nonsense.  on aerial views, it's totally different...
+Fri, Mar 17, 2017, 22:33:20 - lionel_giard: Yes we must do some meditation before mapping here :D
+Fri, Mar 17, 2017, 22:34:30 - ThibPhil: I spent my time to unglue points...  my "g" key is almost broken :-)
+Fri, Mar 17, 2017, 22:34:34 - lionel_giard: Is it useful to keep the bicycle=yes on a cycleway ? (same as footway with foot=yes) ?
+Fri, Mar 17, 2017, 22:35:49 - lionel_giard: Default acces should be these : http://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access-Restrictions#Belgium
+Fri, Mar 17, 2017, 22:35:56 - ThibPhil: it implies bicycle=designated, so I don't think so
+Fri, Mar 17, 2017, 22:36:16 - ThibPhil: but I'm not a bicycle way pro...
+Fri, Mar 17, 2017, 22:36:44 - lionel_giard: to me it's redundant to put bicycle=yes or motorcar=no on a cycleway ^^'
+Fri, Mar 17, 2017, 22:36:47 - ThibPhil: pro = professional, not "i'm not for bicycle ways" :-)
+Fri, Mar 17, 2017, 22:37:10 - ThibPhil: it's like motorway + car=yes...
+Fri, Mar 17, 2017, 22:38:13 - lionel_giard: I will leave as it is right now, but keep a note of it (if someone more experienced respond later). We always can do a mapcontrib to rectify the access thing in these area !
+Fri, Mar 17, 2017, 23:00:53 - ThibPhil: mmmh, we have a lot of highways pedestrian, footway and paths...  a preference ? :-)  I'll have a look on the wiki to see the difference
+Fri, Mar 17, 2017, 23:01:59 - ThibPhil: ok, pedestrian for real roads but only for ... pedestrian
+Fri, Mar 17, 2017, 23:02:13 - lionel_giard: path is the generic special highway (when we don't really know what is the exact type), other are specific
+Fri, Mar 17, 2017, 23:02:28 - lionel_giard: pedestrian is actually for anything but with pedestrian that rules !
+Fri, Mar 17, 2017, 23:02:57 - lionel_giard: We can still go in bicycle but we must be at foot if too many pedestrians !
+Fri, Mar 17, 2017, 23:03:22 - lionel_giard: (or with special autorisation you can drive there, it work quite well for LLN^^)
+Fri, Mar 17, 2017, 23:04:04 - lionel_giard: where there is special autorisation to drive in the morning (livraison)
+Fri, Mar 17, 2017, 23:04:49 - ThibPhil: ok thx
+Fri, Mar 17, 2017, 23:05:35 - lionel_giard: The most difficult part is to differentiate path from footway and cycleway mostly ! (we can have footway with bicycle=yes, or cycleway with foot=yes or path with both = yes) :D
+Fri, Mar 17, 2017, 23:06:09 - ThibPhil: need survey mapping...
+Fri, Mar 17, 2017, 23:07:11 - lionel_giard: even with that, it's really subjective ^^'
+Sat, Mar 18, 2017, 00:00:24 - ThibPhil: still alive lionel_giard ? :-)
+Sat, Mar 18, 2017, 00:00:54 - lionel_giard: yes i'm
+Sat, Mar 18, 2017, 00:00:55 - lionel_giard: :D
+Sat, Mar 18, 2017, 00:01:11 - lionel_giard: I'm searching what is the correct method to tag crossing :D
+Sat, Mar 18, 2017, 00:02:15 - ThibPhil: highway=crossing on a node snapped to the road, no ?
+Sat, Mar 18, 2017, 00:03:34 - lionel_giard: yes but i saw someone put also an cycleway=crossing/footway=crossing (depending of the type) on the part that cross the road as well
+Sat, Mar 18, 2017, 00:03:52 - lionel_giard: Apparently it is possible to do, but not really recommended ^^'
+Sat, Mar 18, 2017, 00:04:47 - ThibPhil: yes, you can do that too but I don't know if it's recommended.
+Sat, Mar 18, 2017, 00:04:54 - ThibPhil: ah
+Sat, Mar 18, 2017, 00:05:02 - lionel_giard: it should always have the node at least
+Sat, Mar 18, 2017, 00:05:17 - lionel_giard: because the routing don't recognize the tag on the way
+Sat, Mar 18, 2017, 00:07:25 - ThibPhil: found a huuuge and very stupid overlapping between forest and residential (Bois des Rêves area)
+Sat, Mar 18, 2017, 00:07:32 - ThibPhil: for next step...
+Sat, Mar 18, 2017, 00:07:34 - lionel_giard: ahah
+Sat, Mar 18, 2017, 00:08:47 - lionel_giard: i saw funny landuse too
+Sat, Mar 18, 2017, 00:08:48 - ThibPhil: nice, no ? :-)
+Sat, Mar 18, 2017, 00:09:13 - lionel_giard: and i don't speak of buildings shape :D
+Sat, Mar 18, 2017, 00:10:03 - ThibPhil: ah, upload failed...  f*** connection tonight
+Sat, Mar 18, 2017, 00:11:00 - ThibPhil sent an image. (Media omitted)
+Sat, Mar 18, 2017, 00:12:07 - ThibPhil: youhouuu !  earthquake ?
+Sat, Mar 18, 2017, 00:12:10 - lionel_giard: How is it realistcly possible ?
+Sat, Mar 18, 2017, 00:12:12 - lionel_giard: :D
+Sat, Mar 18, 2017, 00:12:56 - lionel_giard: was it a competition of "art mapping" where people just draw random shape ?
+Sat, Mar 18, 2017, 00:13:19 - ThibPhil: or maybe a bot !!!
+Sat, Mar 18, 2017, 00:14:03 - ThibPhil: I think I'll stop for tonight.
+Sat, Mar 18, 2017, 00:14:39 - ThibPhil: we'll send an email to talk-be during the WE.  we need some help 😃
+Sat, Mar 18, 2017, 00:15:06 - lionel_giard: yes otherwise our mental health will deplete rapidly :D
+Sat, Mar 18, 2017, 00:15:21 - ThibPhil: too late...
+Sat, Mar 18, 2017, 00:20:46 - ThibPhil: Seriously, It's interesting and awesome to work on this 1st part. Very different from Chaumont, Vieusart, Corroy, Jandrain, Piétrain and other villages :-)
+Sat, Mar 18, 2017, 00:22:11 - lionel_giard: Yes, it's a city and at the same time very different (probably because it's relatively young and with this unique shape "pedestrian on top"). ^_^
+Sat, Mar 18, 2017, 00:23:42 - ThibPhil: I added some text to the task.  Feel free to correct error and to add some stuffs :-)
+Sat, Mar 18, 2017, 00:23:50 - ThibPhil: *errors
+Sat, Mar 18, 2017, 00:23:52 - lionel_giard: ah cool ! =D
+Sat, Mar 18, 2017, 00:25:28 - lionel_giard: oh i just saw an enormous landuse=grass where there are a lot of building ahah
+Sat, Mar 18, 2017, 18:36:23 - joost_schouppe changed the topic to "Discuss current tasks on tasks.osm.be".
+Sat, Mar 18, 2017, 18:36:45 - joost_schouppe: How would you guys feel if we abuse this room for live coms during the national mapathon?
+Sat, Mar 18, 2017, 19:00:40 - ThibPhil: Good idea. Let's go
+Sat, Mar 18, 2017, 19:02:08 - ThibPhil: Like during sotm! We'll try to send more messages !
+Sat, Mar 18, 2017, 19:03:31 - ThibPhil: Let's try a record-breaking ! :-)
+Sat, Mar 18, 2017, 19:06:02 - eimai: Let's break the riot servers
+Sat, Mar 18, 2017, 19:13:56 - joost_schouppe: ok great
+Mon, Mar 20, 2017, 13:17:43 - @183683:matrix.org joined the room
+Tue, Mar 21, 2017, 09:26:25 - joost_schouppe: Apparently you can acces the MapSwipe data, if you want to play around with it: http://mapswipe.geog.uni-heidelberg.de/download/
+Tue, Mar 21, 2017, 12:49:07 - @184884:matrix.org joined the room
+Tue, Mar 21, 2017, 13:25:16 - @enock4seth:matrix.org joined the room
+Wed, Mar 22, 2017, 18:27:51 - joost_schouppe: looks like these would be nice backup tasks for the mapathon: https://lists.openstreetmap.org/pipermail/hot/2017-March/013164.html
+Wed, Mar 22, 2017, 19:56:13 - lionel_giard: Yes there are a lot of these tasks available ! 👍
+Thu, Mar 23, 2017, 10:18:42 - joost_schouppe: I got some context too: https://github.com/osmbe/presentations/blob/master/mapathons/malaria_mapping_introduction.pptx
+Fri, Mar 24, 2017, 10:39:45 - juminet joined the room
+Fri, Mar 24, 2017, 15:26:33 - ThibPhil: Hi!  Checking last stuffs at UMons :-)
+Fri, Mar 24, 2017, 15:39:53 - ThibPhil: about Malaria, which ones will be tagged with mapathon and universities hashtags ?  can we choose what we want or do we synchronize the projects selection between all universities  ?
+Fri, Mar 24, 2017, 15:40:47 - @Eleonore:matrix.org joined the room
+Fri, Mar 24, 2017, 15:42:26 - Jonathan: Last year we created a special hashtag for the national mapathon
+Fri, Mar 24, 2017, 15:42:42 - Jonathan: On top of the hashtags of the task :)
+Fri, Mar 24, 2017, 15:44:01 - @Eleonore:matrix.org: Thank you joost, for this successful test ! see you tomorrow ! Eléonore
+Fri, Mar 24, 2017, 15:49:30 - joost_schouppe: Yeah, the idea would be we all work on the same tasks
+Fri, Mar 24, 2017, 15:50:48 - joost_schouppe: We'll coordinate here: https://hackpad.com/National-Missing-Maps-Mapathon-2017-G0QYOpi7lN4
+Fri, Mar 24, 2017, 15:50:57 - joost_schouppe: I think have the task numbers somewhere around
+Fri, Mar 24, 2017, 15:51:19 - ThibPhil: didn't find it.  i'll search again...
+Fri, Mar 24, 2017, 15:53:59 - Jonathan: It apparead in this channel at some point but good luck to find it back :D
+Fri, Mar 24, 2017, 15:54:13 - Jonathan: http://tasks.hotosm.org/project/2664
+Fri, Mar 24, 2017, 15:57:44 - joost_schouppe: there are some more ready, pete send it in a mail
+Fri, Mar 24, 2017, 15:57:51 - joost_schouppe: I'll add, and ask if more are ready now
+Fri, Mar 24, 2017, 16:22:00 - ThibPhil: Sierra Leone was OK.  the link is in the hackpad.  For Malaria, there are a lot of projects.  We'll add projects number tommorrow on the UMons wiki page
+Fri, Mar 24, 2017, 16:22:25 - ThibPhil: yes, they have a wiki page for the event :-)
+Fri, Mar 24, 2017, 16:22:34 - joost_schouppe: Uh, ok...
+Fri, Mar 24, 2017, 16:23:07 - ThibPhil: 8 people here to help !  I'll train them tomorrow morning
+Fri, Mar 24, 2017, 16:24:21 - ThibPhil: and to identify crew, we will use "safety helmet"... this is an architect university :-)
+Fri, Mar 24, 2017, 16:24:30 - lionel_giard: ahah
+Fri, Mar 24, 2017, 16:24:33 - joost_schouppe: Could you add a link to that wiki page to the hackpad? Or update both hackpad and wiki
+Fri, Mar 24, 2017, 16:24:40 - ThibPhil: I'll send you photos !!4
+Fri, Mar 24, 2017, 16:24:52 - joost_schouppe: Haha, you need to make pictures of that!
+Fri, Mar 24, 2017, 16:24:57 - Jonathan: I WANT A SAFETY HELMET TOO \o/
+(oops sorry :D)
+Fri, Mar 24, 2017, 16:25:13 - lionel_giard: Good idea the hat to be recognised !
+Fri, Mar 24, 2017, 16:25:19 - joost_schouppe: I can take my cycle helmet?
+Fri, Mar 24, 2017, 16:25:19 - ThibPhil: yes, I'll add it.  wiki page is not finished yet.  will be online tonight
+Fri, Mar 24, 2017, 16:25:26 - ThibPhil: but I already add the link
+Fri, Mar 24, 2017, 16:26:05 - ThibPhil: (with tho old version).  We'll add OSMBE links into it to get new members :-)
+Fri, Mar 24, 2017, 16:26:11 - joost_schouppe: Pete is sending more tasks in a few hours
+Fri, Mar 24, 2017, 16:28:02 - Jonathan: Thibaut Philippart: For new members : https://members.osm.be/ :)
+Fri, Mar 24, 2017, 16:28:30 - Jonathan: Or  https://members.osm.be/?lang=fr_BE
+Fri, Mar 24, 2017, 16:28:59 - ThibPhil: thx :-)  we added too website, meetups, Riot channels
+Fri, Mar 24, 2017, 16:29:32 - Jonathan: If you need Dutch version (why not :P) : https://members.osm.be/?lang=nl_BE
+Fri, Mar 24, 2017, 16:30:21 - joost_schouppe: It looks like we could make 300 participants. 275 now + dark number of local registration
+Fri, Mar 24, 2017, 16:30:41 - Jonathan: Awesome 👍
+Fri, Mar 24, 2017, 16:31:18 - Jonathan: That's more than last year no ?
+Fri, Mar 24, 2017, 16:31:32 - joost_schouppe: Last year just over 200!
+Fri, Mar 24, 2017, 16:31:53 - Jonathan: Let's map THE WHOLE WORLD then !
+Fri, Mar 24, 2017, 16:32:05 - lionel_giard: That's great we will beat our goals ;D
+Fri, Mar 24, 2017, 16:35:18 - joost_schouppe: 50% growth every year :)
+Fri, Mar 24, 2017, 16:35:21 - ThibPhil: ok, we are ready @ UMons!  Training tomorrow at 8:30
+Fri, Mar 24, 2017, 16:35:53 - ThibPhil: see you @ LLN tonight!
+Fri, Mar 24, 2017, 16:36:14 - ThibPhil: (awesome people here )
+Fri, Mar 24, 2017, 16:36:40 - ThibPhil: tomorrow will be a great  day !
+Fri, Mar 24, 2017, 18:35:29 - @linusable:matrix.org joined the room
+Fri, Mar 24, 2017, 18:38:28 - @linusable:matrix.org: Hi everybody !  I am very happy to contribute to this mapathon.
+Fri, Mar 24, 2017, 18:42:47 - Jonathan: Welcome linusable !
+See you tomorrow (if you will be in ULB or VUB) :)
+Fri, Mar 24, 2017, 22:14:17 - @linusable:matrix.org: I wil be at home (chemist), at UMONS
+Fri, Mar 24, 2017, 22:23:26 - @linusable:matrix.org set a profile picture
+Fri, Mar 24, 2017, 23:38:42 - @Polyglot:matrix.org joined the room
+Fri, Mar 24, 2017, 23:40:50 - @Polyglot:matrix.org: Message deleted
+Fri, Mar 24, 2017, 23:41:49 - @Polyglot:matrix.org: I'd like to upload a JOSM download script. Is there a place online were I can do that?
+Fri, Mar 24, 2017, 23:43:01 - joost_schouppe: Yes, you could osmbe github
+Fri, Mar 24, 2017, 23:46:23 - joost_schouppe: for example here: https://github.com/osmbe/presentations/tree/master/mapathons
+Fri, Mar 24, 2017, 23:48:26 - joost_schouppe: I corrected the hackpad bit.do link, something went wrong there
+Fri, Mar 24, 2017, 23:48:40 - @Polyglot:matrix.org: Can you give PolyglotOpenstreetmap push access?
+Fri, Mar 24, 2017, 23:48:52 - joost_schouppe: yep
+Fri, Mar 24, 2017, 23:49:43 - joost_schouppe: invitation sent
+Fri, Mar 24, 2017, 23:49:52 - @Polyglot:matrix.org: tx
+Sat, Mar 25, 2017, 00:00:16 - @Polyglot:matrix.org: I uploaded a zip file, which contains a cmd file, which runs a Powershell script, which downloads JOSM and copies a sample configuration file. This means all boxes for the relevant plugins should already be ticked and remote control should be enabled. Downloading the plugins still needs to be done manually for some reason.
+Sat, Mar 25, 2017, 00:05:39 - @Polyglot:matrix.org: https://github.com/osmbe/presentations/blob/master/JOSM_setup.zip
+Sat, Mar 25, 2017, 00:07:01 - joost_schouppe: Nice!
+Sat, Mar 25, 2017, 00:07:27 - joost_schouppe: It might not work on some computers with many restrictions I suppose?
+Sat, Mar 25, 2017, 00:07:50 - @Polyglot:matrix.org: as long as Java is installed it should work just fine
+Sat, Mar 25, 2017, 00:08:55 - @Polyglot:matrix.org: I tested it on the lab computers at KU Leuven and they are quite restrictive
+Sat, Mar 25, 2017, 00:11:04 - joost_schouppe: Cool!
+Sat, Mar 25, 2017, 07:12:13 - @Polyglot:matrix.org: Joost, it seemed better to manage the text files on GitHub directly, but if I want to download as a zip, I have to download the whole repository. Would it be possible to create a separate JOSM repository for it?
+Sat, Mar 25, 2017, 07:42:09 - joost_schouppe: ah yes, maybe that makes sense
+Sat, Mar 25, 2017, 07:42:47 - joost_schouppe invited @Marc.Bessieres:matrix.org
+Sat, Mar 25, 2017, 07:45:02 - joost_schouppe: "JOSM for mapathons"?
+Sat, Mar 25, 2017, 08:03:59 - joost_schouppe: https://github.com/osmbe/JOSMforMapathons
+Sat, Mar 25, 2017, 08:05:24 - joost_schouppe: guys, so Pete made us new tasks yesterday. They are not buildings only like I expected, but also want residential areas. I'd suggest we start of with the two buildings-only tasks and move on to buildings+residentials during the day
+Sat, Mar 25, 2017, 09:14:14 - ThibPhil: UMons wiki online and up-to-date :-)
+Sat, Mar 25, 2017, 09:20:55 - @188843:matrix.org joined the room
+Sat, Mar 25, 2017, 09:21:10 - @Polyglot:matrix.org: joost_schouppe: Bedankt Joost ,maar nu heb ik daar nog geen push access
+Sat, Mar 25, 2017, 09:21:20 - @188843:matrix.org: Bonjour
+Sat, Mar 25, 2017, 09:21:37 - @188843:matrix.org: je me suis inscrit pour le mapathon de ce jour à Mons
+Sat, Mar 25, 2017, 09:21:52 - @188843:matrix.org: mais je ne comprends plus très bien l'horaire ?
+Sat, Mar 25, 2017, 09:22:05 - @188843:matrix.org: quelqu'un(e) pourrais-t-il m'aider ?
+Sat, Mar 25, 2017, 09:24:05 - @188843:matrix.org: D'une part on annonce qu'il y a deux séances prévues et d'autre part, quand je regarde le détail de la journée, il semblerait qu'il n'y en ai plus qu'une seule
+Sat, Mar 25, 2017, 09:24:12 - @Polyglot:matrix.org: Normalement ça commence a 10h partout
+Sat, Mar 25, 2017, 09:24:26 - @188843:matrix.org: on parlait de deux séances ?
+Sat, Mar 25, 2017, 09:24:35 - @188843:matrix.org: une au matin et l'autre après midi
+Sat, Mar 25, 2017, 09:24:47 - @Polyglot:matrix.org: Et ça continue toute la journée jusqu'à 17h
+Sat, Mar 25, 2017, 09:25:22 - @188843:matrix.org: oui, mais si j'arrive après midi ? je rate une partie, non ?
+Sat, Mar 25, 2017, 09:25:52 - @Polyglot:matrix.org: En fait, si tu viens plus tard t'auras perdu l'intro, mais il y a toujours moyen de t'expliquer en privé, ce n'est pas bien compliqué
+Sat, Mar 25, 2017, 09:26:13 - @188843:matrix.org: Dès lors pq annoncer deux séances ?
+Sat, Mar 25, 2017, 09:26:25 - @188843:matrix.org: alors qu'il n'y en a qu'une !
+Sat, Mar 25, 2017, 09:26:41 - @Polyglot:matrix.org: avec une pause pour manger :-)
+Sat, Mar 25, 2017, 09:26:52 - @188843:matrix.org: ok
+Sat, Mar 25, 2017, 09:27:09 - @188843:matrix.org: donc, en fait, il n'y a qu'une seule séance qui dure toute la journée
+Sat, Mar 25, 2017, 09:27:23 - @Polyglot:matrix.org: les taches faciles seront probablement achevés le matin
+Sat, Mar 25, 2017, 09:27:38 - @188843:matrix.org: ok
+Sat, Mar 25, 2017, 09:27:56 - @188843:matrix.org: je vais me préparer en essayant d'arriver pour 10h00
+Sat, Mar 25, 2017, 09:28:00 - @188843:matrix.org: merci pour ton aide
+Sat, Mar 25, 2017, 09:28:09 - @Polyglot:matrix.org: avec plaisir
+Sat, Mar 25, 2017, 09:28:11 - @188843:matrix.org: à tantôt, peut-être en visu
+Sat, Mar 25, 2017, 09:28:23 - @Polyglot:matrix.org: p-ê, mais moi je suis à Leuven
+Sat, Mar 25, 2017, 09:28:28 - @188843:matrix.org: ok
+Sat, Mar 25, 2017, 09:28:32 - @188843:matrix.org: merci
+Sat, Mar 25, 2017, 09:28:37 - @188843:matrix.org: en tous cas
+Sat, Mar 25, 2017, 09:52:04 - @mclaeysb:matrix.org joined the room
+Sat, Mar 25, 2017, 09:52:31 - @mclaeysb:matrix.org: Hi all, people comming in at UGent, 1st room almost full
+Sat, Mar 25, 2017, 09:52:43 - @mclaeysb:matrix.org: Where can I find todays task numbers?
+Sat, Mar 25, 2017, 09:53:56 - @mclaeysb:matrix.org: Just found them in the Hackpad..
+Sat, Mar 25, 2017, 10:01:03 - ThibPhil: UMons ready !!
+Sat, Mar 25, 2017, 10:05:30 - joost_schouppe: Is everyone having as much fun trying to connect skype?
+Sat, Mar 25, 2017, 10:05:40 - ThibPhil sent an image. (Media omitted)
+Sat, Mar 25, 2017, 10:06:39 - ThibPhil sent an image. (Media omitted)
+Sat, Mar 25, 2017, 10:06:51 - ThibPhil: Started ! Welcome word
+Sat, Mar 25, 2017, 10:07:12 - @Polyglot:matrix.org: where to connect Skype?
+Sat, Mar 25, 2017, 10:08:05 - joost_schouppe: uh
+Sat, Mar 25, 2017, 10:08:13 - joost_schouppe: Eleonore should be calling you right now
+Sat, Mar 25, 2017, 10:08:19 - joost_schouppe: what is the username for Leuven?
+Sat, Mar 25, 2017, 10:08:42 - @Polyglot:matrix.org: Polyglot_Openstreetmap
+Sat, Mar 25, 2017, 10:08:56 - joost_schouppe: oh, I think they're trying to connect to someone else
+Sat, Mar 25, 2017, 10:09:18 - @Polyglot:matrix.org: probably Annelies, but she's on the move
+Sat, Mar 25, 2017, 10:11:42 - juminet: Hi does someone knows when Sébastien Spencer starts?
+Sat, Mar 25, 2017, 10:12:06 - joost_schouppe: we're trying to connect to do that
+Sat, Mar 25, 2017, 10:12:08 - joost_schouppe: from the ulb
+Sat, Mar 25, 2017, 10:12:15 - joost_schouppe: are you being called with skype?
+Sat, Mar 25, 2017, 10:12:57 - juminet: Yes we're connected to skype here at Unamur
+Sat, Mar 25, 2017, 10:13:52 - lionel_giard: we're connected at lln
+Sat, Mar 25, 2017, 10:13:57 - joost_schouppe: great
+Sat, Mar 25, 2017, 10:14:29 - lionel_giard: but are we in the same conference ? :D
+Sat, Mar 25, 2017, 10:14:34 - joost_schouppe: I hope so
+Sat, Mar 25, 2017, 10:14:37 - joost_schouppe: Eleonore is leading
+Sat, Mar 25, 2017, 10:14:48 - joost_schouppe: and please MUTE yourselves :)
+Sat, Mar 25, 2017, 10:14:57 - joost_schouppe: especially you, Marc :)
+Sat, Mar 25, 2017, 10:16:09 - lionel_giard: who is talking right now ?
+Sat, Mar 25, 2017, 10:16:30 - joost_schouppe: nobody :)
+Sat, Mar 25, 2017, 10:16:38 - joost_schouppe: everything is quiet
+Sat, Mar 25, 2017, 10:16:43 - lionel_giard: so we are not on the same conf ^^'
+Sat, Mar 25, 2017, 10:17:06 - joost_schouppe: what is the username that should be connected?
+Sat, Mar 25, 2017, 10:17:34 - lionel_giard: Gaetan montero
+Sat, Mar 25, 2017, 10:17:48 - lionel_giard: are we there ?
+Sat, Mar 25, 2017, 10:17:54 - joost_schouppe: yes!
+Sat, Mar 25, 2017, 10:17:57 - lionel_giard: ok fine
+Sat, Mar 25, 2017, 10:20:11 - joost_schouppe: is everyone hearing us?
+Sat, Mar 25, 2017, 10:20:16 - joost_schouppe: we just started :)
+Sat, Mar 25, 2017, 10:21:21 - lionel_giard: we've sound (there is no video right ? ^^)
+Sat, Mar 25, 2017, 10:22:10 - ThibPhil: Sound is OK
+Sat, Mar 25, 2017, 10:22:21 - joost_schouppe: great!
+Sat, Mar 25, 2017, 10:22:33 - @Marc.Bessieres:matrix.org joined the room
+Sat, Mar 25, 2017, 10:26:20 - joost_schouppe: is VUB here?
+Sat, Mar 25, 2017, 10:33:51 - joost_schouppe: Marc.Bessieres: where can I find that pretty slide with all the contacts you made?
+Sat, Mar 25, 2017, 10:45:38 - joost_schouppe: Does anyone have experience with broadcasting from a webcam?
+Sat, Mar 25, 2017, 10:45:48 - joost_schouppe: We want to drop Skype for the next broadcasts
+Sat, Mar 25, 2017, 10:50:04 - joost_schouppe: Polyglot: uses twitch a lot I believe
+Sat, Mar 25, 2017, 10:50:13 - @mclaeysb:matrix.org: 2680 already has no new blocks. We'll need a new task really soon. Please add the tasknumbers on the Hackpad
+Sat, Mar 25, 2017, 10:51:20 - joost_schouppe: there's backup tasks and backup backup tasks
+Sat, Mar 25, 2017, 10:53:38 - xivk joined the room
+Sat, Mar 25, 2017, 10:54:15 - @mclaeysb:matrix.org: Could you please already put them on the hackpad. I predict it will be necessary in 5 minutesè
+Sat, Mar 25, 2017, 10:54:16 - @mclaeysb:matrix.org: !!
+Sat, Mar 25, 2017, 10:54:48 - joost_schouppe: they are my dear, they are
+Sat, Mar 25, 2017, 10:55:01 - joost_schouppe: https://hackpad.com/National-Missing-Maps-Mapathon-2017-G0QYOpi7lN4#:h=Our-tasks-will-be:
+Sat, Mar 25, 2017, 10:55:40 - xivk: How can that be it just started no?!
+Sat, Mar 25, 2017, 11:02:24 - joost_schouppe: oooh we're going to broadcast through twitter!
+Sat, Mar 25, 2017, 11:07:58 - @188898:matrix.org joined the room
+Sat, Mar 25, 2017, 11:09:36 - @mclaeysb:matrix.org: Thanks a lot my dear!
+Sat, Mar 25, 2017, 11:16:25 - @188902:matrix.org joined the room
+Sat, Mar 25, 2017, 11:17:02 - @mclaeysb:matrix.org: 5 points for mclaeysb for correctly predicting full task occupancy!
+Sat, Mar 25, 2017, 11:17:04 - @mclaeysb:matrix.org: ;)
+Sat, Mar 25, 2017, 11:17:24 - @mclaeysb:matrix.org: Our new tasks are in Zambia now!
+Sat, Mar 25, 2017, 11:17:39 - joost_schouppe: What?
+Sat, Mar 25, 2017, 11:17:47 - joost_schouppe: All 5 tasks already taken?
+Sat, Mar 25, 2017, 11:20:22 - @188908:matrix.org joined the room
+Sat, Mar 25, 2017, 11:21:40 - joost_schouppe: IMPORTANT THING: the next broadcast will be through TWITTER. Open up https://twitter.com/osm_be for more news!
+Sat, Mar 25, 2017, 11:22:02 - joost_schouppe: Please tell the one in charge of the projector :)
+Sat, Mar 25, 2017, 11:22:13 - joost_schouppe: We're also spreading the word through Skype
+Sat, Mar 25, 2017, 11:23:11 - joost_schouppe: I'd like to make a test broadcast, someone available to wacth a test broadcast?
+Sat, Mar 25, 2017, 11:25:59 - @188902:matrix.org: Yes I am. Your first broadcast on Periscope worked out well it seems
+Sat, Mar 25, 2017, 11:26:14 - joost_schouppe: great
+Sat, Mar 25, 2017, 11:32:36 - @188903:matrix.org joined the room
+Sat, Mar 25, 2017, 11:33:22 - @182731:matrix.org joined the room
+Sat, Mar 25, 2017, 11:33:44 - juminet sent an image. (Media omitted)
+Sat, Mar 25, 2017, 11:34:18 - juminet: highly dedicated people at unamur!
+Sat, Mar 25, 2017, 11:35:18 - @pedrito1414:matrix.org joined the room
+Sat, Mar 25, 2017, 11:35:38 - @pedrito1414:matrix.org: Haha, you guys are going to finish the main task before lunch, AGAIN!
+Sat, Mar 25, 2017, 11:35:52 - joost_schouppe: let me find someone to interview :)
+Sat, Mar 25, 2017, 11:36:04 - joost_schouppe: you keep underestimating us :)
+Sat, Mar 25, 2017, 11:36:51 - joost_schouppe: Pete, do you have twitter on your smartphone?
+Sat, Mar 25, 2017, 11:37:08 - joost_schouppe: we would like to broadcast through twitter, because Skype is being a pain
+Sat, Mar 25, 2017, 11:38:10 - joost_schouppe: ok, Dries, I'm going to just start a little broadcast
+Sat, Mar 25, 2017, 11:38:41 - @pedrito1414:matrix.org: I do, but I have never broadcast via twitter...#
+Sat, Mar 25, 2017, 11:39:06 - @Marc.Bessieres:matrix.org: Here in liege we are starting 2710/2711/2712
+Sat, Mar 25, 2017, 11:39:20 - juminet: In namur too
+Sat, Mar 25, 2017, 11:39:37 - @Marc.Bessieres:matrix.org: Well done Namur!
+Sat, Mar 25, 2017, 11:42:23 - xivk: Where should I validate?
+Sat, Mar 25, 2017, 11:44:20 - @mclaeysb:matrix.org: Oh, my bad, I thought 2710/2711/2712 were for more advanced mappers, but ther are for everyone. Sorry for stressing over the tasks.. :)
+Sat, Mar 25, 2017, 11:44:48 - @mclaeysb:matrix.org: UGent is working in Zambia on the malaria things now, it's going really well.
+Sat, Mar 25, 2017, 11:45:03 - @188908:matrix.org: What next???
+Sat, Mar 25, 2017, 11:45:12 - lionel_giard: what task next ?
+Sat, Mar 25, 2017, 11:45:55 - ThibPhil: So, Malaria now ?
+Sat, Mar 25, 2017, 11:46:07 - joost_schouppe: Yes, let's do malaria!
+Sat, Mar 25, 2017, 11:46:13 - lionel_giard: yes
+Sat, Mar 25, 2017, 11:46:18 - lionel_giard: here we will start !
+Sat, Mar 25, 2017, 11:46:18 - ThibPhil: let's fight against Malaria!
+Sat, Mar 25, 2017, 11:46:51 - @188908:matrix.org: number?
+Sat, Mar 25, 2017, 11:46:55 - @188927:matrix.org joined the room
+Sat, Mar 25, 2017, 11:46:56 - @mclaeysb:matrix.org: What about the Skype tour,
+Sat, Mar 25, 2017, 11:46:57 - @mclaeysb:matrix.org: ?
+Sat, Mar 25, 2017, 11:47:16 - @mclaeysb:matrix.org: New tasks: e.g. 2695, 2696, 2697
+Sat, Mar 25, 2017, 11:50:52 - joost_schouppe: We're doing TWITTER for the next broadcasts
+Sat, Mar 25, 2017, 11:51:03 - lionel_giard: tell us when you're live !
+Sat, Mar 25, 2017, 11:51:44 - joost_schouppe: you can already try out with the passed video on the osm_be stream!
+Sat, Mar 25, 2017, 11:51:55 - @mclaeysb:matrix.org: UGent ready to show periscope on big screen
+Sat, Mar 25, 2017, 11:52:07 - ThibPhil: ok, we've added some tasks on the wiki.  Do we have to add manually hashtag "belgiumunis" ?
+Sat, Mar 25, 2017, 11:54:02 - joost_schouppe: OK!
+Sat, Mar 25, 2017, 11:54:15 - joost_schouppe: just a minor detail: we'll retweet https://twitter.com/pedrito1414 but, he's the actual source
+Sat, Mar 25, 2017, 11:54:24 - joost_schouppe: we forgot Pete is in Glasgow :)
+Sat, Mar 25, 2017, 11:56:20 - joost_schouppe: so make sure you're at our or Pete's profile, going live in 4 minutes :)
+Sat, Mar 25, 2017, 12:00:35 - lionel_giard: the hashtag is #Belgium-Uni ?
+Sat, Mar 25, 2017, 12:00:55 - joost_schouppe: #belgiumuni
+Sat, Mar 25, 2017, 12:00:59 - joost_schouppe: Pete talking now
+Sat, Mar 25, 2017, 12:01:04 - joost_schouppe: but you can do it later too
+Sat, Mar 25, 2017, 12:01:21 - xivk: ok, I'm validating: http://tasks.hotosm.org/project/2680
+Sat, Mar 25, 2017, 12:01:43 - joost_schouppe: Adding the hashtags to the tasks now
+Sat, Mar 25, 2017, 12:03:16 - ThibPhil: thanks
+Sat, Mar 25, 2017, 12:04:17 - lionel_giard: what's the task in nigeria he was talking about ?
+Sat, Mar 25, 2017, 12:04:38 - @188941:matrix.org joined the room
+Sat, Mar 25, 2017, 12:04:58 - @mclaeysb:matrix.org: UGent is going for lunch, see you soon!
+Sat, Mar 25, 2017, 12:05:04 - @mclaeysb:matrix.org: Thanks for the broadcast Pete!
+Sat, Mar 25, 2017, 12:05:57 - @pedrito1414:matrix.org: Pleasure. I just rewatched and saw that maybe I should have styled my hair better ;)
+Sat, Mar 25, 2017, 12:05:58 - ThibPhil: joost_schouppe:  tasks 2696, 2697 ?  do you tag other tasks ?
+Sat, Mar 25, 2017, 12:06:37 - joost_schouppe: just finished now with the malaria tasks
+Sat, Mar 25, 2017, 12:08:13 - joost_schouppe: if you missed Pete, you can still broadcast here: https://twitter.com/pedrito1414/status/845590824436072449
+Sat, Mar 25, 2017, 12:13:37 - @Jorieke:matrix.org joined the room
+Sat, Mar 25, 2017, 12:14:30 - ThibPhil: joost_schouppe: , possible to tag 2697 too please ?
+Sat, Mar 25, 2017, 12:14:34 - @188941:matrix.org: Hi! These tasks seem to be going well, and the mapping is high quality! I've seen some validation being performed by people who joined OSM today - has anyone who has just joined (or just changed accounts) specifically been asked to do this? I have politely messaged the mapper to ask them to try and concentrate on mapping, not validating. I hope that's okay?
+Sat, Mar 25, 2017, 12:14:47 - ThibPhil: low priority but still a lot to do
+Sat, Mar 25, 2017, 12:16:22 - ThibPhil: Thomas Hills:  we asked @ UMONS to do mapping only, no validation.  if needed, we can pass message again
+Sat, Mar 25, 2017, 12:16:38 - @Jorieke:matrix.org: Hi mappers! I'm joining now :-) looks like it is going fine in every university? Keep on going!! I join Ben in his validating.
+Sat, Mar 25, 2017, 12:16:56 - @pedrito1414:matrix.org: Message deleted
+Sat, Mar 25, 2017, 12:17:06 - ThibPhil: Hi Jorieke !!
+Sat, Mar 25, 2017, 12:17:32 - @pedrito1414:matrix.org: Shared the dashboard demos via twitter - tweeted to OSM_be
+Sat, Mar 25, 2017, 12:17:37 - @188941:matrix.org: Great, thanks!
+Sat, Mar 25, 2017, 12:18:03 - @pedrito1414:matrix.org: http://msf-uk.github.io/MSF-Dashboard/ver_demos/cfg_dhmt-tonkolili/ & http://msf-uk.github.io/MSF-Dashboard/ver_demos/cfg_msf-bentiu/
+Sat, Mar 25, 2017, 12:19:35 - @Polyglot:matrix.org: In Leuven we're moving to the next level and I'm explaining how to validate tasks
+Sat, Mar 25, 2017, 12:19:52 - @pedrito1414:matrix.org: Haha, go Jo!
+Sat, Mar 25, 2017, 12:20:32 - xivk: nice! make sure people know what they are doing! :) :)
+Sat, Mar 25, 2017, 12:21:00 - @Polyglot:matrix.org: We're only 10 and they ask me if they have doubts
+Sat, Mar 25, 2017, 12:24:11 - xivk: ah ok :)
+Sat, Mar 25, 2017, 12:24:57 - xivk: I'm seeing a lot of clearly square buildings no being square :)
+Sat, Mar 25, 2017, 12:25:48 - juminet: Hi. We have a question. Do we also map buildings in task 1396 or only residential areas?
+Sat, Mar 25, 2017, 12:26:27 - @Blake_HOT:matrix.org joined the room
+Sat, Mar 25, 2017, 12:26:42 - joost_schouppe: just the instructions
+Sat, Mar 25, 2017, 12:26:47 - joost_schouppe: roads and residentials
+Sat, Mar 25, 2017, 12:26:55 - joost_schouppe: you can map buildings if you want
+Sat, Mar 25, 2017, 12:27:03 - joost_schouppe: but let's finish the task ietself first :)
+Sat, Mar 25, 2017, 12:37:20 - @Blake_HOT:matrix.org: Just an FYI, first time I have seen this, task squares so small they are basically invisible.
+Sat, Mar 25, 2017, 12:37:41 - @Blake_HOT:matrix.org: Some folks might select a task square and have it basically be invisible to them no matter how much they zoom in.
+Sat, Mar 25, 2017, 12:38:26 - @Blake_HOT:matrix.org: I have no idea how the one I am looking at even got marked done, someone must have just marked it down, there is no way to actually edit it as it probably only covers literally a few cm/sq of actual ground.
+Sat, Mar 25, 2017, 12:39:22 - @Blake_HOT:matrix.org: example: http://tasks.hotosm.org/project/2664#task/416  if you zoom all the way in and look really really close, you will see a small gold spec in the middle of the screen. Hope there are not a lot of those :)
+Sat, Mar 25, 2017, 12:43:35 - joost_schouppe: yes, I noticed that too
+Sat, Mar 25, 2017, 12:44:11 - joost_schouppe: it's an artefact of the processing schema I think. First they make polygons of areas of interest, then they split it on a grid, so they wouldn't be too big
+Sat, Mar 25, 2017, 12:44:29 - joost_schouppe: but they also do this if the end result is a very very small task
+Sat, Mar 25, 2017, 12:44:42 - joost_schouppe: so they should do the polygon splitting conditionally!
+Sat, Mar 25, 2017, 12:44:47 - joost_schouppe: I'll inform Pete
+Sat, Mar 25, 2017, 12:45:13 - @188990:matrix.org joined the room
+Sat, Mar 25, 2017, 12:53:35 - joost_schouppe: how do you feel about a Validation Party, tonight in Brussels? I think it is a bit hard, but we will meet TOMORROW anyway at the Hackaton at Dewey. So those that want, can meet there for validation
+https://www.meetup.com/OpenStreetMap-Belgium/events/238459488/
+
+Or anyone have an other opinion?
+Sat, Mar 25, 2017, 12:54:50 - lionel_giard: lunch time in UCL :-)
+Sat, Mar 25, 2017, 12:59:36 - @188903:matrix.org: also lunch at VUB
+Sat, Mar 25, 2017, 13:01:26 - @Jorieke:matrix.org: I just asked for validator help on the HOT slack channel. Is there an overview of tasks we are mapping somewhere?
+Sat, Mar 25, 2017, 13:05:20 - joost_schouppe: Jorieke: https://hackpad.com/National-Missing-Maps-Mapathon-2017-G0QYOpi7lN4#:h=Our-tasks-will-be:
+Sat, Mar 25, 2017, 13:08:49 - @mclaeysb:matrix.org: Show me the way is really cool this time, there's imagery for almost everything :)
+Sat, Mar 25, 2017, 13:09:26 - @Jorieke:matrix.org: @joost of course... :-) thanks!
+Sat, Mar 25, 2017, 13:10:21 - @189005:matrix.org joined the room
+Sat, Mar 25, 2017, 13:21:35 - joost_schouppe: we're working on 2697 right now, is there anything else left?
+Sat, Mar 25, 2017, 13:22:03 - @mclaeysb:matrix.org: 1396 and 1880 have work left
+Sat, Mar 25, 2017, 13:22:21 - joost_schouppe: ooh I didn't know about 1880
+Sat, Mar 25, 2017, 13:22:29 - @mclaeysb:matrix.org: Roel is giving a 5 minute presentation on OSGeo at UGent now
+Sat, Mar 25, 2017, 13:23:09 - @mclaeysb:matrix.org: 1880 is a second task on the same project as 1396
+Sat, Mar 25, 2017, 13:29:39 - @189015:matrix.org joined the room
+Sat, Mar 25, 2017, 13:34:03 - lionel_giard: is there some task left with buildings ?
+Sat, Mar 25, 2017, 13:34:50 - @Jorieke:matrix.org: Go Roel! :-)
+Sat, Mar 25, 2017, 13:41:52 - Seppe joined the room
+Sat, Mar 25, 2017, 13:42:52 - ThibPhil: back from lunch @ UMONS
+Sat, Mar 25, 2017, 13:43:13 - Seppe sent an image. (Media omitted)
+Sat, Mar 25, 2017, 13:43:15 - Seppe: Anyone promoting the Belgian OSM community? Can we have a take home message like this one at every location? Anything missing in the picture?
+Sat, Mar 25, 2017, 13:43:32 - @189021:matrix.org joined the room
+Sat, Mar 25, 2017, 13:47:15 - ThibPhil: We will give a small training on roads mapping here.
+Sat, Mar 25, 2017, 13:47:42 - ThibPhil: And after that, we will add a JOSM room
+Sat, Mar 25, 2017, 13:48:41 - xivk: @seppe looks good to me :)
+Sat, Mar 25, 2017, 13:48:49 - @188908:matrix.org: vub started mapping again
+Sat, Mar 25, 2017, 13:49:47 - @188903:matrix.org: Is there a project with only buildings, because they are asking for it :)
+Sat, Mar 25, 2017, 13:49:57 - lionel_giard: ucl started mapping again too :)
+Sat, Mar 25, 2017, 13:50:26 - @Marc.Bessieres:matrix.org: Liege will start soon, we are explaining to the new comers and we have the same question about building only tasks?
+Sat, Mar 25, 2017, 13:56:09 - joost_schouppe: There is no building only tasks left I think
+Sat, Mar 25, 2017, 13:56:10 - @mclaeysb:matrix.org: UGent, with a lot of students, started it's afternoon session quite early (1pm) and a handful of students are leaving now. Still +- 25 people mapping.
+Sat, Mar 25, 2017, 13:57:16 - @Polyglot:matrix.org: If they like they can go map buildings in Peru
+Sat, Mar 25, 2017, 13:57:47 - @Polyglot:matrix.org: Maybe not mark the tasks done in the end, but just do the buildings. Especially on the earlier ones.
+Sat, Mar 25, 2017, 13:58:13 - @Polyglot:matrix.org: On the more recent projects there is drone imagery that's only a day or two old
+Sat, Mar 25, 2017, 13:58:43 - @Polyglot:matrix.org: BUT, we find many buildings that are not SQUARED, which were mapped with iD
+Sat, Mar 25, 2017, 13:58:57 - @Polyglot:matrix.org: That is the bane of the validators
+Sat, Mar 25, 2017, 14:00:42 - @189031:matrix.org joined the room
+Sat, Mar 25, 2017, 14:00:47 - @Polyglot:matrix.org: In JOSM this can be resolved using Ctrl-f to find all "building inview"
+Sat, Mar 25, 2017, 14:01:20 - @Polyglot:matrix.org: Then add them to the todo list, zoom in on the first, press q to square, then ] to move to the next one
+Sat, Mar 25, 2017, 14:01:48 - @Polyglot:matrix.org: sometimes you may want to use 'w' to put the corners where they belong, then press 'q'
+Sat, Mar 25, 2017, 14:02:26 - @Polyglot:matrix.org: So it's not that it can't be fixed, but it would be far better if we could avoid this problem in the first place
+Sat, Mar 25, 2017, 14:04:17 - @Marc.Bessieres:matrix.org: For Peru, is it 2709?
+Sat, Mar 25, 2017, 14:06:02 - joost_schouppe: We're working on Nigeria
+Sat, Mar 25, 2017, 14:06:35 - @Marc.Bessieres:matrix.org: what task?
+Sat, Mar 25, 2017, 14:06:54 - joost_schouppe: 1396
+Sat, Mar 25, 2017, 14:07:25 - joost_schouppe: As indicated in the hackpad :)
+Sat, Mar 25, 2017, 14:07:43 - @Marc.Bessieres:matrix.org: that's the one we are doing but it is not building :(
+Sat, Mar 25, 2017, 14:08:00 - joost_schouppe: yeah, no, we explained road mapping here real quick
+Sat, Mar 25, 2017, 14:08:05 - joost_schouppe: it is in the paper guides so
+Sat, Mar 25, 2017, 14:09:17 - @Marc.Bessieres:matrix.org: yeah, we did it too!
+Sat, Mar 25, 2017, 14:10:21 - @Marc.Bessieres:matrix.org: but people like less roads :)
+Sat, Mar 25, 2017, 14:10:38 - @Marc.Bessieres:matrix.org: They prefer buildings:)
+Sat, Mar 25, 2017, 14:10:39 - joost_schouppe: okay, then do the peru stuff!
+Sat, Mar 25, 2017, 14:10:54 - @Marc.Bessieres:matrix.org: ok
+Sat, Mar 25, 2017, 14:12:43 - eimai: I see buildings being mapped in 2710, sierra leone
+Sat, Mar 25, 2017, 14:13:42 - @Polyglot:matrix.org: But on the Peru tasks, if they only do the buildings, they should not mark them done. Still it's useful to already have the buildings.
+Sat, Mar 25, 2017, 14:13:54 - joost_schouppe: yes eimai , but all tasks are taken already
+Sat, Mar 25, 2017, 14:14:26 - @Polyglot:matrix.org: However, they need to be squared AND in Peru the buildings are not freestanding, so the common nodes need to be merged/connected to the building outlines of the neighbours
+Sat, Mar 25, 2017, 14:14:34 - @Marc.Bessieres:matrix.org: Polyglot: Thanks, message given!
+Sat, Mar 25, 2017, 14:15:09 - ThibPhil: OK, let's go for road/residential tasks @ UMONS!
+Sat, Mar 25, 2017, 14:15:22 - ThibPhil: But we need a building project too.  Any idea ?
+Sat, Mar 25, 2017, 14:15:45 - @Polyglot:matrix.org: yes, those road / residential landuse are not actually hard
+Sat, Mar 25, 2017, 14:16:14 - @Polyglot:matrix.org: just a moment, I'm on the lookout for a simple buildings task
+Sat, Mar 25, 2017, 14:17:03 - ThibPhil: thanks Jo
+Sat, Mar 25, 2017, 14:18:48 - ThibPhil: starting JOSM session now
+Sat, Mar 25, 2017, 14:20:25 - juminet: For task 1396, instructions given in https://docs.google.com/presentation/d/1N_3G3EwYQjtJ_5c9FrbPMY7W7QjlLqGeZvDID8tH4Kw/edit#slide=id.p10 are very nice!
+Sat, Mar 25, 2017, 14:26:14 - @Polyglot:matrix.org: http://tasks.hotosm.org/project/2668
+Sat, Mar 25, 2017, 14:26:22 - @Polyglot:matrix.org: needs buildings
+Sat, Mar 25, 2017, 14:27:45 - ThibPhil: about 20 future JOSM mappers here!
+Sat, Mar 25, 2017, 14:30:16 - @Polyglot:matrix.org: All buildings only tasks are at or near 100%
+Sat, Mar 25, 2017, 14:30:41 - @Polyglot:matrix.org: But actually explaining how to map buildings is just the first introductory step.
+Sat, Mar 25, 2017, 14:31:05 - @Polyglot:matrix.org: Don't forget to explain about Improve Way Accuracy (w) in JOSM
+Sat, Mar 25, 2017, 14:31:48 - @Polyglot:matrix.org: Then adding rivers, landuses and roads becomes fun. Draw an approximation using 'a'. Then refine using 'w'.
+Sat, Mar 25, 2017, 14:36:53 - Jonathan: Dank u wel Jorieke for helping me validating :)
+(And welcome back in Belgium)
+Sat, Mar 25, 2017, 14:41:41 - @Jorieke:matrix.org: We're a team! 😎
+Sat, Mar 25, 2017, 14:51:32 - @mclaeysb:matrix.org: Many people have left at UGent now, some 10 to 15 people left. Much work done + good weather side..
+Sat, Mar 25, 2017, 14:51:55 - @mclaeysb:matrix.org: Task 1396 seemed to be discouraging for some..
+Sat, Mar 25, 2017, 14:52:05 - @mclaeysb:matrix.org: But the atmosphere is very good here :)
+Sat, Mar 25, 2017, 14:59:02 - @Jorieke:matrix.org: Message deleted
+Sat, Mar 25, 2017, 14:59:08 - @Jorieke:matrix.org: Message deleted
+Sat, Mar 25, 2017, 14:59:46 - @Jorieke:matrix.org: What are all those pc-13 pc-456 pc-... usernames?
+Sat, Mar 25, 2017, 15:00:04 - @Jorieke:matrix.org: For example : http://tasks.hotosm.org/user/pc-157
+Sat, Mar 25, 2017, 15:01:40 - lionel_giard: 8 left at ucl :-)
+Sat, Mar 25, 2017, 15:02:22 - lionel_giard: 10 now :-)
+Sat, Mar 25, 2017, 15:08:56 - @Polyglot:matrix.org: We lost 4 at noon. Still 7 left, so all is good
+Sat, Mar 25, 2017, 15:09:50 - @Polyglot:matrix.org: How is the JOSM session going Thibaut?
+Sat, Mar 25, 2017, 15:09:52 - @Polyglot:matrix.org: https://docs.google.com/document/d/1VgTydfSsWGE0Bv34GrekHn8qPUW9CppR_1N66RoIDok/edit#heading=h.yk1u9trh4sq9
+Sat, Mar 25, 2017, 15:14:59 - @mclaeysb:matrix.org: 4 people left
+Sat, Mar 25, 2017, 15:15:50 - @Marc.Bessieres:matrix.org: 31 at lidge!
+Sat, Mar 25, 2017, 15:17:57 - joost_schouppe: which is the Peru task?
+Sat, Mar 25, 2017, 15:18:44 - @Polyglot:matrix.org: 2709 is a possibility.
+Sat, Mar 25, 2017, 15:19:04 - @189076:matrix.org joined the room
+Sat, Mar 25, 2017, 15:19:09 - @Polyglot:matrix.org: It's great to demonstrate responsiveness and to show ecxellent recent imagery, but it's really hard to map.
+Sat, Mar 25, 2017, 15:19:29 - joost_schouppe: it says "not for beginners"
+Sat, Mar 25, 2017, 15:19:40 - @Polyglot:matrix.org: I, for one, don't have an idea what to map exactly.
+Sat, Mar 25, 2017, 15:20:43 - joost_schouppe: so we should and should not do it :)
+Sat, Mar 25, 2017, 15:21:14 - @Polyglot:matrix.org: not for mappers with 7-8 years experience, either then :-)
+Sat, Mar 25, 2017, 15:21:20 - joost_schouppe: haha
+Sat, Mar 25, 2017, 15:21:28 - joost_schouppe: yeah, we asked them to start, then to stop
+Sat, Mar 25, 2017, 15:21:29 - @Polyglot:matrix.org: I guess it's great for a demo
+Sat, Mar 25, 2017, 15:21:30 - joost_schouppe: nice!
+Sat, Mar 25, 2017, 15:21:35 - joost_schouppe: ah ok
+Sat, Mar 25, 2017, 15:21:39 - joost_schouppe: now I get your point :)
+Sat, Mar 25, 2017, 15:22:00 - Jonathan:  > What are all those pc-13 pc-456 pc-... usernames?
+
+@Jorieke : I think that's how they did it in Luik, they created "generic" accounts.
+
+Sat, Mar 25, 2017, 15:22:14 - joost_schouppe: oh dear
+Sat, Mar 25, 2017, 15:22:29 - joost_schouppe: guys, we're trying to do the data anlysis showcase sooner
+Sat, Mar 25, 2017, 15:22:34 - @Polyglot:matrix.org: so how are we going to give them feedback then?
+Sat, Mar 25, 2017, 15:23:09 - joost_schouppe: well maybe they connected the generics to their personal mail :)
+Sat, Mar 25, 2017, 15:23:13 - Jonathan: No idea, I'm in ULB. Marc.Bessieres can probably answer :)
+Sat, Mar 25, 2017, 15:23:56 - Jonathan: Do not think they used personal mail, the accounts were created before today (if I understood correctly)
+Sat, Mar 25, 2017, 15:24:04 - joost_schouppe: so in 10 minutes we want to broadcast preliminary statistics
+Sat, Mar 25, 2017, 15:24:15 - @Polyglot:matrix.org: sounds good, Joost
+Sat, Mar 25, 2017, 15:24:19 - joost_schouppe: if your uni responible doesn't know yet, make sure they are ready
+Sat, Mar 25, 2017, 15:24:26 - lionel_giard: broadcast on twitter ?
+Sat, Mar 25, 2017, 15:24:31 - joost_schouppe: we're going to try skype again, because we want to do screen-sharing
+Sat, Mar 25, 2017, 15:24:46 - joost_schouppe: so Eleonore will be calling them soon
+Sat, Mar 25, 2017, 15:25:03 - joost_schouppe: (we do it sooner because in many plpaces people are already leaving)
+Sat, Mar 25, 2017, 15:25:29 - Jonathan: Sun is too shiny ! Damn this Sun ! :D
+Sat, Mar 25, 2017, 15:25:48 - joost_schouppe: you can NEVER depend on Belgian wheather
+Sat, Mar 25, 2017, 15:26:07 - Jonathan: Where is our good old rain when we need it ?
+Sat, Mar 25, 2017, 15:27:28 - @188903:matrix.org: I saw there is a new Malaria mapping task online (2698)
+Sat, Mar 25, 2017, 15:39:07 - lionel_giard: Great summary !
+Sat, Mar 25, 2017, 15:40:01 - lionel_giard: We got a good turnover here at UCL, with age going from 7 to 60+ :D
+Sat, Mar 25, 2017, 15:42:34 - @mclaeysb:matrix.org: 3 people left here, I'm going to map a bit myself now :)
+Sat, Mar 25, 2017, 15:45:17 - @Jorieke:matrix.org: please share summary here too :-)
+Sat, Mar 25, 2017, 15:49:04 - joost_schouppe: we're going out for a beer
+Sat, Mar 25, 2017, 15:49:09 - joost_schouppe: shoutout to the VUB!
+Sat, Mar 25, 2017, 15:49:15 - joost_schouppe: we'll be here: http://www.openstreetmap.org/way/134497245
+Sat, Mar 25, 2017, 15:49:19 - joost_schouppe: Le Tavernier
+Sat, Mar 25, 2017, 16:16:56 - @mclaeysb:matrix.org: UGent has closed. Enjoy your beer! Well done team, great cheer for ourselves!
+Sat, Mar 25, 2017, 16:17:19 - @Marc.Bessieres:matrix.org: we're closing it all, and I'll go for my train, but maybe not joining you:(
+Sat, Mar 25, 2017, 16:19:10 - lionel_giard: closing in LLN, i recruited a few people (given the welcome osm link...) ;D
+Sat, Mar 25, 2017, 16:22:45 - @189121:matrix.org joined the room
+Sat, Mar 25, 2017, 16:29:37 - @189133:matrix.org joined the room
+Sat, Mar 25, 2017, 16:31:59 - @johnwhelan:matrix.org joined the room
+Sat, Mar 25, 2017, 16:34:50 - @johnwhelan:matrix.org: I've been validating on 1396 generally very good but once or twice highways connecting settlements have been mapped as tracks which doesn't follow http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa  John
+Sat, Mar 25, 2017, 16:39:27 - joost_schouppe: Thanks for the help John!
+Sat, Mar 25, 2017, 16:39:47 - joost_schouppe: I think a few of us will continue validating tomorrow.
+Sat, Mar 25, 2017, 16:46:09 - @johnwhelan:matrix.org: I normally validate anything mapped on 1396 I was surprised by the number of tiles completed this morning when I checked.  Remember I'm five hours behind Europe.  I've validating the most recent first I'll work through the others later on.  John
+Sat, Mar 25, 2017, 16:51:20 - ThibPhil: UMons closed too.  but still some JOSM discussions here
+Sat, Mar 25, 2017, 16:51:54 - @Polyglot:matrix.org: Last one left in Leuven too. JOSM discussions? Tell me more?
+Sat, Mar 25, 2017, 16:52:34 - ThibPhil: not really discussions... we continue JOSM training and questions :-)
+Sat, Mar 25, 2017, 16:52:39 - @Polyglot:matrix.org: We're a tremendous force, John :-)
+Sat, Mar 25, 2017, 16:54:03 - @Polyglot:matrix.org: I trained a few validators here... hopefully there are a few that stick
+Sat, Mar 25, 2017, 16:55:51 - @ThomasW89:matrix.org joined the room
+Sat, Mar 25, 2017, 16:59:21 - ThibPhil: Welcome Thomas :-)
+Sat, Mar 25, 2017, 17:11:30 - lionel_giard: I had mostly newcomers at ucl
+Sat, Mar 25, 2017, 17:32:08 - ThibPhil: Leaving UMONS. it was a great day!
+Sat, Mar 25, 2017, 17:33:06 - eimai: congrats everyone, too bad I couldn't come in the end
+Sat, Mar 25, 2017, 17:33:44 - xivk: yeah congrats, next time we're there too! :)
+Sat, Mar 25, 2017, 17:33:51 - ThibPhil sent an image. (Media omitted)
+Sat, Mar 25, 2017, 17:33:58 - ThibPhil: Souvenirs...
+Sat, Mar 25, 2017, 17:34:22 - lionel_giard: downloaded and stored for further usage :D
+Sat, Mar 25, 2017, 17:35:26 - lionel_giard: I love the look with these helmet
+Sat, Mar 25, 2017, 18:41:06 - @Polyglot:matrix.org: I'm wondering, if I were to find a location in Leuven to do a meetup/mapping part/mapathon in Leuven, if many people would show up. Today we had 10 very motivated people. I think that number can grow, if we'd be able to do something on a regular basis.
+Sat, Mar 25, 2017, 18:41:19 - @Polyglot:matrix.org: like monthly
+Sat, Mar 25, 2017, 18:46:57 - xivk: Should be possible to find a space no?
+Sat, Mar 25, 2017, 18:47:36 - xivk: I think recurring events at fixed times are always good
+Sat, Mar 25, 2017, 18:48:25 - @Polyglot:matrix.org: I'm going to discuss with Annelies (and a colleague who is in charge of PC-klassen) at KU Leuven, to figure out what is possible
+Sat, Mar 25, 2017, 18:49:20 - xivk: Nice! Let us know how it goes... :)
+Sat, Mar 25, 2017, 18:49:52 - @Polyglot:matrix.org: ok, will do
+Sat, Mar 25, 2017, 21:40:49 - @NicoVargas:matrix.org joined the room
+Sat, Mar 25, 2017, 22:00:44 - ThibPhil: doing some validation now :-)
+Sat, Mar 25, 2017, 22:14:03 - @189381:matrix.org joined the room
+Sat, Mar 25, 2017, 23:05:24 - @Polyglot:matrix.org: you find many buildings that weren't  squared?
+Sat, Mar 25, 2017, 23:06:07 - ThibPhil: some where not squared but not a lot...
+Sat, Mar 25, 2017, 23:08:25 - @Polyglot:matrix.org: We found quite a few. Gave me a chance to explain about the todo plugin, but stillI I think it's odd, that after all these years iD exists none of the developers had the brilliant idea of adding something like JOSM's buildings_tools plugin.
+Sat, Mar 25, 2017, 23:09:45 - ThibPhil: you're right, I don't understand why...
+Sat, Mar 25, 2017, 23:10:31 - ThibPhil: I think iD features are the same from the 1st version... no ?  :-)
+Sat, Mar 25, 2017, 23:11:11 - @Polyglot:matrix.org: For the third year in a row, I'll be mentoring to improve JOSM (Mapillary, Public Transport), but I never see a project to improve building mapping iD being proposed.
+Sat, Mar 25, 2017, 23:11:46 - @Polyglot:matrix.org: I must admit; I don't know very much about iD...
+Sat, Mar 25, 2017, 23:12:29 - ThibPhil: maybe because everybody just use iD for the 1st mapping and switch to JOSM for the next ones ?
+Sat, Mar 25, 2017, 23:13:09 - @Polyglot:matrix.org: If only that were true. Most people who get started on iD, keep on using it.
+Sat, Mar 25, 2017, 23:13:21 - ThibPhil: It would be interesting to have a "light" version of JOSM.  With just the necessary tools to begin with mapping...
+Sat, Mar 25, 2017, 23:13:52 - ThibPhil: Yes, I've a colleage who has made more than 1000 changesets with iD !!!
+Sat, Mar 25, 2017, 23:14:02 - ThibPhil: don't know why
+Sat, Mar 25, 2017, 23:15:56 - @Polyglot:matrix.org: I think the biggest problem with JOSM, is that you need to install it and set up. It took us a bit longer to get started, but afterwards participants in Leuven were a lot more productive and since they were doing so well (and the projects were done before we knew it, I could move on to turn them into validators.
+Sat, Mar 25, 2017, 23:16:59 - ThibPhil: nice!  At UMONS we spent a lot of time too to install (with incompatible JRE versions...)
+Sat, Mar 25, 2017, 23:17:49 - ThibPhil: We had about 15 users interested in JOSM.  And we spent some time to play with the "b" et "w" key :-)
+Sat, Mar 25, 2017, 23:18:39 - @Polyglot:matrix.org: yeah, those 2 are what makes it totally worth it to spend that extra bit of time.
+Sat, Mar 25, 2017, 23:18:42 - lionel_giard: in ucl, we couldn't update java on the computer, so it was impossible to r
+Sat, Mar 25, 2017, 23:18:46 - lionel_giard: teach josm*
+Sat, Mar 25, 2017, 23:18:59 - ThibPhil: it was quite interesting.  A lot of questions about imagery offsets, import of shp data, additional WMS layers...
+Sat, Mar 25, 2017, 23:19:11 - @Polyglot:matrix.org: I guess I was lucky nobody brought their own computers, so they were all standard installations
+Sat, Mar 25, 2017, 23:19:30 - ThibPhil: I think we will have some new JOSM mapper @ Mons !
+Sat, Mar 25, 2017, 23:19:42 - @Polyglot:matrix.org: oh, wow, you definitely had geography students then :-)
+Sat, Mar 25, 2017, 23:19:56 - lionel_giard: Were we the only one in UCL with children mapping ? :D (we had young people around 7-8-9 years old !)
+Sat, Mar 25, 2017, 23:20:17 - @Polyglot:matrix.org: but careful with the subject of importing data into OpenStreetMap
+Sat, Mar 25, 2017, 23:20:26 - ThibPhil: Architects...  used to work with AutoCAD and ArchiCAD tools.  QGIS too
+Sat, Mar 25, 2017, 23:20:48 - ThibPhil: no, it was not about importing data into OSM
+Sat, Mar 25, 2017, 23:21:15 - @Polyglot:matrix.org: That is very young. My daughter is 11 now. I think I could explain her, but I wouldn't have tried 3 years ago.
+Sat, Mar 25, 2017, 23:21:18 - ThibPhil: just to have some additional (local) data but to help them in the mapping.
+Sat, Mar 25, 2017, 23:21:43 - lionel_giard: interestingly, these young people made fewer errors at begining than older ones :D
+Sat, Mar 25, 2017, 23:21:53 - lionel_giard: and they learn really fast
+Sat, Mar 25, 2017, 23:21:58 - @Polyglot:matrix.org: :-)
+Sat, Mar 25, 2017, 23:22:08 - ThibPhil: for their projects, they have to mix osm and other sources data and export to AutoCAD
+Sat, Mar 25, 2017, 23:23:36 - ThibPhil: don't worry Polyglot , I talk a lot about licences, bulk imports and other important points :-)
+Sat, Mar 25, 2017, 23:33:26 - ThibPhil: not so bad for building tasks but the 2 last projects (roads and residential areas) contains many errors.
+Sat, Mar 25, 2017, 23:33:46 - ThibPhil: like many nested resid area
+Sat, Mar 25, 2017, 23:38:03 - ThibPhil: Tired and I've a few hours road tomorrow.  Enjoy for the hackathon !!  See you !!!
+Sat, Mar 25, 2017, 23:38:37 - @Polyglot:matrix.org: A big thank you Thibaut!
+Sat, Mar 25, 2017, 23:39:00 - ThibPhil: You're welcome !  It was a REAL PLEASURE !!
+Sat, Mar 25, 2017, 23:39:22 - ThibPhil: (as usual).  See you !
+Sun, Mar 26, 2017, 09:12:03 - @Marc.Bessieres:matrix.org: For the PCXXX, it was from Liège, as last year there had been a lot of problems creating user accounts (and I tried to ask some of the "motivated" ones and we had several issues: connecting to personal mail...)
+Sun, Mar 26, 2017, 09:12:35 - @Marc.Bessieres:matrix.org: So ULG went to "generic accounts" and asking people to create their account at home!
+Sun, Mar 26, 2017, 09:13:16 - @Marc.Bessieres:matrix.org: It made the mappers very happy! And from the mappers I think that between 5 and 30 people will continue!
+Sun, Mar 26, 2017, 09:14:49 - @Polyglot:matrix.org: Maybe we could send a mail to all participants one day before with instructions to create OpenStreetMap accounts at home before the event. The problem now is that they won't see any messages addressed to them in the Tasking Manager or in their changesets and such feedback is invaluable, either to retain them or to at least make sure they lean what did right and were they can improve.
+Sun, Mar 26, 2017, 09:44:19 - joost_schouppe: yeah, I agree with Polyglot that anonymous accounts should really be avoided. I like the suggestion to ask them to this before. I'm adding it to a new section in the hackpad: Post event evaluation
+https://hackpad.com/National-Missing-Maps-Mapathon-2017-G0QYOpi7lN4#:h=Post-event-stuff
+Sun, Mar 26, 2017, 09:44:29 - joost_schouppe: please fill in more, before you forget it :)
+Sun, Mar 26, 2017, 09:48:46 - joost_schouppe: also @ Marc.Bessieres and Thibaut Philippart thank you for Saving Wallonia
+Sun, Mar 26, 2017, 09:50:19 - joost_schouppe: Polyglot: I really like the idea to continue with small, more advanced mapathons. Do you think the university could provide such a space? We could also ask the city, maybe. Or some "cool tech place"; we could ask Dries @ Open Knowledge for some suggestions
+Sun, Mar 26, 2017, 09:52:03 - @Polyglot:matrix.org: I'm going to ask Annelies or possibly my new boss, now that we have one, once again.
+Sun, Mar 26, 2017, 09:52:18 - joost_schouppe: :)
+Sun, Mar 26, 2017, 09:52:42 - joost_schouppe: Ok, let us know if you run out of options
+Sun, Mar 26, 2017, 18:12:47 - @pedrito1414:matrix.org: Message deleted
+Sun, Mar 26, 2017, 18:13:08 - @pedrito1414:matrix.org: Polyglot, we have this in London every month. It's succinctly called the Mid Month Missing Maps Misfits Meetup.
+Sun, Mar 26, 2017, 18:13:20 - @pedrito1414:matrix.org: Or MMMMMM for short
+Sun, Mar 26, 2017, 18:14:29 - @pedrito1414:matrix.org: Would you like to chat with them about the kind of stuff they work on.? I'm sure they'd be up for talking....
+Sun, Mar 26, 2017, 18:15:20 - @pedrito1414:matrix.org: They're doing all sorts of stuff from validation training to learning field data collection to user testing the new tasking manager instance...
+Sun, Mar 26, 2017, 18:15:34 - @pedrito1414:matrix.org: Let me know... Happy to put you in touch!
+Sun, Mar 26, 2017, 18:18:27 - @pedrito1414:matrix.org: In fact Thomas Hills who is on this chat is one of the gang...
+Sun, Mar 26, 2017, 18:48:31 - @Polyglot:matrix.org: That's great, we'll probably need something with a bunch of L in it :-) I'm first going to figure out if I can get a room filled with computers on campus or in the center of Leuven. One problem I had, was that those computers needed accounts connected to the university, but now I learned it' s possible to ask for temporary accounts to log on. And then there might be a bill, so hopefully I can find someone or some department that doesn't mind paying such a bill on a montly basis.
+Mon, Mar 27, 2017, 14:47:18 - @Marc.Bessieres:matrix.org: Polyglot: joost_schouppe: I fully agree that with functional accounts we loose that feedback mechanism. And I agree that asking people to create an OSM account beforehand is a good idea.
+Mon, Mar 27, 2017, 14:48:46 - @Marc.Bessieres:matrix.org: Nevertheless, I believe the experience of ULG last year, and mine this year, that it is frustrating for our potential contributors to be stuck on account creation.
+Mon, Mar 27, 2017, 14:49:15 - @Marc.Bessieres:matrix.org: Therefore, as a backup plan I feel this is a reasonable tradeoff ;-)
+Mon, Mar 27, 2017, 14:50:06 - @Marc.Bessieres:matrix.org: While I'm writing about my feedback at ULG, let's continue, with good news :)
+Mon, Mar 27, 2017, 14:51:13 - @Marc.Bessieres:matrix.org: A responsible of a fab space in the Liege area came (as I don't know the area I'm unsure how close to University the fabspace was located)
+Mon, Mar 27, 2017, 14:51:44 - @Marc.Bessieres:matrix.org: And he has an openspace for local mapathons in Liege!
+Mon, Mar 27, 2017, 14:53:35 - @Marc.Bessieres:matrix.org: He would be very interested in communicating with more experienced OSM people than me as his fabspace is ( as far as I understood ) trying to mix and match companies and people in satelitte imagery field (more or less :-)
+Mon, Mar 27, 2017, 14:54:36 - @Polyglot:matrix.org: Terrific news! I think I may have gotten the ball rolling here in Leuven as well.
+Mon, Mar 27, 2017, 14:56:32 - @Marc.Bessieres:matrix.org: Very good news Polyglot!!!
+Mon, Mar 27, 2017, 15:10:32 - joost_schouppe: Nice job boys :)
+Mon, Mar 27, 2017, 15:11:46 - joost_schouppe: Sounds a little vague in Liege. Do we have anyone local who is available? Or could we invite them to Brussels? Or should we do a Meetup in Liege :)
+Mon, Mar 27, 2017, 15:12:15 - Jonathan: Yes, let's do a meetup in Liège to keep the "good vibe" :)
+Mon, Mar 27, 2017, 15:12:25 - Jonathan: and in Leuven too !
+Mon, Mar 27, 2017, 15:14:26 - joost_schouppe: And Mons!
+Mon, Mar 27, 2017, 15:14:42 - joost_schouppe: And Nantes!
+Mon, Mar 27, 2017, 15:15:41 - Jonathan: Aaaaah so much French ! XD
+Mon, Mar 27, 2017, 15:23:16 - @Marc.Bessieres:matrix.org: Yes, I need to ask precisions to the guy :-) I have his card at home. But with his email address I can find: http://wsl.be/
+Mon, Mar 27, 2017, 15:24:13 - @Marc.Bessieres:matrix.org: I'll ask him again what kind of person he wanted (or ask him to come here to explain :-)
+Mon, Mar 27, 2017, 15:25:18 - @Marc.Bessieres:matrix.org: And also if he'd like to come in BXL, or sure we can go in Liege, Leuven, Mons and Nantes! Such a good vibe lately!!!
+Mon, Mar 27, 2017, 15:26:05 - @Marc.Bessieres:matrix.org: And do not forget Namur, Gent, and anywhere else in Belgium! Such a nice place to visit!
+Mon, Mar 27, 2017, 15:31:22 - ThibPhil: Hello!  I will write some feedback for Mons event tonight.  They will organize mapathons too (impossible for them to wait the next national one ; they will organize small one before)
+Mon, Mar 27, 2017, 15:31:57 - ThibPhil: and in the local crew I met someone from http://www.loligrub.be/blog/
+Mon, Mar 27, 2017, 15:32:58 - ThibPhil: Maybe you know...  Very intertesting .  And Didier (the guy from loligrub) think I knows the good person to try to open data in Wallonia :-)
+Mon, Mar 27, 2017, 15:33:28 - ThibPhil: think he knows...  sorry
+Mon, Mar 27, 2017, 15:34:08 - ThibPhil: I stay in touch with Didier and I'll try to have more info
+Mon, Mar 27, 2017, 15:36:19 - ThibPhil: If they want to organize local mapathons, maybe can I share the info about the London team too ?
+Mon, Mar 27, 2017, 15:37:30 - ThibPhil: ah, Didier is connected on Riot :-)
+Mon, Mar 27, 2017, 15:38:06 - ThibPhil: I'll try to call you soon :-)
+Mon, Mar 27, 2017, 15:44:22 - ThibPhil: Marc.Bessieres: nice infos from Liège !!  Good news!
+Mon, Mar 27, 2017, 15:49:32 - @Marc.Bessieres:matrix.org: Thibaut Philippart: Very good news from Mons too! I'm sure we'll do the "Tour de Belgique" for mapathon soon!
+Mon, Mar 27, 2017, 16:18:48 - @FabSpaceLiege:matrix.org joined the room
+Mon, Mar 27, 2017, 16:20:53 - @FabSpaceLiege:matrix.org: Hello, I was on the generic OSM BE room...
+Mon, Mar 27, 2017, 16:22:38 - @FabSpaceLiege:matrix.org: My name is Herbert Hansen, I'm working for WSL on the FabSpace project. I'm the former manager of the ESA Business incubator in Wallonia. I did a hort visit to the mapathon in Liège and we'd be interested in organising another event in Liège with the geomatics department of ULg and Fabspace. We also received a challenge fro CartONG who is requesting a population estimate job for MSF on 4 areas in Africa.
+Mon, Mar 27, 2017, 16:23:53 - @FabSpaceLiege:matrix.org: Message deleted
+Mon, Mar 27, 2017, 16:23:55 - @FabSpaceLiege:matrix.org: Message deleted
+Mon, Mar 27, 2017, 16:24:45 - @FabSpaceLiege:matrix.org: I have to leave the office but I'll be back later today or tomorrow for further discussion. Cheers.
+Mon, Mar 27, 2017, 20:27:30 - joost_schouppe: Guys, I'm collecting all the tasks we worked on: https://hackpad.com/National-Missing-Maps-Mapathon-2017-G0QYOpi7lN4#:h=Our-tasks-were:
+Mon, Mar 27, 2017, 20:27:48 - joost_schouppe: could you have a quick look to see if I missed anything?
+Mon, Mar 27, 2017, 20:33:05 - ThibPhil: we worked on 1880 too
+Mon, Mar 27, 2017, 20:51:20 - joost_schouppe: Thanks!
+Mon, Mar 27, 2017, 21:14:07 - ThibPhil: de nada
+Mon, Mar 27, 2017, 21:57:28 - @pedrito1414:matrix.org: Was chatting to David at MSF Belgium last week and he said there might be possibility to host non-MSF-organised mapathons at the MSF office. Give me a shout if you want me to follow up on this.
+Tue, Mar 28, 2017, 09:25:09 - @linusable:matrix.org left the room
+Tue, Mar 28, 2017, 10:29:05 - Jonathan: Awesome, thanks pedrito1414 ! \o/
+Tue, Mar 28, 2017, 11:17:23 - joost_schouppe: Maybe you and Marc B could follow up on this? I'm already overloaded with stuff to do
+(Jorieke and I will support of course)
+Tue, Mar 28, 2017, 11:18:28 - Jonathan: No problem ! David already know me.
+pedrito1414 : I can do the follow up, I'll send you my email address.
+Tue, Mar 28, 2017, 13:00:26 - @Marc.Bessieres:matrix.org: Sure, jonathan could you send mine at the same time? ;-)
+Tue, Mar 28, 2017, 13:03:19 - @Jorieke:matrix.org: Yes of course ;)
+Thu, Mar 30, 2017, 21:21:50 - @194027:matrix.org joined the room
+Fri, Mar 31, 2017, 10:31:24 - @matto108:matrix.org joined the room
+Sat, Apr 1, 2017, 13:27:14 - Jonathan: Well ... I kind of went full throttle on the Palistinian task ...
+A bit mental though ...
+Sat, Apr 1, 2017, 13:59:26 - lionel_giard: Wow !
+Fri, Apr 14, 2017, 09:42:52 - @Polyglot:matrix.org: Joost, shouldn't we mention the IPIS mapathon in Antwerp?
+Fri, Apr 14, 2017, 10:09:27 - joost_schouppe: I think we do
+Fri, Apr 14, 2017, 10:09:48 - @Polyglot:matrix.org: hmm, I'll read it again
+Fri, Apr 14, 2017, 10:17:53 - @Polyglot:matrix.org: I see, it's further down :-)
+Fri, Apr 14, 2017, 10:20:17 - @Polyglot:matrix.org: The event I'm organising in Leuven is the first in a series, but they won't  always be in Mapathon format. If I find somebody who wants to demo QGIS for example, I'd welcome that. The same with Mapillary, OpenStreetCam, Maperitive, Mapbox and of course the mapping of public transport :-)
+Fri, Apr 14, 2017, 10:20:58 - @Polyglot:matrix.org: at some point also our 'import' of buildings and addresses in Flanders
+Fri, Apr 14, 2017, 10:21:28 - @Polyglot:matrix.org: but it's, of course, impossible to convey all that in that email :-)
+Thu, Apr 20, 2017, 09:52:47 - @mclaeysb:matrix.org: Hi all, just wanted to gently invite you to the Mapathon in Antwerp next Wednesday. We'll be working on a custom/experimental task in the Okapi reserve in DRC.
+Thu, Apr 20, 2017, 09:53:12 - @mclaeysb:matrix.org: (If there's a better riot channel to post this in, let me know! I'm not invited to the others I see)
+Thu, Apr 20, 2017, 10:15:55 - @Polyglot:matrix.org: There is a meetings channel and a tasks channel. If I understood correctly the meetings is for before the meetins start and the tasks is for during the meeting. Correct me if I'm wrong on this.
+Thu, Apr 20, 2017, 10:20:15 - joost_schouppe: Maybe we have too many channels :)
+Thu, Apr 20, 2017, 10:20:43 - joost_schouppe: This one (Tasks) is for Mapathons and work in the Belgian tasking manager
+Thu, Apr 20, 2017, 10:21:14 - joost_schouppe: Meetings is ONLY to allow online participation  in official meetings
+Thu, Apr 20, 2017, 10:21:52 - joost_schouppe: And "Openstreetmap Belgium" is for general chat
+Thu, Apr 20, 2017, 10:22:14 - joost_schouppe: I've just sent an invite to Manuel for that last channel
+Sat, Apr 29, 2017, 09:10:32 - Jonathan: OSMBE Tasking Manager is now up-to-date (version 2.13.2-72-gce5b870).
+Sat, Apr 29, 2017, 09:31:23 - @Polyglot:matrix.org: I have a question about the TM. Since I proposed to those meetings, there is more interest from several people at the GEO department of KU Leuven. One among them is a professor who does projects in Ethiopia. They asked me if it's possible to set up projects to improve mapping over there. Can the Belgian tasking manager be used for such projects?
+Sat, Apr 29, 2017, 09:36:23 - Jonathan: Oh that's a good question.
+My main goal for OSMBE tasking manager was to focus on tasks in Belgium.
+Sat, Apr 29, 2017, 09:37:01 - Jonathan: But of course, I have nothing against creating task all over the world.
+Don't know what others think about it :)
+Sat, Apr 29, 2017, 09:40:00 - @Polyglot:matrix.org: I'm also going to talk to Blake, but it's not HOT related, so I'm not sure it would be possible to put it at tasks.hotosm.org. My plan is to kickstart a local community there, but no idea how that will turn out. I still have to talk to the professor who oversees the KU Leuven projects over there.
+Sat, Apr 29, 2017, 09:41:24 - Jonathan: Maybe I can help him to setup his own Tasking Manager :)
+Sat, Apr 29, 2017, 09:43:48 - @Polyglot:matrix.org: that's another possibility. I  guess it runs in a virtualenv?
+Sat, Apr 29, 2017, 09:45:09 - Jonathan: Yes, I wrote a wiki page on how to install it : https://github.com/hotosm/osm-tasking-manager2/wiki/Debian-installation
+Sat, Apr 29, 2017, 09:45:51 - @Polyglot:matrix.org: I think the intention is to 1. have local people in Ethiopia work on tasks, but also to involve students from here. And of course anybody else who is interested. I would like to make it 'richer' by including Mapillary and local survey in the mix.
+Sat, Apr 29, 2017, 09:49:07 - Jonathan: Yes, that would be awesome. But that's a huge project :D
+Sat, Apr 29, 2017, 09:52:09 - @Polyglot:matrix.org: yes, wouldn't contemplate working on it on my own. But since Belgian people go back and forth all the time, they can overcome the problem of the pictures upload. Local people can do the surveying and we can help them input the data. It could work better than HOT projects. We'll have to see how it goes and how motivated everyone is to build that map.
+Sat, Apr 29, 2017, 10:00:26 - joost_schouppe: That sounds to me like Hot would be quite happy to help out
+Sat, Apr 29, 2017, 10:00:58 - joost_schouppe: Or you could talk to the new Missing Maps liaison, @jorieke :)
+Sat, Apr 29, 2017, 10:07:39 - @Polyglot:matrix.org: True. It's not so much humanitarian, but it's definitely Missing Maps.
+Sat, Apr 29, 2017, 10:08:30 - joost_schouppe: And apparently missing maps will de "finished" with what they do most of the time now within a year or two
+Sat, Apr 29, 2017, 10:08:48 - joost_schouppe: So it might be a nice future oriented project for them
+Sat, Apr 29, 2017, 10:09:34 - @Polyglot:matrix.org: OK, good to know I have something more concrete to propose that that professor now
+Sat, Apr 29, 2017, 10:11:50 - joost_schouppe: If both missing maps and hot don't want to do it, I think we can consider the Belgian tasking manager too. I wouldn't mind at least. It would be something to discuss.
+Sat, Apr 29, 2017, 10:13:14 - @Polyglot:matrix.org: Great. In a few weeks, I'll contact Jorieke. At the moment I don't even know in which region they are exactly.
+Sat, Apr 29, 2017, 12:53:35 - @Jorieke:matrix.org: Hey Jo, Joost, this is purely what HOT actually is.... community projects coming up! Happy to talk through it with you Jo to see what we can make of it! And yes a task at HOT certainly can set up!
+Sat, Apr 29, 2017, 12:54:45 - @Jorieke:matrix.org: I can do that, or we can give you an account
+Sat, Apr 29, 2017, 12:56:06 - @Jorieke:matrix.org: And if you'rd talking Ethiopia, I'm pretty sure Kay will want to help out too :-)
+Sat, Apr 29, 2017, 14:26:33 - @Polyglot:matrix.org: Jorieke: good to know. I'll get back to you as soon as I have some more details on the project
+Mon, Jun 19, 2017, 18:48:25 - Jonathan: OSMBE Tasking Manager was just updated : http://tasks.osm.be/
+Mon, Jun 19, 2017, 18:49:02 - joost_schouppe: Hooray!
+Thu, Jun 29, 2017, 15:39:38 - ThibPhil: Hello hello!  We will organize a small mapathon tonight (19 to 21:30) with a few companies in Nantes.  If some of you could help me to validate, it would be very helpful...   We will work on Malaria tasks #3231 #3224 and on Nigeria #1881.
+Thu, Jun 29, 2017, 15:40:02 - ThibPhil: in the comments, we will add "#MNA" :-)
+Thu, Jun 29, 2017, 15:40:14 - ThibPhil: MNA = Mapathon Nantes Atlantique... :-)
+Thu, Jun 29, 2017, 15:40:32 - ThibPhil: Many many thanks in advance!
+Thu, Jun 29, 2017, 21:23:29 - ThibPhil: I don't know how to query on changeset tags with overpass... to count buidings already mapped here... anyone could you help me please?
+Thu, Jun 29, 2017, 21:38:15 - Jonathan: Sorry Thibaut Philippart I do not know Overpass that well :-/
+Thu, Jun 29, 2017, 22:09:59 - joost_schouppe: Holy crap I missed it
+Thu, Jun 29, 2017, 22:11:44 - joost_schouppe: you can use this query to get a csv of changes in the area during your time frame (time is in UCT): http://overpass-turbo.eu/s/q4E
+Thu, Jun 29, 2017, 22:12:44 - joost_schouppe: this nifty thing gives you a nice output too: http://mapathon.cartong.org/#taskId=3231&stDate=2017-06-29T16:00:00Z&endDate=2017-06-29T21:00:00Z&server=https://overpass-api.de/api/interpreter
+Thu, Jun 29, 2017, 22:14:53 - joost_schouppe: it does not take in account the changeset comments though
+Thu, Jun 29, 2017, 22:16:28 - Jonathan: Oooh that's nice that "Mapathon Dashboard" I'll have a look at that !
+Is it a new thing ?
+Thu, Jun 29, 2017, 22:17:02 - joost_schouppe: yes, I just recently saw it on the hot mailing list, seemed new to the community
+Thu, Jun 29, 2017, 22:18:54 - joost_schouppe: this one does take in account the changeset comments: http://www.missingmaps.org/leaderboards/#/mna
+Thu, Jun 29, 2017, 22:18:56 - joost_schouppe: (but it often misses a lot of data)
+Thu, Jun 29, 2017, 22:20:33 - joost_schouppe: oh, with this overpass query you can also make a toplist of usernames: http://overpass-turbo.eu/s/q4F
+Thu, Jun 29, 2017, 22:22:06 - joost_schouppe: oooooh you can now save your overpass queries to your osm account, that is really cool
+Thu, Jun 29, 2017, 22:22:54 - joost_schouppe: also Thibaut Philippart really sorry to not have been around!
+Thu, Jun 29, 2017, 22:25:24 - joost_schouppe: I can make a little report by tomorrow if you want
+Thu, Jun 29, 2017, 22:25:55 - ThibPhil: Thanks Joost! Mapathon over here. Great event!
+Thu, Jun 29, 2017, 22:26:08 - joost_schouppe: Still working?
+Thu, Jun 29, 2017, 22:26:19 - ThibPhil: No. Finished
+Thu, Jun 29, 2017, 22:26:39 - ThibPhil: About 25-30 mappers
+Thu, Jun 29, 2017, 22:28:47 - joost_schouppe: All went well?
+Thu, Jun 29, 2017, 23:43:28 - ThibPhil: Yep, very well !  I think we will organize a new one in a few months
+Thu, Jun 29, 2017, 23:44:42 - ThibPhil: @joost_schouppe:matrix.org , yes, if you have time tomorrow to create a little report, it could be great! Thx
+Fri, Jun 30, 2017, 17:13:32 - joost_schouppe: Thibaut Philippart: I've had a closer look, and I think the Missing Maps leaderboard is the best. I've tried using the overpass queries, but there were over 100 people active on your tasks around the mapathon it seems. Also, six of the MNE participants do not show up in Overpass strangely enough (MOURIOU,Nemorvan,Sly44,Valérie Sorin,Duverger,julyrichard44)
+Fri, Jun 30, 2017, 17:26:04 - ThibPhil: Thank you joost_schouppe !!  I will send the leaderboard link to the mappers
+Fri, Jun 30, 2017, 18:04:23 - ThibPhil: Thanks for the tweets :-)
+Wed, Oct 4, 2017, 11:57:28 - xivk set a profile picture
+Sun, Nov 12, 2017, 00:18:09 - @xuv:matrix.org joined the room
+Wed, Nov 15, 2017, 21:47:56 - @xuv:matrix.org left the room
+Sat, Feb 3, 2018, 17:46:37 - pietervdvn joined the room
+Sat, Feb 10, 2018, 11:51:04 - Jonathan set the main address for this room to #osmbe-task:matrix.org.
+Sun, Feb 18, 2018, 12:41:37 - Jonathan: NEWSFLASH:
+The OSMBE Tasking Manager will be closed next week.
+Don't forget to export the tasks if you want to continue/re-use it.
+You can find other Tasking Manager instances here : https://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager
+Tue, Feb 20, 2018, 17:36:11 - pietervdvn set a profile picture
+Tue, Feb 20, 2018, 20:16:13 - timcouwelier joined the room
+Mon, Feb 26, 2018, 22:50:40 - @diseret:matrix.org joined the room
+Tue, Feb 27, 2018, 10:11:05 - Jonathan: The OSMBE Tasking Manager is now closed !
+Tue, Feb 27, 2018, 12:12:23 - Jonathan left the room
+Thu, Mar 1, 2018, 13:40:30 - @diseret:matrix.org left the room
+Mon, Mar 12, 2018, 16:46:01 - vmarc joined the room
+Sat, Mar 24, 2018, 01:25:35 - @linusable:matrix.org joined the room
+Sat, Mar 24, 2018, 11:42:38 - escada joined the room
+Thu, Jun 14, 2018, 09:32:47 - juminet left the room
+Sat, Jul 14, 2018, 13:02:11 - @stijnrr:matrix.org joined the room
+Wed, Jul 18, 2018, 18:41:47 - s8evq joined the room
+Wed, Sep 26, 2018, 08:19:05 - @doudou_on_riot:matrix.org joined the room
+Wed, Oct 3, 2018, 22:47:02 - @doudou_on_riot:matrix.org left the room
+Wed, Oct 17, 2018, 13:08:11 - s8evq set a profile picture
+Mon, Nov 19, 2018, 09:28:45 - @enock4seth:matrix.org set a profile picture
+Mon, Nov 19, 2018, 09:33:37 - @enock4seth:matrix.org changed their profile picture
+Mon, Nov 19, 2018, 09:38:18 - @enock4seth:matrix.org changed their profile picture
+Tue, Jan 1, 2019, 12:54:00 - @hieronymousch:matrix.org joined the room
+Wed, Jan 23, 2019, 11:50:07 - @ubipo-:matrix.org joined the room
+Wed, Jan 23, 2019, 11:50:21 - @ubipo-:matrix.org left the room
+Wed, Jan 23, 2019, 17:33:03 - @koninklijke:matrix.org joined the room
+Tue, Jan 29, 2019, 20:47:52 - @koninklijke:matrix.org left the room
+Mon, Feb 11, 2019, 20:44:28 - xivk changed their profile picture
+Wed, Feb 20, 2019, 08:02:28 - @matto108:matrix.org left the room
+Tue, Feb 26, 2019, 15:18:36 - Jonathan joined the room
+Wed, Feb 27, 2019, 13:35:41 - @stany:matrix.org joined the room
+Wed, Feb 27, 2019, 13:40:08 - @stany:matrix.org left the room
+Thu, Feb 28, 2019, 15:51:16 - @cecile_deprez:matrix.org joined the room
+Wed, Mar 6, 2019, 13:01:14 - joost_schouppe: Message deleted
+Thu, Mar 7, 2019, 11:04:41 - @h3:matrix.org joined the room
+Thu, Mar 7, 2019, 11:09:37 - @h3:matrix.org left the room
+Tue, Mar 19, 2019, 11:09:27 - Jonathan left the room
+Wed, Mar 20, 2019, 12:49:32 - joost_schouppe: if anyone is around, and has time BEFORE Monday the 25th, the instructions in this folder need an update: https://www.dropbox.com/home/MAPATHON_2019/instructions . Most important: the tasking manager looks different now; and it might be worth to show the most common errors ID now warns about (for example when you make overlapping buildings)
+Wed, Mar 20, 2019, 12:56:52 - joost_schouppe: corrected link: https://www.dropbox.com/sh/6lq3xel1fvowhd4/AADQJjYLoGgNeL9aJo7uMtk8a?dl=0
+Wed, Mar 20, 2019, 13:40:24 - timcouwelier: Since I can't attend, I'm not entirely up to speed on plans for the mapathon (region, task number, sources, which hashtags go in comment etc...)
+Wed, Mar 20, 2019, 13:40:58 - timcouwelier: If an update is done, wouldn't it be best to include the current project details then have to point out what needs replacing?
+Wed, Mar 20, 2019, 13:41:33 - timcouwelier: Also, looking at the documents: is the area involved actually pre-scanned by mapswipe?
+Wed, Mar 20, 2019, 15:22:25 - joost_schouppe: ahhhh good questions
+Wed, Mar 20, 2019, 15:23:58 - joost_schouppe: From Jorieke: Sharing with you already a first draft of a task we would love you to work on:
+https://tasks.hotosm.org/project/5823
+ There might still be slight changes, and I 
+will send you the final tasks later on. But just to share with you what 
+you can expect.
+
+ 
+I will send you the week before the mapathon 
+your final tasks. I will prepare three of these tasks for you, and am 
+really curious how far we get. A usefull resource for the trainers to 
+look into
+ is also this wiki page: 
+https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips#General_Road.2C_Track_and_Path_Mapping
+
+
+
+Wed, Mar 20, 2019, 15:24:17 - joost_schouppe: so the task number should be left blank for now
+Wed, Mar 20, 2019, 15:24:51 - joost_schouppe: I have no idea about the area being mapswiped, but judging from this task, it hasn't been
+Wed, Mar 20, 2019, 15:25:58 - joost_schouppe: there is a bit about mapping roads in the instructions; they probably won't have to do anything else
+Wed, Mar 20, 2019, 15:59:38 - timcouwelier: I think 'mapswipe' is mostly relevant if you still need to dertermine where buildings go.
+Wed, Mar 20, 2019, 16:01:03 - timcouwelier: But if it's 'just roads', I think it's indeed fairly simple.
+Wed, Mar 20, 2019, 16:01:12 - timcouwelier: If I cannot attend, I may try and see if I can help validating
+Mon, Mar 25, 2019, 11:08:51 - @nvhaeren:matrix.org joined the room
+Mon, Mar 25, 2019, 17:34:01 - @lepirlouit:matrix.org joined the room
+Mon, Mar 25, 2019, 17:34:33 - @lepirlouit:matrix.org: I'll be at ULB on wednesday, I have no clue of what I have to do
+Mon, Mar 25, 2019, 18:40:16 - joost_schouppe: lepirlouit: are you Benoit?
+Mon, Mar 25, 2019, 18:41:42 - @lepirlouit:matrix.org: Yes, I'm
+Mon, Mar 25, 2019, 18:42:35 - joost_schouppe: I've sent you a mail some time back, doesn't that help?
+Mon, Mar 25, 2019, 18:43:37 - @lepirlouit:matrix.org: I checked if I was on the correct place in the calc. For the rest it was not clear what was expected from me
+Mon, Mar 25, 2019, 18:43:55 - @lepirlouit:matrix.org: Oh, Idin't read this : "Activities during the event - pick what you like!"
+Mon, Mar 25, 2019, 18:45:26 - @lepirlouit:matrix.org: I'm fine to "help out mappers"
+Mon, Mar 25, 2019, 18:51:14 - joost_schouppe: that is the must crucial thing
+Mon, Mar 25, 2019, 18:51:53 - joost_schouppe: see above in this thread; you could try this task to get a feel for what we're going to do: https://provincies.incijfers.be/jive?workspace_guid=08c78015-edf6-4650-ad4a-74db6b23eafa
+Mon, Mar 25, 2019, 18:51:59 - joost_schouppe: that's the wrong link :)
+Mon, Mar 25, 2019, 18:52:11 - joost_schouppe: https://tasks.hotosm.org/project/5823
+
+
+Mon, Mar 25, 2019, 18:52:47 - joost_schouppe: also, if you're a JOSM mapper, it might be worth it to try and complete a square with ID, so that you'd get a feel for how things work in the web editor
+Mon, Mar 25, 2019, 18:53:38 - joost_schouppe: can you actually see the task? I can, but only if logged in (and I might have some special powers)
+Mon, Mar 25, 2019, 21:25:18 - joost_schouppe: Here are the actual tasks: 
+Hereby the final list of projects we prepared for you to map on:
+
+Task 1 - https://tasks.hotosm.org/project/5823
+
+Task 2 - https://tasks.hotosm.org/project/5848
+
+Task 3 - https://tasks.hotosm.org/project/5849
+
+Task 4 - https://tasks.hotosm.org/project/5850
+
+Task 5 - https://tasks.hotosm.org/project/5851
+
+These tasks do cover the whole province of Ituri. An area that is twice the size of Belgium!!
+
+ 
+Tue, Mar 26, 2019, 00:56:13 - @Polyglot:matrix.org: I hope there are backup tasks. It seems like a lot, but large parts are rainforest.
+Tue, Mar 26, 2019, 09:20:26 - joost_schouppe: all the tasks are the same size. It would be good if someone would split up the tasks that are in densely populated areas
+Tue, Mar 26, 2019, 09:22:33 - joost_schouppe: I have no idea if there are backup tasks. Only Jorieke would know right now. If there are other roads-only-tasks, we could already put them in our won backup lists
+Tue, Mar 26, 2019, 09:23:14 - @lepirlouit:matrix.org: I can see the tasks Joost thank you
+Tue, Mar 26, 2019, 11:53:05 - @Jorieke:matrix.org: I'm on here now too 👋
+Tue, Mar 26, 2019, 11:53:22 - @Jorieke:matrix.org: Task 3,4 and 5 are the backup tasks 🙂
+Tue, Mar 26, 2019, 11:57:27 - joost_schouppe: Hi Jorieke :)
+Tue, Mar 26, 2019, 12:01:47 - joost_schouppe: You sure we don't need a backup for the back up? :) we've got 180 registrations so far, so it's probably going to be a bit smaller than usual
+Tue, Mar 26, 2019, 12:03:56 - @cecile_deprez:matrix.org: Did you take into account registrations in Liège? As we have a seperated system of registration, your estimation might be uncorrect
+Tue, Mar 26, 2019, 12:16:41 - @Jorieke:matrix.org: Message deleted
+Tue, Mar 26, 2019, 12:17:43 - @Jorieke:matrix.org: joost_schouppe: I hope it is not enough 😃 But I think it is... it will also not be whole day mapping... 
+Tue, Mar 26, 2019, 12:26:46 - @Jorieke:matrix.org: Btw I miss the mapathon on: http://www.missingmaps.org/events/ It would be great if they could be added! 
+Tue, Mar 26, 2019, 12:29:59 - joost_schouppe: Ah @cecile_deprez:matrix.org yes, of course I forgot about those!
+Tue, Mar 26, 2019, 12:30:23 - joost_schouppe: (two locations! With Gembloux joining this time)
+Tue, Mar 26, 2019, 12:31:55 - joost_schouppe: doing it now johnwhelanJorieke (ehh, I'm really overloaded these days)
+Tue, Mar 26, 2019, 12:32:50 - joost_schouppe: oh sorry about the johnwhelan tag, that was an accident
+Tue, Mar 26, 2019, 12:35:19 - joost_schouppe: added; just one day though (I won't add it three times)
+Tue, Mar 26, 2019, 12:40:21 - @Jorieke:matrix.org: Top Joost! And johnwhelan: is always welcome 😃 Hope you are doing well John! 👋
+Tue, Mar 26, 2019, 14:02:50 - @cecile_deprez:matrix.org: In Liège, we expect no less than 80 participants ;) In Gembloux, yesterday, there were 15 registrations
+Tue, Mar 26, 2019, 17:23:15 - joost_schouppe: wow, that is impressive
+Wed, Mar 27, 2019, 10:16:22 - @Jorieke:matrix.org: Tool you could use after the mapathon to show your results: http://mapathon.cartong.org/
+
+ 
+Wed, Mar 27, 2019, 14:41:00 - @cecile_deprez:matrix.org: Hey, we were wondering: when roads cross rivers, should we indicate a bridge or a ford? Or just leave it like this, without notifying anything particular?
+Wed, Mar 27, 2019, 14:46:13 - joost_schouppe: Do you think the imagery is clear enough to see a bridge if there is one?
+Wed, Mar 27, 2019, 14:49:24 - @jplbeewee:matrix.org joined the room
+Wed, Mar 27, 2019, 14:52:35 - @jplbeewee:matrix.org: Bonjour à tous les volontaires du mapathon
+Wed, Mar 27, 2019, 14:52:51 - @jplbeewee:matrix.org: ce soir, je serai dans le team de l'U-Mons
+Wed, Mar 27, 2019, 14:53:20 - @jplbeewee:matrix.org: Comme chaque année, bien sûr
+Wed, Mar 27, 2019, 14:54:13 - @cecile_deprez:matrix.org: You can see the road crosses what is indicated as a river, but not clearly enough to assess "this is a bridge" or "this is a ford". So I choose not to interrupt my road as it appears to cross the river anyway, and I don't specify anything. Should I advice our volunteers to act likewise?
+Wed, Mar 27, 2019, 14:58:03 - escada: if you assume that people that are going to use the map drive 4x4 that can cross the river without a bridge that's fine. 
+
+Wed, Mar 27, 2019, 15:01:39 - lionel_giard: Maybe add a "fixme=is there a bridge here ?" On the road can be useful for validator !
+Wed, Mar 27, 2019, 15:01:47 - lionel_giard: (On the field)
+Wed, Mar 27, 2019, 15:03:50 - @cecile_deprez:matrix.org: Thanks! If you find tricky situations during your events tonight, let us now so we can adapt our presentations for tomorrow evening and answer questions accordingly 😉
+Wed, Mar 27, 2019, 15:06:57 - Jonathan joined the room
+Wed, Mar 27, 2019, 15:07:50 - Jonathan: I'll be at ULB tonight ! :)
+Wed, Mar 27, 2019, 15:08:12 - Jonathan: And I have some OMSBE t-shirts and high visibility jackets for those who are interested 🎉
+Wed, Mar 27, 2019, 15:08:41 - Jonathan: > Tool you could use after the mapathon to show your results: [http://mapathon.cartong.org/](http://mapathon.cartong.org/)
+
+Dank u Jorieke 👍
+Wed, Mar 27, 2019, 15:21:08 - @dmlu:matrix.org joined the room
+Wed, Mar 27, 2019, 15:33:43 - @mutant:matrix.org joined the room
+Wed, Mar 27, 2019, 15:36:49 - Jonathan: Notice for those who are coming to ULB : this year it's on Campus de La Plaine - Building NO (instead of Campus Solbosh - Building U) !
+Wed, Mar 27, 2019, 17:57:06 - @lepirlouit:matrix.org: I'll not be there for 18 hours
+Wed, Mar 27, 2019, 18:10:53 - @Jorieke:matrix.org: Hi all, if there are people who would like to validate and who dont have permission. Could you send me your usernames? Than I can make you validators. Of course this is not for beginner mappers - only fairly experienced mappers can become validator. 
+Wed, Mar 27, 2019, 18:11:01 - @Jorieke:matrix.org: Happy mapping! 🙂
+Wed, Mar 27, 2019, 18:15:25 - @cecile_deprez:matrix.org: Good luck for everyone holding a mapathon tonight ;) Success, fun and great mapping to you all!
+Wed, Mar 27, 2019, 18:17:09 - Jonathan: Jorieke: Not sure I already validated in the new Task Manager. My username is `jbelien` :)
+Wed, Mar 27, 2019, 18:18:37 - Jonathan: Also, what are the tasks number for today ?
+Wed, Mar 27, 2019, 18:27:49 - lionel_giard: > Here are the actual tasks: 
+Hereby the final list of projects we prepared for you to map on:
+
+> Task 1 - https://tasks.hotosm.org/project/5823
+
+> Task 2 - https://tasks.hotosm.org/project/5848
+
+> Task 3 - https://tasks.hotosm.org/project/5849
+
+> Task 4 - https://tasks.hotosm.org/project/5850
+
+> Task 5 - https://tasks.hotosm.org/project/5851
+ 
+> These tasks do cover the whole province of Ituri. An area that is twice the size of Belgium!!
+
+Thé list of tasks
+Wed, Mar 27, 2019, 18:29:31 - Jonathan: Thanks lionel_giard !
+Wed, Mar 27, 2019, 18:29:42 - Jonathan: Jorieke: I checked, I can validate ; dank u :)
+Wed, Mar 27, 2019, 18:32:29 - joost_schouppe: Should we edit the tasks to get a special tag on our changesets?
+Wed, Mar 27, 2019, 18:32:34 - Seppe: @Jorieke:matrix.org: if I find the time, I would like to help with validating. My username: L'imaginaire
+Wed, Mar 27, 2019, 18:32:36 - joost_schouppe: Or is there one already?
+Wed, Mar 27, 2019, 18:32:45 - @marcu:matrix.org joined the room
+Wed, Mar 27, 2019, 18:40:16 - @cecile_deprez:matrix.org: joost_schouppe: I don't think there is one already. What about #belgianmapathon2019? 
+Wed, Mar 27, 2019, 18:40:48 - @cecile_deprez:matrix.org: Should we add the name of the univeristy in a second tag?
+Wed, Mar 27, 2019, 18:41:02 - joost_schouppe: That's always fun
+Wed, Mar 27, 2019, 18:41:31 - joost_schouppe: I'll add the general tag to the tasks if I still have those powers
+Wed, Mar 27, 2019, 18:41:40 - Jonathan: I think it can be automatically added to the task, isn't it ?
+Wed, Mar 27, 2019, 18:44:07 - joost_schouppe: yes, but just the general tag of course
+Wed, Mar 27, 2019, 18:45:53 - joost_schouppe changed the topic to "Discuss current tasks - National Mapathon https://hackmd.io/s/BySFLNF_4".
+Wed, Mar 27, 2019, 18:46:15 - joost_schouppe: I've added a hackpad for shared notekeeping
+Wed, Mar 27, 2019, 18:46:18 - joost_schouppe: It's in the topic
+Wed, Mar 27, 2019, 18:48:20 - Jonathan: 👍
+Wed, Mar 27, 2019, 18:48:52 - joost_schouppe: oh we should make a link to show the live edit stream
+Wed, Mar 27, 2019, 18:50:57 - joost_schouppe: first task has the tag; however, all people currently editing will still have to add the tag manually
+Wed, Mar 27, 2019, 18:51:13 - @ubipo-:matrix.org joined the room
+Wed, Mar 27, 2019, 18:52:26 - joost_schouppe: all the tasks have the tag now
+Wed, Mar 27, 2019, 18:52:44 - Jonathan: Dank u :)
+Wed, Mar 27, 2019, 18:56:35 - joost_schouppe: there we go: https://osmlab.github.io/show-me-the-way/#comment=missingmaps
+
+
+Wed, Mar 27, 2019, 18:57:32 - joost_schouppe: or this might work better: https://osmlab.github.io/show-me-the-way/#bounds=1.66969,28.87207,4.45595,31.64063
+
+
+Wed, Mar 27, 2019, 18:59:05 - joost_schouppe: Jorieke: did you spot the comment here? https://tasks.hotosm.org/project/5823?task=435
+
+Apparently Bing is more recent than the suggested ESRI imagery?
+Wed, Mar 27, 2019, 18:59:45 - Jonathan: > Apparently Bing is more recent than the suggested ESRI imagery?
+
+Someone mentionned misalignment of Bing imagery though.
+Wed, Mar 27, 2019, 19:05:14 - joost_schouppe: the show me the way thing is nice to watch :)
+Wed, Mar 27, 2019, 19:07:58 - Jonathan: "There are no tasks currently available for validation." 💪
+Wed, Mar 27, 2019, 19:08:10 - Jonathan: But I invalidated most (missing roads).
+Wed, Mar 27, 2019, 19:11:51 - @Jorieke:matrix.org: Jonathan: nice! 
+Wed, Mar 27, 2019, 19:14:28 - @Jorieke:matrix.org: And joost_schouppe yes you still have to powers 🙂 Also to make people validator
+Wed, Mar 27, 2019, 19:14:55 - @Jorieke:matrix.org: Seppe: You're validator now! 
+Wed, Mar 27, 2019, 19:15:08 - lionel_giard: I validated a few also missing roads ;-)
+Wed, Mar 27, 2019, 19:15:47 - joost_schouppe: yes, I noticed I could edit. If more people need validator powers, let me know
+Wed, Mar 27, 2019, 19:19:31 - Seppe: Seppe: You're validator now! 
+🤘
+Wed, Mar 27, 2019, 19:19:51 - Jonathan: > yes, I noticed I could edit. If more people need validator powers, let me know
+
+Don't think so, I working faster than the mappers so far :P
+Wed, Mar 27, 2019, 19:20:46 - @dmlu:matrix.org: whow, that's some impressive participation.
+Wed, Mar 27, 2019, 19:46:46 - joost_schouppe: If I recall correctly, a few years ago we basically crashed the tasking manager :)
+Wed, Mar 27, 2019, 19:47:05 - Jonathan: Indeed ! :D
+Wed, Mar 27, 2019, 19:47:36 - @dmlu:matrix.org: how many people are present overall?
+Wed, Mar 27, 2019, 19:47:39 - Jonathan: Speaking about it ... I have some issues with the Tasking Manager right now :/
+Wed, Mar 27, 2019, 19:49:22 - Jonathan: > how many people are present overall?
+
+No idea but you can have a look at http://mapathon.cartong.org/ to have some statistics :)
+Wed, Mar 27, 2019, 19:51:34 - @dmlu:matrix.org: <@jbelien:matrix.org "> how many people are present ov..."> :)
+Wed, Mar 27, 2019, 20:01:30 - Jonathan: Moritz is asking how is it going in the other universities :)
+Wed, Mar 27, 2019, 20:02:22 - Jonathan: (Moritz is with me at ULB)
+Wed, Mar 27, 2019, 20:07:05 - @ubipo-:matrix.org: We just finished here at KU Leuven, apart from some living streets pretty good! :)
+Wed, Mar 27, 2019, 20:12:51 - @Jorieke:matrix.org: Super!
+Wed, Mar 27, 2019, 20:15:39 - @Jorieke:matrix.org: Yes, in a few areas Bing might be more recent, but in general it is Esri wich is the better one. The area is just really large to pick one imagery.
+Wed, Mar 27, 2019, 20:16:49 - @Jorieke:matrix.org: Best ia sticking to Esri, only if it is verified by one of the experience mappers leading the mapathon I would suggest to move to Bing imagery. @joost_schouppe:matrix.org
+Wed, Mar 27, 2019, 20:20:52 - Jonathan: Technical question : in JOSM how can I remove the token linked to my account ? XD
+Wed, Mar 27, 2019, 20:22:08 - @Jorieke:matrix.org: What? I leave that up to the techies here?
+Wed, Mar 27, 2019, 20:23:09 - Jonathan: I'm on a computer from the ULB, don't want to keep JOSM linked to my account after tonight :P
+Wed, Mar 27, 2019, 20:25:23 - Jonathan: > Technical question : in JOSM how can I remove the token linked to my account ? XD
+
+Answer : reset the `oauth.access-token` keys in Preferences (Expert mode) and restarted JOSM !
+Wed, Mar 27, 2019, 20:30:51 - Jonathan: Some issue we have here :
+Someone tries to save his work but one of the node has been deleted meanwhile (by someone else I guess) ...
+The save function doesn't work (error message) because of that.
+Wed, Mar 27, 2019, 20:30:58 - Jonathan: Any idea how to save the work anyway ?
+Wed, Mar 27, 2019, 20:31:04 - Jonathan: Should I revert the node ?
+Wed, Mar 27, 2019, 20:36:59 - Jonathan: I fixed it by finding the way containing the node ... removing the way from the work and save again and it worked.
+Wed, Mar 27, 2019, 20:37:07 - Jonathan: Thanks Achavi for the help :P
+Wed, Mar 27, 2019, 20:47:23 - @Jorieke:matrix.org: Tell people to save as much as possible!
+Wed, Mar 27, 2019, 20:49:42 - Jonathan: Yes, good idea :)
+Wed, Mar 27, 2019, 20:52:12 - Jonathan: I'm the only one to validate ; couldn't follow the rythm :P
+Wed, Mar 27, 2019, 20:52:15 - Jonathan: Did my best though :D
+Wed, Mar 27, 2019, 21:07:29 - Jonathan: 50 tasks validated 💪
+Wed, Mar 27, 2019, 21:07:35 - Jonathan: Good evening everyone :)
+Wed, Mar 27, 2019, 21:08:46 - @cecile_deprez:matrix.org: Well done! Good evening!
+Wed, Mar 27, 2019, 21:18:02 - @Jorieke:matrix.org: Yes!
+Wed, Mar 27, 2019, 21:40:12 - joost_schouppe: Good job guys
+Thu, Mar 28, 2019, 09:49:05 - @jplbeewee:matrix.org: and the result from mapathon for U-MONS ?
+Thu, Mar 28, 2019, 10:12:01 - @fpriem:matrix.org joined the room
+Thu, Mar 28, 2019, 10:12:11 - @fpriem:matrix.org: hello world
+Thu, Mar 28, 2019, 10:17:47 - timcouwelier: hello there :)
+Thu, Mar 28, 2019, 10:21:53 - @fpriem:matrix.org: super hyped for mapathon @ VUB tonight!
+Thu, Mar 28, 2019, 10:21:58 - @fpriem:matrix.org: :)
+Thu, Mar 28, 2019, 11:08:51 - joost_schouppe: hi!
+Thu, Mar 28, 2019, 11:27:48 - @Jorieke:matrix.org: :)
+Thu, Mar 28, 2019, 11:43:20 - lionel_giard: One "late" feedback on the mapathon yesterday : route mapping is less rewarding as it take a lot more times to maps fewer elements (you don't get the impression of mapping huge number of things like you do when adding buildings) ! But otherwise people were quite happy to participate. One thing that was good for us in UCL, was to put (entertaining) music on for the room and telling joke to keep everyone entertained !  😉
+Thu, Mar 28, 2019, 11:44:40 - lionel_giard: It seems really useful to  show what they did afterward (via the tool from cartong for example) as they don't always see it when mapping. 😀
+Thu, Mar 28, 2019, 12:13:37 - escada: the biggest reward for mapping streets should be that the people can now plan a route to actually reach the village/house. Or to reach it faster. Problem is that there is no routing engine that is updated fast enough to show that (if people think that they only do a great job if they are ranking high in some dashboard, the introduction was not good enough, sorry)
+Thu, Mar 28, 2019, 12:14:17 - escada: that's also why I "hate" dashboards that just count nodes/ways
+Thu, Mar 28, 2019, 12:48:46 - lionel_giard: I was more speaking about visibility on the map (a road is less visible than large area of buildings when mapped) - not really about numbers. So it "feel" less rewarding after the fact if we don't show them what a large area is covered ! 
+Thu, Mar 28, 2019, 12:49:01 - pietervdvn: joost_schouppe: will the instructions for the mapthon be printed by the UGhent?
+Thu, Mar 28, 2019, 12:53:27 - joost_schouppe: Yes
+Thu, Mar 28, 2019, 12:54:34 - joost_schouppe: A simple overpass query would also show the road data pretty nicely
+Thu, Mar 28, 2019, 13:10:20 - @fpriem:matrix.org: presentation_mapathon.pptx (Media omitted)
+Thu, Mar 28, 2019, 13:10:47 - @fpriem:matrix.org: I made a small presentation to frame the project and share some mapping guidelines, feel free to use it
+Thu, Mar 28, 2019, 13:15:38 - Jonathan: Yesterday at ULB we had a small video introduction about the project.
+Thu, Mar 28, 2019, 13:16:25 - Jonathan: > I made a small presentation to frame the project and share some mapping guidelines, feel free to use it
+
+Presentation is perfect though 👍
+Thu, Mar 28, 2019, 13:17:08 - @hieronymousch:matrix.org left the room
+Thu, Mar 28, 2019, 13:23:01 - @fpriem:matrix.org: I will surely also show those 2 short movies
+Thu, Mar 28, 2019, 13:47:55 - @Jorieke:matrix.org: Feel free to point people also to MapSwipe - we can use also there all contributors for our vaccination campaign in Chad!
+Thu, Mar 28, 2019, 15:33:05 - @fpriem:matrix.org: I added a slide on MapSwipe
+Thu, Mar 28, 2019, 17:12:09 - joost_schouppe invited @oftc-irc:matrix.org
+Thu, Mar 28, 2019, 17:12:10 - @oftc-irc:matrix.org joined the room
+Thu, Mar 28, 2019, 17:12:11 - joost_schouppe changed the power level of @oftc-irc:matrix.org from Default to Admin.
+Thu, Mar 28, 2019, 17:13:17 - @_oftc_midgard:matrix.org joined the room
+Thu, Mar 28, 2019, 17:13:23 - @oftc-irc:matrix.org changed the power level of @_oftc_midgard:matrix.org from Default to Moderator.
+Thu, Mar 28, 2019, 17:13:29 - @_oftc_midgard:matrix.org: hoi
+Thu, Mar 28, 2019, 17:14:32 - timcouwelier: hai there
+Thu, Mar 28, 2019, 17:57:28 - joost_schouppe: I've added a umap of all yesterday's roads to the hackmd (see link in description)
+Thu, Mar 28, 2019, 17:57:41 - joost_schouppe: http://umap.openstreetmap.fr/nl/map/national-mapathon-2019_309074#10/3.0549/30.6093
+Thu, Mar 28, 2019, 17:57:44 - joost_schouppe: 16 mb!
+Thu, Mar 28, 2019, 17:59:33 - joost_schouppe: I made it with an overpass query requesting the province we're working in, selecting all roads that were touched since yesterday, and that are at version 1 (so roads that were just changed a bit fall out, unfurtunately also roads that have already been touched by someone else)
+Thu, Mar 28, 2019, 18:01:12 - joost_schouppe: hmm, looks like my "newer" clause isn't working
+Thu, Mar 28, 2019, 18:01:21 - joost_schouppe: oh it is
+Thu, Mar 28, 2019, 18:01:25 - pietervdvn: HELP! TO MANY PPL!
+Thu, Mar 28, 2019, 18:01:54 - joost_schouppe: uh what?
+Thu, Mar 28, 2019, 18:02:01 - joost_schouppe: people showed up without booking?
+Thu, Mar 28, 2019, 18:03:49 - joost_schouppe: oh, uh 89 people is a lot in any case (assuming you're in Gent)
+Thu, Mar 28, 2019, 18:05:29 - joost_schouppe: according to the "organized editing policy" we should have added the mapathon to this page two weeks ago https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities#Sample_activities
+Thu, Mar 28, 2019, 18:52:37 - @Jorieke:matrix.org: I like a lot of people :-) 
+Thu, Mar 28, 2019, 20:02:56 - @Jorieke:matrix.org: The mapathon is on the MM website, we're figuring out how to include best all missing maps mapathons. MM oe wiki page will come soon :) @joost_schouppe:matrix.org
+Thu, Mar 28, 2019, 20:08:46 - joost_schouppe: Ah great, nice to have that little thing taken care of!
+Thu, Mar 28, 2019, 20:16:37 - joost_schouppe: Did anyone have a look at the top activity level today? I spotted 100 yesterday
+Thu, Mar 28, 2019, 20:29:55 - joost_schouppe: 107 right now!
+Thu, Mar 28, 2019, 20:38:40 - joost_schouppe: If you want to have an updated umap at the end, let me know a few minutes in advance (tag me to make sure I don't miss it)
+Thu, Mar 28, 2019, 20:45:42 - @_oftc_midgard:matrix.org: most folks have left here in Ghent
+Thu, Mar 28, 2019, 20:47:26 - joost_schouppe: Oh. Tasking manager looked quite busy a few minutes back
+Thu, Mar 28, 2019, 22:01:22 - pietervdvn: and the tasking manager only slightly crashed while everyone was logging in... It came through after a few minutes though, so not a real issue
+Fri, Mar 29, 2019, 08:34:29 - joost_schouppe: update the umap: http://umap.openstreetmap.fr/nl/map/national-mapathon-2019_309074#9/2.8677/30.9787
+Fri, Mar 29, 2019, 08:35:59 - timcouwelier: surprisingly easy to 'spot the blocks' - hope eventuallyl that goes away once completion nears.
+Fri, Mar 29, 2019, 08:36:37 - joost_schouppe: (oh, the umap downloads A LOT of data, so this might crash your browser :) )
+Fri, Mar 29, 2019, 08:36:52 - timcouwelier: probably a bit of a downside to the tasking manager jumping 'at random' rather then radiating out from a certain point. If it's not completed, it leaves less usefull data then working 'from a center outwards'
+Fri, Mar 29, 2019, 08:36:56 - joost_schouppe: yes, if we complete the task, it should look better. Of course, the colouring by day accentuates the blocks
+Fri, Mar 29, 2019, 08:37:02 - timcouwelier: it has less chances of 'conflict' though.
+Fri, Mar 29, 2019, 08:37:43 - joost_schouppe: exactly; but it might be possible to minimize that by "radiate to the nearest block that has no bordering activity"
+Fri, Mar 29, 2019, 08:38:16 - timcouwelier: That sounds like a plan, try to fill 'center' gaps before spanning outwards.
+Fri, Mar 29, 2019, 08:38:46 - joost_schouppe: that would be a good instruction for Saturday's mapathon: please start with the empty blocks in between filled in blocks :)
+Fri, Mar 29, 2019, 08:39:08 - timcouwelier: No idea on the underlying mechanics to program that though, I'm being the critical end-user without a clue of what's behind the scenes. Always easy to give judgement from the sideline :)
+Fri, Mar 29, 2019, 08:39:37 - timcouwelier: But if you can pick a block 'by hand', ideally you'd have the more experienced users connect the dots yes.
+Fri, Mar 29, 2019, 08:40:14 - joost_schouppe: if you pass it on as "hey, wouldn't it be cool if..." than it's totally OK in HOT circles I would guess. In OSM-core a little less :)
+Fri, Mar 29, 2019, 08:40:22 - joost_schouppe: yes, you can pick by hand too
+Fri, Mar 29, 2019, 08:41:01 - timcouwelier: I know OSM-core isn't 'overly happy with well-meant input' if it doesn't align with their views.
+Fri, Mar 29, 2019, 08:41:02 - joost_schouppe: if you compare the blocks at https://tasks.hotosm.org/project/5823 with the data in the umap, it seems a lot of squares are half-finished or simply not marked as finished
+Fri, Mar 29, 2019, 08:41:36 - joost_schouppe: it would be good if we can clean those out before saturday... 
+Fri, Mar 29, 2019, 08:42:45 - joost_schouppe: you can even drop the " if it doesn't align with their views.". It's "do it yourself mentality to the bone". Which is often great (and has pushed me to learn a lot of new things), but it also means "power to the programmer", which isn't necesarily always in the best interest of the project as a whole
+Fri, Mar 29, 2019, 08:43:31 - timcouwelier: Don't let Glenn hear that :o
+Fri, Mar 29, 2019, 08:44:05 - joost_schouppe: he can decide for himself if he's in the "often great" part or not :D
+Fri, Mar 29, 2019, 08:44:43 - joost_schouppe: (I think in Belgium we don't really have that problem, because our programmers are really reachable)
+Fri, Mar 29, 2019, 08:51:39 - timcouwelier: Hmm, what mapathon hours are still planned? And how does one get the 'validator' role?
+Fri, Mar 29, 2019, 08:52:50 - joost_schouppe: Louvain-la-Neuve, UCL, 10am-1pm
+Liège, ULiège, 10am-1pm
+
+
+Fri, Mar 29, 2019, 08:53:42 - joost_schouppe: people with admin powers in the tasking manager; like me :)
+Fri, Mar 29, 2019, 08:53:55 - joost_schouppe: let me have a look; didn't use to be necessary to do this
+Fri, Mar 29, 2019, 08:55:02 - timcouwelier: Crap Im working till 12:30. But then again, nobodt watching over my back. Just need to get most urgent stuff out.
+Fri, Mar 29, 2019, 08:55:19 - joost_schouppe: on Saturday?
+Fri, Mar 29, 2019, 08:55:39 - timcouwelier: You only gave hours
+Fri, Mar 29, 2019, 08:55:45 - timcouwelier: So I assumed today
+Fri, Mar 29, 2019, 08:56:20 - joost_schouppe: I mentioned Saturday before; sorry
+Fri, Mar 29, 2019, 08:56:36 - joost_schouppe: so you're a validator now, I think. I clicked a button here: https://tasks.hotosm.org/user/Tim%20Couwelier
+Fri, Mar 29, 2019, 18:17:31 - lionel_giard: Polyglot: Do you come to LLN tomorrow for the mapathon ? (to know if must tell them that you are coming ;p). Otherwise they had already a first mapathon on wednesday and they are "experienced" (the geography department team). ;-) 
+Sat, Mar 30, 2019, 07:14:56 - @Polyglot:matrix.org: My plan was to go yes lionel_giard lionel_giard 
+Sat, Mar 30, 2019, 07:15:18 - @Polyglot:matrix.org: who know I can still teach them a trick or 2
+Sat, Mar 30, 2019, 10:28:38 - @Polyglot:matrix.org: Je suis arrivé a LLN
+Sat, Mar 30, 2019, 10:37:10 - joost_schouppe: Anyone else there? :)
+Sat, Mar 30, 2019, 10:59:25 - @Polyglot:matrix.org: 2 from the university and 3 participants. It will continue until 15h though.
+Sat, Mar 30, 2019, 10:59:55 - @Polyglot:matrix.org: someone in Liège?
+Sat, Mar 30, 2019, 11:10:54 - joost_schouppe: Oh that's uh not much...
+Sat, Mar 30, 2019, 11:24:05 - @Polyglot:matrix.org: no, students went home, they already participated on Wednesday evening
+Sat, Mar 30, 2019, 11:25:13 - @Polyglot:matrix.org: but not to worry, I'm teaching the organisers how to set up JOSM and showing how much more practical it is
+Sat, Mar 30, 2019, 11:27:45 - joost_schouppe: Haha, I expected as much. Maybe you can give them a validator training?
+Sat, Mar 30, 2019, 11:28:05 - joost_schouppe: I suspect you can give them validator powers yourself, but let me know if I need to do it
+Sat, Mar 30, 2019, 12:09:43 - @Polyglot:matrix.org: not quite yet
+Sat, Mar 30, 2019, 12:10:04 - @Polyglot:matrix.org: so are there people in Liège?
+Sat, Mar 30, 2019, 12:31:35 - @cecile_deprez:matrix.org: yes!
+Sat, Mar 30, 2019, 13:10:39 - @Polyglot:matrix.org: great!
+Sat, Mar 30, 2019, 13:11:04 - @Polyglot:matrix.org: I had showmetheway running, so we could follow a bit
+Sat, Mar 30, 2019, 13:13:16 - @Polyglot:matrix.org: maybe I should have come to Liège instead, but I'm planning to ride the bicycle to Brussels now and make pictures for Mapillary, and that would have been a bit harder starting from Liège.
+Sat, Mar 30, 2019, 14:22:17 - joost_schouppe: That sounds fun
+Sat, Mar 30, 2019, 17:30:31 - @Jorieke:matrix.org: Nice!
+Sat, Mar 30, 2019, 21:10:09 - joost_schouppe: we didn't quite finish the task, but an impressive amount of data http://umap.openstreetmap.fr/nl/map/national-mapathon-2019_309074
+
+
+Sat, Mar 30, 2019, 21:48:05 - @Polyglot:matrix.org: it was
+Sat, Mar 30, 2019, 21:48:09 - @Polyglot:matrix.org: (fun)
+Sat, Mar 30, 2019, 21:48:27 - @Polyglot:matrix.org: impressive indeed!
+Sat, Mar 30, 2019, 22:04:25 - @Polyglot:matrix.org: It would be interesting to see if more data gets added by participants of your mapathons, but not sure if we would be able to distinguish it from other mapper's contributions?
+Sat, Mar 30, 2019, 22:04:44 - @Polyglot:matrix.org: your -> our
+Sat, Mar 30, 2019, 22:05:07 - joost_schouppe: What do you want to compare to what?
+Sat, Mar 30, 2019, 22:12:17 - @Polyglot:matrix.org: another colour for continuing mappers over the next week or 2, but mostly to figure out if people got motivated to keep mapping, also after the event(s).
+Sat, Mar 30, 2019, 22:12:32 - @Polyglot:matrix.org: It's probably not feasible
+Sat, Mar 30, 2019, 22:35:38 - joost_schouppe: Oh, that should be doable. Somehow :)
+Wed, Apr 3, 2019, 11:33:00 - joost_schouppe: I count 144 people who finished at least one task in the tasking 
+manager. According to Pascal Neis's OSM-changesets, 348 people 
+participated in our task. This is also nearly what I counted based on a 
+data dump af the area: I count 346 participants. Which is pretty big!When it comes to roads mapped, we did 32664 new road segments for a total of 8456 km of roads.
+For a map of the data, you can open this thing, colored by mapping day: http://umap.openstreetmap.fr/nl/map/national-mapathon-2019_309074#9/2.8677/30.9787(it takes a while to load and might actually break your browser, sorry :)
+The data was generated using overpass: http://overpass-turbo.eu/s/HBl(careful: 80 mb of data)
+
+
+Mon, Apr 8, 2019, 11:16:34 - @_oftc_midgard_:matrix.org joined the room
+Thu, Apr 18, 2019, 17:23:47 - @_oftc_midgard_:matrix.org left the room
+Thu, Apr 18, 2019, 22:30:23 - @_oftc_midgard:matrix.org left the room
+Thu, Apr 25, 2019, 02:41:34 - @_oftc_midgard:matrix.org joined the room
+Sun, Apr 28, 2019, 12:30:26 - @_oftc_midgard_:matrix.org joined the room
+Sun, Apr 28, 2019, 12:33:06 - @_oftc_midgard:matrix.org left the room
+Sun, Apr 28, 2019, 13:10:57 - @_oftc_midgard:matrix.org joined the room
+Sun, Apr 28, 2019, 13:10:57 - @_oftc_midgard_:matrix.org left the room
+Tue, Apr 30, 2019, 20:19:01 - Hopperpop joined the room
+Thu, May 2, 2019, 23:08:58 - @_oftc_midgard_:matrix.org joined the room
+Thu, May 2, 2019, 23:14:55 - @_oftc_midgard:matrix.org left the room
+Thu, May 2, 2019, 23:45:51 - @_oftc_midgard:matrix.org joined the room
+Thu, May 2, 2019, 23:45:52 - @_oftc_midgard_:matrix.org left the room
+Tue, May 7, 2019, 17:33:00 - joost_schouppe: if you have a little time: we're starting a mapathon (just 8 people) REALLY soon, but the task is ridicilously hard. I'm just looking for a well-mapped square in the area. Just look at the tasking manager in the recent Mozambique things
+Tue, May 7, 2019, 18:09:28 - timcouwelier: What's the task focus? roads? buildings?
+Tue, May 7, 2019, 18:12:01 - joost_schouppe: roads+waterways
+Tue, May 7, 2019, 18:12:16 - joost_schouppe: I found one decent square and validated it https://tasks.hotosm.org/project/5950?task=168
+Tue, May 7, 2019, 18:14:12 - timcouwelier: is there an easy way to just 'view one of the validated squares' in OSM ?
+Tue, May 7, 2019, 18:15:21 - timcouwelier: I was looking around here: https://www.openstreetmap.org/#map=16/-20.4375/34.5859
+Tue, May 7, 2019, 18:15:52 - timcouwelier: or a bit above like here
+Tue, May 7, 2019, 18:15:53 - timcouwelier: https://www.openstreetmap.org/#map=16/-20.4375/34.5859
+Tue, May 7, 2019, 18:16:07 - timcouwelier: seems to have a bit of everything, some road hierarchy, and attention to crossings.
+Tue, May 7, 2019, 18:16:19 - joost_schouppe: did you find that in the same task?
+Tue, May 7, 2019, 18:16:57 - timcouwelier: I had a look at task 152 (and what region it is)
+Tue, May 7, 2019, 18:17:11 - joost_schouppe: ok thanks
+Tue, May 7, 2019, 18:17:20 - timcouwelier: then had a peek at 'normal' OSM in that area to spot something, as I couldn't just 'navigate to a validated square' easily
+Thu, May 9, 2019, 22:08:20 - hopperpoposm changed their display name to hopperpop
+Thu, May 9, 2019, 22:08:27 - hopperpop changed their display name to Hopperpop
+Thu, May 9, 2019, 22:08:29 - @_oftc_hopperpoposm[m]1:matrix.org joined the room
+Thu, May 9, 2019, 22:08:31 - @_oftc_hopperpoposm[m]2:matrix.org joined the room
+Fri, May 10, 2019, 18:04:40 - @mutant:matrix.org: Iemand enig idee waarom ik dit pad niet van de weg kan losmaken/knippen/splitsen? Dat stuk moet daar aangepast worden, want dit klopt totaal niet.
+Fri, May 10, 2019, 18:04:43 - @mutant:matrix.org: https://osm.org/go/0EuBSaJWq
+Fri, May 10, 2019, 18:33:22 - joost_schouppe: omdat het deel is van een wandelrelatie
+Fri, May 10, 2019, 18:37:50 - @mutant:matrix.org: oh natuurlijk
+Fri, May 10, 2019, 18:38:49 - @mutant:matrix.org: Dat is nog een ander paar mouwen om aan te passen. Kan ik ergens makkelijk zien wat die wandelroute is?
+Fri, May 10, 2019, 18:39:34 - joost_schouppe: yep; als je dat wegje aanklikt, krijg je onderaan de relaties te zien. en onmouseover zie je in blauw halo zijn leden
+Fri, May 10, 2019, 18:39:52 - @mutant:matrix.org: Ook als wandelroute klopt het niet want ze loopt langs het noorden van het kerkje en daar staan schoolpoorten die normaal dicht zijn.
+Fri, May 10, 2019, 18:40:00 - joost_schouppe: kan je niet gewoon wat schuiven ipv losmaken?
+Fri, May 10, 2019, 18:41:46 - @mutant:matrix.org: Ja, daar zit ik nu aan te denken, langs onderom leggen. ding is wel dat daar een rijbaan is voor die parkeerplaats van dat kerkje. Ik ga even proberen.
+Fri, May 10, 2019, 18:42:18 - joost_schouppe: knippen kan je wel hé. dus je zou kunnen schuiven, dan knippen en wegtype aanpassen
+Fri, May 10, 2019, 18:43:02 - joost_schouppe: of knippen, een van de stukjes verlengen op de plaats waar het eigenlijk hoorde. en dan het "verkeerde deel" uit de relatie zwieren
+Fri, May 10, 2019, 18:47:36 - @mutant:matrix.org: Zo lijkt ie te zijn gelukt: https://osm.org/go/0EuBSaiz7
+Fri, May 10, 2019, 18:47:45 - @mutant:matrix.org: parking moet ik nog toevoegen dan natuurlijk
+Fri, May 10, 2019, 18:48:23 - joost_schouppe: perfect!
+Fri, May 10, 2019, 18:48:30 - joost_schouppe: zelfs de "volgorde" zit nog goed
+Fri, May 10, 2019, 18:48:41 - @mutant:matrix.org: mooi ^^
+Fri, May 10, 2019, 18:48:57 - joost_schouppe: (dat kan je zien door door te klikken op de relatie zelf en dan over de leden te gaan hangen)
+Fri, May 10, 2019, 19:01:48 - @mutant:matrix.org: joost_schouppe: kun je er nog eens naar kijken? Die ene losse parkeerplek is ook een plek voor mindervaliden, ik dacht dat ik al eerder zulke plekken had aangegeven, maar waar ik van dacht dat ik het had gedaan, blijkbaar niet en ik kan het me niet herinneren hoe het precies moest, dus ik heb capacity: disabled op 1 gezet
+Fri, May 10, 2019, 19:03:05 - joost_schouppe: deze dus, hé? https://www.openstreetmap.org/way/689184649
+Fri, May 10, 2019, 19:04:25 - joost_schouppe: heb er niet veel ervaring mee, maar ik zou precies aangeven dat de totale capacity ook 1 is (toch als dat, euh, zo is)
+Fri, May 10, 2019, 19:04:26 - @mutant:matrix.org: yep
+Fri, May 10, 2019, 19:06:15 - @mutant:matrix.org: gedaan. Het is gek, ik heb echt in mijn hoofd dat ik vlakjes op een grotere parking heb getekend om aan te geven waar de mindervalidenparkings zijn, maar misschien heb ik dat gedroomd ofzo.
+Fri, May 10, 2019, 19:06:44 - @mutant:matrix.org: Het zou iig handig zijn.
+Fri, May 10, 2019, 19:32:38 - @mutant:matrix.org: En oeps, ik zie nu pas dat ik in de verkeerde kamer zat met deze vraag, nou ja, mijn hoofd wilde al niet aan Engels doen, dus dat me dat niet is opgevallen is niet zo raar. Sorry iig.
+Fri, May 10, 2019, 19:39:50 - joost_schouppe: Meh, a room is a room is a room
+Thu, May 23, 2019, 02:20:36 - @_oftc_hopperpoposm[m]1:matrix.org left the room
+Thu, May 23, 2019, 02:20:37 - @_oftc_hopperpoposm[m]2:matrix.org left the room
+Mon, May 27, 2019, 22:17:33 - @_oftc_midgard:matrix.org left the room
+Mon, May 27, 2019, 22:53:13 - @_oftc_midgard:matrix.org joined the room
+Mon, May 27, 2019, 22:59:31 - @_oftc_midgard:matrix.org left the room
+Mon, May 27, 2019, 23:00:56 - @_oftc_midgard:matrix.org joined the room
+Fri, May 31, 2019, 04:17:24 - @_oftc_midgard_:matrix.org joined the room
+Fri, May 31, 2019, 04:21:22 - @_oftc_midgard:matrix.org left the room
+Fri, May 31, 2019, 14:58:33 - @_oftc_midgard_:matrix.org left the room
+Fri, May 31, 2019, 14:58:36 - @_oftc_midgard:matrix.org joined the room
+Mon, Jun 17, 2019, 09:44:43 - @_oftc_midgard:matrix.org left the room
+Mon, Jun 17, 2019, 10:44:54 - @_oftc_midgard:matrix.org joined the room
+Mon, Jun 17, 2019, 16:21:17 - @dmlu:matrix.org left the room
+Wed, Jun 26, 2019, 07:19:02 - @jorisbo:matrix.org joined the room
+Wed, Jun 26, 2019, 07:29:43 - @jorisbo:matrix.org left the room
+Mon, Jul 15, 2019, 22:10:57 - @_oftc_midgard:matrix.org left the room
+Mon, Jul 15, 2019, 22:12:48 - @_oftc_midgard:matrix.org joined the room
+Wed, Jul 17, 2019, 21:27:22 - Q joined the room
+Mon, Aug 12, 2019, 02:23:00 - @_oftc_midgard_:matrix.org joined the room
+Mon, Aug 12, 2019, 02:26:11 - @_oftc_midgard:matrix.org left the room
+Mon, Aug 12, 2019, 22:12:57 - @_oftc_midgard:matrix.org joined the room
+Fri, Aug 16, 2019, 21:47:37 - Jonathan: MSF will organise a mapathon in their office in Brussels on the 24th of September !
+We are looking for some volunteers to help the new mappers (around 75 people expected).
+You don't need to be an OSM expert, just have contributed a few times and willing to explain to now contributors how to do it.
+
+Anyone interested ?
+(ping lionel_giard, Polyglot, anyone is welcome)
+Fri, Aug 16, 2019, 21:50:12 - lionel_giard: We are just coming back of the SOTM this day, for me it will depend if i'm tired or not ! :p 
+Fri, Aug 16, 2019, 21:55:34 - Jonathan: I'm coming back from SOTM as well, not a reason not to go :P
+Fri, Aug 30, 2019, 10:49:31 - @_oftc_midgard:matrix.org left the room
+Tue, Sep 3, 2019, 15:17:06 - Jonathan: Another mapathon is happening this Saturday in ULB, Brussels during WikiConvention.
+If some of you want to help, ping me (event will be in French only) !
+https://meta.wikimedia.org/wiki/WikiConvention_francophone/2019/Programme
+Wed, Sep 4, 2019, 08:08:26 - Jonathan: You can also register on Meetup: https://www.meetup.com/OpenStreetMap-Belgium/events/264525328/
+Fri, Sep 6, 2019, 05:08:07 - @_oftc_midgard:matrix.org joined the room
+Fri, Sep 27, 2019, 19:03:31 - @dericke:matrix.org joined the room
+Fri, Sep 27, 2019, 19:03:42 - @dericke:matrix.org left the room
+Thu, Oct 3, 2019, 15:32:31 - @_oftc_midgard_:matrix.org left the room
+Mon, Oct 7, 2019, 11:52:52 - djsa joined the room
+Tue, Oct 8, 2019, 19:15:59 - Jonathan left the room
+Sat, Oct 26, 2019, 01:44:31 - @tenzygym:matrix.org joined the room
+Fri, Nov 1, 2019, 18:17:51 - Jonathan joined the room
+Thu, Nov 28, 2019, 13:42:21 - nfst changed their display name to djsa
+Mon, Dec 30, 2019, 19:04:36 - @_oftc_midgard_:matrix.org joined the room
+Thu, Jan 30, 2020, 13:58:41 - Thibaut Philippart changed their display name to ThibPhil
+Thu, Jan 30, 2020, 13:59:44 - ThibPhil removed their profile picture
+Thu, Feb 6, 2020, 20:03:29 - @_oftc_midgard_:matrix.org left the room
+Fri, Feb 7, 2020, 15:37:45 - @oftc-irc:matrix.org changed the power level of @_oftc_midgard:matrix.org from Moderator to Default.
+Tue, Feb 11, 2020, 14:52:32 - @cimm:matrix.org joined the room
+Tue, Mar 10, 2020, 16:07:44 - Jonathan left the room
+Fri, Mar 13, 2020, 10:11:47 - Seppe set a profile picture
+Fri, Apr 3, 2020, 20:42:13 - @_oftc_midgard:matrix.org left the room
+Fri, Apr 3, 2020, 20:42:48 - @_oftc_midgard:matrix.org joined the room
+Wed, Apr 8, 2020, 20:46:06 - @_oftc_midgard_:matrix.org joined the room
+Thu, Apr 9, 2020, 15:40:55 - @_oftc_midgard:matrix.org left the room
+Sun, Apr 19, 2020, 14:30:57 - @frans_napaters:matrix.org joined the room
+Mon, Apr 27, 2020, 18:25:59 - @_oftc_midgard:matrix.org joined the room
+Tue, Apr 28, 2020, 10:27:02 - @_oftc_midgard:matrix.org left the room
+Tue, Apr 28, 2020, 10:29:13 - @_oftc_midgard:matrix.org joined the room
+Fri, May 1, 2020, 13:19:23 - @_oftc_midgard_:matrix.org left the room
+Tue, May 5, 2020, 10:15:03 - @_oftc_midgard_:matrix.org joined the room
+Mon, May 18, 2020, 00:27:39 - @nino:hackerspaces.be joined the room
+Mon, Jun 1, 2020, 13:14:16 - @oftc-irc:matrix.org removed @188908:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:14:59 - @oftc-irc:matrix.org removed @Eleonore:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:15:08 - @oftc-irc:matrix.org removed Hopperpop: Idle for 30+ days
+Mon, Jun 1, 2020, 13:15:50 - @oftc-irc:matrix.org removed @188843:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:16:01 - @oftc-irc:matrix.org removed @Polyglot:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:16:42 - @oftc-irc:matrix.org removed @188903:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:17:12 - @oftc-irc:matrix.org removed @189133:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:17:22 - @oftc-irc:matrix.org removed @189076:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:17:28 - @oftc-irc:matrix.org removed @enock4seth:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:17:45 - @oftc-irc:matrix.org removed @188990:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:36 - @oftc-irc:matrix.org removed @NicoVargas:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:36 - @oftc-irc:matrix.org removed @ThomasW89:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:36 - @oftc-irc:matrix.org removed @182731:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:36 - @oftc-irc:matrix.org removed @184884:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:36 - @oftc-irc:matrix.org removed @188902:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:37 - @oftc-irc:matrix.org removed @FabSpaceLiege:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:37 - @oftc-irc:matrix.org removed @189005:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:37 - @oftc-irc:matrix.org removed @johnwhelan:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:37 - @oftc-irc:matrix.org removed @188941:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:37 - @oftc-irc:matrix.org removed @lepirlouit:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:23:37 - @oftc-irc:matrix.org removed @189121:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:24:45 - @oftc-irc:matrix.org removed @Jorieke:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:24:47 - @oftc-irc:matrix.org removed @189015:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:24:49 - @oftc-irc:matrix.org removed @Blake_HOT:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:24:59 - @oftc-irc:matrix.org removed @tenzygym:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:25:01 - @oftc-irc:matrix.org removed @mclaeysb:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:25:10 - @oftc-irc:matrix.org removed @fpriem:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:25:11 - @oftc-irc:matrix.org removed @194027:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:26:02 - @oftc-irc:matrix.org removed @188898:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:26:09 - @oftc-irc:matrix.org removed @189021:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:26:12 - @oftc-irc:matrix.org removed @189381:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:31:32 - @oftc-irc:matrix.org removed @183683:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:31:32 - @oftc-irc:matrix.org removed @189031:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:31:32 - @oftc-irc:matrix.org removed @linusable:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:31:33 - @oftc-irc:matrix.org removed @cecile_deprez:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:31:33 - @oftc-irc:matrix.org removed @188927:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:31:33 - @oftc-irc:matrix.org removed @nvhaeren:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:32:43 - @oftc-irc:matrix.org removed @Marc.Bessieres:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:34:11 - @oftc-irc:matrix.org removed @mutant:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:35:09 - @oftc-irc:matrix.org removed @marcu:matrix.org: Idle for 30+ days
+Mon, Jun 1, 2020, 13:35:57 - @oftc-irc:matrix.org removed @pedrito1414:matrix.org: Idle for 30+ days
+Sun, Jun 7, 2020, 22:53:44 - @nino:libre.brussels joined the room
+Mon, Jun 8, 2020, 12:58:59 - @¯\_(ツ)_/¯:libre.brussels changed their display name to ¯\_(ツ)_/¯
+Sat, Jun 20, 2020, 09:22:12 - @cimm:matrix.org left the room
+Tue, Aug 11, 2020, 12:42:56 - @nino:libre.brussels left the room
+Wed, Aug 12, 2020, 15:54:25 - @_oftc_midgard_:matrix.org left the room
+Fri, Aug 14, 2020, 11:47:07 - @ubipo-:matrix.org invited @pfiers:matrix.org
+Fri, Aug 14, 2020, 11:47:12 - @pfiers:matrix.org joined the room
+Thu, Sep 3, 2020, 02:05:07 - @_oftc_midgard_:matrix.org joined the room
+Tue, Sep 8, 2020, 22:40:00 - Thibaultmol joined the room
+Fri, Sep 18, 2020, 11:08:07 - @_oftc_midgard_:matrix.org left the room
+Sun, Oct 4, 2020, 22:54:40 - @ubipo-:matrix.org left the room
+Mon, Nov 9, 2020, 22:08:27 - @aluco:matrix.org joined the room
+Fri, Nov 20, 2020, 20:58:23 - @pfiers:matrix.org set a profile picture
+Mon, Dec 7, 2020, 15:49:22 - @nino:hackerspaces.be left the room
+Tue, Dec 15, 2020, 15:29:46 - xivk changed their profile picture
+Thu, Dec 17, 2020, 18:29:37 - @yverbelen:matrix.org joined the room
+Thu, Dec 17, 2020, 18:31:22 - @Polyglot:matrix.org joined the room
+Thu, Dec 17, 2020, 18:37:48 - @Polyglot:matrix.org: hallo
+Thu, Dec 17, 2020, 18:38:03 - @yverbelen:matrix.org: hallo alweer!
+Thu, Dec 17, 2020, 18:38:26 - @Polyglot:matrix.org: Ik probeer om op Teams aan te melden, maar in de browser krijg ik een foutmelding en in de Teams app, weet ik niet wat ik waar moet invullen om te verbinden
+Thu, Dec 17, 2020, 18:38:47 - @yverbelen:matrix.org: Polyglot: da's normaal ik heb hetzelfde probleem, ligt dus niet aan jou
+Thu, Dec 17, 2020, 18:39:02 - @Polyglot:matrix.org: ok, tx yverbelen 
+Thu, Dec 17, 2020, 18:39:11 - @yverbelen:matrix.org: ik geraak ook niet ingelogd via de link in de email
+Thu, Dec 17, 2020, 18:40:11 - joost_schouppe: Ha oei sorry
+Thu, Dec 17, 2020, 18:40:36 - joost_schouppe: Secondje
+Thu, Dec 17, 2020, 18:41:06 - @yverbelen:matrix.org: wie dacht dat het een goed idee was om Micro$oft Teams te gebruiken?
+Thu, Dec 17, 2020, 18:41:28 - joost_schouppe: [link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDljY2QyMmUtMTFlOC00ZjU5LWI0ZjYtMTk4ZmJjNDRhYWUz%40thread.v2/0?context=%7b%22Tid%22%3a%22ead8488e-5b94-4a8f-a590-e789b41346f6%22%2c%22Oid%22%3a%22b2b66c00-bdec-4380-aea7-00ff83290287%22%7d) 
+Thu, Dec 17, 2020, 18:41:36 - joost_schouppe: Not me not me :) 
+Thu, Dec 17, 2020, 18:41:59 - @yverbelen:matrix.org: 't is gewoon om te weten naar welk adres ik de pek en veren moet opsturen joost_schouppe 
+Thu, Dec 17, 2020, 18:42:28 - joost_schouppe: Naar Mechelen, hoofdkantoor Rode Kruis
+Thu, Dec 17, 2020, 18:58:28 - @frans_napaters:matrix.org: ik raak echt niet binnen
+Thu, Dec 17, 2020, 18:58:43 - @yverbelen:matrix.org: ook niet met de link hierboven frans_napaters ?
+Thu, Dec 17, 2020, 18:59:10 - @frans_napaters:matrix.org: ik moet registreren en dan verwijst hij mij naar skype
+Thu, Dec 17, 2020, 18:59:54 - @yverbelen:matrix.org: ah in dat geval moet je de link openen in een "incognito" sessie in Chromium
+Thu, Dec 17, 2020, 19:00:12 - @yverbelen:matrix.org: in Firefox werkt het niet
+Thu, Dec 17, 2020, 19:00:29 - @yverbelen:matrix.org: voor de registratie kan je gewoon een bobmail.info adres gebruiken
+Thu, Dec 17, 2020, 19:00:32 - @frans_napaters:matrix.org: ik heb net de linux app geinstalleerd
+Thu, Dec 17, 2020, 19:00:50 - @frans_napaters:matrix.org: maar dat helpt ook niet
+Thu, Dec 17, 2020, 19:01:33 - @yverbelen:matrix.org: ik vertik het om Micro$oft te installeren op mijn linux distro
+Thu, Dec 17, 2020, 19:01:49 - @yverbelen:matrix.org: dus vandaar dat ik het in Chromium geprobeerd heb
+Thu, Dec 17, 2020, 19:02:34 - @frans_napaters:matrix.org: ik ga switchen naar mijn werk laptop.
+Thu, Dec 17, 2020, 19:02:38 - @yverbelen:matrix.org: maar het _moet_ in "incognito" modus blijkbaar anders werkt het niet
+Thu, Dec 17, 2020, 19:07:48 - @frans_napaters:matrix.org: hier ben ik, eindelijk.
+Thu, Dec 17, 2020, 19:07:56 - @frans_napaters:matrix.org: bedankt voor de hulp.
+Thu, Dec 17, 2020, 19:23:30 - joost_schouppe: Jean marc is stuck on mac: "Quelqu'un a déjà configuré Teams pour votre organisation
+Demandez à votre administrateur de vous permettre d'utiliser Teams, ou configurez une autre organisation dans Teams avec une autre adresse e-mail.
+".
+Thu, Dec 17, 2020, 19:23:32 - joost_schouppe: any idea?
+Thu, Dec 17, 2020, 19:24:26 - timcouwelier: Join as guest through browser app instead?
+Thu, Dec 17, 2020, 19:24:50 - @frans_napaters:matrix.org: in incognito mode, very important
+Thu, Dec 17, 2020, 19:25:13 - @yverbelen:matrix.org: correct, it doesn't work if it's not in incognito
+Thu, Dec 17, 2020, 19:25:15 - joost_schouppe: so NOT using any account then, right?
+Thu, Dec 17, 2020, 19:25:31 - @yverbelen:matrix.org: and ONLY in the Chromium browser, it does NOT work in Firefox either
+Thu, Dec 17, 2020, 19:25:43 - timcouwelier: that's what 'as guest' implies yea Joost :)
+Thu, Dec 17, 2020, 19:26:49 - timcouwelier: I'm supposed to wait for the link for the task untill it comes up?
+Thu, Dec 17, 2020, 19:27:12 - joost_schouppe: https://tasks.hotosm.org/projects/10048/tasks
+Thu, Dec 17, 2020, 19:27:25 - joost_schouppe: it's a tiny task - but there's two back-ups
+Thu, Dec 17, 2020, 19:28:44 - timcouwelier: understood as much from the intro, but forgot to scribble down numbers
+Thu, Dec 17, 2020, 19:29:06 - joost_schouppe: "I know, but for some reason the browser knows I have Teams as an app, and wants to open it."
+Thu, Dec 17, 2020, 20:09:58 - @Polyglot:matrix.org: Ik krijg niet de kans om taken te valideren
+Thu, Dec 17, 2020, 20:21:18 - @yverbelen:matrix.org: ik heb nog geen taken gevalideerd, maar zie wel dat er al gevalideerd zijn in de mozaiek
+Thu, Dec 17, 2020, 20:21:23 - @yverbelen:matrix.org: dus 't moet blijkbaar wel mogelijk zijn
+Thu, Dec 17, 2020, 20:21:42 - @yverbelen:matrix.org: ik heb zelf een taak open staan momenteel dus van zodra die af is probeer ik het zelf ook eens
+Thu, Dec 17, 2020, 20:27:03 - joost_schouppe invited @sanderd17:matrix.org
+Thu, Dec 17, 2020, 20:27:19 - joost_schouppe: @sanderd17 ja, ga gerust al wat valideren als dat lukt
+Thu, Dec 17, 2020, 20:27:39 - timcouwelier: Koos is aan het valideren dacht ik
+Thu, Dec 17, 2020, 20:27:48 - timcouwelier: allez, die heeft de mijne toch gedaan tot dusver
+Thu, Dec 17, 2020, 20:28:58 - timcouwelier: Misschien idee om straks voor de beginners eens te tonen hoe het er in vlaanderen uit ziet, qua datamodel? Om te tonen dat er ook veel meer kan?
+Thu, Dec 17, 2020, 20:34:28 - @sanderd17:matrix.org joined the room
+Thu, Dec 17, 2020, 20:35:05 - @sanderd17:matrix.org: Ik zie ook die optie niet meer in de nieuwe tasking manager
+Thu, Dec 17, 2020, 20:35:38 - @sanderd17:matrix.org: Kan da zijn da je toestemming moet geven?
+Thu, Dec 17, 2020, 20:35:50 - @sanderd17:matrix.org: joost_schouppe: ^
+Thu, Dec 17, 2020, 20:47:49 - timcouwelier: en de 65 staat ook weer locked
+Thu, Dec 17, 2020, 20:48:06 - timcouwelier: ah, en nu kan het wel weer, nvm
+Thu, Dec 17, 2020, 21:04:58 - joost_schouppe: we gaan nog eens met Koos moeten babbelen precies :)
+Thu, Dec 17, 2020, 21:05:14 - joost_schouppe: when I say "trust them, ya better trust them" :)
+Thu, Dec 17, 2020, 21:05:42 - joost_schouppe: vroeger had ik die rechten, maar in de nieuwe versie niet meer
+Thu, Dec 17, 2020, 21:05:45 - @yverbelen:matrix.org: 't valideren gaat precies wel rap bij Koos hoor, hij zit al bijna halfweg
+Thu, Dec 17, 2020, 21:05:47 - @sanderd17:matrix.org: Moh, de wereld is groot genoeg 😀
+Thu, Dec 17, 2020, 21:06:15 - @yverbelen:matrix.org: zelfde probleem hier, klopt het dat alleen de auteur van de taak de valideringsrechten heeft nu?
+Thu, Dec 17, 2020, 21:07:08 - timcouwelier: och ja, de groep was beperkt genoeg om het zo aan te kunnen, denk ik dan?
+Thu, Dec 17, 2020, 21:07:23 - timcouwelier: maar met grotere groepen moet er idd echt naar die rechten gekeken worden
+Thu, Dec 17, 2020, 21:08:06 - joost_schouppe: ik zal aan Rode Kruis vragen dat ze mij maar weer admin maken als ze zo van die dingen doen
+Thu, Dec 17, 2020, 21:08:11 - joost_schouppe: dan kan ik die rechten regelen
+Thu, Dec 17, 2020, 21:10:56 - joost_schouppe: Tim, wil jij een paar dingen laten zien over osm be?
+Thu, Dec 17, 2020, 21:11:02 - joost_schouppe: mijn vat is af
+Thu, Dec 17, 2020, 21:11:38 - timcouwelier: ja doe ik wel, al dek ik nooit de gehele lading
+Thu, Dec 17, 2020, 21:11:49 - timcouwelier: :)
+Thu, Dec 17, 2020, 21:11:53 - joost_schouppe: sure, kan ook niet op minder dan een euh maand :)
+Thu, Dec 17, 2020, 21:12:07 - joost_schouppe: ik zou maar max 10 minuutjes doen ofzo
+Thu, Dec 17, 2020, 21:24:43 - joost_schouppe: marreuh, ik had dus verwacht dat we heel de tijd in one-on-one ruimtekes zouden moeten gaan zitten
+Thu, Dec 17, 2020, 21:24:59 - joost_schouppe: dus eigenlijk hebben jullie niet veel om handen gehad zeker?
+Thu, Dec 17, 2020, 21:25:43 - @yverbelen:matrix.org: viel eigenlijk goed mee ja
+Thu, Dec 17, 2020, 21:25:52 - @yverbelen:matrix.org: of misschien durfde de meesten geen vragen stellen?
+Thu, Dec 17, 2020, 21:32:44 - joost_schouppe: volgende keer proberen zien dat we zo'n breder verhaal over osm ergens tussendoor kunnen brengen zeker?
+Thu, Dec 17, 2020, 21:33:47 - @yverbelen:matrix.org: idd het er als appendix aanbreien heeft minder succes
+Thu, Dec 17, 2020, 21:35:00 - @sanderd17:matrix.org: In het echt lukt da beter, dan lopen ze niet zo makkelijk weg
+Thu, Dec 17, 2020, 21:35:20 - @yverbelen:matrix.org: deur fysiek op slot doen ;-)
+Thu, Dec 17, 2020, 21:36:14 - timcouwelier: Nu, dat gezegd zijnde - de meesten waren er uit beroepshalve activiteit
+Thu, Dec 17, 2020, 21:36:28 - timcouwelier: en dan is na 21u nog aandacht vragen, soms wat veel gevraagd
+Thu, Dec 17, 2020, 21:36:47 - @yverbelen:matrix.org: ik denk dat we wel terug moeten proberen te mikken op een mapping/validering balans met als doel om op 't einde van de sessie ook alles gevalideerd te krijgen, want nu maar de helft gevalideerd is moet de validator eigenlijk zelf alles fixen
+Thu, Dec 17, 2020, 21:36:57 - @yverbelen:matrix.org: tiles rejecten na de mapathon is wat onnozel
+Thu, Dec 17, 2020, 21:37:18 - @yverbelen:matrix.org: want daar gaat niet veel volk meer opspringen
+Thu, Dec 17, 2020, 21:37:47 - timcouwelier: also, persoonlijk gevoel - ik vond de intro nogal lang ook
+Thu, Dec 17, 2020, 21:38:20 - @yverbelen:matrix.org: inderdaad ja, ik had al 3 tiles gedaan tegen dat de intro afgelopen was ;-)
+Thu, Dec 17, 2020, 21:38:38 - timcouwelier: awel ja, mijn eerste waren gevalideerd, ik zat ook op derde tile tegen dan
+Thu, Dec 17, 2020, 21:38:47 - timcouwelier: had ik vanaf begin de link gehad had ik tile of twee meer gedaan denk ik
+Thu, Dec 17, 2020, 21:39:27 - timcouwelier: maar dat lag deels aan mij -de nummers werden vermeld maar ik was nog aan't eten. Tot vanmiddag 15u compleet vergeten dat dat vanavond was
+Thu, Dec 17, 2020, 21:40:07 - timcouwelier: al de hele week werkdagen van gemiddeld elf uur, 't wordt tijd voor wat rust/vakantie. 
+Thu, Dec 17, 2020, 21:42:27 - @yverbelen:matrix.org: joost_schouppe: weet jij wie die land uses heeft toegevoegd aan Kameroen?
+Thu, Dec 17, 2020, 21:43:00 - @sanderd17:matrix.org: Een van de OSMF board kandidaten was van Kameroen, en blijkbaar een grote voortrekker van die landuse
+Thu, Dec 17, 2020, 21:43:55 - @yverbelen:matrix.org: amai die hebben serieus hun best gedaan zeg
+Thu, Dec 17, 2020, 21:44:03 - @sanderd17:matrix.org: https://wiki.openstreetmap.org/wiki/User:Sobzeros
+Thu, Dec 17, 2020, 21:44:22 - timcouwelier: 't is dat of zoals google doen
+Thu, Dec 17, 2020, 21:44:32 - timcouwelier: alles wat geen bebouwde kom is groen maken
+Thu, Dec 17, 2020, 21:44:36 - @sanderd17:matrix.org: Maar Kameroen had al wa voorsprong. xivk is daar nog gepasseerd
+Thu, Dec 17, 2020, 21:44:37 - timcouwelier: 🤣
+Thu, Dec 17, 2020, 21:46:31 - @sanderd17:matrix.org: Mo ze hadden in de intro van het rode kruis wel een kaart van Google gebruikt om te tonen waar Malawi ligt zeker!
+Thu, Dec 17, 2020, 21:46:41 - @sanderd17:matrix.org: Heidenen!
+Thu, Dec 17, 2020, 21:54:25 - xivk: Ja das de willy die daar het landuse gedaan heeft ik heb daar ook ogen getrokken ooit
+Thu, Dec 17, 2020, 22:11:30 - timcouwelier: de lokale Lodde of wa?
+Thu, Dec 17, 2020, 23:03:22 - xivk: import denk ik
+Fri, Dec 18, 2020, 08:58:14 - @sanderd17:matrix.org: import van wat? AI data? Of was er dergelijke nationale dataset?
+Thu, Dec 24, 2020, 19:06:52 - @_oftc_midgard_:matrix.org joined the room
+Wed, Jan 6, 2021, 12:47:49 - @_oftc_midgard_:matrix.org left the room
+Mon, Jan 11, 2021, 11:21:15 - strict joined the room
+Tue, Jan 12, 2021, 21:25:22 - @_oftc_midgard_:matrix.org joined the room
+Tue, Jan 12, 2021, 22:04:42 - @_oftc_midgard_:matrix.org left the room: Nick
+Sun, Jan 17, 2021, 10:48:27 - @_oftc_midgard:matrix.org left the room: Quit: Remote host closed the connection
+Sun, Jan 17, 2021, 10:48:38 - @_oftc_midgard:matrix.org joined the room
+Sun, Jan 17, 2021, 22:04:43 - @_oftc_midgard_:matrix.org joined the room
+Tue, Jan 26, 2021, 12:23:22 - @_oftc_midgard_:matrix.org left the room
+Wed, Jan 27, 2021, 11:44:08 - MikiDi joined the room
+Wed, Jan 27, 2021, 12:08:35 - mikidi-2 changed their display name to mikidi
+Wed, Jan 27, 2021, 12:08:44 - mikidi changed their display name to MikiDi
+Thu, Jan 28, 2021, 09:49:57 - @_oftc_midgard:matrix.org left the room: Quit: Remote host closed the connection
+Thu, Jan 28, 2021, 09:50:09 - @_oftc_midgard:matrix.org joined the room
+Fri, Jan 29, 2021, 12:43:32 - @_oftc_midgard_:matrix.org joined the room
+Fri, Jan 29, 2021, 12:53:24 - @_oftc_midgard_:matrix.org left the room: Nick
+Fri, Jan 29, 2021, 22:29:41 - @_oftc_midgard_:matrix.org joined the room
+Fri, Jan 29, 2021, 22:29:42 - @_oftc_midgard:matrix.org left the room: Quit: Remote host closed the connection
+Sat, Jan 30, 2021, 09:05:16 - @_oftc_midgard:matrix.org joined the room
+Sun, Jan 31, 2021, 15:01:30 - @yverbelen:matrix.org set a profile picture
+Mon, Feb 1, 2021, 00:23:11 - @_oftc_midgard_:matrix.org left the room: Quit: Ping timeout: 480 seconds
+Mon, Feb 1, 2021, 10:26:21 - @_oftc_midgard:matrix.org left the room: Quit: Remote host closed the connection
+Mon, Feb 1, 2021, 10:28:34 - @_oftc_midgard:matrix.org joined the room
+Tue, Feb 2, 2021, 15:21:10 - @_oftc_midgard_:matrix.org joined the room
+Fri, Feb 5, 2021, 00:58:05 - yverbelen changed their display name to Yan
+Fri, Feb 5, 2021, 11:28:05 - @_oftc_midgard_:matrix.org left the room
+Fri, Feb 5, 2021, 23:30:07 - @_oftc_midgard_:matrix.org joined the room
+Thu, Feb 18, 2021, 11:12:35 - vakonof joined the room
+Fri, Feb 26, 2021, 23:06:17 - @_oftc_midgard_:matrix.org left the room: Quit: Read error: Connection reset by peer
+Mon, Mar 1, 2021, 00:12:34 - @_oftc_midgard_:matrix.org joined the room
+Sat, Apr 10, 2021, 14:48:10 - @lighthousedialect:matrix.org joined the room
+Fri, Apr 16, 2021, 12:38:38 - MikiDi set a profile picture
+Mon, Apr 26, 2021, 15:45:46 - @_oftc_midgard_:matrix.org left the room
+Sat, May 15, 2021, 13:04:37 - pietervdvn changed their profile picture
+Sun, May 16, 2021, 23:53:09 - vmarc set a profile picture
+Mon, May 17, 2021, 13:03:47 - @_oftc_midgard:matrix.org left the room
+Sun, May 23, 2021, 19:42:19 - @_oftc_midgard:matrix.org joined the room
+Thu, Jul 1, 2021, 11:58:35 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Default to Moderator.
+Thu, Jul 1, 2021, 12:04:51 - @_oftc_midgard:matrix.org left the room
+Sat, Jul 3, 2021, 15:49:34 - @filipca:matrix.org joined the room
+Mon, Jul 5, 2021, 09:32:23 - @filipca:matrix.org: In Veurne en Brugge zijn nog vele AEDs te mapillariseren.  Zie mijn notes.
+Wed, Jul 7, 2021, 19:47:57 - @filipca:matrix.org: Ik heb langs de kust notes gezet voor AEDs die nog te mapilliseren zijn.  Er kunnen er ontbreken, dat zijn dan deze waarvan ik niet zeker weet dat ze buiten staan.
+Wed, Jul 7, 2021, 19:48:26 - @filipca:matrix.org: Ik heb dus net een nieuw gecontamineerd woord uitgevonden.
+Thu, Jul 8, 2021, 08:28:32 - s8evq: Philippe Casteleyn: Wat bedoel je precies met bijvoorbeeld "Kwaremont. Kwaremontplein aed, mapillary."
+Er is wellicht een AED, maar nog niet gemapt en geen Mapillary beelden?
+AED zit in OSM, maar nog geen Mapillary beelden??
+
+Thu, Jul 8, 2021, 08:54:07 - @filipca:matrix.org: https://www.openstreetmap.org/node/8736257000
+Thu, Jul 8, 2021, 08:54:52 - @filipca:matrix.org: Inderdaad, een vergissing met een AED is erger dan bij een boekenkast, alhoewel we het tweede meer gebruiken.
+Thu, Jul 8, 2021, 09:39:47 - s8evq: Dus, ik veronderstel dat je wil dat iemand een foto neemt en aan Mapillary toevoegt? Dat was niet duidelijk uit de tekst van de note.
+Thu, Jul 8, 2021, 10:35:38 - @filipca:matrix.org: Ik kijk eerst natuurlijk of er al een Mapillary bestaat.  Als ik ter plaatse ben, is er in de buurt van de AED dikwijls ook een boekenkast.  Die fotografeer ik dan ook.  Ik veronderstel gewoon dat geen enkel weldenkend mens een AED mapt zonder de beste foto's te nemen.
+Thu, Jul 15, 2021, 15:06:33 - escada: Philippe, je weet toch dat heel veel mensen niet meer aan Mapillary willen meewerken nu dat deel uit maakt van Facebook. IMHO,  zou het veel beter zijn om te ijveren om duidelijke wegwijzers te zetten naar de AEDs. Mapillary is en blijft een relatief onbekend/onbelangrijk project waarvan we het welzijn van de Vlaming niet mogen laten van afhangen.
+Thu, Jul 15, 2021, 16:03:05 - timcouwelier: Mij is het op zich eender op welk platform, het is gewoon handig als ze allemaal op eenduidige manier te traceren vallen wel. Mapillary heeft nu eenmaal wel een voorsprong wat dat betreft.
+Thu, Jul 15, 2021, 16:03:38 - timcouwelier: Dus ja, het is handig, maar het is evenzeer een brug te ver om te stellen dat een mapper die geen mapillary-foto maakt per definitie in de fout gaat.
+Thu, Jul 15, 2021, 20:38:49 - @yverbelen:matrix.org: Daar ben ik het ook mee eens. Ik was vroeger ook Mapillary contributor, maar voor mij is het dood en begraven sinds het deel uitmaakt van de Facebook kliek. Maar als er mensenlevens vanaf hangen, dan moet een uitzondering kunnen gemaakt worden voor AEDs en soortgelijke toepassingen m.i.
+Thu, Jul 15, 2021, 20:50:02 - escada: Na alle discussies met Philippe over dit topic begrijp ik nog steeds niet hoe een foto op een obscure website, die enkel getoond wordt via 1 navigatie app (OsmAnd) die een redelijke maar nu ook weer niet gigantische populariteit heeft, mensenlevens gaat redden. Als een app je naar de plek laat navigeren, moet de AED zo zichtbaar zijn opgehangen dat je geen foto nodig hebt. Anders gaat de overheid hier zwaar in de fout en niet een mapper die weigert een FB product te gebruiken
+Thu, Jul 15, 2021, 20:54:12 - escada: Ik upload nog steeds naar Mapillary, maar weiger om links te leggen vanuit osm naar die externe databank. 
+Fri, Jul 16, 2021, 09:52:50 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Moderator to Default.
+Fri, Jul 16, 2021, 09:54:03 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Default to Moderator.
+Tue, Aug 3, 2021, 13:10:56 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Moderator to Default.
+Tue, Sep 21, 2021, 11:23:29 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Default to Moderator.
+Tue, Oct 19, 2021, 17:17:18 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Moderator to Default.
+Tue, Oct 19, 2021, 17:21:06 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Default to Moderator.
+Mon, Nov 15, 2021, 18:30:04 - @yverbelen:matrix.org: pietervdvn: is er een video live stream voor de mapathon in Beveren vanavond?
+Mon, Nov 15, 2021, 21:47:51 - pietervdvn: ja, sorry, ik ben nu maar mijn berichten aan het checken. Er was er idd eentje
+Mon, Nov 15, 2021, 21:51:52 - @yverbelen:matrix.org: geen probleem hoor, uiteindelijk was het niet nodig gebleken
+Fri, Nov 26, 2021, 23:44:00 - @orchi:matrix.org joined the room
+Fri, Dec 3, 2021, 19:17:26 - @gplv2:matrix.org joined the room
+Mon, Dec 6, 2021, 12:46:42 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Moderator to Default.
+Mon, Dec 6, 2021, 12:54:55 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Default to Moderator.
+Thu, Dec 30, 2021, 20:27:57 - @rienux:matrix.org joined the room
+Fri, Feb 25, 2022, 08:56:40 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Moderator to Default.
+Fri, Feb 25, 2022, 09:06:59 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Default to Moderator.
+Fri, Mar 4, 2022, 12:47:39 - @oftc-irc:matrix.org changed the power level of @Polyglot:matrix.org from Moderator to Default.
+Thu, Mar 10, 2022, 11:36:21 - Jhowie Nitnek joined the room
+Sun, Apr 17, 2022, 14:25:45 - Hopperpop joined the room
+Fri, Apr 22, 2022, 17:17:38 - @oftc-irc:matrix.org removed @Polyglot:matrix.org: Idle for 30+ days
+Wed, May 4, 2022, 09:44:46 - @oftc-irc:matrix.org changed the power level of Seppe from Default to Moderator.
+Tue, May 31, 2022, 21:17:37 - Seppe: In preparation for the notes mapathon tomorrow: https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Resolving_notes
+Tue, May 31, 2022, 21:18:02 - pi11 joined the room
+Tue, May 31, 2022, 22:00:04 - thierry.js1030 joined the room
+Wed, Jun 1, 2022, 17:12:13 - timcouwelier: Just a heads up - I'll be joining the effort from home. Misses insisted I'd try and arrange for a babysitter if I'd come to Brussels, but that became too short notice to arrange.
+Wed, Jun 1, 2022, 17:15:52 - timcouwelier: Eager to join in though - I feel I at least owe Jakka that much 🙂
+Wed, Jun 1, 2022, 17:46:01 - Seppe: If you come to Brussels, make sure you follow the directions at https://hsbxl.be/enter/
+We will have to let you in at door A. You can call 02 880 40 04 for that, that's the number of the hackerspace.
+Wed, Jun 1, 2022, 17:52:42 - Seppe changed the topic to "Discuss current tasks - Notes mapathon guidelines: https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Resolving_notes".
+Wed, Jun 1, 2022, 17:53:12 - joost_schouppe: The cell phone number is censored on meet-up... 
+Wed, Jun 1, 2022, 18:02:19 - Seppe sent an image. (Media omitted)
+Wed, Jun 1, 2022, 18:02:49 - Seppe: Aha, thibaultmol informs me you have to log in on Meetup to see the phone number
+Wed, Jun 1, 2022, 18:03:28 - joost_schouppe: Oh OK 
+Wed, Jun 1, 2022, 18:03:40 - joost_schouppe: I'll be there in 5
+Wed, Jun 1, 2022, 18:06:09 - MikiDi: Evenin' all. I'll be joining remotely too. :-)
+Wed, Jun 1, 2022, 18:12:05 - Seppe: We have a umap to divide the work: http://umap.openstreetmap.fr/nl/map/notes-mapathon_764727#8/50.651/4.087
+Wed, Jun 1, 2022, 18:13:36 - Seppe: Please let me know which area you want to work on and I will fill in your name.
+Wed, Jun 1, 2022, 18:15:22 - Seppe: We were doubting whether we would make groups, but with the hybrid thing, it's probably easier to do it individually and discuss all difficult cases here or in real life in Brussels
+Wed, Jun 1, 2022, 18:17:31 - MikiDi: For me you can lock the Vilvoorde sector Seppe 
+Wed, Jun 1, 2022, 18:19:25 - MikiDi: I'll be working in a radius around Wemmel
+Wed, Jun 1, 2022, 18:22:13 - Seppe: <@mikidi-2:matrix.org "I'll be working in a radius arou..."> Ok done
+Wed, Jun 1, 2022, 18:22:49 - Seppe: Please read the instructions on the wiki (don't forget to use the hashtag). If you have any questions, let us know
+Wed, Jun 1, 2022, 18:30:17 - @lepirlouit2:matrix.org joined the room
+Wed, Jun 1, 2022, 18:32:06 - Seppe sent an image. (Media omitted)
+Wed, Jun 1, 2022, 18:43:08 - Seppe: timcouwelier: let me know if you want an area locked for you
+Wed, Jun 1, 2022, 18:51:11 - Seppe: We have a power outtage here and are on a UPS now. Wifi is still live, but might die within 30 minutes or so
+Wed, Jun 1, 2022, 18:53:24 - Seppe sent an image. (Media omitted)
+Wed, Jun 1, 2022, 18:53:51 - joost_schouppe: https://pietervdvn.github.io/mc/develop/notes?z=20&lat=50.93883&lon=5.350969&language=nl#3035307
+Wed, Jun 1, 2022, 18:58:33 - @lepirlouit2:matrix.org: https://www.openstreetmap.org/note/3023708
+Wed, Jun 1, 2022, 19:05:23 - timcouwelier: Seppe: dibs on Roeselare
+Wed, Jun 1, 2022, 19:05:47 - timcouwelier: depending on if Jakka joins in or not, I'll either take Ieper or Diksmuide after
+Wed, Jun 1, 2022, 19:08:32 - MikiDi: This might be one for PinJePunt QA people https://www.openstreetmap.org/note/3090189#map=17/50.90102/4.26442&layers=N ... I'll just close that one?
+Wed, Jun 1, 2022, 19:09:41 - Seppe: <@timcouwelier:matrix.org "Seppe: dibs on Roeselare"> Ok, 'locked' on the umap
+Wed, Jun 1, 2022, 19:14:19 - Seppe: <@mikidi-2:matrix.org "This might be one for PinJePunt ..."> You will find a lot of these. They are created based on existing datasets from governmental organizations. They are usually of good quality, so I would not close them if there's not a reason for it
+Wed, Jun 1, 2022, 19:17:51 - Seppe: If these notes remain open too long (e.g. within one year), we can discuss whether we should close them in bulk
+Wed, Jun 1, 2022, 19:20:07 - thierry.js1030: "we can discuss whether we should close them in bulk" -> can you/we close notes in bulk?
+Wed, Jun 1, 2022, 19:22:56 - Seppe: Yes, Pieter made sure we can close the 'import notes' in bulk
+Wed, Jun 1, 2022, 19:33:44 - timcouwelier: underestimated the effort of properly documenting / tagging the notes / changesets 😲
+Wed, Jun 1, 2022, 19:44:53 - timcouwelier: https://www.openstreetmap.org/note/2977889#map=18/51.02018/3.00629&layers=N
+Wed, Jun 1, 2022, 19:45:25 - timcouwelier: -> the AED is mapped (and it is where it's mapped at - happen to know it) - but the note is likely just left up because of no mapillary image. Sensible to close this one?
+Wed, Jun 1, 2022, 19:46:35 - joost_schouppe: Could someone open up the door at the top of the stairs? 
+Wed, Jun 1, 2022, 19:47:50 - Seppe: Coming
+Wed, Jun 1, 2022, 19:54:35 - Seppe: We are back online by the way 🙌
+Wed, Jun 1, 2022, 19:56:09 - timcouwelier: Sweet
+Wed, Jun 1, 2022, 19:56:21 - timcouwelier: loving the green nature of the chunk around me now:
+Wed, Jun 1, 2022, 19:56:21 - timcouwelier: https://www.openstreetmap.org/#map=11/50.9805/2.9897&layers=N
+Wed, Jun 1, 2022, 19:57:19 - timcouwelier: While chunk Diksmuide was unclaimed on the uMap, its nearly completed btw
+Wed, Jun 1, 2022, 19:58:01 - timcouwelier: Scratch that
+Wed, Jun 1, 2022, 19:58:12 - timcouwelier: for some reason the green markers loaded quicker then the red ones
+Wed, Jun 1, 2022, 19:58:46 - timcouwelier: (diff zoom levels for them to pop up it appears - TIL)
+Wed, Jun 1, 2022, 20:01:06 - Steven Clays joined the room
+Wed, Jun 1, 2022, 20:18:50 - timcouwelier: Low hanging fruit for someone using JOSM with the orthofoto-werkbestand layer: https://www.openstreetmap.org/note/2456072#map=18/50.92223/3.15046&layers=N
+Wed, Jun 1, 2022, 20:19:06 - timcouwelier: (its not showing on latest ortho in iD, it's in the werkbestand layer though)
+Wed, Jun 1, 2022, 20:19:13 - MikiDi: <@Seppe:matrix.org "You will find a lot of these. Th..."> I know the project ;-) What I meant was: given the aerial imagery it's very unlikely there is/has ever been a bench there. Mentioned it thinking this might be a good one to doublecheck its original source to see if more info might be available.
+Wed, Jun 1, 2022, 20:20:54 - timcouwelier: Ive actually had on where aerial didn't show clear - yet 360 imagery from last year does
+Wed, Jun 1, 2022, 20:21:01 - timcouwelier: it's easy to get tempted to judge quickly
+Wed, Jun 1, 2022, 20:22:09 - timcouwelier: https://www.openstreetmap.org/node/9788854823
+Wed, Jun 1, 2022, 20:25:50 - Seppe: <@mikidi-2:matrix.org "I know the project ;-) What I me..."> Ah yes, sorry. In that case it's indeed safe to close the note
+Wed, Jun 1, 2022, 20:26:53 - timcouwelier: mikidi, jbelien, joost_schouppe, thierry1030, jakka, mizuna, orchi_osm, lepilouit, l'imaginaire, wegspotter, .. note closures are rolling in 🙂
+Wed, Jun 1, 2022, 20:27:01 - joost_schouppe: there's this dude that seems to be based in Brussels that has a LOT of open notes! https://mapcomplete.osm.be/notes?z=12&lat=50.85714&lon=4.364662&language=nl&filter-opened_by=%7B%22search%22%3A%22thierry1030%22%7D&filter-opened_by-search=Thierry1030#
+Wed, Jun 1, 2022, 20:29:42 - Jonathan joined the room
+Wed, Jun 1, 2022, 20:30:47 - Jonathan: Yeah, sorry thierry.js1030 I should have pinged you here (instead of the board room :P)
+Wed, Jun 1, 2022, 20:34:04 - timcouwelier: something tells me I don't want to read seppe's mailbox tomorrow.
+Wed, Jun 1, 2022, 21:05:37 - Seppe: <@timcouwelier:matrix.org "something tells me I don't want ..."> Keep 'm coming!
+Wed, Jun 1, 2022, 21:06:44 - timcouwelier: FYI
+Wed, Jun 1, 2022, 21:06:52 - timcouwelier: our friend philippec is reopening his notes we close
+Wed, Jun 1, 2022, 21:08:53 - thierry.js1030: <@timcouwelier:matrix.org "our friend philippec is reopenin..."> about AED's?!
+Wed, Jun 1, 2022, 21:09:30 - joost_schouppe: lol
+Wed, Jun 1, 2022, 21:09:33 - timcouwelier: https://www.openstreetmap.org/note/2977889#map=16/51.0201/3.0092&layers=N
+Wed, Jun 1, 2022, 21:10:26 - timcouwelier: https://www.openstreetmap.org/note/3202091 is another example of him in all his glory
+Wed, Jun 1, 2022, 21:10:31 - joost_schouppe: oh no, a not-closing edit war
+Wed, Jun 1, 2022, 21:11:06 - timcouwelier: if he's not looking after dealing with them in limburg, he shouldn't put up the notes and be persistent about them either
+Wed, Jun 1, 2022, 21:20:32 - Seppe invited juminet
+Wed, Jun 1, 2022, 21:23:41 - s8evq: I'll also join, online
+Wed, Jun 1, 2022, 21:23:47 - s8evq: I'll work a bit around Eeklo
+Wed, Jun 1, 2022, 21:24:24 - timcouwelier: 99 notes with interaction since 7PM tonight, in case anyone likes statistics
+Wed, Jun 1, 2022, 21:34:55 - timcouwelier: Seppe: can you mark Eeklo for s8evq, and if you're color-coding, im pretty much done with the Roeselare area
+Wed, Jun 1, 2022, 21:41:50 - Seppe sent an image. (Media omitted)
+Wed, Jun 1, 2022, 21:50:28 - Thibaultmol: s8evq regarding this note https://openstreetmap.org/note/2543566
+Can you provide more context or reply/fix it?
+Wed, Jun 1, 2022, 21:50:57 - s8evq: OK I'm having a look
+Wed, Jun 1, 2022, 21:54:31 - Seppe: We're closing off here in about ten minutes, but you're all more than welcome to finish the job!
+Wed, Jun 1, 2022, 21:54:53 - s8evq: We didn't see a picture of the hackerspace yet?
+Wed, Jun 1, 2022, 21:55:11 - s8evq: I'm imagining a dark place with bleak faces behind laptops
+Wed, Jun 1, 2022, 21:55:15 - timcouwelier: wegspotter: https://www.openstreetmap.org/note/3205841
+Wed, Jun 1, 2022, 21:57:28 - joost_schouppe sent an image. (Media omitted)
+Wed, Jun 1, 2022, 21:57:42 - thierry.js1030: Jonathan: thanks for adding this velobox https://www.openstreetmap.org/node/9789013593. With bxl-forever we agreed a while ago to add some extra tags to the veloboxes
+Wed, Jun 1, 2022, 21:58:51 - s8evq: thanks joost
+Wed, Jun 1, 2022, 22:13:55 - timcouwelier: something tells me we could very well do with a repeat of this event, to make an even bigger dent
+Wed, Jun 1, 2022, 22:14:02 - timcouwelier: also .. trending!
+Wed, Jun 1, 2022, 22:14:03 - timcouwelier: https://osmstats.neis-one.org/?item=trending
+Wed, Jun 1, 2022, 22:14:44 - timcouwelier: (look at the locations, look at the #notesBE tag)
+Wed, Jun 1, 2022, 22:18:08 - timcouwelier: and interactions on about 165 notes
+Wed, Jun 1, 2022, 22:19:35 - timcouwelier: (and philippec not getting the point, aparantly)
+Wed, Jun 1, 2022, 22:20:18 - timcouwelier: I will share his delightfull quote though
+Wed, Jun 1, 2022, 22:20:19 - timcouwelier: philippec 	
+
+U kent mijn mening over AEDs zonder bewijs. Ik garandeer 2 jaar. Daarom doe ik Limburg niet.
+Sluit liever ruilboekenkasten.
+Wed, Jun 1, 2022, 22:23:08 - juminet joined the room
+Wed, Jun 1, 2022, 22:25:41 - s8evq: Hey Tim, laat hem maar waar hij is. Philippec heeft al 'op mijn kap' gezet omdat ik ruilboekenkastje map, in plaats van levens reddende AED 😅
+Wed, Jun 1, 2022, 22:25:59 - s8evq: <@timcouwelier:matrix.org "something tells me we could very..."> I agree, it could be a whole week, or month event.
+Wed, Jun 1, 2022, 22:26:16 - s8evq: It takes quite some time to do the research necessary sometimes.
+Wed, Jun 1, 2022, 22:26:54 - timcouwelier: truth to be told, I had been doing some err.. 'preliminary work' around my own backyard to help me get through the notes
+Wed, Jun 1, 2022, 22:27:50 - timcouwelier: and as for philippe, two can be stubborn. It's one of my more defining character traits, probably.
+Wed, Jun 1, 2022, 22:33:02 - MikiDi: Just closed [my last one for tonight](https://www.openstreetmap.org/note/3090145), thanks to a PinJePunt lead, completed with detailed survey info by https://www.openstreetmap.org/user/H4N5-antw 🙌 Thanks all!
+Wed, Jun 1, 2022, 22:39:04 - timcouwelier: <@s8evq:matrix.org "I agree, it could be a whole wee..."> Sorry, couldn't resist. When a man has to talk down another to win an argument, he's already lost.
+Wed, Jun 1, 2022, 22:39:15 - timcouwelier: ah responded to the wrong msg
+Wed, Jun 1, 2022, 23:04:16 - Seppe: <@s8evq:matrix.org "We didn't see a picture of the h..."> Outside view when we left:
+Wed, Jun 1, 2022, 23:04:42 - Seppe sent an image. (Media omitted)
+Wed, Jun 1, 2022, 23:05:32 - Seppe: And the inside view just before entering the hackerspace:
+Wed, Jun 1, 2022, 23:05:37 - Seppe sent an image. (Media omitted)
+Wed, Jun 1, 2022, 23:05:38 - Seppe: Quite a cool place!
+Wed, Jun 1, 2022, 23:20:57 - pietervdvn: <@thierry.js1030:matrix.org "Jonathan: thanks for adding this..."> Can't we use a specific parking-type for those?
+Thu, Jun 2, 2022, 07:26:11 - thierry.js1030: <@pietervdvn:matrix.org "Can't we use a specific parking-..."> something else than shed you mean?
+Mon, Jun 13, 2022, 11:28:42 - thibaultmol changed their display name to Thibaultmol
+Tue, Jun 14, 2022, 10:12:32 - @oftc-irc:matrix.org removed vmarc: Idle for 30+ days
+Tue, Jun 14, 2022, 10:12:34 - @oftc-irc:matrix.org removed @stijnrr:matrix.org: Idle for 30+ days
+Tue, Jun 14, 2022, 10:12:39 - @oftc-irc:matrix.org removed @pfiers:matrix.org: Idle for 30+ days
+Tue, Jun 14, 2022, 10:12:41 - @oftc-irc:matrix.org removed @yverbelen:matrix.org: Idle for 30+ days
+Tue, Jun 14, 2022, 10:12:42 - @oftc-irc:matrix.org removed @rienux:matrix.org: Idle for 30+ days
+Wed, Jun 15, 2022, 17:36:28 - timcouwelier: https://www.openstreetmap.org/note/3214173
+Wed, Jun 15, 2022, 18:33:52 - Seppe: Don't worry Tim. Philippe seems like the perfect mapper we all look up to because he is saving lives everyday, but last week I discovered he doesn't seem to care about the lives of the people in Nieuwpoort, as I discoverd a yet unmapped AED there: https://www.openstreetmap.org/changeset/122240011
+
+Now please get into your car and make Mapillary images of that one as well! Or should I make a note for that?
+Wed, Jun 15, 2022, 19:57:11 - timcouwelier: I found a new one in Roeselare as well 
+Wed, Jun 15, 2022, 21:55:17 - Thibaultmol: He sent me a message yesterday but I'm confused what I'm supposed to do about it
+Wed, Jun 15, 2022, 21:55:27 - Thibaultmol sent an image. (Media omitted)
+Wed, Jun 15, 2022, 21:55:28 - Thibaultmol: https://mapcomplete.osm.be/notes.html?z=16&lat=50.94926&lon=3.292829&language=nl&filter-search=%7B%22search%22%3A%22aed%20%22%7D&filter-is_open=true&filter-no_imports=1&filter-search-search=aed%20
+Wed, Jun 15, 2022, 21:57:54 - Thibaultmol: I added 2 AED's using mapcomplete in Meulebeke
+Wed, Jun 15, 2022, 23:26:43 - timcouwelier: hes just nagging about me closing an old note
+Wed, Jun 15, 2022, 23:26:54 - timcouwelier: for an AED that was mapped, but just didnt have mapillary imagery added
+Wed, Jun 15, 2022, 23:27:29 - timcouwelier: where i said it's for mapping, not for personal notekeeping
+Wed, Jun 15, 2022, 23:28:44 - timcouwelier: went back and forth like five times closing and re-opening the note
+Thu, Jun 16, 2022, 00:33:19 - pietervdvn: Yeah, just don't put in so much energy. If you'd ask me, I'd say he's on the autism spectrum and you'll wont be able to change his behaviour
+Thu, Jun 16, 2022, 07:25:23 - joost_schouppe: Wisten jullie trouwens dat hij lid is van deze ruimte? Wel niet meer geweest sinds juli 2021
+Thu, Jun 16, 2022, 07:35:29 - Thibaultmol: <@pietervdvn:matrix.org "Yeah, just don't put in so much ..."> Oh yeah, I figured xd
+
+Guess I'm just mainly confused what this message to me meant. What exactly does he want me to do?
+Thu, Jun 16, 2022, 09:11:59 - @frans_napaters:matrix.org: He also commented on some pictures I took of an AED that were not up to standard according to him. I think they're more than clear enough. I think we need to be careful this doesn't scare of beginner mappers. If for example someone who discovered osm through pin je punt also starts mapping AEDs and immediately gets these comments they might give up. 
+Thu, Jun 16, 2022, 09:12:30 - @frans_napaters:matrix.org: and an AED mapped with no or bad pictures is better than no AED mapped at all.
+Thu, Jun 16, 2022, 09:32:36 - Seppe: <@frans_napaters:matrix.org "He also commented on some pictur..."> Well, a colleague of mine was in this situation. He hasn't stopped mapping luckily, but he sweared he will never do AED's again ...
+Thu, Jun 16, 2022, 13:07:56 - @frans_napaters:matrix.org: ontopic question: how do you map the accessibility of an AED inside an office building? It doesn't seem publicly accessible but it's not like you can't use it without doing business with company in the building so not customer only either.
+Thu, Jun 16, 2022, 15:35:36 - Seppe: If it's not open to the public or to customers, than I would think it's access=private
+Thu, Jun 16, 2022, 20:02:16 - timcouwelier: <@joost_schouppe:matrix.org "Wisten jullie trouwens dat hij l..."> Ik sta achter elk woord wat ik over het onderwerp gezegd heb, no worries 
+Thu, Jun 16, 2022, 20:02:47 - timcouwelier: Ik spreek geen kwaad achter z’n rug - zou fijn zijn als dat ook omgekeerd gold 
+Thu, Jun 16, 2022, 20:41:30 - joost_schouppe: Well yeah, maybe we actually have to intervene officially 
+Sat, Jun 18, 2022, 15:15:03 - Thibaultmol: <@thibaultmol:matrix.org "sent an image."> I got a reply back from Philippe
+Sat, Jun 18, 2022, 15:15:05 - Thibaultmol sent an image. (Media omitted)
+Sat, Jun 18, 2022, 15:17:38 - Thibaultmol: He's anti-imgur (because of the lack of metadata). Which I understand to a certain degree, it's also something I've thought about tbh. That is an advantage of Mapillary and such. I guess in theory coordinates, date, and other image metdata could be set on the imgur description cc pietervdvn was there a reason why this isn't done?
+Sat, Jun 18, 2022, 15:25:29 - joost_schouppe: If an image is added with mapcomplete, it's unlikely to be old. So you can assume the date of the image is the date of the changeset that added it 
+Sat, Jun 18, 2022, 15:31:16 - Thibaultmol: That's a fair point as well
+Sat, Jun 18, 2022, 15:32:46 - joost_schouppe: (there's a closed issue somewhere in the mapcomplete repo, that's what I remember from the reasoning) 
+Sun, Jun 19, 2022, 13:58:48 - pietervdvn: <@thibaultmol:matrix.org "He's anti-imgur (because of the ..."> Metadata _is_ set on the IMGUR image in the description, see https://github.com/pietervdvn/MapComplete/issues/137
+Sun, Jun 19, 2022, 14:29:13 - Thibaultmol: <@pietervdvn:matrix.org "Metadata _is_ set on the IMGUR i..."> That's technically the upload date, not the image capture date, right?
+
+I know that in theory those will be the same in 99% of cases. But yeah, it's fine 
+Sun, Jun 19, 2022, 14:51:30 - pietervdvn: Yes, that is correct
+Sun, Jun 19, 2022, 21:14:33 - @frans_napaters:matrix.org: <@Seppe:matrix.org "If it's not open to the public o..."> my reasoning is that for an AED device no one is going to tell you you can't use it if you rush into the office building. If for example a chemical plant has one in a building that you can't access without a security clearance I would add private but for an office building where the AED is right next to the reception I want to add public although that seems technically incorrect.
+Wed, Jun 22, 2022, 09:52:33 - Seppe: <@frans_napaters:matrix.org "my reasoning is that for an AED ..."> I get your reasoning, but it makes things very complicated, as then you have to check for every location whether it's possible to rush in without being stopped :-)
+It might be even more informative to put access=private if the building is not open to the public, because then you can at least take into account that you will have to provide at least some explanation if you rush in :-)
+
+Wed, Jun 22, 2022, 09:52:42 - Seppe sent an image. (Media omitted)
+Wed, Jun 22, 2022, 09:52:55 - Seppe: <@Seppe:matrix.org "sent an image."> Here we go again ...
+Wed, Jun 22, 2022, 09:56:35 - joost_schouppe: He's using it as his personal todo list
+Wed, Jun 22, 2022, 09:56:40 - joost_schouppe: Which is against the rule. 
+Wed, Jun 22, 2022, 10:00:00 - Seppe: I know
+Wed, Jun 22, 2022, 10:00:47 - Seppe: But I chose to react a bit naively: https://www.openstreetmap.org/note/3234142
+Wed, Jun 22, 2022, 10:58:27 - @frans_napaters:matrix.org: <@Seppe:matrix.org "I get your reasoning, but it mak..."> I think you're right. If people need an AED they will probably ignore the public/private tag and try to get to the AED. But if it's tagged as private they will know it may need some explaining to get in the building. I will use private. It's technically correct and gives the most info for users.
+Thu, Jun 23, 2022, 09:15:02 - s8evq: Maybe philippec needs a mapcomplete theme. "Show all AED without mapillary link" 😀
+Thu, Jun 23, 2022, 09:16:49 - joost_schouppe: that's actually a good point!
+Tue, Aug 16, 2022, 13:07:47 - @_oftc_avowaved:matrix.org joined the room
+Wed, Sep 7, 2022, 17:02:30 - @marcu:matrix.org joined the room
+Tue, Sep 13, 2022, 10:47:25 - @_oftc_avowaved:matrix.org left the room
+Tue, Oct 11, 2022, 04:59:19 - @oftc-irc:matrix.org changed the power level of Jhowie Nitnek from Default to Moderator.
+Thu, Mar 16, 2023, 10:21:24 - @oftc-irc:matrix.org removed @lepirlouit2:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:25 - @oftc-irc:matrix.org removed @marcu:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:25 - @oftc-irc:matrix.org removed djsa: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:26 - @oftc-irc:matrix.org removed @orchi:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:26 - @oftc-irc:matrix.org removed pi11: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:27 - @oftc-irc:matrix.org removed @sanderd17:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:32 - @oftc-irc:matrix.org removed @jplbeewee:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:33 - @oftc-irc:matrix.org removed @lighthousedialect:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:33 - @oftc-irc:matrix.org removed @frans_napaters:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:33 - @oftc-irc:matrix.org removed @aluco:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:21:34 - @oftc-irc:matrix.org removed @filipca:matrix.org: Idle for 30+ days
+Thu, Mar 16, 2023, 10:47:58 - pi11 joined the room
+Fri, Mar 24, 2023, 14:15:36 - vmarc joined the room
+Mon, Jun 19, 2023, 11:21:48 - @oftc-irc:matrix.org changed the power level of Seppe from Moderator to Default.
+Tue, Jun 20, 2023, 22:26:58 - pietervdvn: There is a filter for this: https://mapcomplete.osm.be/aed.html?z=13&lat=51.04597&lon=3.757152&language=nl&tab=3&filter-open_now=&filter-has_image=2
+Thu, Jul 6, 2023, 17:35:08 - Jonathan left the room
+Fri, Aug 4, 2023, 13:01:15 - @oftc-irc:matrix.org changed the power level of Seppe from Default to Moderator.
+Mon, Aug 21, 2023, 16:09:36 - djsa joined the room
+Mon, Aug 21, 2023, 19:33:09 - djsa[m] joined the room
+Mon, Aug 21, 2023, 19:33:09 - Seppe[m] joined the room
+Mon, Aug 21, 2023, 19:34:19 - thierryjs1030[m] joined the room
+Mon, Aug 21, 2023, 21:20:47 - @oftc-irc:matrix.org changed the power level of Seppe from Moderator to Default.
+Mon, Oct 23, 2023, 22:01:50 - @oftc-irc:matrix.org changed the power level of Seppe from Default to Moderator.
+Wed, Oct 25, 2023, 13:36:46 - wegspotter changed their display name to Steven Clays (afka wegspotter)
+Fri, Nov 3, 2023, 04:58:36 - @oftc-irc:matrix.org changed the power level of Seppe from Moderator to Default.
+Thu, Nov 9, 2023, 15:28:05 - djsa[m] left the room
+Thu, Nov 9, 2023, 15:28:06 - thierryjs1030[m] left the room
+Thu, Dec 7, 2023, 12:58:07 - W3ZZ3 joined the room
+Mon, Jan 8, 2024, 11:23:37 - Steven Clays (afka wegspotter) changed their display name to Steven Clays
+Tue, Jan 23, 2024, 19:12:07 - @oftc-irc:matrix.org changed the power level of Seppe from Default to Moderator.
+Tue, Jan 23, 2024, 19:21:41 - @oftc-irc:matrix.org changed the power level of Seppe from Moderator to Default.
+Thu, Feb 1, 2024, 22:44:55 - ThibPhil set a profile picture

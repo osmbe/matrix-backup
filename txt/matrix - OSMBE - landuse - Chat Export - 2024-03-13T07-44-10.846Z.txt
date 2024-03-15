@@ -1,0 +1,801 @@
+Mon, Jan 22, 2018, 09:52:35 - joost_schouppe joined the room
+Mon, Jan 22, 2018, 09:52:36 - joost_schouppe made the room invite only.
+Mon, Jan 22, 2018, 09:52:36 - joost_schouppe made future room history visible to all room members.
+Mon, Jan 22, 2018, 09:52:36 - joost_schouppe has allowed guests to join the room.
+Mon, Jan 22, 2018, 09:52:36 - joost_schouppe changed the room name to osmbe-landuse.
+Mon, Jan 22, 2018, 09:52:58 - joost_schouppe changed the topic to "Finding consensus for landuse related mapping".
+Mon, Jan 22, 2018, 09:53:47 - joost_schouppe made the room public to whoever knows the link.
+Mon, Jan 22, 2018, 09:53:57 - joost_schouppe changed the room avatar.
+Mon, Jan 22, 2018, 09:54:46 - joost_schouppe invited escada
+Mon, Jan 22, 2018, 09:54:46 - joost_schouppe invited Polyglot
+Mon, Jan 22, 2018, 09:54:46 - joost_schouppe invited @_oftc_Midgard:matrix.org
+Mon, Jan 22, 2018, 09:54:46 - @_oftc_Midgard:matrix.org joined the room
+Mon, Jan 22, 2018, 09:54:54 - Polyglot joined the room
+Mon, Jan 22, 2018, 10:00:19 - escada joined the room
+Mon, Jan 22, 2018, 10:03:11 - Seppe joined the room
+Mon, Jan 22, 2018, 10:05:31 - Polyglot: not mapping much landuse/landcover tbh
+Mon, Jan 22, 2018, 10:06:50 - Polyglot: I guess the rule from many years ago to glue the landuse to the roads doesn't apply anymore? I feel inclined to fill up the emtpy space with highway:area, but haven't got around to doing so
+Mon, Jan 22, 2018, 10:07:06 - joost_schouppe: but you said on talk-be you were interested in the discussion; hence the invite :)
+Mon, Jan 22, 2018, 10:08:43 - escada: landuse should never be glued to highway lines, at least that is my opinion. The empty space can be filled up with highway:area, but I only tried to do that in front my my front door.
+
+Mon, Jan 22, 2018, 10:10:06 - Polyglot: I'm interested in everything, lol
+Mon, Jan 22, 2018, 10:13:56 - Polyglot: I recently mapped a newly created living_street, trees and all, there I  also used area:highway, glued to the houses, as there is no sidewalk anymore
+Mon, Jan 22, 2018, 10:28:11 - juminet joined the room
+Mon, Jan 22, 2018, 11:01:31 - @midgard:matrix.org joined the room
+Mon, Jan 22, 2018, 11:06:18 - @midgard:matrix.org: avatar for the room
+Mon, Jan 22, 2018, 11:06:19 - @midgard:matrix.org sent an image. (Media omitted)
+Mon, Jan 22, 2018, 11:06:25 - @midgard:matrix.org: oops that's big
+Mon, Jan 22, 2018, 11:33:04 - @jbelien:matrix.org joined the room
+Mon, Jan 22, 2018, 13:30:46 - lionel_giard joined the room
+Mon, Jan 22, 2018, 15:02:38 - juminet: Hi. Does someone knows how to create a project page on the OSM Belgian wiki. A page like this: https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Road_completion_project. I plan to start putting some info on it.
+Mon, Jan 22, 2018, 15:15:51 - escada: just type the URL you want in the browser, then in the text that appears click "create this page"
+Mon, Jan 22, 2018, 15:52:07 - juminet: Thanks @escada. The page is on: https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Landuse
+Mon, Jan 22, 2018, 20:22:59 - escada: I think we need to discuss the following steps somehow:
+
+* Agree on the 3 level approach (landuse/landcover/amenity&leisure)
+This includes the impact of landcover on the natural, surface & building keys. They all represent some "cover"
+
+* Define the possible values for Belgium with photo's and videoclips. e.g. what's the difference between landuse=meadow and natural=wetland;wetland=wet_meadow ?
+
+* "Borders". Where does landuse/landcover/A&L end, how does it work together with things such as ways, waterways, fences, & hedges
+What about overlapping landuse/landcover ?
+
+Tue, Jan 23, 2018, 14:55:12 - juminet: Yep. Let me define this in other words:
+Tue, Jan 23, 2018, 14:56:34 - juminet: 1) Tagging land-use/land-cover/natural features: what are the possible combination/exclusion?
+Tue, Jan 23, 2018, 14:57:17 - juminet: 2. Tagging examples for Belgium: gallery of images and videoclips (nice idea!)
+Tue, Jan 23, 2018, 14:57:54 - juminet: 3. Geometry issues: how to digitalize such features?
+Tue, Jan 23, 2018, 14:58:03 - juminet: And I would add :
+Tue, Jan 23, 2018, 14:58:08 - @midgard:matrix.org: Message deleted
+Tue, Jan 23, 2018, 14:58:49 - juminet: 4. Use of the land-use information from OSM: what are possible end-users and use-cases? 
+Tue, Jan 23, 2018, 15:11:26 - joost_schouppe removed @_oftc_Midgard:matrix.org: user request
+Tue, Jan 23, 2018, 16:08:20 - escada: I forgot to add "rendering", I had it in mind before typing it.
+Tue, Jan 23, 2018, 16:08:35 - escada: but your formulation is more general.
+Sun, Jan 28, 2018, 13:37:58 - joost_schouppe: I always like to turn things into little projects. How about we make a maproulette task to fix wood=* to modern tagging? There's quite a few left in belgium: http://overpass-turbo.eu/s/vto
+Sun, Jan 28, 2018, 19:15:50 - escada: I "hate" to participate in that type of projects, as they are only based on aerial imagery.
+Mon, Jan 29, 2018, 10:19:09 - juminet: Hi. As I often find large mistakes in OSM caused by pure arm-chair mapping, I'd say first that I also don't like this kind of task. But on the other hand, I support this task (updating forest by fixing wood=* and adding leaf_type=* and leaf_cycle=*) because you can't really make big errors with that. To me classifying roads, or even drawing buildings needs much more terrain knowledge that interpreting forests from aerial imagery. Also, it is always better than running an algorithm on the deprecated wood=* tags. And I think persisting errors like deprecated tags does not serve OSM. I've heard several times people wondering why deprecated tags are not simply updated (for instance power=sub_station --> substation!).
+Mon, Jan 29, 2018, 10:19:47 - juminet: BTW, I'll update a little bit the wiki page today. Let me know what do you think afterward!
+Mon, Jan 29, 2018, 10:22:54 - escada: juminet: you can easily see the forest type from aerial because you are an expert in interpreting landuse.
+
+I've seen so many misinterpretations in Flanders, that I fear that the same persons will participate in such a "challenge" and will not correct anything at all.
+Mon, Jan 29, 2018, 10:25:54 - joost_schouppe: well in Flanders that usually means lodde, and I don't see him participating in this. We could limit it's use to some people we trust. Anyway, maybe it would be more productive to create something like StreetComplete, but with much harder challenges for more experienced mappers
+Mon, Jan 29, 2018, 10:27:29 - escada: but first we need to know how we will deal with large (private) gardens with lot's of trees. (among others).
+
+Mon, Jan 29, 2018, 10:28:29 - escada: and what about holiday chalets in forests. what's the landuse there ?
+Mon, Jan 29, 2018, 10:29:31 - escada sent an image. (Media omitted)
+Mon, Jan 29, 2018, 10:30:22 - escada: here is a clear example of residential houses in a "park" or "forest" like environment. How do we fix this ?
+Mon, Jan 29, 2018, 10:33:09 - joost_schouppe: Yes, we should probably decide on that first. I personally don't have a problem with overlapping landuse, because I feel the distinction between main tags (like between amenity and shop) is often arbitrary anyway, and for a data consumer, it doesn't matter anyway. However, I realize this is an unpopular opinion. If a solution is really needed, I think the landcover tag is the way to go.
+Mon, Jan 29, 2018, 10:35:08 - escada: overlapping landuse can be OK, but then landuse=forest means trees and you should cut out all buildings, driveways, swimming pools, grass patches, etc.
+Mon, Jan 29, 2018, 10:41:32 - joost_schouppe: As a data user, I don't need you to do that. I can make an educated guess as to what precedes what.
+Mon, Jan 29, 2018, 10:42:59 - juminet: Yep actually interpreting leaf_cycle is really easy IF you have imagery taken before the leaves are out. I'm always using the orthos from 2015 in Wallonia. Bing maps seems OK too, but maybe not on whole Belgium. BTW, that's reminds me that we should add the SPW imagery in ID in Wallonia!!!
+Mon, Jan 29, 2018, 10:43:56 - escada: As a data user, I don't need you to do that. I can make an educated guess as to what precedes what.
+but we do not map the areas with represents sidewalks, driveways, terraces, etc.  I wonder which % of the above "tree" area is actually covered by trees.
+Mon, Jan 29, 2018, 10:45:04 - juminet: About overlapping, it depends a lot of your scale of mapping. To me, you can draw a big polygon for a 1000's ha forest and tag it with landuse=forest, and then superimpose water, some buildings (forest lodges). But when it comes to detailed mapping, then people prefer to make less abstraction...
+Mon, Jan 29, 2018, 10:45:26 - joost_schouppe: in case of roads, I just gave them an assumed width. But yes, if you need something more exact, that is lacking. On the scale of Belgium though, that is totally marginal compared to the huge holes in landuse mapping in city centers and some parts of Wallonia
+Mon, Jan 29, 2018, 10:56:00 - escada sent an image. (Media omitted)
+Mon, Jan 29, 2018, 10:56:08 - escada: it's just that it so inconsistent.
+Mon, Jan 29, 2018, 10:57:50 - escada: nr 40 is in its own residential area, 38 & 45 not. Why ? 45 might have been built after the mapping was done.
+
+Another mistake I often notice is that forest areas are always bigger than they should be. it's never mapped as the bottom of the tree, always where the top (or even shadows) reach (at least in Flanders)
+Mon, Jan 29, 2018, 10:58:34 - escada: Here's another example of where things go wrong
+
+Mon, Jan 29, 2018, 10:58:54 - escada sent an image. (Media omitted)
+Mon, Jan 29, 2018, 11:00:00 - escada: always hard to make decent landuse/landcover pictures. While there are a lot of smaller trees behind the bushes in the foreground, the landuse is meadow imho, though with a lot of trees on it, that I would prefer not the map separately.
+Mon, Jan 29, 2018, 11:02:10 - escada: The problem with the "forest that is too wide" is also seen for tree rows. The armchair mapper takes the complete area covered by the leafs (way wider than the trunk of the tree) as forest.
+Mon, Jan 29, 2018, 11:04:11 - escada: I think it's called "crown", not ?
+Mon, Jan 29, 2018, 11:04:11 - juminet: About the residential land-use, to me it is adapted to "large-scale" mapping. When it comes to detailed mapping, you can use leisure=garden, parking, and plenty of other stuffs. So this kind of features should definitely overlap, with landuse=residential for delineating "urbanized" environment.
+Mon, Jan 29, 2018, 11:07:17 - escada: I more or less understand what you mean by urbanized environment.
+I still have problems to apply that rule consistently
+Mon, Jan 29, 2018, 11:08:30 - juminet: Sure! that's why I put "ubanized" in quotation marks: this is highly subjective!
+Mon, Jan 29, 2018, 11:10:14 - juminet: Also, in OSM I think we forgot that mapping is making an abstraction of reality. For instance, do we include a hedge inside the meadow or not. It depends on your definition of meadow, but to me, yes.
+Mon, Jan 29, 2018, 11:11:10 - escada: To come back to you remark that you can always see on aerial imagery whether a forest is needleleaved or broadleaved. Can you easily spot mixed forests ?
+
+Mon, Jan 29, 2018, 11:11:45 - joost_schouppe: Ahh, it would be nice to have a collection of screenshots to help with interpretaion
+Mon, Jan 29, 2018, 11:15:16 - juminet: Mixed forests: in Wallonia, most of forest are mapped as mixed because they are not sufficiently polygonized in their different parts. Of course if you digitalize a forest at a super high resolution with each tree crown a polygon, there will not have any mixed forest anymore ;-)
+Mon, Jan 29, 2018, 11:16:14 - escada: Since I do not want to do that 😀
+Mon, Jan 29, 2018, 11:16:30 - escada: I assume something like this:
+Mon, Jan 29, 2018, 11:17:25 - escada sent an image. (Media omitted)
+Mon, Jan 29, 2018, 11:17:50 - escada sent an image. (Media omitted)
+Mon, Jan 29, 2018, 11:17:50 - escada sent an image. (Media omitted)
+Mon, Jan 29, 2018, 11:19:20 - escada: I mean the trees in the back of the picture (taken on the ground). The other 2 pictures are from AIV.
+The pond you see on picture 1 is more or less in the centre, viewing direction something like NE
+Mon, Jan 29, 2018, 11:21:15 - juminet: Indeed, quite mixed...
+Mon, Jan 29, 2018, 11:22:21 - juminet: Maybe in 2056 every trees will be mapped in OSM  (with leaf_type, leaf_cycle, species) ;-)
+Mon, Jan 29, 2018, 11:23:18 - escada: 😆
+Mon, Jan 29, 2018, 11:23:22 - escada: of course for this forest is is clear (so there are easy cases as well)
+
+Mon, Jan 29, 2018, 11:23:27 - escada sent an image. (Media omitted)
+Mon, Jan 29, 2018, 12:28:28 - juminet: I've added a few examples on the wiki page https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Landuse
+Mon, Jan 29, 2018, 12:42:59 - escada sent an image. (Media omitted)
+Mon, Jan 29, 2018, 12:44:12 - escada: Another great example of an armchair mapping mistake
+Mon, Jan 29, 2018, 12:44:49 - escada: The whole area under the street "Steert" is mapped as meadow. Actually it's a dogschool... argh
+Mon, Jan 29, 2018, 13:50:26 - joost_schouppe: you see the same with "maneges"
+Thu, Feb 8, 2018, 21:02:52 - @jbelien:matrix.org: joost_schouppe: Could you change this channel name to "OSMBE - Landuse" for consistence with the other channel ? ^_^
+Thu, Feb 8, 2018, 21:04:24 - joost_schouppe changed the room name from osmbe-landuse to OSMBE - landuse.
+Thu, Feb 8, 2018, 21:04:30 - joost_schouppe: Done
+Thu, Feb 8, 2018, 21:06:39 - @jbelien:matrix.org: Dank u :)
+My OCD feels much better :P
+Mon, Feb 12, 2018, 05:41:49 - escada sent an image. (Media omitted)
+Mon, Feb 12, 2018, 05:42:31 - escada: how would you map this ? As forest ? Meadow + add individual trees as a mad man ? 4 tree rows ?
+Mon, Feb 12, 2018, 11:22:21 - juminet: Hi @escada, is it not a kind of "garden" of a commercial or industrial plant (the white building at the background)? If yes, landuse=industrial+leisure=garden?
+Mon, Feb 12, 2018, 11:23:00 - juminet: It looks like an orchard but the trees does not look like fruit trees
+Mon, Feb 12, 2018, 11:23:43 - escada: that seems like a good solution.
+I can add surface=grass +natural=tree_rows
+some kind of "knotwilgen"
+Mon, Feb 12, 2018, 11:25:30 - juminet: Yep. With surface=grass + natural=tree_row that's OK.
+Thu, Feb 15, 2018, 19:47:17 - foxandpotatoes joined the room
+Thu, Feb 15, 2018, 20:06:45 - foxandpotatoes left the room
+Fri, Feb 16, 2018, 08:53:33 - joost_schouppe: this seems to be an interesting thread about landcover: https://wiki.openstreetmap.org/wiki/Talk:Proposed_features/landcover#Not_a_good_idea (thanks escada, now I have more things to read)
+Tue, Feb 20, 2018, 20:17:43 - timcouwelier joined the room
+Wed, Feb 21, 2018, 11:27:09 - juminet: OSM-Landuse debate of the day: Do we need a landuse=highway? It is a proposed feature that has been voted down (as usual) : https://wiki.openstreetmap.org/wiki/Proposed_features/landuse%3Dhighway. It is not used a lot: only massively east of Düsseldorf (see http://overpass-turbo.eu/s/wlW).
+Wed, Feb 21, 2018, 11:28:24 - juminet: To me that's rather useless. This kind of information can be derived from the highways themselves, especially with `lanes=*` and `width=*`
+Wed, Feb 21, 2018, 11:30:17 - escada: what do you want for the land between the 2 directions of a motorway ? What for the parkings on a motorway ? Is it sufficient to have landcover/landuse/surface=grass there or do you want landuse=highway ? Is area:highway=grass another possibility to express the same ?
+Wed, Feb 21, 2018, 11:31:56 - escada: in town: what about all the "green" on roundabouts, sidewalks, etc. isn't that all part of "landuse=highway" ?
+There is  similar tag landuse=railway, which includes all the ground between and around the rails themselves.
+Wed, Feb 21, 2018, 11:31:57 - timcouwelier: The discussion starts with 'what do you consider to be part of the highway(s)'?
+Wed, Feb 21, 2018, 11:32:25 - escada: indeed
+Wed, Feb 21, 2018, 11:32:53 - timcouwelier: and second is 'to what purpose are you mapping it'
+Wed, Feb 21, 2018, 11:33:50 - escada: impossible to answer, as you do not know all data consumers. 
+Wed, Feb 21, 2018, 11:34:55 - timcouwelier: I try to stick to leaving 'what's public road' outside of landuse = residential and other landuse polygons, and the lack of a landuse polygon ends up 'shaping' the areas that are public domain. But you can go with mapping the area's of the public domain used for roads (as GRB does), or you can go with landcover = asphalt / concrete to show the physical occurence of the roads. It's all very different approaches
+Wed, Feb 21, 2018, 11:35:56 - escada: different approaches, but not excluding one another.
+Wed, Feb 21, 2018, 11:37:46 - timcouwelier: True. I've started going for green areas left within public road domain and map them with landuse=village_green if it's entirely surrounded by roads / parking lot. If the consensus is to go for a landuse = highway to contain the roads, I should go with landcover instead of landuse there.
+Wed, Feb 21, 2018, 11:38:42 - escada: don't like the landuse=village_green. I try to keep that for the areas defined as such by English law
+Wed, Feb 21, 2018, 11:41:27 - timcouwelier: If needed I can retag them, but landuse = grass isn't great either. And as stated before, it's a tad discouraging that landcover = grass doesn't render on top of landuse. Granted, 'no mapping for a specific renderer', but if the goal is to set landuse = * for EVERYTHING (which I assume is the general idea behind the proposal for landuse = highway) landcover showing op top of it would avoid alot of discussion or otherwise drawing of 'landuse on top of landuse' just for the renderen
+Wed, Feb 21, 2018, 11:41:40 - juminet: Actually, market places can be polygons tagged as `highway=*` + `area=yes`. Don't know if it is also use for linear highways.
+Wed, Feb 21, 2018, 11:42:13 - juminet: also *used*
+Wed, Feb 21, 2018, 11:43:10 - juminet: But I guess making polygons tagged with highways could give headaches for data consumers interested in routing !
+Wed, Feb 21, 2018, 11:45:15 - juminet: For the green areas between motorways lanes, inside roundabout, etc., I don't really have an opinion. Maybe just draw polygons and tag them with `surface=grass`?
+Wed, Feb 21, 2018, 11:46:58 - escada: timcouwelier: in the ideal world both landuse and landcover will independently cover the world.
+
+Wed, Feb 21, 2018, 11:47:41 - timcouwelier: For now, I'm doing something like this:
+Wed, Feb 21, 2018, 11:47:43 - timcouwelier: https://www.openstreetmap.org/#map=18/50.91936/3.16853
+Wed, Feb 21, 2018, 11:49:27 - timcouwelier: Also escada your opinions on the 'left turn lane' towards the parking at the eastern end of the site would be appreciated. There's no physical barrier between the 'leaving' lane and the one towards the parking lot.
+Wed, Feb 21, 2018, 11:49:29 - escada: I doubt that landuse=highway will cause trouble for any router, neither will area:highway (see https://wiki.openstreetmap.org/wiki/Proposed_features/area_highway/mapping_guidelines on how that could be used).
+
+IMHO, surface=grass should always be used in combination with something else. (typically leisure, amenity, highway, ..) I doubt it is meant to be used as the only tag on an area
+Wed, Feb 21, 2018, 11:50:33 - juminet: Hm. I don't know whether landuse=village_green is really adapted for such small features inside the car park.
+Wed, Feb 21, 2018, 11:51:10 - timcouwelier: I'm open to suggestions. If we're having a discussion, I'm willing to put it up for discussion.
+Wed, Feb 21, 2018, 11:51:23 - escada: you mean the left turns on the Rijksweg ?
+Wed, Feb 21, 2018, 11:51:46 - escada: seems OK, but assume it is illegal to make a U-turn there ?
+Wed, Feb 21, 2018, 11:52:00 - timcouwelier: I mean this one: https://www.openstreetmap.org/way/562827497
+Wed, Feb 21, 2018, 11:53:22 - timcouwelier: but that's going offtopic here, so if you have comments on how to improve it, put them in the general channel.
+Wed, Feb 21, 2018, 11:54:58 - juminet: timcouwelier: I don't have suggestions for this green area inside the car parks. BTW I'm impressed by your detailed mapping! Around my area, we as the contributors are still busy with adding much more larger features 😉
+Wed, Feb 21, 2018, 11:56:32 - lionel_giard: The proposed area:highway is really cool as it give information without removing other (we still need linear road). It can help researchers in transport planning to analyze an area and find the type of junction, exact representation of the road border with or without pathway (and knowing its footprint)... I don't see the downside personally
+Wed, Feb 21, 2018, 11:58:35 - timcouwelier: juminet: it's only because the location allows for that detail. I can cover the outlines from aerial imagery now in high detail as on the shots the trees etc arent in yet. 
+Wed, Feb 21, 2018, 11:58:58 - timcouwelier: Obviously each of the green squares is bound to have a tree in them eventually, but Id need to survey if they are there already.
+Wed, Feb 21, 2018, 12:01:03 - timcouwelier: And the road to the east + how it'll be attached to the 'Rijksweg' north of it are projects I've been involved with myself, so I know what I'm mapping.  https://wegenenverkeer.be/werken/herinrichting-kruispunt-n36-kwadestraat-roeselare-3a-knooppunt-0
+Wed, Feb 21, 2018, 12:01:38 - timcouwelier: I just need to survey what's been done already so I don't draw stuff that's not there.
+Wed, Feb 21, 2018, 12:01:38 - escada: I would replace the village_green with any of landuse/landcover=grass, natural=scrub, leisure=garden/park, landcover=trees/natural=wood, barrier=hedge
+Wed, Feb 21, 2018, 12:02:30 - timcouwelier: I've gone with the neutral 'village_greeen' as I'm not sure if it'll be grass underneath the tree cover, or scrub.
+Wed, Feb 21, 2018, 12:03:31 - timcouwelier: Once I add the trees, I'll redo what's underneath, ok?
+Wed, Feb 21, 2018, 12:05:28 - timcouwelier: On a sidenote: do 'natural = *' tags render? I'm fairly sure water does, but not tried it with say grass or scrub
+Wed, Feb 21, 2018, 12:05:59 - escada: natural tags should render. landcover not
+Wed, Feb 21, 2018, 12:06:45 - timcouwelier: but natural = grass seems weird to use, intuitively. There's little 'natural' about a small grassy and well-maintained plot like that.
+Wed, Feb 21, 2018, 12:08:19 - escada: it's just that the wiki page of village_green states "A village green is a distinctive part of a village centre. It's an area of common land (usually grass but may also be a lake), in the centre of a village (quintessentially English - defined separately from 'common land' under the Commons Registration Act 1965 and the Commons Act 2006)."
+
+So it is not mean to be used for green around trees. 
+
+Only large patches of green (sometimes found in some villages in East-Flanders) might perhaps be mapped as such, but the Commons Act is not valid there
+Wed, Feb 21, 2018, 12:09:32 - escada: but natural = grass seems weird to use, intuitively. There's little 'natural' about a small grassy and well-maintained plot like that.
+that's why people use landuse=grass, although others find the "use" strange and would love to see landcover become more popular
+Wed, Feb 21, 2018, 12:10:29 - escada: and that is exactly the reason' d'etre for this channel and for juminet 's presentation at OpenBelgium
+Wed, Feb 21, 2018, 12:11:23 - juminet: I confess: I also used landuse=grass 😇
+Wed, Feb 21, 2018, 12:11:30 - juminet: more than once...
+Wed, Feb 21, 2018, 12:15:18 - juminet: For green spaces in the middle of a village, I just used yesterday `landuse=recreation_ground`... 
+Wed, Feb 21, 2018, 12:15:41 - timcouwelier: The key problem I have with landuse = grass is that's is used ALOT on top of other landuses. Personally, I'm in favor of landcover aswell to avoid the conflicts, and ideally 'landuse' and 'landcover' create a full cover  independently of eachother.
+Wed, Feb 21, 2018, 12:16:21 - timcouwelier: But It's such a shame 'landcover' doesn't render currently, and because of that people resort to 'hidden' alternatives/workarounds like natural = * or leisure = * etc..
+Wed, Feb 21, 2018, 12:22:31 - escada: i think that one of the problems here is that landuse/landcover/several leisure/amenity are seen as "fill the map"
+there are not a lot  of data consumers (or maybe none at all =) that actually need the finer detail of that information. For most people it's fine that the map shows trees/grass is some green shades, and they do not care whether that is caused by natural=wood, landuse=village_green or something else.
+Wed, Feb 21, 2018, 12:26:51 - timcouwelier: And from a beginners perspective: I've snapped leisure = park polygons to landuse = residential outlines, but there's no actual reason to do so as it's technically two unrelated things.
+Somethings I worry about a bit: What if landuse and landcover boundaries legitimately match? That gives validation warnings for two exact same objects, no?
+Wed, Feb 21, 2018, 12:27:27 - timcouwelier: Say landuse = meadow and landcover = grass to point out on obvious one.
+Wed, Feb 21, 2018, 12:27:49 - escada: just as info, there is this post to the Argetinian forum (https://forum.openstreetmap.org/viewtopic.php?pid=685755#p685755 ) , which seems to be by a group that is interested in adding/using that type of data. I haven't tried to read the whole thread, but saw the post as it had to be approved (first time poster)
+Wed, Feb 21, 2018, 12:29:34 - timcouwelier: Yea that's not one of the languages I'm fluent in. But I suppose I can get the majority from it.
+Wed, Feb 21, 2018, 12:30:40 - escada: I used google translate.
+Wed, Feb 21, 2018, 12:31:31 - escada: but you can put landuse=meadow and landcover=grass on the same polygon.
+and maybe meadow always implies grass, so you do not have to repeat it (don't know)
+Wed, Feb 21, 2018, 12:32:57 - juminet: One possible data consumers of landuse information are scientists like ecologists that want data for modelling. In that case for instance, connectivity of some stuffs like forest patches, hedges are important.
+Wed, Feb 21, 2018, 12:34:15 - timcouwelier: In that example it may indeed work marc, the one I had issues with was landuse=residential with and appartment building. Doubt the double tagging would've worked there
+Wed, Feb 21, 2018, 12:35:18 - timcouwelier: juminet: for what it's worth, even I to some extent could use the landuse / landcover data
+Wed, Feb 21, 2018, 12:35:44 - timcouwelier: to guesstimate what kind of waterflow we can expect running down a creek for hydraulic modelling
+Wed, Feb 21, 2018, 12:36:09 - timcouwelier: to date, it's most commonly just handdrawn in the modelling software using aerial imagery as background though
+Wed, Feb 21, 2018, 12:39:21 - timcouwelier: Also, what about this dataset?
+Wed, Feb 21, 2018, 12:39:22 - timcouwelier: http://www.geopunt.be/kaart?type=dataset&data=%5B%7B%27type%27%3A%27WMS%27%2C%27url%27%3A%27http%3A%2F%2Fgeoservices.informatievlaanderen.be%2Fraadpleegdiensten%2FALV%2Fwms%3Frequest%3DGetMap%26version%3D1.3.0%26service%3Dwms%27%2C%27layers%27%3A%5B%7B%27id%27%3A%27LbGebrPerc2016%27%2C%27title%27%3A%27Landbouwgebruikspercelen%20ALV%2C%202016%27%7D%5D%7D%5D
+Wed, Feb 21, 2018, 12:40:01 - timcouwelier: For a few of the potentially interested data uses, that one seems to cover a fair bit of useful data aswell.
+Wed, Feb 21, 2018, 12:40:57 - timcouwelier: (mind you the color scheme is an eyesore)
+Wed, Feb 21, 2018, 16:08:38 - timcouwelier: Possibly relevant info
+Wed, Feb 21, 2018, 16:08:39 - timcouwelier: https://github.com/gravitystorm/openstreetmap-carto/pull/3082
+Wed, Feb 21, 2018, 16:08:56 - timcouwelier: Pull request by Pieter to make landcover = grass render as grass.
+Wed, Feb 21, 2018, 16:10:07 - timcouwelier: That would lower the treshold for many to start using landcover = grass rather then landuse = grass
+Wed, Feb 21, 2018, 16:10:10 - escada: fingers crossed, but I have seen previous issues being closed because "landcover is not used".
+Wed, Feb 21, 2018, 16:10:53 - timcouwelier: He does state WHY he wants it though. If you wanna pitch in leave a comment in favor?
+Wed, Feb 21, 2018, 16:12:32 - escada: https://github.com/gravitystorm/openstreetmap-carto/issues/2548 for a similar issue regarding landcover=trees
+Wed, Feb 21, 2018, 16:18:21 - timcouwelier: Yea reading it. Personal opinion is that most of the areas tagged as 'landuse = grass' are just technically incorrectly tagged
+Wed, Feb 21, 2018, 16:19:12 - timcouwelier: And perhaps a bit narrowminded, but rectifying that with an automated bulk replacement of the tag would probably be the best way to clean the slate.
+Wed, Feb 21, 2018, 16:20:13 - timcouwelier: Landuse is a park, a meadow, ..  but grass for the purpose of grass is well.. odd.
+Wed, Feb 21, 2018, 16:21:41 - timcouwelier: The argument 'but way X is used 700 times more then way Y' holds little value if it involves using landuse on top of landuse to indicate what's there. From where I'm standing (and hence possibly narrowminded) that is not the way to go.
+Wed, Feb 21, 2018, 16:23:16 - timcouwelier invited pietervdvn
+Wed, Feb 21, 2018, 16:24:43 - pietervdvn joined the room
+Wed, Feb 21, 2018, 16:58:17 - pietervdvn: timcouwelier: landuse=grass can be valid (e.g. natural reserves which try to keep some specific, grassy habitat; or grass to  feed the cows in winter (om te 'hooien'). However, these are (at least in Belgium) very rare and a corner case (your point is valid as it is)
+Wed, Feb 21, 2018, 17:21:16 - escada: grass to feed the cows--> landuse=meadow !
+
+Wed, Feb 21, 2018, 17:23:22 - pietervdvn: I mean if you don't let the cows graze on it; but if you specifically grow grass to harvest it. This is a practice from the past though (as we have corn and soy imports nowadays). And I'm muggenzifting anyway
+Wed, Feb 21, 2018, 17:23:28 - escada: I have been thinking on the way home. Since landcover & landuse should both cover the whole world, it is impossible to create a map that shows both.
+So instead of forcing landcover tags on the standard map, we need a clone that does not render landuse, but only landcover. Then you can put both maps next to one another and see e.g. where landcover=trees falls together with landuse=residential, or forest, or recreational.
+Wed, Feb 21, 2018, 17:23:54 - escada: that's landuse=farmland; crop=grass.
+Wed, Feb 21, 2018, 17:24:20 - pietervdvn: possible tagging as well for grass
+Wed, Feb 21, 2018, 17:25:10 - pietervdvn: I see your point, but a 'practical' rendering could be usefull as well (where small patches of landcover show up on the landuse, e.g. for patches of trees in parks etc)
+Wed, Feb 21, 2018, 17:26:43 - escada: but what is the "use" of grass along the streets ? 
+Wed, Feb 21, 2018, 17:28:21 - timcouwelier: Disagree on the clone structure. Landcover should be refining landusing or specifying specific sub-portions of it. Therefor I feel that, is it's defined, it should render on top of landuse. Once again - my two cents. And there's a reason opinions figuratively are only deemed worth two cents.
+Wed, Feb 21, 2018, 17:29:17 - timcouwelier: and that's full of typos again, yikes.
+Wed, Feb 21, 2018, 17:31:12 - escada: So you are happy to see a residential area covered under trees ? Me not.
+The landuse is residential, and the fact that there are tree should be hidden if you look at landuse.
+
+Wed, Feb 21, 2018, 17:33:11 - escada: by overlaying the landuse, e.g. a park with grass and tree landcovers, you no longer see the leisure park. Is that what you mean by refine, overlay ?
+Wed, Feb 21, 2018, 17:36:54 - escada sent an image. (Media omitted)
+Wed, Feb 21, 2018, 17:38:14 - escada: I keep using this example, but there are similar cases in Oud-Turnhout or Brasschaat. This is Waasmunster. This is a crappy map imho, is this a forest with a lot of houses or a residential area with a lot of trees. By only rendering landuse, you can know. 
+Wed, Feb 21, 2018, 17:48:36 - timcouwelier: For the case you show, everything that's within the private parcels with the houses, would just be a landuse = residential to me. I really doubt it's fully 'forest' anyway.
+As for the park: yes. Have the leisure = park render when zoomed out, and when zooming in below a certain treshold, show the landcover info as more detail.
+Wed, Feb 21, 2018, 17:49:22 - timcouwelier: If based on the detail, from landcover = grass, scrub or tree markings, the presence of the paths etc.. when zoomed in close it doesn't resemble a park, the leisure = park tag seems wrong to begin with.
+Wed, Feb 21, 2018, 17:50:29 - juminet: @pietervdvn: Growing grass and harvest it is not a practice of the past in Belgium!
+Wed, Feb 21, 2018, 17:50:55 - juminet: it is hay meadow: landuse=meadow + crop=grass
+Wed, Feb 21, 2018, 17:51:10 - juminet: Or landuse=farmland + crop=grass...
+Wed, Feb 21, 2018, 17:51:22 - juminet: Or landuse=meadow + animal=no
+Wed, Feb 21, 2018, 17:52:31 - juminet: Some very modern farm now harvest grass every 2 weeks and give the fresh grass to the animals that stay in the stable all year long.
+Wed, Feb 21, 2018, 17:53:37 - timcouwelier: Quite the plethora of options there. And there's probably even more opinions then options to tag. And then they wonder the usage numbers are scattered unevenly over a zillion tags.
+Wed, Feb 21, 2018, 17:54:24 - escada: For the case you show, everything that's within the private parcels with the houses, would just be a landuse = residential to me. I really doubt it's fully 'forest' anyway. As for the park: yes. Have the leisure = park render when zoomed out, and when zooming in below a certain treshold, show the landcover info as more detail.
+it is now mapped as landuse=residential and overlayed with landuse=forest. Changing the latter to landcover=trees and rendering it in the same was as landuse=forest, changes the meaning, but not the end result on the map.
+Wed, Feb 21, 2018, 17:56:07 - escada: juminet: there is also the case where they grow grass, to roll up with a thin layer of ground to put in gardens (dutch: graszoden) That's also landuse=farmland + crop=grass, but not meadow
+Wed, Feb 21, 2018, 17:56:41 - timcouwelier: But is ALL of that actually landcover = trees?  I highly doubt that.
+Wed, Feb 21, 2018, 17:57:16 - timcouwelier: No gardens, driveways, etc ?
+(and once again personal - but I tend not to touch private gardens at all)
+Wed, Feb 21, 2018, 17:57:42 - juminet: Fyi, I've updated the wiki page with some elements: https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Landuse. Don't hesitate to add your own grain of salt.
+Wed, Feb 21, 2018, 17:58:35 - joost_schouppe: grass in nature reserves should be natural=grass I think, and definitely not landuse=grass
+Wed, Feb 21, 2018, 17:59:21 - escada: But is ALL of that actually landcover = trees?  I highly doubt that.
+not all, but garden does not make a difference, does it ?
+but my "good" friend the landuse mapper, extends each single tree to a big patch of forest. I clean them up when I encounter them, but didn't want to start here, because of the landuse/landcover discussion.
+Wed, Feb 21, 2018, 17:59:42 - timcouwelier: You can call Lodde by his name lol
+Wed, Feb 21, 2018, 18:00:07 - timcouwelier: and joost, to what extent is natural = * really any different from landcover = * ?
+Wed, Feb 21, 2018, 18:00:17 - timcouwelier: (out for a bit - on my way home)
+Wed, Feb 21, 2018, 18:01:54 - escada: there is only natural=wood, which is sometimes seen as unmanaged.
+
+Wed, Feb 21, 2018, 18:02:15 - escada: (only, i.e. to replace landuse=forest)
+Wed, Feb 21, 2018, 18:02:15 - joost_schouppe: oh I dunno. I just see landcover as the way to add details, so I would only use it when one of the other tags lacks subtleties
+Wed, Feb 21, 2018, 18:02:24 - juminet: joost_schouppe: natural=grassland. This does make really sense in some country. Not a lot in Belgium, but still...
+Wed, Feb 21, 2018, 18:03:20 - juminet: https://wiki.openstreetmap.org/wiki/Tag:natural%3Dgrassland
+Wed, Feb 21, 2018, 18:03:37 - escada: the natural has the effect that people think "unmanaged", "no human intervention". (wrong for tree_row of course)
+Wed, Feb 21, 2018, 18:04:17 - escada: and other (natural=water; water=pond)
+
+Wed, Feb 21, 2018, 18:04:29 - joost_schouppe: yes, sorry, grassland. I've seen it in use in Belgium in many places, and I don't mind. Except for the HUGE mess Mcronse and Roman Guy made in Hainaut
+Wed, Feb 21, 2018, 18:04:53 - escada: so yes, landcover is a way to add more details, but so is surface, or natural. They all overlap in one of or the other 
+Wed, Feb 21, 2018, 18:05:31 - joost_schouppe: I really don't think we should focus TOO much on things making logical sense. I find the shop vs amenity and natural vs landuse discussions quite tedious. It's just a code for a thing, we just need to make sure key+value is used for a sensible thing
+Wed, Feb 21, 2018, 18:08:19 - joost_schouppe: I'd rather see us focusing on changing those thousands of natural=grassland that should be landuse=meadow :)
+Wed, Feb 21, 2018, 18:09:05 - joost_schouppe: barrier=hedge is also silly, but it works
+Wed, Feb 21, 2018, 18:10:44 - escada: I'll agree that mistagging a landuse is a serious problem.
+but sometimes I just don't know how to map it properly.
+Wed, Feb 21, 2018, 18:11:55 - escada: e.g. the grass on the dykes near almost every river
+a meadow in which they keep horses, but has "many" trees for shade
+. Trees that I do not want to draw indivually
+Wed, Feb 21, 2018, 18:12:09 - joost_schouppe: yes, I know, I don't want to minimize the importance of getting it right
+Wed, Feb 21, 2018, 18:12:50 - joost_schouppe: I just mean to say that solutions need to be workable, not part of a complete logical scheme that can adapt any possible real world problem ever
+Wed, Feb 21, 2018, 18:13:01 - escada: of course I want a solution for the last picture I gave. That is maybe the most important for which a need a guideline
+Wed, Feb 21, 2018, 18:14:08 - escada: I just mean to say that solutions need to be workable, not part of a complete logical scheme that can adapt any possible real world problem ever
+That's why I feel less and less to defend a landcover proposal lately.
+I would be happy to use surface, natural, landuse combinations if that makes more sense
+Wed, Feb 21, 2018, 18:14:49 - joost_schouppe: damn, just when you almost convinced me :)
+Wed, Feb 21, 2018, 18:14:58 - joost_schouppe: what picture? the map screenshot?
+Wed, Feb 21, 2018, 18:16:38 - juminet: Philosophical thought of the day: Mapping is abstraction. There are real-world examples for every situations along the continuum from a mowed grass to a closed forest.
+Wed, Feb 21, 2018, 18:18:09 - juminet: I remenber that scientists can have very different numbers for the global area of forest depending on the definition of "forest".
+Wed, Feb 21, 2018, 18:19:01 - joost_schouppe: and the higher the level of abstraction, the longer your data will stay correct. But the less useful :)
+Wed, Feb 21, 2018, 18:23:15 - escada: what picture? the map screenshot?
+the one from Waasmunster, residential area with lot's of trees, mapped as forest
+Wed, Feb 21, 2018, 18:25:43 - escada: mapping is abstraction. Does that mean that we should map the primary use of a piece of land?  In case of Waasmunster: the primary use is residential. So map it as residential ? Can I add additional "layers" for private gardens ?
+Can I add additional layers for what is growing in that garden (trees, grass) ?
+
+Wed, Feb 21, 2018, 18:27:09 - joost_schouppe: yes, yes and yes :)
+Wed, Feb 21, 2018, 18:27:21 - escada: I will typically not do that for private gardens.
+
+but take parks. It's a park, so leisure=park, but now I'm also (serious) interested to know whether it's a park with a lot of tree or not.
+Can I add a "layer" with trees, grass ?
+Wed, Feb 21, 2018, 18:27:50 - escada: yes, yes and yes :)
+which tags ? I can I use landuse for all of them ? Should I use natural ? landcover ?
+Wed, Feb 21, 2018, 18:28:10 - joost_schouppe: I thought about this specific kind of case a lot too. I think landuse=residential is perfect, and adding landcover=trees would be a good solution
+Wed, Feb 21, 2018, 18:28:50 - joost_schouppe: I personally wouldn't mind landuse over landuse, but the consensus seem to be "please don't", so let's not do that
+Wed, Feb 21, 2018, 18:29:47 - escada: but then the landcover should be rendered differently from landuse=forest. E.g transparent or not at all, or in a specialized map (as I wrote above)
+Wed, Feb 21, 2018, 18:30:04 - escada: I personally wouldn't mind landuse over landuse, but the consensus seem to be "please don't", so let's not do that
+but then you loose the concept of "primary landuse", not ?
+Wed, Feb 21, 2018, 18:30:22 - escada: and you end up with the messy map in Waasmuster.
+Wed, Feb 21, 2018, 18:32:54 - joost_schouppe: well, you leave the decision "primary" to the data consumer
+Wed, Feb 21, 2018, 18:33:33 - joost_schouppe: and yes, transparent rendering is what I'd do (like we have with the tree symbols in the forest/wood renderingen now)
+Wed, Feb 21, 2018, 18:35:18 - escada: well, you leave the decision "primary" to the data consumer
+which criteria can the data consumer use ?
+-- off for a walk with the dogs now. time to think it through :-)
+Wed, Feb 21, 2018, 18:38:49 - pietervdvn: have fun mapping
+Wed, Feb 21, 2018, 18:46:08 - joost_schouppe: Simple, their own decision tree (a tree in a residential area is still something good for air; a residential area with some trees on top is still a residential area, unless they are inside a leisure area on top of residential, etc.)
+Wed, Feb 21, 2018, 19:10:43 - escada: > I'd rather see us focusing on changing those thousands of natural=grassland that should be landuse=meadow :)
+So you find this difference more important than between private garden trees and a real forest?
+Wed, Feb 21, 2018, 19:29:08 - joost_schouppe: Yes, IF there's overlapping landuse. Natural=grassland can be two contradictory things, nature or agriculture. In the case of trees I have residential areas, one can make an easy geometric decision
+Wed, Feb 21, 2018, 19:30:03 - joost_schouppe: But it depends on the data user of course. I generally have a zoomed out analysis in mind, not detail studies
+Wed, Feb 21, 2018, 19:39:00 - escada: I think that there are very few places where landuse forest overlaps with residential,  perhaps only for small patches,  but certainly  not for the larger ones
+Wed, Feb 21, 2018, 19:41:54 - escada: And using forest for all trees means you can't  see difference between recreation and real lodging areas which include mills,  patches without  trees etc.
+Wed, Feb 21, 2018, 20:06:05 - escada: So overlaying natural grassland with farmland is OK? I have the feeling you propose  the same for forest
+Wed, Feb 21, 2018, 20:15:17 - escada: Let me rephrase that. I feel that your solution for forest os the same as: everything grass like is mapped as landuse grass.  In other to make it a meadow put a landuse farmland on top. Let the data consumer decide.
+Wed, Feb 21, 2018, 20:17:50 - timcouwelier: the term 'forest' being used for 'a random bunch of trees we can't map individually and arent really a tree row' is another find I find counterintuitive tbh
+Wed, Feb 21, 2018, 20:19:52 - timcouwelier: but it's not the only case where semantics / linking to 'legal' interpretation of terms doesn't quite match
+Wed, Feb 21, 2018, 20:19:58 - timcouwelier: So I guess I'll just have to get over that
+Wed, Feb 21, 2018, 21:18:31 - escada: It was not meant like that, but the definition has "maintained by humans" in it,  unlike natural wood. So people started to use it for everything with trees maintained in one form or another by humans. 
+And now we have nothing left for areas that are really used for recreation nor used for the industrial growing and cutting of wood
+Thu, Feb 22, 2018, 10:29:03 - lionel_giard: The problem is that with overlapping landuse, the data consumers (i.e. a researcher for example) can't generaly use it realisticly as most of the time, the landuse analysis are made at large scale and he don't want to check each overlap to see which one is most logical for him. A landuse layer without overlap of landuse tags is probably better, and that's generally the main criticism about our landuse data which is mostly unusable for them (from what i heard from friend doing those researchs). It is not really difficult to get right here, just choose 1 (ONE) main landuse for each place (and i mean by landuse, also the different other tag that are in fact landuse like leisure=park).
+
+Maybe make a list of these tag that are landuse posibilities and should mostly not overlap with each other. Then make the same for landcover, and here we go. I don't find it problematic as in most case, it is just changing a tag (like landuse=grass to landcover=grass or landuse=meadow or leisure=park or ... depending on what make most sense) and it can even be an improvement of the representation as a lot of people use landuse=grass as a general tag (like highway=path) when they don't know what it is.  What are the good or bad side of these ideas for you ? As i'm for it, i'm certainly blind to some downside ! :p
+Thu, Feb 22, 2018, 10:31:42 - escada: The main problem to create single "landuse" areas, is that you have to cut out the area from a larger one. That means:
+
+* split the larger one in smaller pieces
+* or, create a multipolygon
+* or, replace the previously created multipolygon with smaller polygons. This is the most time consuming scenario.
+Thu, Feb 22, 2018, 10:33:46 - escada: that's why we end up with overlapping landuse on large residential areas. I haven't seen it used that often outside towns. 
+
+I'm certainly interested to learn how one can convert a multi-polygon into several smaller polygons in an easy/fast way.
+Thu, Feb 22, 2018, 10:42:06 - timcouwelier: Lionel makes an interesting point about not just looking at it as 'landuse' and 'landcover' each ideally generating a full cover ,but the set of tags which aren 'hidden' forms of either aswell. Leisure = park is probably on of the prime examples on the matter.
+Thu, Feb 22, 2018, 10:43:22 - timcouwelier: And as for the 'smaller pieces': In earlier arguments, Glenn wondered why I tried to chop up residential blocks so small (excluding roads and all), but it's exactly doing that that lowers the threshold towards more detailed  definition of landuse.
+Thu, Feb 22, 2018, 10:44:44 - timcouwelier: If there's a chuck in between that's a park, or a an area within a building block still used as a meadow, you don't have to rely on the multipolygons with inner and outer relations, as the landuse generally touches at least one outline of the block...
+Thu, Feb 22, 2018, 10:47:09 - escada: why not have something like landuse=recreation on park ? Just a thought. 
+Thu, Feb 22, 2018, 10:47:55 - escada: And as for the 'smaller pieces': In earlier arguments, Glenn wondered why I tried to chop up residential blocks so small (excluding roads and all), but it's exactly doing that that lowers the threshold towards more detailed  definition of landuse.
+smaller pieces are easier to work with, I totally agree.
+Thu, Feb 22, 2018, 10:48:05 - timcouwelier sent an image. (Media omitted)
+Thu, Feb 22, 2018, 10:48:12 - timcouwelier: to show my point.
+Thu, Feb 22, 2018, 10:48:33 - timcouwelier: I dread doing that on a multipolygon without the roads being cut out an all.
+Thu, Feb 22, 2018, 10:48:43 - joost_schouppe: lionel_giard: as someone who did exactly such research: I tried to get as complete coverage as possible, which meant dealing with all sorts of tags, even shop=*, building=* etc. That implies you need to make general choices: "is a park in a residential area a park or a residential area". Those rules can than be applied to the entire world
+Thu, Feb 22, 2018, 10:49:51 - escada: someone in Austria also cut out all the driveways from lu=residential. Another person asked (not without any sarcasm) why he did not cut out all the trees 
+Thu, Feb 22, 2018, 10:49:56 - joost_schouppe: It is not realistical that OSM ever becomes so good that I can drop that kind of logic. So better tagging for me is not about getting it perfect, it's mostly about getting the bigger errors out, like not being able to decide if something is nature or agriculture
+Thu, Feb 22, 2018, 10:50:43 - escada: but you refuse to solve the same problem for forest and private gardens ?
+Thu, Feb 22, 2018, 10:51:36 - joost_schouppe: on the topic of natural=grassland and landuse=forest, I would suggest adding something like a "management_style" tag, so you can differentiata grass that is managed as nature or not
+Thu, Feb 22, 2018, 10:53:36 - joost_schouppe: @escada: if we find a solution, great. It didn't really matter in my analysis; it would either be a "neighborhood with lots of green and lots of residential" or "a neigborhood with lots of residential"
+Thu, Feb 22, 2018, 10:54:10 - joost_schouppe: but you've convinced me we need something better than overlapping landuse
+Thu, Feb 22, 2018, 10:56:22 - escada: but you've convinced me we need something better than overlapping landuse
+great !
+
+
+It's also great to see that people that actually try to do something with the data, besides rendering/colouring a map, (juminet lionel_giard ) tell us what works and what not .
+Thu, Feb 22, 2018, 10:56:56 - escada: I asked some foresters on Twitter whether they know natural=grassland areas in Flanders.
+Thu, Feb 22, 2018, 10:57:12 - escada: If anyone knows about that, it should be them.
+Thu, Feb 22, 2018, 10:57:47 - marcu joined the room
+Thu, Feb 22, 2018, 11:02:51 - joost_schouppe: I don't think an entirely natural grassland cannot really exist in Flanders, because of fertilization via poluted rain. So the question is: what do we do with forests and grasslands that are managed in a nature-oriented way
+Thu, Feb 22, 2018, 11:03:21 - joost_schouppe: it could be "grass within nature reserve", but I think that doesn't really work
+Thu, Feb 22, 2018, 11:04:52 - timcouwelier: If you'll allow me the dutch term, are you thinking about 'heide' ?
+Thu, Feb 22, 2018, 11:05:06 - joost_schouppe: escada: I also did a statistical analysis for use in policy-making based on landuse in the broad sence
+Thu, Feb 22, 2018, 11:05:31 - joost_schouppe: timcouwelier: no, just "weides"
+Thu, Feb 22, 2018, 11:07:35 - escada: If you'll allow me the dutch term, are you thinking about 'heide' ?
+there is natural=heath for that, so somehow it's different from natural=grassland for some.
+
+joost_schouppe for that analysis, how did you cope with the overlaps ?
+
+
+As I see how trees are mapped at this moment, Joke Schauvlieghe has not problems at all to have enough "forest" 
+Thu, Feb 22, 2018, 11:07:48 - joost_schouppe: That's what I keep explaining...
+Thu, Feb 22, 2018, 11:08:14 - joost_schouppe: > lionel_giard: as someone who did exactly such research: I tried to get as complete coverage as possible, which meant dealing with all sorts of tags, even shop=*, building=* etc. That implies you need to make general choices: "is a park in a residential area a park or a residential area". Those rules can than be applied to the entire world
+Thu, Feb 22, 2018, 11:08:16 - escada: (and this is regardless of the used tags, those areas just include too many square meters)
+Thu, Feb 22, 2018, 11:09:04 - joost_schouppe: Here's a bit of an algorithm to it: https://paper.dropbox.com/doc/Statsec-BE-landuse-uaVddC2R3Vd4DRGqZWQam
+Thu, Feb 22, 2018, 11:24:42 - lionel_giard: As an OSM enthusiast, we are able to get what should be kept when landuse overlap (as you said with other tags). But we have a better understanding of the tagging scheme than most people. Shouldn't we remove lot of big overlap with better tagging when we can ? (like the example of escade with forest and residential). 
+
+escada i found it relatively quick to rework part of my area when dividing the landuse=residential at roads limits. With JOSM, i just "cut" part of the landuse when appropriate and then finish the polygon to make the blocks. And then create new ones for others parts uncovered. I made nearly all my municipality in few hours. But i'm also a landuse enthusiast ! :p 
+Thu, Feb 22, 2018, 11:26:03 - escada: I'll agree that non-multi polygons can be split rather easily. Not so if the previous mapper already created a multipolygon to cut out a meadow or water body from a forest.
+
+Thu, Feb 22, 2018, 11:27:10 - timcouwelier: In the margin of the landuse argument: I'm still not convinced about landuse = greenfield for area's still being used as meadow / farmland either. At this point it's also mostly covered by overlapping landuses
+Thu, Feb 22, 2018, 11:28:10 - timcouwelier: It's meadow or farmland, up untill the point where it becomes a construction site, and then it turns residential afterwards. And no point I feel 'greenfield' is an actual landuse.
+Thu, Feb 22, 2018, 11:28:38 - escada: So you do not want park and residential to overlap ?
+Do you allow amenity=pub (which should include parking, garden, playground according to some) and residential to overlap ?
+Do you allow amenity=school, college, univ to overlap with landuse ?
+
+Should we compose a comprehensive list with all those "hidden" landuses.
+Thu, Feb 22, 2018, 11:29:22 - escada: landuse=greenfield is used when it is not used for any human activity. Just waiting for the construction company to start
+Thu, Feb 22, 2018, 11:31:21 - timcouwelier: I can see merit in 'brownfield' if something has been torn down, as then there's a gap in time where it fits. In the greenfield example, meadows / farmland tend to get used for as long as they are there. And it's hard to visually notice if and when they go 'unused', as they can just be between crop cyles too.
+Thu, Feb 22, 2018, 11:33:16 - timcouwelier: To answer your questions:
+I see 'park' as a landuse of it's own, so no overlap with residential.
+Amenity = pub and whatever goes with it, I feel would work best in a landuse = commercial or something of the likes.
+Schools I've asked the same question - there seems to be lacking a defined landuse specific to such sites, so over here they are just not contained within any other landuse tags
+Thu, Feb 22, 2018, 11:34:01 - lionel_giard: When you look at the wikipage (https://wiki.openstreetmap.org/wiki/Key:landuse), it said clearly that the tags amenity=*, leisure=* and tourism=* contains some landuse. After this, the question is "Does a parking is a landuse or not or sometimes ?" :p
+Thu, Feb 22, 2018, 11:34:58 - lionel_giard: But they also say it is "more detailed" than "primary" landuse
+Thu, Feb 22, 2018, 11:35:08 - timcouwelier: In 'shopping centers' I tend to include them within the landuse = residential, but maybe I shouldn't.
+Thu, Feb 22, 2018, 11:37:04 - timcouwelier: err within the landuse = commercial of course
+Thu, Feb 22, 2018, 11:40:46 - lionel_giard: Yes i would also include parking in the landuse commercial. When you look at the example list of landuse in osm (https://wiki.openstreetmap.org/wiki/Landuse), we see that for some types like school/university, the landuse is not clear (at this time it is just amenity).
+Thu, Feb 22, 2018, 11:41:56 - escada: err within the landuse = commercial of course
+commercial is for offices, not shops, shops are retail !!!!!!!! see https://wiki.openstreetmap.org/wiki/Tag:landuse=commercial
+Thu, Feb 22, 2018, 11:44:01 - escada: To answer your questions: I see 'park' as a landuse of it's own, so no overlap with residential. Amenity = pub and whatever goes with it, I feel would work best in a landuse = commercial or something of the likes. Schools I've asked the same question - there seems to be lacking a defined landuse specific to such sites, so over here they are just not contained within any other landuse tags
+this question of dedicated landuse for all kinds of things (be it school, colleges, building areas belonging to government, NATO, etc. has been popping up all the time). One should just start using the correct one imho
+Thu, Feb 22, 2018, 11:44:34 - lionel_giard: ah yes always forget ahah :D
+Thu, Feb 22, 2018, 11:44:49 - escada: so people ask for landuse=government, school/education, religion, etc.
+Thu, Feb 22, 2018, 11:46:09 - lionel_giard: But at least, if we use "amenity" for these without other landuse (when it should be its own landuse), we don't have problem as the data consumers just need to include these amenity which are not overlapping as a landuse. :-)
+Thu, Feb 22, 2018, 11:59:05 - escada: so overlap is no problem in this case ? 
+I think I got lost on where everybody stands on overlapping landuse (landuse/landuse and landuse/amenity and landuse/leisure). 
+and is amenity=parking a landuse on its own, or derived from the underlying landuse/amenity/leisure ?
+Thu, Feb 22, 2018, 12:01:21 - escada: and what about natural=beach  ? I think the landuse can be recreation, military, etc.
+so do we need a landuse for natural (all or some or none) ?
+Thu, Feb 22, 2018, 12:09:20 - timcouwelier: Just double checked - I indeed tagged retail. Though I just had to click 'handelsgebied' in iD, so I got the tags confused in my mind.
+Summary:
+Landuse on top of landuse: no.
+Amenity on top of landuse: I'd rather replace amenity with actual landuse tag, now it's mostly a different named form of landuse. Parking=amenity is probably the odd one odd, so I'm inclined to shift that to landcover = parking to cover the general idea.
+landuse / leisure: I'm inclined to 'landuse = park' or landuse = 'leisure' for other recreational areas. But on top of that, allow landcover detailing what the contents of the part actually consist of.
+Natural = * personally I'm in doubt about, as most of the uses here just seem a form of landcover. Riverbeds/banks/beaches/.. seem to the elements possibly to be moved over towards landuse rather then landcover.
+
+I'm aware this is very far from the current tagging, but it's how I personally feel about them.
+Thu, Feb 22, 2018, 12:10:13 - timcouwelier: allow landcover detailing what the park actually consists of*
+Thu, Feb 22, 2018, 12:15:05 - escada: just so you give your proposal a good thought: what does landuse=park include: pitches, playgrounds, small animals, fountains, paths, grass areas, trees, bushes, ponds,  buildings for tourist information, gardeners, garages for trucks of gardeners, garden sections, mazes, parkings, miniature golf.
+
+What if those items appear outside a park, do they change "landuse" ?
+
+what about a museum in a park ?
+
+
+Thu, Feb 22, 2018, 12:17:22 - escada: as for amenity-> landuse. So a pub with all things around it becomes landuse=pub ?? So we "loose" the POI ? Address, contact info, opening hours go on the landuse ?
+
+Thu, Feb 22, 2018, 12:29:59 - escada: so in case of amenity=park, I see  different landuses inside the park, to be mapped with other leisure/pitch/natural/etc areas
+Thu, Feb 22, 2018, 12:30:45 - lionel_giard: most of the time, people don't care about a landuse of "one building" and it is included with the surrounding landuse, the question is always subjective to what level should we map. Is there a rule to keep like : if it is smaller than 15 m² don't map landuse ? ^^
+
+For the amenity, we would not lose the poi, as the current mapping scheme for school... is to map everything and make a polygon around with "amenity=school", this polygon could just be mapped as "landuse=school" or something (or kept that way if we decide to keep the tag as it is). The case of amenity is often not a problem as it is often logical to not overlap the amenity with the surrounding landuse (like landuse=residential and amenity=university, it is clearly different).
+Thu, Feb 22, 2018, 12:31:45 - lionel_giard: amenity could be kept like that (as it is difficult to implement new mapping scheme) as it would just mean replacing the amenity=* by a landuse=*
+Thu, Feb 22, 2018, 12:35:18 - escada: so for school we have landuse=school, however the playground in the school is landuse=playground (we no longer have amenities). But landuses cannot overlap, so I have to remove the playground from the school area and I loose the fact that the school has a playground or I have to introduce a new relation (amenity maybe :-) ) to group both.
+
+Won't work. Amenities are composed of different "landuses", amenities not only indicate a landuse, but group a number of facilities. Something you loose with only landuse
+Thu, Feb 22, 2018, 12:39:52 - lionel_giard: You are right, maybe we are trying to be too precise about it ? Does landuse need to be precise to the buildings or just give an idea of the use of a broader area ?
+Thu, Feb 22, 2018, 12:46:55 - escada: I'm still in favour of landuse/landcover/amenity. Those 3 levels express different things.
+landcover = what's on the ground
+landuse = what is the primary usage of the area
+amenity = a grouping of a number of facility into something people know as pub, park, sport centre
+
+Note that some those definitions can overlap with the current set of landuse/landcover/surface/natural/amenity/leisure and maybe others.
+
+Furthermore, we will probably not be able to throw everything upside down, so the above model cannot be pushed through. Are there alternatives ? Maybe, but it can only be described  case-by-case, as one time you will have a landuse +natural, and another time leisure + surface.
+
+I'm also in favour of being pretty precise (or at least have a model that can be used in the future to be precise). People are already mapping playgrounds in schools, grass sections in parks, etc. We should not roll that back imho.
+
+
+Thu, Feb 22, 2018, 12:48:20 - escada: Landuse should not be up to the building, I never mark a single small shop as retail area. I do it for shopping centres with parkings etc. Or even for car dealers.
+Thu, Feb 22, 2018, 12:50:46 - escada: I won't change the landuse of a single building (tourist info) in a park. But a garage where all the machinery for the maintenance is parked is probably bigger than a block of 10 smaller houses. So it deserves to be mapped separately.
+Thu, Feb 22, 2018, 17:32:35 - timcouwelier: Side discussion: on the topic of 'we don't want to get into parcelisation', I noticed this area in Leuven:
+Thu, Feb 22, 2018, 17:32:37 - timcouwelier: https://www.openstreetmap.org/query?lat=50.88751&lon=4.69384#map=18/50.88586/4.69415
+Thu, Feb 22, 2018, 17:32:51 - timcouwelier: That is probably outright parcelisation - what's the stance on this?
+Thu, Feb 22, 2018, 17:50:50 - escada: She he mapped barriers such as walls and fences, not parcels. I would not do it,  but do not care what someone else does.  Think @Polyglot:matrix.org had some contact with that mapper
+Fri, Feb 23, 2018, 01:29:50 - Polyglot: no, never had contact with him/her
+Fri, Feb 23, 2018, 01:30:32 - Polyglot: did a lot of good work, I guess, but it's hard to maintain
+Fri, Feb 23, 2018, 04:48:19 - escada: One of the foresters reacted on my question about unmanaged grasslands : https://twitter.com/Boswachter_Marc/status/966736054568005633
+Fri, Feb 23, 2018, 07:32:50 - juminet: I have added the issue of parcelisation in the wiki page https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Landuse (do not hesitate to edit this page !). To me, representing agricultural lands into parcels could be very useful for farming applications. But agricultural parcels can typically change of shape from years to years (farmers split and merge parcels depending on the crop, same for meadows sometimes). Actually every farmer in the EU has to digitalize this information every year to get the ACP subsidies. I know that in Flanders at least this information is anomysed and then released every year, but I don't know where and under which format.
+Fri, Feb 23, 2018, 07:35:59 - juminet: Also, there is huge work for parcellising the forest patches into leaf_cycle=* and leaf_type=* and even species=*. Most of the time, this implies that you have to edit large multipolygons and transform them in a collection of smaller polygons, which is definitely not easy to do. The JOSM tool "contour merge" is your friend for this kind of task.
+Fri, Feb 23, 2018, 08:40:09 - timcouwelier: juminet: it's a dataset called 'landbouwgebruikspercelen', and I think I've linked it here before
+Fri, Feb 23, 2018, 08:40:57 - timcouwelier: http://www.geopunt.be/kaart?type=dataset&data=%5B%7B%27type%27%3A%27WMS%27%2C%27url%27%3A%27http%3A%2F%2Fgeoservices.informatievlaanderen.be%2Fraadpleegdiensten%2FALV%2Fwms%3Frequest%3DGetMap%26version%3D1.3.0%26service%3Dwms%27%2C%27layers%27%3A%5B%7B%27id%27%3A%27LbGebrPerc2016%27%2C%27title%27%3A%27Landbouwgebruikspercelen%20ALV%2C%202016%27%7D%5D%7D%5D
+Fri, Feb 23, 2018, 10:19:41 - juminet: timcouwelier: thanks for the link!
+Fri, Feb 23, 2018, 10:25:36 - juminet: I included it in the wiki page, under the new section "Potential data sources"
+Fri, Feb 23, 2018, 10:25:39 - juminet: https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Landuse
+Fri, Feb 23, 2018, 10:34:07 - timcouwelier: Im not sure if there's a version 2017 available yet, it's  a yearly updated data set. There's a few possibly relevant ones too by ANB, mostly about forests, but they seem fairly outdated
+Fri, Feb 23, 2018, 10:34:29 - timcouwelier sent an image. (Media omitted)
+Fri, Feb 23, 2018, 14:43:39 - escada: FYI: https://www.openstreetmap.org/user/Nikola%20Bura/diary/43372
+Fri, Feb 23, 2018, 16:13:16 - timcouwelier: as for the comments, imagico is involved in the rendering part, SomeoneElse is active in DWG ? or am I getting people mixed up? Is the author to be 'recognised' from anywhere in particular?
+Fri, Feb 23, 2018, 16:15:02 - escada: imagico is Christoph Hormann, involved in rendering, has a blog, often writes on geo things.
+SomeoneElse featured once in our Mapper of the Month series. GB, member of DWG.
+Fri, Feb 23, 2018, 16:15:40 - escada: http://blog.imagico.de/en/
+Fri, Feb 23, 2018, 16:15:53 - escada: don't know OP.
+Fri, Feb 23, 2018, 16:17:45 - timcouwelier: Woohoo, then my guesses weren't half bad :D
+Fri, Feb 23, 2018, 16:24:13 - escada: you're a quick learner
+Fri, Feb 23, 2018, 16:27:12 - timcouwelier: Oh I make mistakes, but I did say I tried to get some proper reading done before I go  and map actively. </offtopic>
+Fri, Feb 23, 2018, 16:28:34 - escada: Warin61 is very active on the tagging mailing list. He's from Australia
+Fri, Feb 23, 2018, 16:29:19 - escada: and a supported of the landuse/landcover idea as you can see
+Fri, Feb 23, 2018, 16:31:53 - timcouwelier: Then again, the comment that 'roads and paths being in matters more then completing landcover' has merit too, but I'd say we're far enough in road completion to allow attention to landuse/landcover
+Fri, Feb 23, 2018, 16:32:12 - timcouwelier: (allthough I hate 'we' here, as I've barely done anything in comparison)
+Fri, Feb 23, 2018, 16:32:44 - juminet: I quite agree that landuse=* should not cover the entire world. Btw, in very densely populated places such as Belgium, NL, etc., the land is always under a particular use, often well-defined. This is definitely not the case for instance in the Sahel, where land is used for forestry/agriculture/livestock at the same time.
+Fri, Feb 23, 2018, 16:34:09 - juminet: "roads and paths being in matters more then completing landcover": it just depends in what you interested in. For climate modellers, it is much more important to have landuse/landcover information
+Fri, Feb 23, 2018, 16:35:54 - timcouwelier: It matters more for the majority of the userbase (interested in using it as a map / for routing)  was probably a nuance to add there.
+Fri, Feb 23, 2018, 16:42:01 - juminet: Sure, but IMHO we should map in a "open way" enough to embrace all possible ways of using OSM data, including not-yet-possible ways.
+Mon, Feb 26, 2018, 22:54:35 - diseret joined the room
+Tue, Feb 27, 2018, 08:18:02 - escada sent an image. (Media omitted)
+Tue, Feb 27, 2018, 08:18:24 - escada: Is this natural grassland?
+Tue, Feb 27, 2018, 08:18:46 - escada sent an image. (Media omitted)
+Tue, Feb 27, 2018, 08:18:59 - escada sent an image. (Media omitted)
+Tue, Feb 27, 2018, 08:19:10 - escada sent an image. (Media omitted)
+Tue, Feb 27, 2018, 09:01:11 - juminet: Wow. Seems you had a good time walking!
+Tue, Feb 27, 2018, 09:01:37 - juminet: Don't know a lot about your place (where is it actually?)
+Tue, Feb 27, 2018, 09:01:52 - juminet: Is not natural=heath?
+Tue, Feb 27, 2018, 09:02:56 - joost_schouppe: I don't see any heath plants in those pictures
+Tue, Feb 27, 2018, 09:04:46 - escada: every Saturday & Sunday I'm out with the dogs for 2-3 hours. Often along one of the walking networks. The above pictures where taken in Herentals, somewhere here https://osm.org/go/0Ep43xEH?layers=N&m=&relation=3894019
+
+You can find all photos I take on https://xian.smugmug.com/OSM
+More pictures than I can process afterwards actually :-(
+
+
+Tue, Feb 27, 2018, 09:05:59 - escada: So they are not "my place". But in the galleries you might find some of Reet/Rumst or Willebroek/Heindonk
+Fri, Mar 2, 2018, 14:06:09 - timcouwelier: https://forum.openstreetmap.org/viewtopic.php?id=61493
+Fri, Mar 2, 2018, 14:06:27 - timcouwelier: Posts 5 and 7  related to this discussion.
+Fri, Mar 2, 2018, 14:11:08 - escada: I don't see any heath plants in those pictures
+Is not natural=heath?
+neither do I, not the typical plants.. Heath usually means white sand nearby (at least that is my experience in Flanders & NL), not the case here.
+Fri, Mar 2, 2018, 14:38:56 - joost_schouppe: The wiki refers to scrubby plants, and the your picture looks like grasslands. They can't be 100% natural (neither can heath Btw) as they tend to evolve to something else without intervention. But since their primary use is being interesting nature, I would not mind at all to out them in a natural tag
+Fri, Mar 2, 2018, 14:40:19 - timcouwelier: Hah, I should try that approach with my boss. 'My primary use is being interesting'.
+Fri, Mar 2, 2018, 14:41:37 - escada: The wiki refers to scrubby plants, and the your picture looks like grasslands. They can't be 100% natural (neither can heath Btw) as they tend to evolve to something else without intervention. But since their primary use is being interesting nature, I would not mind at all to out them in a natural tag
+perhaps in a year or so they are bushes.
+Fri, Mar 2, 2018, 14:41:56 - escada: or perhaps a lot of deer pass by and keep eating them.
+Fri, Mar 2, 2018, 14:42:16 - timcouwelier: (I just mean, if you ask enough people, there will always be someone who finds it 'interesting' for whatever reason, so I found it a weird criterium)
+Sat, Mar 17, 2018, 22:16:51 - escada: juminet: how did the discussion on the OpenData day go ?
+Mon, Mar 26, 2018, 13:32:04 - timcouwelier: https://forum.openstreetmap.org/viewtopic.php?id=60633
+Mon, Mar 26, 2018, 13:32:26 - timcouwelier: Dutchies discussing the matter again. Possibly worth throwing in our two cents.
+Mon, Mar 26, 2018, 15:29:31 - pietervdvn: I made a pull request to the OSM.be carto to render landuses; let's hope that @jbel
+Mon, Mar 26, 2018, 15:29:44 - pietervdvn: let's hope that Jonathan merges it quickly ;)
+Mon, Mar 26, 2018, 15:29:55 - pietervdvn: Testing polygons can be found here: https://www.openstreetmap.org/way/573184493
+Mon, Mar 26, 2018, 15:30:18 - pietervdvn: there is a landcover=grass/trees/shrub/sand as suggested by escada in issue #6
+Mon, Mar 26, 2018, 15:31:30 - timcouwelier: Do we need any other particular landcover tags? For parks, I was thinking something like flowerbeds? Do we consider the classic types of 'bodembedekkers' to fit under shrub?
+Mon, Mar 26, 2018, 15:31:57 - pietervdvn: I'll fix the merge request, so expect an update to the PR in a few minutes
+Mon, Mar 26, 2018, 15:32:23 - pietervdvn: timcouwelier: good ideas... We need more pink and red on the map XD
+Mon, Mar 26, 2018, 15:35:20 - timcouwelier: It means we'll have to work on a few specific area's as 'proof of concept' though - have any particular locations in mind?
+Mon, Mar 26, 2018, 15:35:57 - pietervdvn: I'll gladly retag center bruges
+Mon, Mar 26, 2018, 15:36:32 - pietervdvn: there is a lot of landuse=grass and forest which I (or lodde) added, and which I'll retag quickly
+Mon, Mar 26, 2018, 15:36:44 - pietervdvn: or at least once jonathan merged
+Mon, Mar 26, 2018, 15:37:39 - timcouwelier: 'retag', or 'draw on top'? Because a retag to landcover would imply it no longer showing on OSM.org
+Mon, Mar 26, 2018, 15:45:31 - pietervdvn: good question. First have a look that those circles in my backyard effectively render; then doubly tag?
+Mon, Mar 26, 2018, 15:49:34 - escada: for flowerbeds, I highly recommend: http://umap.openstreetmap.fr/nl/map/rozentuin-rose-garden-vrijbroekpark_21719#17/51.02054/4.46320
+Mon, Mar 26, 2018, 15:52:35 - @jbelien:matrix.org: Message deleted
+Mon, Mar 26, 2018, 15:53:07 - @jbelien:matrix.org: Could you review what pietervdvn added as `landcover` ?
+https://github.com/jbelien/openstreetmap-carto-be/pull/9/files#diff-462ffaa0cd0113fe76cf9cb099535a52
+Mon, Mar 26, 2018, 15:57:06 - timcouwelier invited @gplv2:matrix.org
+Mon, Mar 26, 2018, 16:02:09 - @gplv2:matrix.org joined the room
+Mon, Mar 26, 2018, 16:03:58 - lionel_giard: On the standard basemap we should probably stick yo general stuff like park...with grass below everything (i dont know if it is possible to give grass lower priority on the standard basemap to fill the gap and mostly replace the land use grass) and maybe have a detailed map with flowers beds... ? So we don't surcharge the view if we don't need it (or stick to the min zoom to see it)
+Mon, Mar 26, 2018, 16:08:27 - escada: Could you review what pietervdvn added as landcover ? https://github.com/jbelien/openstreetmap-carto-be/pull/9/files#diff-462ffaa0cd0113fe76cf9cb099535a52  Landcover=* by pietervdvn · Pull Request #9 · jbelien/openstreetmap-carto-be - GitHub I like landcovers more then some landuses! Closes #6 ; let's try it out! 
+What's the order to render landuse vs. e.g. leisure=park. I guess with the current pull request, landuse and landcover are on the same "layer", but is this below or above leisure=park ?
+Mon, Mar 26, 2018, 16:14:11 - @gplv2:matrix.org: it's quite complicated escada 
+Mon, Mar 26, 2018, 16:14:42 - @gplv2:matrix.org: leisure becomes landcover in fact
+Mon, Mar 26, 2018, 16:18:45 - @gplv2:matrix.org: they coalesce them internally , you need to look for `leisure_park` in the .mss file, to give you an idea, this is the query for landuse/leisure for high to midzoom levels
+Mon, Mar 26, 2018, 16:19:04 - @gplv2:matrix.org: ```
+(SELECT
+    way, name, religion, way_pixels,
+    COALESCE(aeroway, amenity, wetland, power, landuse, leisure, man_made, military, "natural", tourism, highway, railway) AS feature
+  FROM (SELECT
+      way, COALESCE(name, '') AS name,
+      ('aeroway_' || (CASE WHEN aeroway IN ('apron', 'aerodrome') THEN aeroway ELSE NULL END)) AS aeroway,
+      ('amenity_' || (CASE WHEN amenity IN ('parking', 'bicycle_parking', 'motorcycle_parking', 'university', 'college', 'school',
+                                            'hospital', 'kindergarten', 'grave_yard', 'prison', 'place_of_worship', 'clinic', 'ferry_terminal')
+                                            THEN amenity ELSE NULL END)) AS amenity,
+      ('landuse_' || (CASE WHEN landuse IN ('quarry', 'vineyard', 'orchard', 'cemetery', 'residential', 'garages', 'meadow', 'grass',
+                                            'allotments', 'forest', 'farmyard', 'farmland', 'greenhouse_horticulture',
+                                            'recreation_ground', 'village_green', 'retail', 'industrial', 'railway', 'commercial',
+                                            'brownfield', 'landfill', 'construction', 'plant_nursery', 'religious') THEN landuse ELSE NULL END)) AS landuse,
+      ('leisure_' || (CASE WHEN leisure IN ('swimming_pool', 'playground', 'park', 'recreation_ground', 'common', 'garden',
+                                            'golf_course', 'miniature_golf', 'picnic_table', 'fitness_centre', 'sports_centre', 'stadium', 'pitch',
+                                            'track', 'dog_park') THEN leisure ELSE NULL END)) AS leisure,
+      ('man_made_' || (CASE WHEN man_made IN ('works') THEN man_made ELSE NULL END)) AS man_made,
+      ('military_' || (CASE WHEN military IN ('danger_area') THEN military ELSE NULL END)) AS military,
+      ('natural_' || (CASE WHEN "natural" IN ('beach', 'shoal', 'heath', 'grassland', 'wood', 'sand', 'scree', 'shingle', 'bare_rock', 'scrub') THEN "natural" ELSE NULL END)) AS "natural",
+      ('wetland_' || (CASE WHEN "natural" IN ('wetland', 'marsh', 'mud') THEN (CASE WHEN "natural" IN ('marsh', 'mud') THEN "natural" ELSE tags->'wetland' END) ELSE NULL END)) AS wetland,
+      ('power_' || (CASE WHEN power IN ('station', 'sub_station', 'substation', 'generator') THEN power ELSE NULL END)) AS power,
+      ('tourism_' || (CASE WHEN tourism IN ('attraction', 'camp_site', 'caravan_site', 'picnic_site') THEN tourism ELSE NULL END)) AS tourism,
+      ('highway_' || (CASE WHEN highway IN ('services', 'rest_area') THEN highway ELSE NULL END)) AS highway,
+      ('railway_' || (CASE WHEN railway = 'station' THEN railway ELSE NULL END)) AS railway,
+      CASE WHEN religion IN ('christian', 'jewish', 'muslim') THEN religion ELSE 'INT-generic'::text END AS religion,
+      way_area/NULLIF(!pixel_width!::real*!pixel_height!::real,0) AS way_pixels
+    FROM planet_osm_polygon
+    WHERE (landuse IS NOT NULL
+      OR leisure IS NOT NULL
+      OR aeroway IN ('apron', 'aerodrome')
+      OR amenity IN ('parking', 'bicycle_parking', 'motorcycle_parking', 'university', 'college', 'school', 'hospital', 'kindergarten',
+                     'grave_yard', 'place_of_worship', 'prison', 'clinic', 'ferry_terminal')
+      OR man_made IN ('works')
+      OR military IN ('danger_area')
+      OR "natural" IN ('beach', 'shoal', 'heath', 'mud', 'marsh', 'wetland', 'grassland', 'wood', 'sand', 'scree', 'shingle', 'bare_rock', 'scrub')
+      OR power IN ('station', 'sub_station', 'substation', 'generator')
+      OR tourism IN ('attraction', 'camp_site', 'caravan_site', 'picnic_site')
+      OR highway IN ('services', 'rest_area')
+      OR railway = 'station')
+      AND way_area > 0.01*!pixel_width!::real*!pixel_height!::real
+    ORDER BY way_area DESC
+  ) AS landcover
+) AS features
+```
+Mon, Mar 26, 2018, 16:20:08 - @gplv2:matrix.org: you can see that in the end, leisure and others (man_made) is processed by landuse style (best explaination I can come up with now)
+Mon, Mar 26, 2018, 16:22:45 - @gplv2:matrix.org: so, if you want to `hack` what is rendered on top of what, putting a higher `layer=X` tag on what you want on top should probably work in about 85% of the cases (some don't coalesce on layer)
+Mon, Mar 26, 2018, 16:23:11 - @gplv2:matrix.org: which in the stylesheet is this :  `ORDER BY COALESCE(layer,0), way_area DESC`
+Mon, Mar 26, 2018, 16:23:31 - @gplv2:matrix.org: there's your default layer 0 btw
+Mon, Mar 26, 2018, 16:33:06 - @gplv2:matrix.org: in addition:  ORDER BY COALESCE(layer,0), way_area DESC -> means the layer order is ascending , but the size of the are is descending.  so smaller is rendered on top of bigger and higher layer is rendered on top of lower layer values.
+Mon, Mar 26, 2018, 20:25:11 - juminet: @escada: About the landuse discussion at OpenBelgium (you asked me one week ago!): we didn't really discuss about the "landuse issues". Ppl in the room were mainly discovering OSM so basically we answered their questions...
+Mon, Mar 26, 2018, 20:35:51 - escada: thanks for the update juminet 
+Mon, Mar 26, 2018, 20:44:12 - escada: juminet: here are some pictures from the nature around my hometown: https://xian.smugmug.com/OSM/OSM-2018/2018-03-26-naar-Zennegat/
+Mon, Mar 26, 2018, 20:45:27 - @gplv2:matrix.org: always passing almost at my frontdoor :)
+Mon, Mar 26, 2018, 20:46:35 - escada: Yeah, but my walk around Egleghemvijver is closer to you. 
+Mon, Mar 26, 2018, 20:52:23 - escada: I got this question on the community address: "-Bestaat er een icoon voor “ingang van een ondergrondse groeve”? In Zuid -Limburg zijn er een heel aantal van deze groeves met een ingang, welke nu altijd met een grot wordt aangeduid. Daar zou toch een andere oplossing voor moeten kunnen zijn?"
+
+Anyone knows the difference between "groeve" and "grot" in OSM-terminology ?
+Mon, Mar 26, 2018, 21:56:10 - timcouwelier: Man_made = mineshaft for underground mine
+Mon, Mar 26, 2018, 21:56:28 - timcouwelier: Landuse = quarry for open dig sites
+Mon, Mar 26, 2018, 22:01:17 - timcouwelier: Although Im not dure if, once a mine shaft is No longer used for production, it changes name to something like cave
+Mon, Mar 26, 2018, 22:01:29 - timcouwelier: Not sure*
+Tue, Mar 27, 2018, 07:37:59 - escada: maybe https://wiki.openstreetmap.org/wiki/Tag:man_made%3Dadit for man made "cave" entrances ?
+Tue, Mar 27, 2018, 07:38:36 - escada: and https://wiki.openstreetmap.org/wiki/Tag:natural%3Dcave_entrance for the natural ones
+Tue, Mar 27, 2018, 09:32:57 - lionel_giard: I mapped few mineshaft and it use the disused:man_made=mineshaft when not used anymore. And also the tag yo know if there is an headframe above or no... Look around Charleroi for example. Most of the mineshaft were mapped at exact location. Or maybe that I forgot to add them. :-p but at least Bois du cazier is mapped.
+Tue, Mar 27, 2018, 09:33:27 - lionel_giard: And it is for vertical mine.
+Tue, Mar 27, 2018, 09:47:00 - escada sent an image. (Media omitted)
+Tue, Mar 27, 2018, 09:47:06 - escada: thanks for the input lionel_giard . it seems he wants to map something like the above picture
+
+Tue, Mar 27, 2018, 09:47:43 - escada: this is called a "mergelgrot" in Dutch. grot is translated as "cave", which might be the reason some people will use the wrong tags. 
+Tue, Mar 27, 2018, 09:49:28 - escada: seems that I selected the wrong group for the question, had to be in the OSM Belgium, not the landuse group
+Tue, Mar 27, 2018, 09:54:19 - lionel_giard: Ah isn't it the "marl quarries" in English ? Or marnières in French.
+Tue, Mar 27, 2018, 09:55:35 - @gplv2:matrix.org: marl caves
+Tue, Mar 27, 2018, 09:55:52 - escada: carrière de marne according to G$-translate
+Wed, Mar 28, 2018, 13:02:17 - escada: timcouwelier: do you fully understand this public_green=yes tag the Dutch will put on every landuse=forest/grass/... when it is "small" and "in a town". However they define those concepts.
+Wed, Mar 28, 2018, 13:08:04 - @gplv2:matrix.org: I don't actually , is that new ?
+Wed, Mar 28, 2018, 13:09:10 - escada: https://forum.openstreetmap.org/viewtopic.php?id=60633  Groenvoorzieningen / users: Netherlands / OpenStreetMap Forum OpenStreetMap Forum The Free Wiki World Map Index Search Register Login You are not logged in. Topics: Active | Unanswered Announcement 
+it's something they proposed in the thread timcouwelier mentioned here earlier.
+Wed, Mar 28, 2018, 13:13:41 - @gplv2:matrix.org: that thread is linking to some true eye-openers
+Wed, Mar 28, 2018, 16:35:29 - timcouwelier: I should read up, not kept track of where dicussion went.
+Wed, Mar 28, 2018, 16:37:06 - timcouwelier: The way the proposal is formulated comes across as rather blunt, but I don't know how much discussion was held outside of the linked forum thread.
+Wed, Mar 28, 2018, 16:38:20 - timcouwelier: Essentially, I feel it's a crossover step: Where we are daydreamining of having a multitude of landcovers being possibly rendered, they all dump it into one same collection bin. If they do it often enough, they'll created leverage to have it renderend as green.
+Wed, Mar 28, 2018, 16:39:54 - timcouwelier: But if I'm interpreting correct, they general idea is to eventually ditch some of the 'landuse' tags on those polygons, and replace it with something like landcover = x. It's just sneaking in preparations to facilitate a later conversion.
+Wed, Mar 28, 2018, 16:41:00 - timcouwelier: Or perhaps they aren't being sneaky and all, but with landuse, landcover, and amenity/leasure tags, there's already sufficient types clogging up the tagging landscape without a need for yet another type that's a 'hidden landuse' tag.
+Wed, Mar 28, 2018, 16:41:16 - timcouwelier: (my two cents - feel free to argue or disagree)
+Wed, Mar 28, 2018, 16:57:37 - @gplv2:matrix.org: those are all treated the same in most of the consumers like tile servers.   military areas, amenity areas,landuse and leisure=park for example, all are being processed as they are landuse through crafted DB queries by the style sheets (carto css case).  the list is longer than this..
+Wed, Mar 28, 2018, 18:25:35 - @gplv2:matrix.org: Sitting in the train watching landuse pass by I realize that landuse is actually an osm perversion when it comes to making a map from it.  It conflicts with ground truth principles. A land can be used for nuclear testing but you aren't going to notice this while looking at the spot.  Landcover should be leading there.   In the map context that is, not saying the data isn't welcome in osm, but if you think it through, we color the map based on the goal rather than the situation of the land in question..
+Wed, Mar 28, 2018, 18:26:27 - @gplv2:matrix.org: Message deleted
+Wed, Mar 28, 2018, 18:27:09 - @gplv2:matrix.org: Hence why landuse is so often abused and misunderstood
+Wed, Mar 28, 2018, 18:42:14 - timcouwelier: Technically, we have an official landuse map - it's called 'gewestplan'
+Wed, Mar 28, 2018, 18:44:46 - @gplv2:matrix.org: Yeah, that's really about usage. My remarks would be less valid if not seen in the context of a rendered map.
+Wed, Mar 28, 2018, 18:45:40 - timcouwelier: Hehe.. It reminds me of the case where someone asked if he should map crop = marihuana :)
+Wed, Mar 28, 2018, 18:48:01 - @gplv2:matrix.org: No way.. You said yes I hope 😂
+Wed, Mar 28, 2018, 19:19:44 - pietervdvn: that one came up on reddit one time. He wanted to map the weed patches within fields. The told him not, because these often move and would probably be out of date already XD
+Thu, Mar 29, 2018, 05:26:30 - escada: Sitting in the train watching landuse pass by I realize that landuse is actually an osm perversion when it comes to making a map from it. It conflicts with ground truth principles. A land can be used for nuclear testing but you aren't going to notice this while looking at the spot. Landcover should be leading there. In the map context that is, not saying the data isn't welcome in osm, but if you think it through, we color the map based on the goal rather than the situation of the land in question..
+As someone who lives in a industrial zone (KMO-zone), I know this all too well. Planning says industry, OSM says mix industry-residential. Makes it hard to properly  map the named area which should contain both landuses. AFAIK there is no construct in OSM that allows one to give a name to a group of landuses. 
+Thu, Mar 29, 2018, 09:44:53 - @gplv2:matrix.org: site relation perhalps ?   could work imho
+Thu, Mar 29, 2018, 10:39:26 - @gplv2:matrix.org: just tried this, it does validate but I can't upload my test to see if it will put the label on it visually
+Thu, Mar 29, 2018, 10:46:41 - lionel_giard: I found related "problem" when I was mapping a industrial zoning : how do you map the name of the zoning (like "PARC Monnet (LLN)") but also individual companies or center that are named inside ? I saw that multiple people just made a landuse polygon for the specific industry on top of the zoning land use polygon, and I didn't find a better way to get both area with a name.
+Thu, Mar 29, 2018, 10:46:59 - lionel_giard: But now maybe site relation would be better ?
+Thu, Mar 29, 2018, 10:47:24 - escada: just tried this, it does validate but I can't upload my test to see if it will put the label on it visually
+that won't happen though. only gk.historic.place understands site-relations
+
+Thu, Mar 29, 2018, 10:47:41 - @gplv2:matrix.org: they are rendered
+Thu, Mar 29, 2018, 10:47:48 - @gplv2:matrix.org: afaik they are....
+Thu, Mar 29, 2018, 10:48:16 - escada: are they rendered, or are their individual parts rendered ?
+Thu, Mar 29, 2018, 10:48:18 - @gplv2:matrix.org: it's a shame because site relation is one of the more useful ones, the wiki page doen't even reflect the current state
+Thu, Mar 29, 2018, 10:49:18 - @gplv2:matrix.org: now that is a good question,  I had a school once in mechelen which was so complex I used a site relation in an attempt to improve it, many years ago and I thought it was rendered but maybe it was the parts
+Thu, Mar 29, 2018, 10:51:23 - escada: indeed. I was looking at the video of a "future data models for OSM" workshop at FOSDEMM. Takes 56 minutes. I was not halfway yet. I got to the point where they listed a number of shortcomings in the current model. They were now going to discuss ideas to fix them. (all in German, not that easy unless you are a Polyglot)
+Thu, Mar 29, 2018, 10:52:07 - escada: indeed (was on "it's a shame")
+Tue, Apr 3, 2018, 08:57:52 - escada: Based on this tweet : https://twitter.com/Boswachter_Kris/status/977575624943554560 ("Natte hooilanden" ) I mapped the area https://osm.org/go/0EsrBTEt?m=&node=249262450 as natural=wetland;wetland=wet_meadow. I also noticed it when I walked there: https://xian.smugmug.com/OSM/OSM-2018/2018-03-31-Wortel-AK-49/i-29kBPDD
+
+Do you think this is the correct usage for the tag ?
+Tue, Apr 3, 2018, 09:03:11 - escada sent an image. (Media omitted)
+Tue, Apr 3, 2018, 09:03:21 - escada sent an image. (Media omitted)
+Tue, Apr 3, 2018, 09:05:02 - escada: another question: quite often I encounter forests with a lot of water. Sometimes there are a lot of little ditches, sometimes, its unclear whether the whole area is under water or whether there are ditches. I hope the above 2 pictures explain the situation a bit.
+Should we map the individual ditches ? Or is this some kind of "wetland" ?
+Tue, Apr 3, 2018, 09:06:40 - escada: BTW, if you look at the series in https://xian.smugmug.com/OSM/OSM-2018/2018-03-31-Wortel-AK-49 and https://xian.smugmug.com/OSM/OSM-2018/2018-04-01-Herenthout-AK-44, you will notice that I encountered some forests that are pretty hard to determine as broadleaved or needleleaved. Sometimes  just the trees next to the path are broadleaved, sometimes the patches are pretty small...
+Wed, Apr 4, 2018, 14:12:51 - juminet: About the ditches:  I would map them individually (at least in a ideal world). They may have been digged in the past for drainage.
+Wed, Apr 4, 2018, 14:14:13 - escada: ok. I will leave that ideal world to someone else, as they are impossible to recognize on aerial imagery
+Wed, Apr 4, 2018, 14:14:42 - timcouwelier: bah, depends on location and how much plants next to it
+Wed, Apr 4, 2018, 14:14:48 - escada: what would you do if the complete area is filled with water (at least during certain seasons)
+Wed, Apr 4, 2018, 14:14:53 - timcouwelier: map them where you're certain they are there I'd say
+Wed, Apr 4, 2018, 14:16:34 - timcouwelier: https://wiki.openstreetmap.org/wiki/Key:intermittent
+Wed, Apr 4, 2018, 14:16:44 - juminet: And about the wet_meadow: I often use it to map patches of agricultural pastures that are very wet, which is often the case in Ardenne. It is a rare case where I superimpose landuse (=meadow) and natural (=wetland + wetland=wet_meadow) features. Like this one: https://www.openstreetmap.org/way/576243601#map=17/49.78898/5.55193
+Wed, Apr 4, 2018, 14:17:09 - timcouwelier: natural = water + intermittent = yes for often flooded areas
+Wed, Apr 4, 2018, 14:17:16 - timcouwelier: (is what I would do)
+Wed, Apr 4, 2018, 14:17:29 - juminet: Of course, "wet_meadow" can take different forms depending on soil type, relief, climate, etc...
+Wed, Apr 4, 2018, 14:18:11 - timcouwelier: Yea I'm not talking about 'I wouldn't go in there with my sunday shoes or my feet would get wet', I'm talking about it actually showing in the field as a flooded surface
+Wed, Apr 4, 2018, 14:19:03 - juminet: Actually, I think that without animal or human intervention, wetlands in Belgium usually tends to be covered by shrubes and trees, so wet_meadow can only be managed somehow...
+Wed, Apr 4, 2018, 14:20:02 - escada: timcouwelier: I use natural=water for open water bodies. I was thinking about wetland=swap or so
+https://wiki.openstreetmap.org/wiki/Tag:natural=wetland 
+Wed, Apr 4, 2018, 14:20:34 - escada: I think most of the wetlands (reedbed comes to mind) are maintained by humans. 
+Wed, Apr 4, 2018, 14:23:05 - escada: natural=tree_row is a perfect example of something that is created by humans and still have the natural-tag. I think we should not really see "natural" as something without human intervention. It's something that consists of natural elements and humans help it to stay in that state. The primary use is not the crop. (so no landuse=meadow/farmland)
+Wed, May 16, 2018, 16:21:43 - lievetje joined the room
+Thu, May 17, 2018, 18:40:49 - lievetje: Hi, can anyone point me towards instructions for public transportation such as bus lines?
+Thu, May 17, 2018, 18:45:59 - joost_schouppe: there's more folks active in out main chatroom: https://riot.im/app/#/room/#osmbe:matrix.org
+Thu, May 17, 2018, 18:46:46 - lievetje: I should ask them?
+Thu, May 17, 2018, 18:49:11 - joost_schouppe: well yeah; it's the same group of people, but larger, and with the subject not focused on landuse like here
+Thu, May 17, 2018, 18:49:36 - joost_schouppe: out main chatroom > our main chatroom
+Thu, May 17, 2018, 18:50:09 - lievetje: Ok, I'll read the wiki first. Just found it. :-)
+Thu, May 17, 2018, 18:51:18 - joost_schouppe: haha, OK. We have an absolute specialist around here btw, Polyglot . He's active with writing tools to manage this kind of info in OSM and worked on our data model etc.
+Thu, May 17, 2018, 18:52:24 - lievetje: Perfect!
+One question about landuse: which are the correct sources to see where a living area ends and where a agricultural area or nature reserve starts?
+Thu, May 17, 2018, 18:57:49 - Seppe: Perfect! One question about landuse: which are the correct sources to see where a living area ends and where a agricultural area or nature reserve starts?
+There's often a barrier like a ditch, hedge, fence,... or there is a road between the two. You can trace those from aerial imagery. Often the GRB layer can help to have a more precise geometry of parcel boundaries.
+Fri, May 25, 2018, 15:22:38 - @midgard:matrix.org left the room
+Wed, Jun 6, 2018, 14:46:08 - escada: https://lists.openstreetmap.org/pipermail/tagging/2018-June/036860.html
+Wed, Jun 6, 2018, 15:05:55 - lionel_giard: I'm not agreeing with his idea of "the wiki reflect 1 or 2" while the edits are the community, as it only reflect the user of ID editor ... :-p because it is a preset in it to use landuse=grass. For it to become widespread it should be changed in the preset,  not specially in the renderer.  And the most important landcover tag is not grass (as it have only 1 meaning), but trees in other landuse or in parks ! It would allow to map correctly all those tree area in residential neighborhood, and maybe not render them or with special rendering) in place of the landuse forest :-p
+Wed, Jun 6, 2018, 15:11:00 - lionel_giard: But yes landcover tags are useless if you do some micromapping of every trees, flowers and blades of grass :-p
+Wed, Jun 6, 2018, 15:23:04 - pietervdvn: Jep... Would be way better indeed
+Wed, Jun 6, 2018, 15:23:12 - pietervdvn: perhaps answer on the tagging list then :p I've unsubscribed, to much mail
+Wed, Jun 6, 2018, 15:26:58 - timcouwelier: I'm suprised by the claim that 'tagging doesn't follow rendering'.
+Wed, Jun 6, 2018, 15:27:40 - timcouwelier: an awful lot of folks will not map stuff that doesn't render. Once they are aware it does, I think tagging WILL follow rendering.
+Wed, Jun 6, 2018, 15:28:20 - timcouwelier: in a case where there's an (if you ask me - 'incorrect') way to do it that does get rendered, people will not blindly and unanimously 'covert over'
+Wed, Jun 6, 2018, 15:28:30 - timcouwelier: convert*
+Wed, Jun 6, 2018, 15:28:32 - pietervdvn: jep... I'm not tagging landcover=tree as well, because it wont render. I add a landuse=forest on it too
+Wed, Jun 6, 2018, 15:42:03 - lionel_giard: I add both tags in my local area (as I remember I did) but in other place I now tend to just place landcover tag if that make sense and don't care about renderer. (Especially when adding new tree area, as it will not disappear on renderer because it was not there)
+Wed, Jun 6, 2018, 15:46:21 - pietervdvn: jep... I agree that is possible too. However, I like to see a neat map of Bruges; I use that thing constantly. Somewhere in the fields, I would care less
+Wed, Jun 6, 2018, 15:48:35 - lionel_giard: In city I try to map individual trees as there are generally not too many, and with the imagery we can often see most of them. :-p
+Wed, Jun 6, 2018, 15:52:59 - lionel_giard: BTW do you tag a riverbank where only vegetation grow with light management from the municipality (they only cut what's over the path nearby and maybe once every few years) as a natural=scrub ? Or something else ?
+Wed, Jun 6, 2018, 15:55:06 - pietervdvn: tricky questions... I didn't really had to tag those yet, although I should start doing that
+Wed, Jun 6, 2018, 16:21:00 - escada: BTW do you tag a riverbank where only vegetation grow with light management from the municipality (they only cut what's over the path nearby and maybe once every few years) as a natural=scrub ? Or something else ?
+Think I did that once. Or natural=wetland;wetland=reedbed, which is rather common
+Wed, Jun 6, 2018, 16:24:53 - pietervdvn: aha, I'm so gonna use that to paint nature reserves
+Wed, Jun 6, 2018, 16:27:39 - escada: The "or" does not mean that wetland can be used in the case Lionel describes, just that there are a lot of places where it is a reedbed and not scrub
+Wed, Jun 13, 2018, 21:04:04 - escada: The main question is when to apply a certain landcover and when not
+Wed, Jun 13, 2018, 21:04:31 - escada sent an image. (Media omitted)
+Wed, Jun 13, 2018, 21:04:43 - escada sent an image. (Media omitted)
+Wed, Jun 13, 2018, 21:06:15 - escada: I think we all agree that the above two places can be mapped as landcover trees,  although  the trees clearly occupy less than 50% of the surface.  Still one of the most dense tree areas I know
+Wed, Jun 13, 2018, 21:06:36 - escada sent an image. (Media omitted)
+Wed, Jun 13, 2018, 21:06:51 - escada sent an image. (Media omitted)
+Wed, Jun 13, 2018, 21:07:05 - escada sent an image. (Media omitted)
+Wed, Jun 13, 2018, 21:07:22 - escada sent an image. (Media omitted)
+Wed, Jun 13, 2018, 21:08:26 - escada: The other pictures all show areas with trees in varying density
+Wed, Jun 13, 2018, 21:10:10 - escada: Can we clearly define when to use landcover trees and when grass or bushes or plants is better. Or can we combine different landuses?
+Wed, Jun 13, 2018, 21:10:34 - escada sent an image. (Media omitted)
+Wed, Jun 13, 2018, 21:11:07 - escada: And when is something a tree,  plant,  bush,  grass?
+Wed, Jun 13, 2018, 21:11:27 - escada: Is there a landcover plants?
+Wed, Jun 13, 2018, 21:54:20 - joost_schouppe: Overlapping landcover? 😈
+Wed, Jun 13, 2018, 22:49:52 - @pelderson:matrix.org joined the room
+Wed, Jun 13, 2018, 22:51:21 - lionel_giard: from the 4 examples, i would tag landcover=trees only for the first two, and tags separately the trees in the last two (especially the last one with the dogs). Maybe put the "tree_row" for the third one if it is more a row and/or don't know the position of each tree. Often between farmlands or meadows, the trees are in a line (more or less). But maybe could we use multiple landuse if the split is like "50/50" between bushes and trees for example ? like landcover=trees;bushes;... ? Is it really a problem to have multiple landcover in a very mixed zone (as it is the reality, and can't be separated) ?
+Wed, Jun 13, 2018, 22:52:04 - lionel_giard: but if we have only 3 bushes in a dense tree area, maybe we can ignore the bushes ^^
+Wed, Jun 13, 2018, 22:54:51 - lionel_giard: And for the coniferous forest (first image you posted), do we need a landcover for fir needles ? As we should have one if the ground is grass or sand. 😁
+Thu, Jun 14, 2018, 02:23:35 - Marc_marc joined the room
+Thu, Jun 14, 2018, 04:49:11 - escada: So if you can map a tree row,  you do not use landcover trees? This should be documented then. 
+I'm fine with multiple values for landcover, but only when it will be rendered.
+Thu, Jun 14, 2018, 12:53:40 - lionel_giard: i don't know if it is possible, but maybe set rendering for useful combination (like we have for the mixed forest in the current rendering : which is a combination of needleleaved and broadleaved trees). We could mix "trees and bushes for example" ? :-)
+Thu, Jun 14, 2018, 12:54:05 - lionel_giard: And use this mixed rendering when the multiple values "landcover=trees;bushes" are present
+Thu, Jun 14, 2018, 12:55:02 - escada: that would be great of course. 
+Thu, Jun 14, 2018, 14:21:19 - @pelderson:matrix.org: +1
+Sat, Jun 16, 2018, 09:54:21 - Polyglot: fresh imagery
+Sat, Jun 16, 2018, 09:54:34 - Polyglot: how odd
+Sat, Jun 16, 2018, 09:54:55 - Polyglot: anyway, I was typing: I don't think MS will be creating fresh imagery
+Sat, Jun 16, 2018, 09:56:17 - Polyglot: hmm, no idea why this UI switched channels on me
+Sun, Jun 17, 2018, 16:49:21 - @pelderson:matrix.org: In the Dutch landcover discussion about green fill-up areas within residential areas, landcover=greenery was suggested for mixed greenery, where you can't decide what precisely it is or when it doesnt really matter exactly which type it is.
+Fri, Jul 13, 2018, 11:44:21 - juminet set a profile picture
+Wed, Sep 19, 2018, 10:42:30 - @jbelien:matrix.org left the room
+Tue, Oct 2, 2018, 22:52:04 - @doudou_on_riot:matrix.org joined the room
+Tue, Oct 30, 2018, 08:16:27 - bibi6 joined the room
+Sat, Nov 17, 2018, 18:22:12 - @doudou_on_riot:matrix.org left the room
+Tue, Jan 22, 2019, 14:14:17 - Marc_marc left the room
+Wed, Jan 23, 2019, 11:50:30 - @ubipo-:matrix.org joined the room
+Wed, Jan 23, 2019, 11:50:46 - @ubipo-:matrix.org left the room
+Wed, Jan 23, 2019, 12:38:10 - s8evq joined the room
+Wed, Jan 23, 2019, 17:34:58 - koninklijke joined the room
+Fri, May 10, 2019, 20:10:33 - joost_schouppe invited Cat (Mutant-art)
+Fri, May 10, 2019, 20:12:04 - Cat (Mutant-art) joined the room
+Wed, Jul 17, 2019, 22:19:08 - joost_schouppe set the main address for this room to #osmbe-landuse:matrix.org.
+Fri, Aug 30, 2019, 10:17:19 - stijnrr joined the room
+Sat, Sep 28, 2019, 09:57:33 - foxandpotatoes joined the room
+Mon, Nov 25, 2019, 13:35:24 - @pelderson:matrix.org left the room
+Fri, Mar 13, 2020, 10:11:46 - Seppe set a profile picture
+Tue, Sep 8, 2020, 22:40:33 - Thibaultmol joined the room
+Wed, Nov 25, 2020, 18:25:53 - Matrix Traveler (bot) joined the room
+Wed, Nov 25, 2020, 18:29:20 - Marc_marc joined the room
+Wed, Jan 27, 2021, 11:45:43 - MikiDi joined the room
+Wed, Jan 27, 2021, 12:08:35 - mikidi-2 changed their display name to mikidi
+Wed, Jan 27, 2021, 12:08:44 - mikidi changed their display name to MikiDi
+Sun, Mar 28, 2021, 09:49:38 - teraboll joined the room
+Fri, Apr 16, 2021, 12:38:37 - MikiDi set a profile picture
+Sat, May 15, 2021, 13:04:20 - pietervdvn changed their profile picture
+Thu, Dec 30, 2021, 20:28:42 - rienux joined the room
+Thu, Mar 10, 2022, 11:36:24 - Jhowie Nitnek joined the room
+Tue, Mar 15, 2022, 09:39:34 - bxl-forever joined the room
+Fri, May 6, 2022, 10:03:55 - Seppe: It's been a few years ... Time to revive the discussion starting with the post by @pelderson (who appears to not be here anymore): https://lists.openstreetmap.org/pipermail/tagging/2022-May/064534.html
+Mon, Jun 13, 2022, 11:28:45 - thibaultmol changed their display name to Thibaultmol
+Fri, Jul 15, 2022, 21:32:45 - lievetje: Alright, to add my 5 cents.
+I have been mapping for a few years now. Landuse=residential is used for a residential area. I learned last week that it's better to use one great area for a village instead of use separate areas that don't contain any streets.
+Of course, a residential area contains footpath areas, grass patches, areas with trees. So they should be able to overlap. You cannot "see" a residential area but it can be important on a map.
+I have been using landuse=grass for small patches as well. How else are you supposed to map them? 
+I never map overlaps between residential areas and agricultural areas (landuse=farmland). I have mapped overlaps however between residential areas and small commercial areas and farmyards.
+
+Fri, Jul 15, 2022, 21:32:47 - lievetje: If I'm not doing this correctly, I would really like to know.
+Fri, Jul 15, 2022, 22:10:57 - Seppe: Hi Lievetje, thanks for bringing this up. A few questions/remarks:
+- Where did you learn that you should map large areas for landuse=residential? There are different 'styles' for mapping this correctly. What I would advise: if you don't want to map everything in high detail, just make one large residential area, including e.g. streets and greenery. If you want to micromap an area, confine the landuse=residential to residential parcels (you can see them on the GRB base layer). That's also the advice on the [wiki](https://wiki.openstreetmap.org/wiki/Tag:landuse%3Dresidential): "If you had access to land parcel data, you'd probably draw the ways with landuse=residential along the parcel edges, which are (mostly anyway) some distance away from the road centerline; i.e., behind the sidewalk."
+- Often times, you do see the borders of a residential area / parcel. Hedges or fences are a good example, you can double check these borders with the parcel information in GRB
+- landuse tags are used and also misused to map many different things, but in essence, these tags should describe "the primary use of land by humans" (from the [wiki](https://wiki.openstreetmap.org/wiki/Key:landuse)). If you micromap patches of grass beside a road, I wouldn't let this overlap with a landuse=residential, but instead also micromap the residential areas. In general, I always try to avoid overlapping landuses (I believe editors also warn for this). For example, I don't see why you would let landuse=residential overlap with landuse=commercial or landuse=farmyard
+
+If you are doubting on specific situations, do post a link. I'm sure other people will be happy to join the discussion
+Sat, Jul 16, 2022, 13:41:18 - lievetje: Hi Seppe, thanks for this response!
+Sat, Jul 16, 2022, 13:46:34 - lievetje: - In fact, Gpoilvet sent me a message last week: "Het is beter als je de residential area definieert voor heel het dorp Kieldrecht en niet aanduidt per huizenblok. Dit is een standaard die gehanteerd wordt en is praktisch voor ruimtelijk onderzoek. Alvast bedankt!"
+But, when I see your point of view, I am again in doubt. I am indeed a micromapper that likes to add everything such as grass patches next to the sidewalk, hedges, fences, but also grass and trees in people's gardens. I am very willing to add multiple small residential areas but I am not sure how to add them when I'm also mapping people's gardens (as far as I can see them from the areal photography and live surveys).
+Sat, Jul 16, 2022, 13:47:04 - lievetje: I indeed also rely heavily on the GRB data.
+Sat, Jul 16, 2022, 13:48:05 - lievetje: I am now doing street by street. Abelenlaan in Kieldrecht is a good example of how 'finished' I would like to leave each street in our village.
+Sat, Jul 16, 2022, 13:48:29 - lievetje: https://www.openstreetmap.org/#map=19/51.29275/4.18157
+Sat, Jul 16, 2022, 14:08:07 - lievetje: Reading further, I could use landcover instead of landuse. Is that the proper solution, accepted by the Belgian OSM community?
+Sat, Jul 16, 2022, 20:12:45 - Seppe: <@lievetje:matrix.org "- In fact, Gpoilvet sent me a me..."> I wouldn't say it's better, it's just a choice between having larger areas that are easier to handle vs mapping in high detail.
+Sat, Jul 16, 2022, 20:15:46 - Seppe: <@lievetje:matrix.org "Reading further, I could use lan..."> I think this room started with the question whether we should use the landcover tags more. For residential areas, I think it's a good solution to map the lawn with landcover=grass
+Sat, Jul 16, 2022, 20:16:16 - Seppe: But it's not often used because it doesn't get rendered in the standard OSM basemap.
+Sat, Jul 16, 2022, 20:18:31 - Seppe: For mapping private gardens, you can also add leisure=garden + garden:type=residential + access=private to the whole garden if you want.
+Sun, Jul 17, 2022, 11:54:11 - Marc_marc: for grass, to avoid to not-a-landuse landuse=grass, I'm using natural=grassland grassland=grass... it isn't perfect but it's solve one issue
+Fri, Aug 12, 2022, 14:32:29 - bxl-forever left the room
+Fri, Oct 14, 2022, 18:18:47 - foxandpotatoes left the room
+Mon, Jul 24, 2023, 10:12:04 - midgard joined the room
+Mon, Jul 24, 2023, 10:19:16 - dentonny joined the room
+Mon, Jul 24, 2023, 10:25:14 - dentonny: <@lievetje:matrix.org "https://www.openstreetmap.org/#m..."> although perhaps not visible, if you connect those 2 paths to the playground, routers can take you there too
+Fri, Oct 13, 2023, 23:06:05 - dentonny: En ik heb nu pas door dat ik op een post van een jaar oud heb geantwoord
+Sun, Dec 17, 2023, 14:30:08 - dentonny left the room

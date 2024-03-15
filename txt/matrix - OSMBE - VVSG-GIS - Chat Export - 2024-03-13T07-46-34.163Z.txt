@@ -1,0 +1,367 @@
+Tue, Dec 22, 2020, 11:10:42 - joost_schouppe joined the room
+Tue, Dec 22, 2020, 11:10:42 - joost_schouppe set the main address for this room to #osmbe-vvsggis:matrix.org.
+Tue, Dec 22, 2020, 11:10:42 - joost_schouppe made the room public to whoever knows the link.
+Tue, Dec 22, 2020, 11:10:42 - joost_schouppe made future room history visible to all room members.
+Tue, Dec 22, 2020, 11:10:42 - joost_schouppe changed the room name to OSMBE - VVSG-GIS.
+Tue, Dec 22, 2020, 11:10:42 - joost_schouppe changed the topic to "Samenwerking OSMbe & GIS-medewerkers steden en gemeenten".
+Tue, Dec 22, 2020, 13:22:52 - smedo joined the room
+Tue, Dec 22, 2020, 20:44:52 - stijn_claes joined the room
+Tue, Dec 22, 2020, 20:45:41 - stijn_claes set a profile picture
+Thu, Dec 24, 2020, 09:07:29 - joost_schouppe changed the topic to "Samenwerking OSMbe & GIS-medewerkers steden en gemeenten - https://hackmd.io/LP7crcvMQQCBgjY0BzmuSg?view".
+Thu, Dec 24, 2020, 09:08:21 - Matrix Traveler (bot) joined the room
+Thu, Dec 24, 2020, 09:10:44 - Thibaultmol joined the room
+Thu, Dec 24, 2020, 09:32:32 - Seppe joined the room
+Thu, Dec 24, 2020, 11:22:56 - ⊙ joined the room
+Thu, Dec 24, 2020, 14:43:42 - s8evq joined the room
+Sat, Dec 26, 2020, 00:50:56 - @thierry1030:matrix.org joined the room
+Mon, Jan 4, 2021, 12:11:15 - stijn_claes: Aanvullend op 1e thema (data-verzameling, MapComplete) vermeld in het hackmd-document, denk ik dat het vele gemeenten zou interesseren om nieuwe open-source methodes te kennen om een bepaald thema beter en aantrekkelijker 'in the picture' te zetten, bijvoorbeeld alle speelterreintjes binnen een gemeente. De gemeente heeft hier meestal zelf een goed zicht op en beschikt bijvoorbeeld vaak ook over een GIS-laag. Wanneer de gemeente er voor zorgt dat de info uit deze GIS-laag opgenomen wordt in OSM, hoe kan zij dan een mooi geoloket ter beschikking stellen van de bevolking dat gebruik maakt van deze data uit OSM (via de tags/attributen), eventueel aangevuld met informatie die niet voor OSM relevant is? Nu zou een gemeente teruggrijpen naar een speciaal opgemaakte PDF-flyer met een kaartje, naar een ArcGIS-Online loket of story map (als de gemeente een account ter beschikking heeft) zoals bij gis3700.be of https://gisbergen-gbergen.hub.arcgis.com/, eventueel een Geo-IT GIS-loket (opmaak is in dat geval ook beperkt) of een op maat gemaakt applicatie.
+Mon, Jan 11, 2021, 10:35:22 - strict joined the room
+Wed, Jan 20, 2021, 11:39:18 - joost_schouppe: in principe is MapComplete ook direct een gis-loketje, zie bijvoorbeeld https://fietsambassade.gent.be/nl/herstel-en-onderhoud/een-fietspomp-jouw-buurt
+Wed, Jan 20, 2021, 15:32:30 - joost_schouppe invited pietervdvn
+Wed, Jan 20, 2021, 15:33:22 - joost_schouppe: @pietervdvn: MapComplete sessie voor de VVSG-GIS mensen, 26/2, in de namiddag, zie jij dat zitten? Anders wil ik het eventueel ook wel doen
+Wed, Jan 20, 2021, 15:48:27 - pietervdvn joined the room
+Wed, Jan 20, 2021, 16:29:56 - joost_schouppe: right, MapComplete 26/2 is bevestigd. Ik denk dat we daarin puur moeten focussen op MapComplete zelf. Mij lijkt het beste om een intro te doen van "hoe gebruik je mapcomplete *in the field*" (naar analogie van https://www.youtube.com/watch?v=C5dVjDt5QAE ) en vervolgens een korte demo van "hoe maak je zelf een theme" (zie https://www.youtube.com/watch?v=nVbFrNVPxPw). Idealiter heeft iedereen op voorhand al een algemene intro tot OSM gezien (zie https://www.youtube.com/watch?v=rYYcyR1ybYs)
+Wed, Jan 20, 2021, 20:44:28 - stijn_claes: Gewoon uit nieuwsgierigheid: hebben jullie die datum 26/2 nm zelf voorgesteld of werd die met iemand afgesproken? voor mij kan het alleszins nog wel hoor...
+Wed, Jan 20, 2021, 20:47:06 - stijn_claes: <@joost_schouppe:matrix.org "in principe is MapComplete ook d..."> Ik begrijp wat je bedoelt, maar zijn er ook toegankelijke (bij voorkeur niet al te technische) omgevingen die _open source_  en bij voorkeur ook gratis zijn waarmee een lokale GIS-ambtenaar aan de slag zou kunnen gaan die gelijkaardige functionaliteiten aanbiedt als bijv. ArcGIS Online?
+Wed, Jan 20, 2021, 20:58:50 - joost_schouppe: Euh, MapComplete? :) 
+Wed, Jan 20, 2021, 20:58:57 - joost_schouppe: Of umap misschien
+Wed, Jan 20, 2021, 20:59:31 - joost_schouppe: Ik weet niet goed welke features je precies cruciaal vindt
+Wed, Jan 20, 2021, 21:07:26 - stijn_claes: Het gaat o.a. om toch wat meer fancy look-and-feel met beeldmateriaal, teksten... Ik geef een paar voorbeelden (waarvan sommigen misschien al wat "ver" gaan):
+- (gebruik van beeldmateriaal) https://geotic.maps.arcgis.com/apps/MapTour/index.html?appid=91ed9529ad41465c9d20917f64e1fc75
+- (meerdere data in the picture zetten) https://provincieantwerpen.maps.arcgis.com/apps/webappviewer/index.html?id=3c9119e6786547ddbd60ff8067c80024
+- (verhaal vertellen) https://geotic.maps.arcgis.com/apps/MapSeries/index.html?appid=2c67acf460e44b0b86ce318bd6569230 of https://iok.maps.arcgis.com/apps/MapJournal/index.html?appid=775252445d7b4e3592fdb3289f70ac36# of https://geo.goirle.nl/portal/apps/MapSeries/index.html?appid=64f0c9bf608648bebed0e3af0d84f61a of https://storymaps.arcgis.com/stories/ffd89fd7af2744ecaedd3c4df7ca4f11
+Wed, Jan 20, 2021, 21:08:31 - stijn_claes: https://gisbergen-gbergen.hub.arcgis.com/app/69e75f44d25045baa164de8645685bf4 --> informatie die misschien niet echt op OSM thuis hoort, maar wel op OSM-achtergrond getoond kan wordt
+Wed, Jan 20, 2021, 21:11:31 - stijn_claes: In sommige gevallen kan de data van het lokaal bestuur dezelfde data zijn als hetgeen ook in OSM opgenomen wordt (wel tags naar Nederlands te vertalen), in sommige gevallen kan het dus aanvullende gegevens zijn, en soms ook gegevens die niet op OSM thuishoren. Het kan zijn dat we voor zo'n toelichting breder moeten kijken dan de OSM-community, maar er zitten binnen de OSM-community wel wat mensen met kennis van zaken over andere open source tools
+Wed, Jan 20, 2021, 21:35:24 - joost_schouppe: Ik ga het eens bekijken. Er zullen wel wat pakketjes zijn die je kan gebruiken, maar voor de rest vrees ik dat je dan wel rap in maatwerk terecht komt. Wel open source, maar niet gratis
+Wed, Jan 20, 2021, 21:40:09 - stijn_claes: Zou best kunnen... Bedrijven als Nazka Mapps gebruiken vermoedelijk wel redelijk wat open-source toepassingen voor hun kaarttoepassingen...
+Ik zou dit misschien best niet luidop zeggen, maar de tools in ArcGIS Online zijn best wel interessant voor de eenvoudigere zaken (er zijn uiteraard ook beperkingen, maar toch...) die er toch al goed uitzien. De typische GIS-leveranciers bij gemeenten blijven daar toch ook wel wat achter... 
+Wed, Jan 20, 2021, 22:26:19 - joost_schouppe: Ik heb bij 't Stad nog mee het geo open data platform (grotendeels out of the box pure esri software) op poten gezet - yep, daar zit echt wel goeie en handige software bij. Zeker als je "gewone mensen" eraan wil kunnen laten sleutelen, of net in heel grote organisaties super handig 
+Wed, Jan 20, 2021, 22:26:35 - joost_schouppe: Maar hun geolokketjes word ik zelf niet echt wild van
+Thu, Jan 21, 2021, 09:22:50 - stijn_claes: Hoe wordt die datum van 26/2 wereldkundig gemaakt bij het doelpubliek (zijnde de GISsers van de lokale besturen)? Ik kan op het Slack-platform een aankondiging doen, maar moeten ze zich ergens registreren. Wordt er al een video-link ter beschikking gesteld?
+Thu, Jan 21, 2021, 09:23:28 - joost_schouppe: oh, het slack platform?
+Thu, Jan 21, 2021, 09:23:55 - joost_schouppe: ik neem aan dat Ward de uitnodigingen gaat versturen, aangezien het gekoppeld is aan de volgende vvsg-gis werkgroep
+Thu, Jan 21, 2021, 09:24:30 - stijn_claes: Slack-platform = forum voor de VVSG-GISsers
+Thu, Jan 21, 2021, 09:24:52 - stijn_claes: ok, het is dus in afstemming met Ward, prima!
+Thu, Jan 21, 2021, 09:26:01 - joost_schouppe: is dat een beetje een levendig ding? Want anders zouden we misschien beter daar een OSM groepje maken, eerder dan hopen dat ze nara hier komen
+Thu, Jan 21, 2021, 09:26:23 - joost_schouppe: (ik had nog niets opgevangen - of toch onthouden, haha - over een vvsg-gis chatruimte)
+Thu, Jan 21, 2021, 09:27:02 - stijn_claes: Zus en zo, maar is eigenlijk enkel bedoeld voor VVSG-GISsers (Ward beheert toegang)
+Thu, Jan 21, 2021, 09:28:05 - joost_schouppe: ja ok, ik begrijp het - voor openknowledge hebben we ook een slack. Daar is de architectuur dat de "gewone ruimte" min of meer open is voor iedereen, maar de "belangrijke ruimten" extra toegangsrechten vragen. Dan kan je wel "vreemden" toelaten
+Thu, Jan 21, 2021, 09:28:17 - Thibaultmol: Had dat ook voorgesteld op een van de vorige osm Belgium meetings: Bridge met speciale room in die slack
+Thu, Jan 21, 2021, 09:28:57 - stijn_claes: Dat kan wel aan Ward voorgesteld worden als meer volk zo bereikt kan worden
+Thu, Jan 21, 2021, 10:18:55 - Thibaultmol: Leek me logisch omdat GIS mensen dan rechtstreekse lijn hebben met de osm community om vragen te stellen
+Thu, Jan 21, 2021, 10:19:23 - Thibaultmol: en aangezien Matrix (chat systeem die osmbe gebruikt) ingebouwde bridge mogelijkheden heeft voor onderandere slack lijkt het me perfect mogelijk
+Thu, Jan 21, 2021, 11:37:35 - stijn_claes: Ik ben daar zelf niet in thuis maar wil dat zeggen dat zij via het -voor hun vertrouwde- Slack-platform berichten kunnen plaatsen en dat deze automatisch via die bridge in Matrix terechtkomen, en andersom (voor de berichten van de OSM-community die niet VVSG-GIS zijn)?
+Thu, Jan 21, 2021, 16:43:24 - Thibaultmol: inderdaad!
+Thu, Jan 21, 2021, 16:46:18 - joost_schouppe: in theorie! :D
+Mon, Feb 15, 2021, 17:29:43 - ⊙ changed their profile picture
+Fri, Feb 26, 2021, 15:01:37 - joost_schouppe: that was fun
+Fri, Feb 26, 2021, 15:01:50 - joost_schouppe: nota's van de meeting vandaga: https://hackmd.io/vribOk86Q3y02TPbftQOrA?view
+Fri, Feb 26, 2021, 16:07:14 - stijn_claes: Ter info: op het VVSG-GIS slackplatform werd ondertussen:
+- door Wouter Verhelst een vraag gesteld naar interessante "thema's" voor een volgende sessie rond MapComplete waarbij een thema echt uitgebouwd wordt
+- door mijzelf een vraag gesteld naar interesse (buiten bovenstaande verdiepingssessie over MapComplete) in andere toelichtingen vanuit de OSM-community (zie lijstje in HackMD document).
+Wouter en ik zullen jullie op de hoogte houden.
+Fri, Feb 26, 2021, 17:34:31 - joost_schouppe: Perfect
+Fri, Feb 26, 2021, 17:35:24 - joost_schouppe: Voor de meerwaardezoeker kan je misschien ook onze sessie op open belgium vermelden 
+Fri, Feb 26, 2021, 18:31:16 - stijn_claes: Done ;-)
+Fri, Feb 26, 2021, 18:32:39 - stijn_claes: Kan je eigenlijk meer details van de sessies zien op de website https://2021.openbelgium.be/ of ligt het aan mij dat ik precies nergens kan doorklikken?
+Fri, Feb 26, 2021, 18:33:39 - joost_schouppe: Ik word niet wild van die site :) 
+Fri, Feb 26, 2021, 18:33:55 - joost_schouppe: Ik geloof dat op het inschrijfformulier nog het meeste info staat
+Fri, Feb 26, 2021, 18:34:58 - stijn_claes: <@joost_schouppe:matrix.org "Ik word niet wild van die site :..."> Dan zijn we met twee :-)
+Thu, Mar 4, 2021, 21:18:47 - joost_schouppe: stijn_claes: ik heb me laten influisteren dat afvalcontainers en dergelijke populair zijn in de werkgroep als thema voor mapcomplete
+Thu, Mar 4, 2021, 21:19:26 - joost_schouppe: we hebben iets geregeld opdat jullie ook zonder ervaren account de themebuilder kunnen gebruiken
+Thu, Mar 4, 2021, 21:19:46 - joost_schouppe: ik wil nog wel eens een uurtje met een of twee mensen jullie op weg zetten
+Thu, Mar 4, 2021, 21:21:26 - stijn_claes: vuilbakken, glasbollen, textielcontainers, ... ook wel elektrische laadpalen en picknicktafels
+Thu, Mar 4, 2021, 21:21:56 - joost_schouppe: picknicktafels is al in orde; alleh, grotendeels
+Thu, Mar 4, 2021, 21:22:08 - stijn_claes: en dan ook nog wat suggesties voor lijn- of vlakvormige elementen, maar daarvoor is MapComplete toch minder geschikt (allez wat geometrie betreft toch)
+Thu, Mar 4, 2021, 21:23:30 - joost_schouppe: awel, ttz, op de wiki van mapcomplete staat er juist een user-versie voor wandelnetwerken. Vooral om aan te geven "ik heb gecontroleerd en het is nog juist" en eventueel om on the road de nummers toe te voegen
+Thu, Mar 4, 2021, 21:24:57 - stijn_claes: <@joost_schouppe:matrix.org "we hebben iets geregeld opdat ju..."> was het 500 map changes of 500 changesets?
+Thu, Mar 4, 2021, 21:25:56 - joost_schouppe: changesets
+Thu, Mar 4, 2021, 21:26:09 - stijn_claes: oei, daar kom ik ook nog niet aan...
+Thu, Mar 4, 2021, 21:26:37 - joost_schouppe: nah, geen probleem dus. pieter heeft een "staging" omgeving opgezet waar het zonder changeset counter is
+Thu, Mar 4, 2021, 21:26:40 - stijn_claes: en sta op plaats 39 in Belgie 😀
+Thu, Mar 4, 2021, 21:27:31 - joost_schouppe: Da's maar net onder mijn:D
+Thu, Mar 4, 2021, 21:28:43 - stijn_claes: fitnesstoestellen in open lucht is ook een suggestie, maar vuilbakken, glasbollen of textielcontainers (of dergelijk recipiënt in het algemeen) is misschien wel een goede use case. Het is waarschijnlijk wel overdreven om dit uit te werken samen met die hele hoop die de webinar over MapComplete heeft uitgewerkt
+Thu, Mar 4, 2021, 21:29:01 - joost_schouppe: absoluut!
+Thu, Mar 4, 2021, 21:29:14 - joost_schouppe: ik zou liever met twee, max drie mensen werken
+Thu, Mar 4, 2021, 21:29:22 - joost_schouppe: die kunnen het dan verder uitdragen
+Thu, Mar 4, 2021, 21:29:32 - joost_schouppe: alleh, tenzij jullie mij af en toe in dienst nemen natuurlijk
+Thu, Mar 4, 2021, 21:31:46 - stijn_claes: probleem is dat VVSG voor zo'n zaken geen budgetten heeft, vermoed ik... ik stel voor dat we Ward vraag laten stellen om 2 of 3 GISsers die bereid zijn om 'opgeleid' te worden en de noden vanuit de gemeentelijke GIS-wereld voor zo'n gemakkelijke omgeving zo goed als mogelijk trachten af te vangen
+Thu, Mar 4, 2021, 21:34:44 - @thierry1030:matrix.org: <@stijn_claes:matrix.org "vuilbakken, glasbollen, textielc..."> stijn_claes: laadpalen zit er al in eh! https://pietervdvn.github.io/MapComplete/charging_stations?z=13&lat=51.06707&lon=3.728485
+Thu, Mar 4, 2021, 21:35:38 - @thierry1030:matrix.org: vanuit Toerisme VL en Stad Gent (Fietsambassade) is er de vraag gekomen om meer specifiek info te visualiseren rond "fietslaadpalen" en "fietswinkel/fietshandels" waar je je fiets kan opladen ...
+Thu, Mar 4, 2021, 21:36:08 - @thierry1030:matrix.org: pietervdvn: hierover trouwens nog nieuws gehad?
+Thu, Mar 4, 2021, 21:39:48 - joost_schouppe: <@stijn_claes:matrix.org "probleem is dat VVSG voor zo'n z..."> sounds good to me
+Thu, Mar 4, 2021, 21:40:27 - joost_schouppe: thierry1030: ik heb de helft van de laadpalen voor fietsers in brussel alvast gemapped: https://pietervdvn.github.io/MapComplete/charging_stations?z=12&lat=50.88386&lon=4.336166#node_8437882170
+Thu, Mar 4, 2021, 21:40:35 - joost_schouppe: (er zijn er twee voor zover ik weet)
+Thu, Mar 4, 2021, 21:47:10 - stijn_claes: joost_schouppe: ik heb de suggestie op het Slack-platform gedaan, even afwachten dus...
+Thu, Mar 4, 2021, 22:05:03 - Seppe: <@joost_schouppe:matrix.org "(er zijn er twee voor zover ik w..."> Even veel als in Aalter! https://pietervdvn.github.io/MapComplete/charging_stations?z=14&lat=51.09223&lon=3.451354
+Fri, Mar 5, 2021, 12:44:39 - Seppe: <@thierry1030:matrix.org "vanuit Toerisme VL en Stad Gent ..."> Een korte update voor wat toeristische organisaties betreft: deze ochtend heeft Toerisme Vlaanderen het voorstel gepitcht aan de provinciale toeristische organisaties (waar ik zelf dus deel van uitmaak). Voor POIs als laadpalen, zitbanken, speeltuinen, openbare toiletten e.d. (niet echt kritische data, weinig/geen kans dat vanuit Vlaanderen hiervoor initiatief genomen wordt) ziet men de opportuniteit wel om OSM hiervoor te gebruiken. Belangrijkste voorbehoud is hoe de verschillende organisaties dit gaan integreren in hun eigen (GIS-)processen.
+Fri, Mar 5, 2021, 12:45:28 - Seppe: Helaas geëindigd met een bummer: er werd besloten om er nog eens een maand of twee over te slapen ...
+Fri, Mar 5, 2021, 12:45:54 - @thierry1030:matrix.org: 😐️
+Fri, Mar 5, 2021, 12:46:22 - @thierry1030:matrix.org: en het toerisme vl die zelf naar ons stapt over die fietslaadpalen
+Fri, Mar 5, 2021, 12:46:33 - @thierry1030:matrix.org: begrijpe wie begrijpen kan
+Fri, Mar 5, 2021, 12:51:00 - Seppe: Vanuit Toerisme Vlaanderen is er wel enthousiasme, maar het moet er nog een beetje ingemasseerd worden bij de provincies. Ik versta wel dat men dit niet te bruusk wil doen.
+Ik denk dat er bij de VVSG en gemeenten eenzelfde dynamiek bestaat: OSM is nog onbekend (en soms ook een beetje (te) wild van karakter voor een doorsnee ambtenaar 😀 )en dan moet er eerst koudwatervrees overwonnen worden
+Fri, Mar 5, 2021, 12:51:46 - @thierry1030:matrix.org: I know, het klassieke verhaal ...
+Fri, Mar 5, 2021, 12:55:09 - Seppe: Ondertussen zou het wel al goed zijn om te kunnen antwoorden op een aantal praktische vragen, die wellicht ook voor de gemeenten erg interessant kunnen zijn. Heel concreet: medewerker heeft een GIS-project met daarin een aantal lagen (vanop de eigen GIS-server of binnengetrokken van andere organisaties met WFS). Ze willen in dat projectje ook een laag met zitbanken, een laag met laadpalen ... vanuit OSM dat telkens netjes geüpdatet wordt wanneer ze het project openen. Wat is hiervoor de gemakkelijkste manier volgens jullie?
+Fri, Mar 5, 2021, 12:55:55 - Seppe: Gemakkelijkste werkwijze voor mij tot nu toe: query in overpass turbo, exporteren als geojson en in QGIS slepen. Maar dat zijn dus nog twee stappen te veel :-)
+Fri, Mar 5, 2021, 12:56:10 - Seppe: Of stel ik deze vraag beter aan de ganse groep?
+Fri, Mar 5, 2021, 16:15:36 - joost_schouppe: Interprovinciaal GIS-project: maak een WFS server met OSM data :)
+Fri, Mar 5, 2021, 16:16:13 - joost_schouppe: ook: ESRI is alsmaar meer OSM-POI services aan het opzetten (en wie weet hebben ze inmiddels al begrepen dat we naast nodes ook ways en relations hebben daarvoor...)
+Fri, Mar 5, 2021, 16:30:41 - Seppe: <@joost_schouppe:matrix.org "Interprovinciaal GIS-project: ma..."> Ja, dat zou eigenlijk wel een toffe oplossing zijn.
+Fri, Mar 5, 2021, 16:31:12 - Seppe: Trouwens, we kregen dez morgen ook een presentatie vanuit Digitaal Vlaanderen over het Wegenregister, met veel liefde voor OSM en een zekere Joost :-)
+Fri, Mar 5, 2021, 16:31:24 - joost_schouppe: Die weer
+Fri, Mar 5, 2021, 16:31:37 - joost_schouppe: Van Tom Callens? 
+Fri, Mar 5, 2021, 16:32:02 - Seppe: Nee, Lies De Meulenaer
+Fri, Mar 5, 2021, 16:32:17 - Seppe: Ze zei dat ze zo snel mogelijk het feedbackmechanisme vanuit OSM naar Wegenregister zou willen opzetten
+Fri, Mar 5, 2021, 16:32:29 - joost_schouppe: ha ja, dara hebben we ook al mee gebabbeld. Fijn dat ze dat daar weer oppakken
+Fri, Mar 5, 2021, 16:32:39 - joost_schouppe: vorig gesprek was beetje stroef verlopen
+Fri, Mar 5, 2021, 16:33:07 - Seppe: Ze heeft zelfs uw gifke gebruikt, dus er moeten toch ook wat positieve vibes geweest zijn
+Fri, Mar 5, 2021, 16:34:27 - joost_schouppe: mja, 't was vooral uit een van de andere basisregisters dat de oorzaak van de strooefheid kwam :)
+Fri, Mar 5, 2021, 20:03:29 - stijn_claes: <@joost_schouppe:matrix.org "Interprovinciaal GIS-project: ma..."> Ik kan inderdaad ook alleen maar bevestigen dat lokale besturen dat zeker interessant zouden vinden indien er 'live' OSM-data in hun eigen GIS-omgeving (ArcGIS, QGIS, Geo-IT, Orbit, CEVI) kan stromen, m.a.w. zonder elke keer export te moeten doen, dus zo'n WFS-dienst zou zeker in dank afgenomen worden. Filtering langs server-zijde hierop zal mogelijk wel een issue zijn...
+Sun, Mar 14, 2021, 20:17:34 - @thierry1030:matrix.org: ter info: bericht/uitnodiging van 'Digitaal Vlaanderen':
+
+"Beste,
+
+We nodigen u graag uit om deel te nemen aan het traject om een OSLO-standaard te ontwikkelen voor het uitwisselen van informatie over fietsinfrastructuur. 
+
+ 
+
+Doel
+Het doel van dit traject is om de structuur van fietsinfrastructuurdata te standaardiseren in samenspraak met alle belanghebbenden. Dit zal het mogelijk maken om datastromen semantisch te verrijken, wat fietsinfrastructuurdata beter vindbaar en begrijpbaar zal maken, alsook beter combineerbaar met andere databronnen.
+
+Op basis van internationale standaarden bouwen we het vocabularium op. We brengen dit in lijn met de geldende Vlaamse regelgeving.
+
+ 
+
+Planning
+Voor dit traject plannen we een businesswerkgroep en vijf thematische werkgroepvergaderingen. U schrijft zich in door op de linken te klikken.
+
+Businesswerkgroep OSLO fietsinfrastructuur 25 maart 2021 van 9u tot 12u
+
+ 
+
+De agenda van deze businesswerkgroep ziet er als volgt uit:
+
+ 
+
+9u00: verwelkoming en overlopen agenda | DigitaalVlaanderen
+
+9u10: aanleiding traject en context | Departement Mobiliteit en Openbare Werken
+
+9u20: Open Standaarden voor Linkende Overheden (OSLO): proces en methode | Digitaal Vlaanderen
+
+9u30: Brainstormsessie
+
+11u30: Volgende stappen
+Tue, Mar 16, 2021, 19:59:33 - joost_schouppe: Any news over een volgende mapcomplete sessie? 
+Tue, Mar 16, 2021, 20:24:18 - stijn_claes: Ik heb de vraag aan Ward gesteld om evt. vrijdag op de volgende werkgroep te behandelen
+Mon, Mar 22, 2021, 11:44:23 - Sara Van de Velde joined the room
+Mon, Mar 22, 2021, 13:53:24 - joost_schouppe: Welkom Sara :)
+Mon, Mar 22, 2021, 13:53:52 - joost_schouppe: Stijn, Sara en mezelf gaan een MapComplete thema rond textiel, glas, papier en karton containers opzetten
+Sat, Mar 27, 2021, 17:25:24 - stijn_claes: Ik bedacht me net dat een MapComplete voor mindervalidenparkeerplaatsen (en bij uitbreiding andere 'speciale' parkeerplaatsen) ook wel een interessante use case zou zijn voor gemeenten, maar dan zou je binnen MapComplete idealiter vlakjes moeten kunnen tekenen...
+Sun, Mar 28, 2021, 12:10:44 - joost_schouppe: we hebben met OSMbe al contacten gehad met de mensen van OnWheels - een thema daar rond uitwerken zou inderdaad wel interessant zijn. Individuele plaatsen mappen kan sowieso wel met mapcomplete, of aanvullen hoeveel speciale plaatsen er zijn op bestaande parkings
+Sun, Mar 28, 2021, 21:12:23 - stijn_claes: <@joost_schouppe:matrix.org "we hebben met OSMbe al contacten..."> Individuele plaatsen mappen kan, maar toch alleen als node en niet als vlak? Ik geef persoonlijk de voorkeur aan grootschalige kartering...
+Sun, Mar 28, 2021, 21:20:09 - joost_schouppe: Je kan individuele parkeerplaatsen als vlak mappen. https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dparking_space
+Sun, Mar 28, 2021, 21:21:25 - joost_schouppe: Voor sommige topics denk ik ook dat het niet anders gaat kunnen dan de input van de MapComplete bijdragers te gebruiken als basis, en verder te verfijnen op desktop. Maar goed, Pieter blijft verder ontwikkelen, sommige dingen zullen misschien nog mogelijk worden
+Sun, Mar 28, 2021, 21:48:28 - stijn_claes: Ik weet dat je individuele parkeerplaatsen als vlak kan mappen, maar het kan -bij mijn weten- niet in MapComplete. Ik heb bijv. de neiging om een grotere parkeerplaats als één grote zone te mappen (amenity = parking) en enkel de "speciale" individuele parkeerplaatsen, zoals die van de mindervaliden, hierbinnen te mappen (amenity=parking_space). Ik begrijp natuurlijk ook wel dat het niet de bedoeling is om van MapComplete een volledig alternatief op id, JOSM... te maken. Je kan inderdaad wel via MapComplete de plaatsen 'detecteren' en ze vervolgens uittekenen als vlakken in id of JOSM.
+Sun, Mar 28, 2021, 21:56:05 - joost_schouppe: Sorry, had je verkeerd gelezen. Maar effectief, ziet dat niet direct gebeuren binnen mapcomplete 
+Mon, Mar 29, 2021, 12:04:58 - Thibaultmol: <@stijn_claes:matrix.org "Ik weet dat je individuele parke..."> Met JOSM valt het wel mee om rijen parkeerplaatsen snel te mappen individueel:
+Ik gebruik de Building tool (via plugin) om een rechthoek te tekenen.
+Dan de Terrace tool (denk ik) (ook via een plugin) om die rechthoek onder te verdelen in de juiste hoeveelheid hokjes. Dan selecteer je alle vlakken (niet de punten uiteraard) en zet je de juiste tags
+Mon, Mar 29, 2021, 17:19:46 - pietervdvn: <@stijn_claes:matrix.org "Ik bedacht me net dat een MapCom..."> Vakjes intekenen zal _nooit_ mogelijk zijn met MapComplete - want dan moet je alle geometrie kunnen tonen en aanpassen, en dan heb je een tweede iD-editor gemaakt. Dit is een expliciet non-goal van MapComplete
+Thu, Apr 1, 2021, 16:09:53 - joost_schouppe invited michelstuyts
+Fri, Apr 2, 2021, 08:41:43 - Michel Stuyts joined the room
+Mon, Apr 5, 2021, 21:54:48 - stijn_claes: Mag ik uit het feit dat Michel hier ook toegetreden is concluderen dat hij ook zal deelnemen aan de verdieping in MapComplete? joost_schouppe kom jij met een paar datumvoorstellen?
+Wed, Apr 7, 2021, 13:37:45 - joost_schouppe: yes, Michel bleek ook geïnteresseerd!
+Wed, Apr 7, 2021, 13:38:23 - joost_schouppe: ik denk dat we best pas na de paasvakantie proberen zeker?
+Wed, Apr 7, 2021, 13:39:13 - joost_schouppe: er zijn eigenlijk twee heel verschillende topics:
+- opstellen van een datamodel
+- programmeren van de tool zelf
+Wed, Apr 7, 2021, 13:40:19 - joost_schouppe: ofwel doen we twee uur, en dan de twee dingen tegelijk, ofwel splitsen we dat in twee keer. Dan kan ik jullie eerst qua datamodel-denken op weg zetten; maken we al een ruw model; en kunnen jullie even met de achterban overleggen of dat breed genoeg gaat
+Wed, Apr 7, 2021, 13:41:42 - stijn_claes: best inderdaad ergens in de weken na de paasvakantie... voorstel om eerst rond data-model te denken lijkt me ok (hoewel ik me wel kan voorstellen dat we daar ook wat kijken naar het huidige datamodel in OSM)
+Wed, Apr 7, 2021, 13:43:02 - joost_schouppe: ja, tuurlijk - maar bijna elke keer wil je het toch een beetje uitbreiden als je met een MapComplete thema bezig bent. Zelfs als dat niet het geval is, vraagt het wat zoekwerk om te zien wat de tags zijn die horen bij wat je wil weten
+Wed, Apr 7, 2021, 13:43:49 - joost_schouppe: Op dit moment, in de week van de 19de voor mij mogelijk: ma heel de dag, dinsdag voormiddag, woensdag namiddag, vrijdag heel de dag
+Wed, Apr 7, 2021, 13:45:08 - stijn_claes: Ik weet niet of Sara en Michel hier vaak komen kijken, misschien beter mogelijke momenten tijdens eerste 2 weken na paasvakantie op mail zetten?
+Wed, Apr 7, 2021, 13:47:02 - joost_schouppe: sure
+Wed, Apr 7, 2021, 13:47:12 - joost_schouppe: kan jij er al schrappen van die eerste reeks?
+Wed, Apr 7, 2021, 13:47:38 - joost_schouppe: in de week van de 26ste: ma, di vm, woe, vr
+Wed, Apr 7, 2021, 13:48:54 - stijn_claes: 1e week: maandag en vrijdag liever niet, rest kan
+2e week: dinsdag, woe-vm en vrijdag-vm niet, rest kan
+Wed, Apr 7, 2021, 13:49:07 - joost_schouppe: mail upcoming
+Wed, Apr 7, 2021, 14:16:10 - Sara Van de Velde: <@stijn_claes:matrix.org "Ik weet niet of Sara en Michel h..."> Mail was inderdaad efficiënter 🤣
+Wed, Apr 7, 2021, 14:23:57 - stijn_claes: 🤣 er zijn zoveel kanalen te "controleren" :-) en mail is er altijd één van... hopelijk reageert Michel ook nog snel en dan is de datum alvast in kannen en kruiken
+Wed, Apr 7, 2021, 14:27:01 - joost_schouppe: ik zal gewoon de twee momenten inboeken, desnoods annuleren we dan een van de twee
+Thu, Apr 15, 2021, 09:06:31 - Michel Stuyts: Ik heb wat verlof gehad, daarom dat ik nog niet reageerde.  Beide voorgestelde data (20/4 VM en 26/4 VM) kunnen voor mij.
+Thu, Apr 15, 2021, 09:08:57 - joost_schouppe: Geen probleem Michel, ik ging daar wat van uit. In de hoop dat een van de momenten zou passen. Ik zal de eerste op definitief zetten en de tweede nog effe laten staan
+Thu, Apr 15, 2021, 13:54:01 - Michel Stuyts set a profile picture
+Tue, Apr 20, 2021, 11:04:21 - joost_schouppe: Nota's van de sessie rond MapComplete (datamodelling nu) https://hackmd.io/KVTLvVvWRVK9LXsjRHuW9A?view
+Wed, Apr 21, 2021, 13:57:01 - Michel Stuyts: In die nota's spreek je over het gebruik van URL parameters, maar als ik bijvoorbeeld &test=true aan de url toevoeg, verdwijnt die na één of twee keer klikken of zoomen uit de url.  Hoe kan ik testen zonder echt OSM te bewerken? Of is dat alleen bij het gebruik van externe userlayouts?
+Wed, Apr 21, 2021, 13:58:51 - joost_schouppe sent an image. (Media omitted)
+Wed, Apr 21, 2021, 13:59:32 - Michel Stuyts: ok, dus ook al is dat weg uit de url, ik kan gewoon testen.
+Wed, Apr 21, 2021, 14:00:22 - joost_schouppe: zolang die "testing" daar staat, ja
+Fri, Apr 23, 2021, 09:09:31 - Michel Stuyts: Ik weet ondertussen wat ik mis deed. Ik schreef die &test=true achter https://mapcomplete.osm.be/cyclofix?#welcome, maar die moet natuurlijk voor die # komen.
+Mon, Apr 26, 2021, 13:04:56 - Michel Stuyts: joost_schouppe: zou 
+Mon, Apr 26, 2021, 13:05:44 - Michel Stuyts: zou je die overpass query die je vanmorgen gebruikt  hebt met die gecombineerde kleding en glascontainers kunnen delen?
+Mon, Apr 26, 2021, 13:06:28 - joost_schouppe: zie https://hackmd.io/KVTLvVvWRVK9LXsjRHuW9A?view#Datakwaliteit
+Mon, Apr 26, 2021, 13:07:03 - Michel Stuyts: bedankt
+Mon, Apr 26, 2021, 21:23:21 - stijn_claes: Moet die recycling:glass_bottles:count = 1 ook toegepast worden op glasbollen die slechts 1 kleur accepteren (blijkt in Limburg nog wel wat het geval te zijn)?
+Mon, Apr 26, 2021, 21:25:51 - joost_schouppe: Goh, eerder niet zou ik zeggen. 
+Mon, Apr 26, 2021, 21:32:41 - stijn_claes: Ok
+Mon, Apr 26, 2021, 21:33:24 - stijn_claes: Ik merk trouwens dat id-editor wel denkt dat recycling:glass_bottles:colour ook een fractie is
+Mon, Apr 26, 2021, 21:33:52 - stijn_claes: ik vroeg me nu ook af of we eigenlijk niet beter 'coloured' gebruiken ipv 'green' (hoewel de bollen groen zijn)
+Mon, Apr 26, 2021, 21:34:25 - stijn_claes: een bruine fles mag immers ook in de groene glasbol
+Mon, Apr 26, 2021, 21:34:49 - joost_schouppe: Groen is precies internationaal wel de kleur van dat soort containers. Check eens op taginfo, ik dacht niet dat er veel colored waren
+Mon, Apr 26, 2021, 21:37:26 - stijn_claes sent an image. (Media omitted)
+Mon, Apr 26, 2021, 21:37:39 - stijn_claes: Ofwel bedoelt men expliciet groen glas want bruin wordt ook vermeld
+Mon, Apr 26, 2021, 21:53:48 - joost_schouppe: Right, dat zou ook kunnen. 
+Mon, Apr 26, 2021, 21:56:55 - joost_schouppe: Kijk eens naar https://wiki.openstreetmap.org/wiki/Talk:Tag:amenity%3Drecycling#Glass_colour_.3F 
+Mon, Apr 26, 2021, 21:59:46 - joost_schouppe: Interessant om eens te kijken wat die openrecyclemap.org precies doet
+Mon, Apr 26, 2021, 22:00:21 - joost_schouppe: > Kraków in Poland had color specific container recycling for glass, though "white only" and "coloured" glass containers were always paired anyway, so such values were never necessary. 
+Mon, Apr 26, 2021, 22:01:26 - joost_schouppe: Ook wel grappig. Heb je vaak: "dit is de lokale default, dus dat moeten we niet mappen" 
+Mon, Apr 26, 2021, 22:05:50 - joost_schouppe: Maar inderdaad, lijkt erop dat ze letterlijk de kleuren van het toegelaten glas mappen
+Tue, Apr 27, 2021, 08:44:50 - stijn_claes: En om het moeilijk te maken, heb ik nu ook nog een vermelding 'shoes' voor een kledijcontainer gevonden 🤦‍♂️
+Tue, Apr 27, 2021, 08:50:47 - joost_schouppe: We gaan iets moeten doen met "andere containers" (op basis van regex op de key als dat kan), dan kunnen we dat soort rare gevallen daar in duwen
+Tue, Apr 27, 2021, 08:53:48 - stijn_claes: Er stond in dit geval ook gelukkig 'clothes' bij en eigenlijk is het wel juist want in de meeste textielcontainers (= eigenlijk het betere woord) kan je ook schoenen kwij
+Tue, Apr 27, 2021, 08:53:49 - stijn_claes: kwijt
+Tue, Apr 27, 2021, 08:55:30 - joost_schouppe: Als het de meeste is maar niet allemaal, dan is het op zich wel zinvol om het mee te nemen. Ik zou geneigd zijn om clothes als allesomvattend te beschouwen, en shoes enkel aan te duiden als no wanneer ze expliciet niet mogen. 
+Tue, Apr 27, 2021, 08:59:02 - Thibaultmol: Nog een interessante die weinig gebruikt wordt waar ik net aan dacht en blijkbaar bestaat er al een tag voor: `recycling:plastic_bottle_tops=yes`
+Tue, Apr 27, 2021, 08:59:26 - Thibaultmol: (voor van die tonnen waar bepaalde winkels plastic dopjes verzamelen (voor een goed doel of zo, dacht ik))
+Tue, Apr 27, 2021, 09:17:52 - joost_schouppe: zitten die ook in amenity=recycling?
+Tue, Apr 27, 2021, 09:18:54 - Thibaultmol: yep. Ah ja moet inderdaad dat ook op die node zetten, whoops
+Tue, May 4, 2021, 11:11:14 - @thierry1030:matrix.org sent an image. (Media omitted)
+Tue, May 4, 2021, 11:11:19 - @thierry1030:matrix.org: haha
+Tue, May 4, 2021, 11:35:30 - Seppe: Die eerste twee to do's zullen misschien veel werk en overtuigingskracht kosten, maar ik zie geen a priori reden waarom dit niet zou lukken. Die laatste intrigeert me wel, heel erg benieuwd naar wat daar de ambitie is (en welke impact dit zal hebben op overheden die OSM gebruiken voor bepaalde doeleinden)
+Tue, May 4, 2021, 12:06:01 - stijn_claes: Dit is ook een frustratie bij vele gemeenten. Rond het wegenregister is al zo veel beloofd, maar weinig gerealiseerd, zeker wat decentraal beheer door gemeenten betreft. Vorige week heeft GIS-coordinator van Deinze nog oproep gedaan om standpunt hieromtrent vanuit de gemeenten op te stellen en dit aan Digitaal Vlaanderen over te maken.
+Fri, May 14, 2021, 10:45:58 - joost_schouppe: Net met mensen van stad Brugge gebeld. Ze gaan de AEDs mappen met mapcomplete. Maar nogal wat uitbreiding aan het thema nodig. Iemand zin om dat snel mee te doen? Ik probeer er dit weekend al aan te beginnen
+Fri, May 14, 2021, 12:12:01 - stijn_claes: Zou dat beeld normaal al niet redelijk volledig moeten zijn gelet op alle moeite die @philippec hier al heeft ingestoken?
+Fri, May 14, 2021, 13:30:41 - joost_schouppe: Neen. In Brugge 30 in OSM, en 100 in hun dataset
+Fri, May 14, 2021, 13:31:02 - joost_schouppe: En de mapcomplete voor AEDs is nog veel te beperkt qua vragen 
+Fri, May 14, 2021, 20:57:23 - stijn_claes: Ik zou zeggen: ik help mee, maar ik ben zelfs niet meer aan die MapComplete van de containers gekomen. Ik weet niet of Michel Stuyts of Sara Van de Velde hier nog mee aan de slag zijn kunnen gaan?
+Sat, May 15, 2021, 13:04:31 - pietervdvn changed their profile picture
+Mon, May 17, 2021, 21:01:03 - claudiadepus joined the room
+Tue, May 18, 2021, 15:19:13 - Sara Van de Velde: <@stijn_claes:matrix.org "Ik zou zeggen: ik help mee, maar..."> Nee hier ook nog bijkomende vorderingen gemaakt voor MapComplete, maar ik was wel van plan om er deze week eens naar te kijken.
+Tue, May 18, 2021, 16:02:39 - joost_schouppe: Pieter heeft nu wel echt iets prachtig gedaan met de AEDs, misschien kunnen we dat eens laten zien aan de rest?
+Tue, May 18, 2021, 16:02:49 - joost_schouppe: check https://hackmd.io/fSLvEAv2Q3CRhaRihgOOgA?view
+Tue, May 18, 2021, 16:24:32 - stijn_claes: Als ik het goed begrijp, heeft Pieter de bestaande dataset van Brugge als bijkomende laag toegevoegd (kleur bolletjes is mij niet volledig duidelijk). Correct?
+Tue, May 18, 2021, 16:24:55 - joost_schouppe: correct - de kleur is rood als er geen OSM-vriendje in de buurt is
+Tue, May 18, 2021, 16:25:19 - joost_schouppe: het huidige kaartbeeld illustreert ook het typische probleem met dat soort data: alle datasets zijn onvolledig
+Tue, May 18, 2021, 16:27:34 - stijn_claes: vandaar dat het een ideaal scenario zou zijn waarin een lokaal bestuur zijn/haar gegevens kan bijhouden in zijn eigen gemeentelijk GIS of in QGIS (samen met alle andere lagen) met een soort bewerkbare WFS die ook automatisch bijwerkingen doorstuurt naar OSM
+Tue, May 18, 2021, 16:28:32 - joost_schouppe: en omgekeerd
+Tue, May 18, 2021, 16:30:42 - joost_schouppe: ik zou precies beginnen met de cases waar je OSM als gedeelde databank kunt gebruiken. Dat hebben we nu zo ongeveer onder controle. Uitbreiding naar dat ideal scenario gaat een beetje meer geld kosten :)
+Fri, May 21, 2021, 09:18:54 - Sara Van de Velde: Ik heb eens de kledingcontainers van naderbij bekeken. Een aantal hebben als tag recycling:shoes=yes, terwijl ze ook recycling:clothes=yes hebben. Deze laatste impliceert eigenlijk ook dat er shoes in de container mogen. Mogen deze objecten dan aangepast worden? Ik ben ook recycling:curtains=yes tegengekomen. Volgens mij is dat geen officiële tag bij recycling. Moeten deze dan ook gecorrigeerd worden?
+Fri, May 21, 2021, 10:42:40 - s8evq: Mogen schoenen niet in de container?
+Fri, May 21, 2021, 10:42:48 - s8evq: Dan mag je die tag inderdaad verwijderen.
+Fri, May 21, 2021, 10:43:37 - s8evq: Anders kan een object wel meerdere tags hebben:
+`recycling:curtains=yes`
+`recycling:shoes=yes` 
+`recycling:clothes=yes`
+Fri, May 21, 2021, 11:11:57 - joost_schouppe: Ik denk dat het punt is dat clothes impliceert shoes. En dat dus enkel shoes=no zinvol zou zijn, on de zeldzame gevallen dat je geen schoenen in een kledingcontainer mag gooien
+Fri, May 21, 2021, 11:13:32 - joost_schouppe: Als mijn redenering klopt, zou mijn conclusie zijn dat je zelf geen shoes=yes hoeft toe te voegen. Ik wis soms expliciet gemapte defaults (zoals access=yes op een gewone weg zetten), maar in dit geval lijkt het me niet echt nodig dat te wissen
+Fri, May 21, 2021, 11:15:04 - joost_schouppe: "officieel" is een relatief begrip. Als het voorkomt dat dit op de container expliciet aangeduid staat (dat je er gordijnen in mag gooien), dan lijkt me dat wel ok om toe te voegen
+Thu, May 27, 2021, 08:56:19 - Michel Stuyts: <@stijn_claes:matrix.org "Ik zou zeggen: ik help mee, maar..."> Ik heb er de dagen na ons overleg nog een beetje aan gewerkt.  Ik heb een repository aangemaakt op Gitlab voor mijn bestanden ( https://gitlab.com/GIS-projects/mapcomplete-projecten/ ). Ik heb o.a. een aantal icoontjes in svg-formaat gemaakt voor de verschillende types containers. Nadien is het er niet meer zo van gekomen om er aan verder te werken. Ik hoop er deze of volgende week aan verder te kunnen werken.
+Thu, May 27, 2021, 09:11:13 - joost_schouppe: Sara heeft ondertussen ook een werkende versie, staat op osmbe/play
+Thu, May 27, 2021, 09:11:34 - joost_schouppe: Misschien moeten we nog eens afspreken en de versies vergelijken en beginnen samenvoegen? 
+Thu, May 27, 2021, 09:12:08 - Michel Stuyts: <@joost_schouppe:matrix.org "Sara heeft ondertussen ook een w..."> Mijn versie is nog ver van volledig.
+Thu, May 27, 2021, 09:13:50 - joost_schouppe: Maar zelfs dan misschien handig om nu al naar één versie te evolueren? Of doe je liever eerst nog wat verder voor de learning experience? 
+Thu, May 27, 2021, 09:14:23 - Michel Stuyts: <@joost_schouppe:matrix.org "Maar zelfs dan misschien handig ..."> Nee, ik wil gerust al samen verder denken
+Thu, May 27, 2021, 09:17:39 - joost_schouppe: Ok, ik zal een datum zoeken dan
+Thu, May 27, 2021, 09:18:15 - joost_schouppe: Heb jij toevallig tips om een grote wfs te downloaden? Ik heb de verkeersborden proberen afhalen, maar ik geraak er niet 
+Thu, May 27, 2021, 09:20:54 - Michel Stuyts: Loop je tegen de limiet die de wfs service toelaat?
+Thu, May 27, 2021, 09:21:55 - Michel Stuyts: Dikwijls hebben wfs'en een maximaal aantal objecten dat je per keer kan downloaden.
+Thu, May 27, 2021, 09:34:21 - joost_schouppe: Ik vermoed het. Ik had iets gevonden via de command line van gdal geloof ik, dat dat oplost met pagination. Maar ik ken dat niet en begreep niet wat er niet aan werkte
+Thu, May 27, 2021, 09:40:05 - joost_schouppe: Hierop had ik mij gebaseerd: https://gis.stackexchange.com/questions/147548/how-to-make-a-local-copy-of-a-large-wfs-dataset/181598#181598
+Thu, May 27, 2021, 09:42:58 - Michel Stuyts: Ik importeer WFS-gegevens altijd via ogr2ogr naar een PostGIS databank en voor bijvoorbeeld de gebouwen van het GRB in Edegem, loop ik tegen de limiet van de WFS. Ik los dat op door de gemeente in verschillende bounding boxes op te delen die elkaar een beetje overlappen.  Dan doe ik per bounding box een import van WFS naar Postgresql (https://stuyts.xyz/2018/04/12/kopieren-van-wfs-gegevens-naar-postgis-met-behulp-van-ogr2ogr-deel-2-ogr2ogr-gebruiken-in-een-batchbestand/).  Meestal hebben dat soort gegevens wel een uniek id per object, dus daarna haal ik de dubbels er uit op basis van die unieke id.
+
+Dus eerst importeer ik een reeks url's zoals:
+https://geoservices.informatievlaanderen.be/overdrachtdiensten/GRB/wfs?service=WFS&version=1.1.0&request=GetFeature&maxFeatures=25000&format_options=CHARSET:UTF-8&typeName=GRB:GBG&srsName=EPSG:31370&bbox=153000,203580,154000,207300&
+https://geoservices.informatievlaanderen.be/overdrachtdiensten/GRB/wfs?service=WFS&version=1.1.0&request=GetFeature&maxFeatures=25000&format_options=CHARSET:UTF-8&typeName=GRB:GBG&srsName=EPSG:31370&bbox=154000,203580,155000,207300&
+https://geoservices.informatievlaanderen.be/overdrachtdiensten/GRB/wfs?service=WFS&version=1.1.0&request=GetFeature&maxFeatures=25000&format_options=CHARSET:UTF-8&typeName=GRB:GBG&srsName=EPSG:31370&bbox=155000,203580,156000,207300&
+
+En daarna voer ik in PostgreSQL een query uit in de vorm: DELETE FROM grb.gbg WHERE ogc_fid IN (SELECT ogc_fid FROM (SELECT ogc_fid,ROW_NUMBER() OVER (partition BY geom, uidn,oidn,type,lbltype,opndatum ORDER BY ogc_fid) AS rnum  FROM grb.gbg) t WHERE t.rnum > 1);
+
+Misschien dat dat in SQLite ook wel kan.
+
+Thu, May 27, 2021, 09:44:37 - joost_schouppe: ok, merci! Ik wou net op basis van de hele verkeersbordendataset weten in welke gebieden de verkeersbordendataset in orde staat; toch eens zien of ik niet een dump kan krijgen dan
+Thu, May 27, 2021, 09:44:59 - Michel Stuyts: Dat zou inderdaad eenvoudiger zijn.
+Thu, May 27, 2021, 10:49:20 - joost_schouppe: wel, ik heb wat hulp gevraagd aan de bron. het is nu wel gelukt om alle "begin fietszone" borden af te halen: 
+Thu, May 27, 2021, 10:49:22 - joost_schouppe sent an image. (Media omitted)
+Thu, May 27, 2021, 10:49:48 - joost_schouppe: maar ondertussen krijg ik met exact hetzelfde commando enkel errors binnen :)
+Thu, May 27, 2021, 10:50:36 - joost_schouppe: hiermee kan ik dus iets als https://mapcomplete.osm.be/aed_brugge maar dan voor fietsstraten maken :)
+Thu, May 27, 2021, 12:00:57 - Michel Stuyts: Op die WFS van AWV zit blijkbaar een limiet van 50000 objecten.  Ik heb https://opendata.apps.mow.vlaanderen.be/opendata-geoserver/awv/wfs?service=WFS&version=1.0.0&request=GetFeature&format_options=CHARSET:UTF-8&typeName=awv:Verkeersborden.Vlaanderen_Borden&srsName=EPSG:31370 gedownload via mijn browser en dat bestand dan als GML in QGIS geopend en dat bleken er 50000 te zijn. Dus als je via die WFS gegevens download en het zijn er exact 50000, dan kan je er bijna zeker van zijn dat je niet alle gegevens hebt.
+
+Als je filtert via de url voor een bepaald soort borden, kan het zijn dat je minder objecten selecteert en dan is die 50000 geen probleem.
+Thu, May 27, 2021, 12:14:04 - joost_schouppe: bij mij stopt hij op willekeurige punten
+Thu, May 27, 2021, 12:14:18 - Michel Stuyts: In QGIS of in je browser?
+Thu, May 27, 2021, 12:14:23 - joost_schouppe: browser
+Thu, May 27, 2021, 12:15:47 - joost_schouppe: ik haal wel af als CSV (outputFormat=csv) , misschien dat als je dat niet specifieert, dat het dan vlotter gaat
+Thu, May 27, 2021, 12:19:02 - Michel Stuyts: Als je dat niet specifieert is het een GML/XML bestand. Dat zou in principe geen verschil mogen maken. Bij mij heeft die CSV ook exact 50000 rijen.
+Thu, May 27, 2021, 12:20:24 - Michel Stuyts: Het is wel een bevraging die even duurt. Soms zorgt een firewall of andere netwerkbeveiliging ervoor dat dat nog trager gaat en misschien zorgt dat voor een timeout.
+Thu, May 27, 2021, 12:47:37 - joost_schouppe: bizar hoor - dit werkte daarjuist https://opendata.apps.mow.vlaanderen.be/opendata-geoserver/awv/wfs?version=2.0.0&service=wfs&request=GetFeature&typeName=awv:Verkeersborden.Vlaanderen_Borden&outputFormat=csv&maxFeatures=25000&cql_filter=bordcode='ZF111'  en nu krijg ik heel de tijd errors
+Thu, May 27, 2021, 13:18:53 - Michel Stuyts: Dat geeft bij mij na tijdje te laden ook een fout.  Ik denk dat je die server kapot gemaakt hebt ;-)
+Thu, May 27, 2021, 13:20:41 - Michel Stuyts: Ik vermoed dat die server niet zwaar genoeg is voor de hoeveelheid data die die moet verwerken.
+Thu, May 27, 2021, 13:38:53 - joost_schouppe: Ik heb mij al zo vaak afgevraagd wat er mis is met een flatfile download service 
+Thu, May 27, 2021, 13:39:58 - stijn_claes: het feit dat je data onmiddellijk verouderd is?
+Thu, May 27, 2021, 13:45:19 - Michel Stuyts: Beide systemen hebben hun voordelen en het hangt vooral af van het beoogde gebruik.  In gevallen van een een gigantische databank, zoals bijvoorbeeld de verkeersborden, lijkt me een flatfile interessanter als je de gegevens van heel Vlaanderen wil gebruiken, maar een WFS kan interessant zijn als je een beperkt gebied nodig hebt.  
+
+Ik importeer zowel WFS services als flatfiles één maal per week in onze PostgreSQL databank met behulp van ogr2ogr. En een update van 1x per week is voor de meeste databronnen voldoende.  Er zijn er enkele die ik elke 24 uur update.
+Thu, May 27, 2021, 13:45:24 - joost_schouppe: Eh, weekly update? 
+Thu, May 27, 2021, 13:50:32 - Michel Stuyts: Het nadeel van een flatfile is dat je die meestal telkens opnieuw moet downloaden (ik doe dat met behulp van een batch script, wget en ogr2ogr), en dat je de link naar een WFS in QGIS kan behouden zodat de data altijd up-to-date is.  Als de flatfile een geojson bestand is dat ergens online staat (dus niet in een zip, maar wel zoals ik die bijvoorbeeld op https://gis-projects.gitlab.io/mapillary-opname-data/ heb staan), kan je die url ook als link inladen in QGIS en dan wordt de data opgehaald als je je QGIS project opent.
+Thu, May 27, 2021, 13:51:42 - joost_schouppe: Da's zo ongeveer wat ik zou willen doen voor die fietsstraten! Zoals hier: https://mapcomplete.osm.be/aed_brugge#welcome
+Thu, May 27, 2021, 13:51:59 - joost_schouppe: de "bolletjes" is een geojson die ergens geparkeerd staat
+Thu, May 27, 2021, 13:52:17 - joost_schouppe: dus ik dacht die verkeersborden ergens online te zwieren als geojson flatfile
+Thu, May 27, 2021, 13:52:34 - joost_schouppe: uiteraard dan op termijn moet dat geautomatiseerd te updaten zijn
+Thu, May 27, 2021, 13:53:49 - joost_schouppe: De discussie hier is trouwens typisch voor het onderscheid tussen data analisten en service providers (als ik het zo mag noemen) 
+Thu, May 27, 2021, 13:54:31 - joost_schouppe: Voor mij is performance op grote hoeveelheden data veel vaker belangrijk dan actualiteit
+Thu, May 27, 2021, 13:56:21 - Michel Stuyts: Omdat WFS services dikwijls niet zo performant zijn met grote hoeveelheden data, importeer ik de gegevens in PostGIS en gebruik de data vandaaruit.
+Thu, May 27, 2021, 13:57:22 - joost_schouppe: makes total sense. ik moet niet vaak hoog-recurrente processen opzetten, en heb daarom daar niet veel ervaring mee
+Thu, May 27, 2021, 16:34:01 - Sara Van de Velde: <@joost_schouppe:matrix.org "Sara heeft ondertussen ook een w..."> joost_schouppe: een werkende versie voor kledingcontainers, maar ook niet meer dan dat hoor. Ik zit nu in de knoop dat hij vraagt of WereldMissieHulp de eigenaar is van een glasbol 😅 (ik vermoed dat er ergens een if-test te kort is), en de count krijg ik ook niet goed.
+Thu, May 27, 2021, 16:59:28 - joost_schouppe: Waar staat je huidige versie nu? 
+Thu, May 27, 2021, 18:56:15 - joost_schouppe: <@michelstuyts:matrix.org "Dat geeft bij mij na tijdje te l..."> Ik dnek dat je gelijk hebt; nu werkt het wel :)
+Fri, May 28, 2021, 11:39:20 - doggy_daddy joined the room
+Fri, May 28, 2021, 15:56:39 - Sara Van de Velde: <@joost_schouppe:matrix.org "Waar staat je huidige versie nu?"> lokaal op mijn pc. Ik probeer hem dit weekend online te krijgen maar kan niets garanderen.
+Fri, May 28, 2021, 15:57:40 - joost_schouppe: je kan hem altijd hier plakken ook voor 't gemak: https://hackmd.io/KVTLvVvWRVK9LXsjRHuW9A?view#JSON
+Tue, Jun 8, 2021, 09:47:11 - Sara Van de Velde: <@joost_schouppe:matrix.org "je kan hem altijd hier plakken o..."> code staat er op
+Thu, Feb 17, 2022, 12:35:50 - joost_schouppe: Jaja, en toen was er een half jaar voorbij :)
+Thu, Feb 17, 2022, 12:36:04 - joost_schouppe: Er heeft iemand een thema rond ons thema uitgewerkt: https://pietervdvn.github.io/mc/waste-theme/waste.html?z=17&lat=50.73123&lon=4.241763&language=en
+Thu, Feb 17, 2022, 12:56:14 - joost_schouppe: (dit is nog een ontwikkelversie, voor de duidelijkheid --- die link niet verder verspreiden!)
+Thu, Feb 17, 2022, 16:05:20 - stijn_claes: Heeft Pieter verder gewerkt op de versie die er hier gestart werd? Het stond nog op mijn ToDo-lijstje maar helaas is het er nooit van gekomen...
+Thu, Feb 17, 2022, 16:08:43 - joost_schouppe: nee, het is Robin die uiteindelijk iets is beginnen maken, ik denk dat die zelfs niet van ons project wist
+Thu, Feb 17, 2022, 16:12:02 - stijn_claes: Ons project kan niet voor nog wat inspiratie zorgen? 🤔
+Thu, Feb 17, 2022, 16:15:37 - joost_schouppe: inspiratie genoeg waarschijnlijk :) - maar o zo weinig tijd. Er zijn wel een paar kleine dingen die we zouden kunnen voorstellen, en dan bij voorkeur zelf de keuze maken
+Tue, Mar 8, 2022, 13:55:59 - joost_schouppe: Ik zou naar aanleiding van de lancering van Pin je Punt (https://toerismevlaanderen.be/nl/pinjepunt) nog eens een status update op de VVSG-GIS willen geven. Wat melden we vanuit dit subgroepje? Eerst eens zien of we een pull request kunnen doen richting het nieuwe recycling thema? Of gewoon zeggen dat we het niet rond gekregen hebben?
+Thu, Mar 10, 2022, 10:43:16 - stijn_claes: Dat we het inderdaad niet snel hebben rond gekregen en dat er iemand ons voor was m.b.t. problematiek rond het thema van recycling... het staat echter nog altijd op mijn to do lijst maar helaas ergens achteraan
+Thu, Mar 10, 2022, 10:48:06 - joost_schouppe: ik denk dat dat op zich de conclusie is: we zouden wel kunnen, als het voldoende prioriteit krijgt - maar da's nu niet het geval
+Thu, Mar 10, 2022, 10:51:20 - stijn_claes: het jammere is wel dat in hetgeen we wel al opgebouwd hadden, wel al wat vragen opgenomen zaten die in deze Mapcomplete niet opgenomen zijn, bijv. over onderscheid tussen gekleurd en wit glas, het al dan niet gescheiden zijn... volgens mij zaten we er ook niet zo super ver vanaf...
+Thu, Mar 10, 2022, 10:52:52 - joost_schouppe: dat is een feit. Maar niets houdt ons tegen om een fork en een pull request te doen. Dat is veel minder werk dan onze draft helemaal af te werken denk ik
+Thu, Mar 10, 2022, 10:53:02 - joost_schouppe: Ik wil gerust eens samen daar in duiken
+Thu, Mar 10, 2022, 10:55:23 - stijn_claes: ik weet niet of Sara en Michel hier nog regelmatig komen kijken, momenteel ontbreekt het er mij ook wat de tijd voor (en zo wat Maprouletten of GRB importen 's avonds, daar kan ik me ook sneller aanzetten dan aan dit verhaal :-) )
+Thu, Mar 10, 2022, 10:56:28 - joost_schouppe: we zullen ze eens pingen Sara Van de Velde Michel Stuyts 
+Thu, Mar 10, 2022, 10:56:49 - joost_schouppe: (maar je kan zien aan hun "bolletje" dat Sara niet meer geweest is en Michel wel)
+Thu, Mar 17, 2022, 14:26:40 - Michel Stuyts: Ik kijk sporadisch wel eens naar Element, maar duidelijk niet dikwijls genoeg.
+Thu, Mar 17, 2022, 15:48:35 - joost_schouppe: :)
+Thu, Mar 17, 2022, 15:48:47 - joost_schouppe: en nu je weer mee bent, enige meningen? :)
+Thu, Mar 31, 2022, 18:57:05 - Thibaultmol: Michel Stuyts misschien in element email notificaties inschakelen 
+Thu, Mar 31, 2022, 18:57:21 - Thibaultmol: Zo krijg je een e-mail bij elke keer dat je @ vermeld wordt
+Mon, Apr 18, 2022, 13:11:39 - An exploring bot joined the room
+Mon, Apr 18, 2022, 13:11:40 - An exploring bot left the room
+Fri, Apr 29, 2022, 12:24:35 - @thierry1030:matrix.org removed their profile picture
+Fri, Apr 29, 2022, 12:24:43 - @thierry1030:matrix.org removed their display name (thierry1030)
+Fri, Apr 29, 2022, 12:24:50 - @thierry1030:matrix.org left the room
+Mon, May 2, 2022, 00:19:19 - An exploring bot joined the room
+Mon, May 2, 2022, 00:19:20 - An exploring bot left the room
+Thu, Jun 9, 2022, 08:45:31 - timcouwelier joined the room
+Mon, Jun 13, 2022, 11:28:43 - thibaultmol changed their display name to Thibaultmol
+Fri, Jun 24, 2022, 10:48:42 - better_sleeping joined the room
+Fri, Jun 24, 2022, 10:48:48 - better_sleeping left the room
+Tue, Oct 11, 2022, 06:05:08 - m_ruddy joined the room
+Tue, Oct 11, 2022, 06:05:08 - m_ruddy left the room
+Fri, Apr 14, 2023, 19:28:14 - Alex44 joined the room
+Fri, Apr 14, 2023, 19:28:20 - Alex44 left the room
+Sun, Apr 30, 2023, 12:40:44 - imlostlmao joined the room
+Sat, May 13, 2023, 12:15:02 - leohoo_sdu joined the room
+Sat, May 13, 2023, 12:15:03 - leohoo_sdu left the room
+Mon, May 15, 2023, 12:20:06 - ralph joined the room
+Sat, May 20, 2023, 23:51:48 - ralph left the room
+Fri, Jun 23, 2023, 14:27:32 - dima3000 joined the room
+Fri, Jun 23, 2023, 14:27:41 - dima3000 left the room
+Mon, Jul 24, 2023, 10:13:24 - midgard joined the room

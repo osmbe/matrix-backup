@@ -1,0 +1,1174 @@
+Wed, Jul 17, 2019, 21:38:24 - s8evq joined the room
+Wed, Jul 17, 2019, 21:38:32 - s8evq made the room invite only.
+Wed, Jul 17, 2019, 21:38:33 - s8evq made future room history visible to all room members.
+Wed, Jul 17, 2019, 21:38:33 - s8evq has allowed guests to join the room.
+Wed, Jul 17, 2019, 21:38:34 - s8evq changed the room name to OSMBE - Grote Routepaden.
+Wed, Jul 17, 2019, 21:39:33 - s8evq set the main address for this room to #osmbe-gr2:matrix.org.
+Wed, Jul 17, 2019, 21:39:41 - s8evq made the room public to whoever knows the link.
+Wed, Jul 17, 2019, 21:40:32 - s8evq invited Jakka_Frank
+Wed, Jul 17, 2019, 21:40:33 - s8evq invited joost_schouppe
+Wed, Jul 17, 2019, 21:40:40 - s8evq: Ik heb direct een nieuwe room gemaakt
+Wed, Jul 17, 2019, 21:41:23 - s8evq changed the power level of Jakka_Frank from Default to Admin.
+Wed, Jul 17, 2019, 21:41:39 - s8evq changed the power level of joost_schouppe from Default to Admin.
+Wed, Jul 17, 2019, 21:46:05 - s8evq: https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Long_Distance_Walking_Routes/Instructions_Flanders
+Wed, Jul 17, 2019, 21:46:36 - joost_schouppe joined the room
+Wed, Jul 17, 2019, 21:47:13 - @kurt:roeckx.be joined the room
+Wed, Jul 17, 2019, 21:48:01 - joost_schouppe: ondertussen zit koninklijke al in de andere :)
+Wed, Jul 17, 2019, 21:48:48 - Jakka_Frank joined the room
+Wed, Jul 17, 2019, 22:03:27 - s8evq: Inderdaad Jakke, er zit een gap in GR 131, als het over de markt van Diksmuide gaat.
+Wed, Jul 17, 2019, 22:04:17 - koninklijke joined the room
+Wed, Jul 17, 2019, 22:04:30 - Jakka_Frank: Ja had ik bemerkt maar kon niet direct een verbinding vinden, een logische is de kortste weg maar juist ?
+Wed, Jul 17, 2019, 22:05:43 - koninklijke: Kan er een verduidelijing komen welke -GR of GR2- de juiste is, en waar de GRB room te vinden? 
+Wed, Jul 17, 2019, 22:06:34 - s8evq: GR2 is een nieuwe, verse "room", met de andere was er een foutmelding ivm "alias" van de room
+Wed, Jul 17, 2019, 22:07:09 - joost_schouppe: kan je die eerste deleten? dan kunnen we hier wellicht de twee laten vallen
+Wed, Jul 17, 2019, 22:07:18 - joost_schouppe: de grb kamer is https://riot.im/app/#/room/#osmbe-grb:matrix.org
+Wed, Jul 17, 2019, 22:08:02 - koninklijke: Dank, post mijn eerste vraag hier nogmaals : Vandaag, aangespoord door Jakka's grote zomer kuis van notes, GR Dijlepad bij Haacht nader bekeken : op https://www.groteroutepaden.be/en/route/92/streek-gr-dijleland.html loopt dit ten noord-oosten van Haacht, op https://www.openstreetmap.org/relation/71268#map=13/50.9780/4.6297 ten zuid-westen : zou dit een goed forum zijn om dit onder de aandacht te brengen? 
+Wed, Jul 17, 2019, 22:08:53 - s8evq: Ja, we gaan dat eens bekijken. Maar de streek-GR's staan nog op de TODO lijst. Ik ging eerst alle gewone GR's aanpakken.
+Wed, Jul 17, 2019, 22:09:34 - s8evq: Joost, ik kan dat niet meer verwijderen
+Wed, Jul 17, 2019, 22:10:51 - @dmlu:matrix.org joined the room
+Wed, Jul 17, 2019, 22:11:00 - @dmlu:matrix.org left the room
+Wed, Jul 17, 2019, 22:18:08 - joost_schouppe: bizar
+Wed, Jul 17, 2019, 22:23:08 - @hopperpoposm:matrix.org joined the room
+Wed, Jul 17, 2019, 22:33:08 - s8evq: We gaan eens moeten kijken wat we doen met GR129. Die zit er momenteel in 3 verschillende relations, voor 3 stukken van het traject. Aangezien het over 1 GR gaat, met duidelijk start en eindpunt in Belgie zouden samengevoegd mogen worden, of niet?
+Wed, Jul 17, 2019, 22:34:15 - s8evq: Brugge Ronse: relation 204077
+Ronse - Dinant: relation 2521808
+Dinant - Arlon: relation 2459527
+Wed, Jul 17, 2019, 22:34:42 - joost_schouppe: Eventueel grens op gewest, om verschil in operator te kunnen behouden
+Wed, Jul 17, 2019, 22:35:00 - joost_schouppe: Je kan ze nog bundelen in een superrelatie
+Wed, Jul 17, 2019, 22:35:18 - s8evq: OK, makes sense.
+Wed, Jul 17, 2019, 23:04:14 - Jakka_Frank: wat doen we met rotondes die als volgt getoond worden http://umap.openstreetmap.fr/en/map/gr564_98501#18/50.67835/5.07960
+Wed, Jul 17, 2019, 23:13:41 - Jakka_Frank: idem http://umap.openstreetmap.fr/en/map/gr564_98501#19/50.53708/5.22293
+Wed, Jul 17, 2019, 23:18:20 - Jakka_Frank: s8evq: umap 564 afgewerkt zit met een gap http://umap.openstreetmap.fr/en/map/gr564_98501#17/50.74895/5.08489
+Thu, Jul 18, 2019, 08:25:53 - s8evq: Die twee ronde punten zou ik durven aanpassen in OSM. Dit lijkt me een fout binnen OSM.
+Thu, Jul 18, 2019, 08:34:11 - s8evq: Ik zal sebiet nog een paar umaps voorbereiden. (maar die zijn wat meer werk, met varianten etc...)
+Thu, Jul 18, 2019, 08:37:06 - s8evq: Ik heb het gevoel, dat we al die opmerkingen wel via email aan de routeverantwoordelijke kunnen doorgeven. Maar moesten we die persoonlijk zien in een klein overleg, zou dat wel veel sneller en duidelijker gaan...
+Thu, Jul 18, 2019, 08:37:21 - joost_schouppe: @s8evq:matrix.org: gebruikte jij nu een tool om die relaties in de gaten te houden eens ze OK zijn?
+Thu, Jul 18, 2019, 08:37:29 - joost_schouppe: anders hoor ik internationaal  eens rond wat de opties zijn
+Thu, Jul 18, 2019, 08:38:17 - s8evq: Ik heb een mini tool die gewoon kan kijken als er gaps zijn in de route in OSM.
+Thu, Jul 18, 2019, 08:38:46 - s8evq: Maar een tool die hun GPX en onze OSM versie kan vergelijken zou ideaal zijn. Dat kan ik niet programmeren, dat gaat mijn petje te boven :)
+Thu, Jul 18, 2019, 08:39:44 - joost_schouppe: en dat eerste, is dat iets dat je zelf gemaakt hebt dan?
+Thu, Jul 18, 2019, 08:44:49 - s8evq: Ja, dat is behoorlijk eenvoudig. Het is een script die een relation controleert via deze website: http://ra.osmsurround.org/analyzeRelation?relationId=8695186
+Thu, Jul 18, 2019, 08:46:13 - s8evq: Als er op komt "Great! This relation seems ok." gaat het script over naar de volgende. Zo heb ik een hele lijst met relaties van de wandelroutes van Westtoer dat ik zo opvolg. Dit script draai ik wekelijks. (in de 5 maanden dat ik dit doe, nog geen enkel nieuw probleem ontdekt)
+Thu, Jul 18, 2019, 08:49:01 - joost_schouppe: hmm, als je ook nog de totale lengte zou meenemen "Graph 1 (Length in KM: 4,056)", dan heb je nog een extra check. Als iemand de route inhoudelijk sterk heeft aangepast, merk je het dan ook
+Thu, Jul 18, 2019, 08:49:39 - s8evq: Aja, dat is een goed idee. Daar had ik nog niet aan gedacht.
+Thu, Jul 18, 2019, 08:49:41 - joost_schouppe: zou je dat scriptje op github willen zetten? dan kunnen we eens rondhoren wie er features bij wil zetten
+Thu, Jul 18, 2019, 08:49:58 - s8evq: Ja wil ik wel doen.
+Thu, Jul 18, 2019, 08:50:01 - joost_schouppe: wel een tof tooltje; zal het ooit wel al gezien hebben maar was het helemaal vergeten
+Thu, Jul 18, 2019, 08:50:41 - joost_schouppe: hoe zal ik de repository noemen?
+Thu, Jul 18, 2019, 08:50:57 - joost_schouppe: auto-relation-analyzer?
+Thu, Jul 18, 2019, 08:51:32 - joost_schouppe: heb je een Github account? dan geef ik je direct schrijfrechten?
+Thu, Jul 18, 2019, 08:55:40 - s8evq: keep_an_eye_on_route_relation was mijn uitgevonden naam.
+Thu, Jul 18, 2019, 08:56:02 - s8evq: Mijn github account is "hgcvm"
+Thu, Jul 18, 2019, 08:56:56 - joost_schouppe: okidoki
+Thu, Jul 18, 2019, 08:58:18 - joost_schouppe: je hebt nu admin rechten op https://github.com/osmbe/keep_an_eye_on_route_relation/
+Thu, Jul 18, 2019, 09:34:59 - Jakka_Frank: > Die twee ronde punten zou ik durven aanpassen in OSM. Dit lijkt me een fout binnen OSM.
+
+Gestart met die round abouts uit te rafelen. pech eentje erbij met bus relaties erover moet die ook  nog bijwerken.
+Thu, Jul 18, 2019, 09:35:47 - Jakka_Frank: Vraagje umap worden de OSM lijnen automatisch geupdate ?
+Thu, Jul 18, 2019, 09:36:23 - Jakka_Frank: na verwerken. ik teken dan wel de weg de GR voorstelt
+Thu, Jul 18, 2019, 10:02:52 - Jakka_Frank: s8evq: done. kan je misschien een kolom extra toevoegen waar aangeduid staat welke route/umap krt GR en OSM ready_to_check staat... https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Long_Distance_Walking_Routes/Instructions_Flanders
+Thu, Jul 18, 2019, 10:43:22 - s8evq: In umap zouden inderdaad de OSM lijnen automatisch moeten updaten.
+Thu, Jul 18, 2019, 10:43:33 - s8evq: Frank, de kolom is toegevoegd.
+Thu, Jul 18, 2019, 17:34:04 - Jakka_Frank: GR 561 overlopen namiddag zoetjes mee geweest.... ontbreken OSM relaties op meerdere stukken uitlopers. GR GPX van mindere kwaliteit? Bossen ? Toch eens snelle controle...
+Thu, Jul 18, 2019, 17:37:36 - Jakka_Frank: Zie dat er een nieuwe riot beschikbaar is kan zonder risico bijwerken klikken ?
+Thu, Jul 18, 2019, 19:16:16 - s8evq changed the topic to "https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Long_Distance_Walking_Routes/Instructions_Flanders".
+Thu, Jul 18, 2019, 19:17:40 - s8evq: Ik denk wel dat je veilig kunt updaten.
+Thu, Jul 18, 2019, 19:17:54 - s8evq: Viel het mee met de GR 561? Die zag er nogal complex uit.
+Thu, Jul 18, 2019, 19:22:38 - s8evq: Jakka_Frank: Ben jij nu nog de umap van GR 561 aan het bewerken?
+Thu, Jul 18, 2019, 19:24:54 - s8evq: Ik heb van GR 561 nu zonet de nieuwe GPX ingeladen. Er waren toch wel nog wat wijzigingen tov de GPX die er al in zat.
+Thu, Jul 18, 2019, 22:47:52 - Jakka_Frank: s8evq: 561 zal dan herbekeken moeten worden....
+Thu, Jul 18, 2019, 22:51:50 - Jakka_Frank: Bij het betreden van riot was deze nu automatisch bijgewerkt maar moest de nederlandse taal terug instellen... lijkt ok nu
+Fri, Jul 19, 2019, 12:54:42 - Jakka_Frank: s8evq: 561 terug verwerkt staan stukken op zonder OSM relaties. Wordrn die overgenomen van .....
+Fri, Jul 19, 2019, 14:02:51 - s8evq: Bedankt voor al het werk.
+Fri, Jul 19, 2019, 14:03:19 - s8evq: Ik heb ook gezien dat er tal van varianten niet in OSM zitten.
+Fri, Jul 19, 2019, 14:04:11 - s8evq: Steken we die er in op basis van de GPX, of wachten we tot een OSM mapper die gewandeld heeft?
+Fri, Jul 19, 2019, 14:04:23 - s8evq: joost_schouppe jouw advies?
+Fri, Jul 19, 2019, 14:10:48 - joost_schouppe: ik zou die wel mappen, maar in de wiki en als tag meegeven dat het puur op basis van de GPX is
+Fri, Jul 19, 2019, 14:11:33 - joost_schouppe: maar bijvoorbeeld escada zou daar wellicht iets anders over zeggen
+Fri, Jul 19, 2019, 15:23:49 - @kurt:roeckx.be left the room
+Sun, Jul 21, 2019, 00:47:20 - laufor joined the room
+Mon, Jul 22, 2019, 16:11:34 - s8evq: Ik heb zonet de aanlooproute Neerpelt voor de GR 561 er zo ingestoken. Ik heb een "fixme=Survey (mapped op basis van GPX van https://www.groteroutepaden.be/nl/route/71/gr-561-aanlooproute-neerpelt.html)" toegevoegd.
+Mon, Jul 22, 2019, 16:11:37 - s8evq: Op sommige plaatsen is die GPX echt wel "ruw".
+Mon, Jul 22, 2019, 16:16:25 - s8evq: Jakka_Frank: ivm Gr 561. Heb jij pinnen in die umap gezet bij problemen? Want ik zie die er niet in staan....
+Mon, Jul 22, 2019, 16:21:55 - joost_schouppe: probeer voor de zekerheid ook eens die te openen in een andere browser. Soms is de cache van umap heel koppig
+Mon, Jul 22, 2019, 17:31:29 - Jakka_Frank: Message deleted
+Mon, Jul 22, 2019, 17:32:47 - Jakka_Frank: Message deleted
+Mon, Jul 22, 2019, 17:33:52 - Jakka_Frank: Vermoed dat mijn editing niet uit stond ?
+Mon, Jul 22, 2019, 17:43:14 - Jakka_Frank: Vermoed dat alle umaps gedaan zijn zie overal blauwe note pins ?
+Mon, Jul 22, 2019, 18:11:43 - joost_schouppe: Denk dat alles gekopieerd is van de eerste, en dat daar effectief blauw gebruikt is
+Mon, Jul 22, 2019, 19:51:17 - s8evq: Ik zal in de loop van de komende dagen nog enkele andere umaps updaten.
+Mon, Jul 22, 2019, 22:24:01 - s8evq: Streek GR Dijleland umap up to date gezet.
+Mon, Jul 22, 2019, 22:24:22 - s8evq: Er moeten nog heel wat varianten, verbindingen en verkortingen in aparte relations gemapd worden.
+Mon, Jul 22, 2019, 22:27:07 - s8evq: Ik heb zonet gezien dat het ook handig is om hun trajectwijzigingen, die steeds op de pagina van de GR aangegeven staan, ook mee te controleren. Dit kan soms een verklaring bieden waarom de GPX afwijkt van OSM.....
+Mon, Jul 22, 2019, 22:30:43 - s8evq: Umap van GR 565 ook up to date. Ook nog een heel stuk te mappen op basis van de GPX
+Tue, Jul 23, 2019, 13:22:57 - s8evq: Umap van streek-GR Hageland up to date
+Tue, Jul 23, 2019, 13:33:36 - s8evq: <@koninklijke:matrix.org "Dank, post mijn eerste vraag hie..."> Dag koninklijke Dat is inderdaad een heel groot verschil. Mijn eerste idee is dat men in de loop van de jaren de officiele route gewijzigd heeft, en dat wij nog de oude versie in OSM hebben. Maar we nemen deze opmerking op, bundelen ze met andere vragen, en zullen die voorleggen aan de GR verantwoordelijken. Dit kan echter nog een tijdje duren voor we klaar zijn...
+Tue, Jul 23, 2019, 13:33:42 - s8evq: Iemand die weet wat we hier mee moeten aanvatten? https://www.openstreetmap.org/relation/5150605#map=12/50.8229/5.3447
+Tue, Jul 23, 2019, 13:34:57 - s8evq: Streek-GR Haspengouw relation bestaat uit tientallen relations met naamgevingen zoals "StreekGR Haspengouw 14-15" "StreekGR Haspengouw 1-16" ...?
+Tue, Jul 23, 2019, 13:37:22 - s8evq: Ik vraag het even aan de originele mapper eebie
+Tue, Jul 23, 2019, 13:48:49 - joost_schouppe: @s8evq:matrix.org: ik zou niet in één keer afkomen met duizend vragen, maar eerder route per route doen ofzo
+Tue, Jul 23, 2019, 13:49:05 - joost_schouppe: Als je wil, hou ik me daar al wat mee bezig
+Tue, Jul 23, 2019, 13:49:35 - s8evq: Ja, ik denk dat dat inderdaad beter is. Ik denk dat we kunnen starten met GR 130 of GR 131. Ik geef nog een seintje als we zover zijn.
+Tue, Jul 23, 2019, 14:33:54 - s8evq: Ik heb de instructies uitgeschreven, alsook een voorstel tot uniforme tagging toegevoegd:
+Tue, Jul 23, 2019, 14:33:54 - s8evq: https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Long_Distance_Walking_Routes/Instructions_Flanders
+Tue, Jul 23, 2019, 22:36:12 - s8evq: Wat is jullie mening: https://www.openstreetmap.org/note/1854526 en https://www.openstreetmap.org/note/1854528 Zou je dit pad durven verwijderen enkel en alleen op basis van Mapillary beelden?
+Tue, Jul 23, 2019, 22:38:36 - s8evq: Op de Skyview image layer is het pad wel nog te zien. Op de oude "10 cm" beelden ook nog duidelijk.
+Wed, Jul 24, 2019, 15:03:17 - Jakka_Frank: Skyview image layer heb ik niet, maar op gewone luchtbeelden staat er inderdaad iets de lijkt op veel gebruikt lijntje... Maar 100% zeker ook niet.
+Wed, Jul 24, 2019, 15:15:43 - s8evq: Skyview zit toch in JOSM, heb jij die niet?
+Wed, Jul 24, 2019, 15:45:53 - joost_schouppe: Je bedoelt die hillshade dinges?
+Wed, Jul 24, 2019, 18:52:38 - s8evq: ja inderdaad. Mijn JOSM staat wel in het engels, maar dit is het:
+Wed, Jul 24, 2019, 19:09:24 - s8evq: Hmm screenshot lukt niet.
+Thu, Jul 25, 2019, 08:01:02 - Jakka_Frank: Is er verschil in skyview en meest recente luchtbeelden ? gebruik ook de 10 cm om te vergelijken
+Thu, Jul 25, 2019, 08:06:33 - joost_schouppe: Jakka, het gaat over deze beelden: https://play.osm.be/historischekaart.html#11/51.0090/3.9228/AIVHillshadestrongFlanders-AIVHillshadesoftFlanders
+Thu, Jul 25, 2019, 08:46:27 - s8evq sent an image. (Media omitted)
+Thu, Jul 25, 2019, 14:55:08 - s8evq: joost_schouppe: De GR130 is klaar. De opmerkingen kunnen doorgestuurd worden. Eigenlijk zijn er niet zoveel. Ik heb gezien dat we met mapillary beelden heel veel zaken in OSM kunnen rechtzetten.
+Thu, Aug 1, 2019, 12:26:15 - koninklijke: Just wondering : would it be a good plan to lump discussions on cycle routes together with the walking routes?
+Fri, Aug 2, 2019, 01:51:48 - koninklijke: Added Brialmontroute Variante, turns out I've created two relations with same name, added some ways to the one, other ways to the other : applied Relation: Brialmontroute Variante (7660780) to the first part, and Relation: Brialmontroute Variante (7660787) to the second part : apart from "how on earth did I do that?" : how can one glue the two pieces together, please? Preferably in ID. 
+Fri, Aug 2, 2019, 07:58:38 - joost_schouppe: I don't think you can in ID. Unless you make a new relation with your two relations as the only members. But that's not really a good way of mapping it
+Fri, Aug 2, 2019, 09:06:59 - koninklijke: Resolved as follows : 1/ added suffix 80 and 87 to relation name respectively 2/ removed relation suffixed 80 2/ added relation suffixed 87, saved. Leaves question: need to remove the 'empty' relation 7660780, or is it omitted automagically? To test, drew a way, tried to add by name, was presented with new relation box: sorted?
+Fri, Aug 2, 2019, 09:12:47 - s8evq: koninklijke bedoel je de LF fietsroutes?  Ik veronderstel dat we daar ook de toestemming voor hebben?
+Fri, Aug 2, 2019, 09:49:02 - joost_schouppe: koninklijke is eerder een survey-mapper. Alleszins hebben we geen toestemming om de LF gpx'en te gebruiken
+Fri, Aug 2, 2019, 11:14:59 - koninklijke: Klopt, uit nieuwsgierigheid (waar men zoal langs zou komen) volgens pijltjes gefietst, na thuiskomst opgenomen GPS/.gpx vergeleken met bestaande Brialmontroute relatie op OSM, aangepast waar er afwijing was. Themaroute , uitgezet door Toerisme Provincie Antwerpen en Toerisme Vlaanderen : is dat een lcn of een rcn? 
+Mon, Aug 5, 2019, 19:42:27 - @spctrl:matrix.org joined the room
+Mon, Aug 5, 2019, 19:44:54 - @spctrl:matrix.org left the room
+Mon, Aug 5, 2019, 19:46:54 - koninklijke: Vandaag de twee Aanlooproutes en de lus Zurenborg van de Brialmontroute befietst volgens hoe relatie op OSM wordt getoond P: nergens de gekende zeskant bordjes, ook niet op punten waar deze aanloopr's op de eerder verkende Hoofdroute aansluiten : aantekening gemaakt op https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Cycle_Routes#Antwerpen, en betreffende relates daar met strikeout aangemerkt. Wa
+Mon, Aug 5, 2019, 19:48:03 - koninklijke: Hoe verder? Voorlopig laten staan, of relaties nu verwijderen? 
+Tue, Aug 6, 2019, 09:42:31 - s8evq: Voor mij zou de regel zijn: "als er geen bordjes langs de weg zichtbaar zijn, dan kunnen we dit niet mappen in OSM".
+Tue, Aug 6, 2019, 09:42:40 - s8evq: Dus ik zou zeggen: verwijderen
+Tue, Aug 6, 2019, 09:43:47 - s8evq: Er zijn ook zo heel wat wandelroutes van natuurpunt: je kunt ze online vinden, ze volgen bepaalde knooppunten van een wandelnetwerk. Maar ter plaatse is er niets tastbaar te zien. Deze map ik ook niet. Er is daar geen begin en geen einde aan.
+Tue, Aug 6, 2019, 09:46:40 - s8evq: Met de provincie West-Vlaanderen is er een (ongeschreven?) verstandhouding dat we de gegevens kunnen gebruiken. Ik weet niet als dit met Toerisme provincie Antwerpen ook zo is. In ieder geval zie ik dat er een PDF is met de officiele route: https://www.toerismezuidrand.be/sites/default/files/tourist_guide/images/2016/05/Brialmontroute.pdf We moeten natuurlijk niet mappen op basis van de PDF. Maar als de aanlooproutes en lussen waar jij van spreekt ook niet op de PDF staan, is dit een extra reden om ze te verwijderen.
+Tue, Aug 6, 2019, 09:47:11 - joost_schouppe: helemaal akkoord, zeker aangezien die route 11 jaar geleden gemapped is. Misschien was die toen wel tastbaar
+Tue, Aug 6, 2019, 09:48:52 - s8evq: <@koninklijke:matrix.org "Klopt, uit nieuwsgierigheid (waa..."> Ik zou eerder zeggen een lcn
+Tue, Aug 6, 2019, 12:08:51 - koninklijke: <@s8evq:matrix.org "Ik zou eerder zeggen een lcn"> Met dank voor uw beider input, relaties staan niet op PDF, doch kan deze in iD niet verwijderen : kan wel alle eigenschappen verwijderen, maar staat niet toe te saven voor ik een relatietype heb toegekend : wie weet hier raad? 
+Tue, Aug 6, 2019, 12:12:02 - joost_schouppe: je bedoelt "hoe wis ik een relatie in iD"?
+Tue, Aug 6, 2019, 12:14:02 - joost_schouppe: ik denk dat er een omweg is. Verwijder niet de eigenschappen van de relatie, maar zijn leden.
+Tue, Aug 6, 2019, 12:14:19 - joost_schouppe: niet de wegen zelf natuurlijk :)
+Tue, Aug 6, 2019, 12:16:05 - joost_schouppe: maar als je de eigenschappen van een relatie zie in iD, dan staat er daaronder een lijst met 'alle leden'. met het vuilbakje kan je dan de weg uit de relatie gooien. En naar het schijnt zou een relatie zonder leden automatisch verwijderd worden door iD. Probeer eens. Aan de hand van je changeset ID kunnen we dan zien of de relatie effectief verwijderd wordt
+Tue, Aug 6, 2019, 12:50:26 - koninklijke: <@joost_schouppe:matrix.org "ik denk dat er een omweg is. Ver..."> Dat leek een goed idee, maar niet alle leden van de relatie werden getoond, uiteindelijk van eind naar begin van elke afzonderlijke way de eigenschap 'aanlooproute Br.' verwijderd : de links op de BE wikproject cycleroutes pagina tonenj nu een kaart zonder de oranje relatielijn : kennelijk gelukt, met dank voor uw rappe respons. 
+Tue, Aug 6, 2019, 12:56:03 - joost_schouppe: juist, hier kan je zien dat het gelukt is: https://www.openstreetmap.org/changeset/73059492
+Tue, Aug 6, 2019, 13:00:08 - joost_schouppe: als je wil vermijden om iets te installeren, en dit proces nogal lastig vindt, dan kan je misschien via Level0 werken.
+Tue, Aug 6, 2019, 13:01:03 - joost_schouppe: stap 1: haal het object op, ga naar http://level0.osmz.ru/index.php en vul in het eerste vakje r13229 in
+Tue, Aug 6, 2019, 13:01:13 - joost_schouppe: klik op "vervangen in editor"
+Tue, Aug 6, 2019, 13:01:42 - joost_schouppe: als je vervolgens in de editor "relation 13229" vervangt door "-relation 13229" dan denk ik dat je er bent
+Tue, Aug 6, 2019, 13:01:53 - joost_schouppe: gegeven dat je relation 13229 wil wissen natuurlijk!
+Tue, Aug 6, 2019, 13:09:18 - koninklijke: Dank, level0 lijkt een krachtige tool, met potentie om met één druk op de knop forse fouten te veroorzaken? 
+Tue, Aug 6, 2019, 13:09:59 - joost_schouppe: exact!
+Tue, Aug 6, 2019, 13:10:39 - joost_schouppe: vraagt voorzichtigheid. Ik zou eerst eens testen op een gebouw-als-relatie om zeker niets kapot te maken
+Tue, Aug 6, 2019, 18:56:29 - koninklijke: <@joost_schouppe:matrix.org "als je wil vermijden om iets te ..."> 't is veeleer Java / -script waar ik niet dol op ben, zie bijvoorbeeld https://www.riskiq.com/blog/labs/magecart-british-airways-breach/ voor het gemak van Java / -script, ditto bij TicketMaster : beiden sites waar men redelijke beveiligingsbewustheid mag verwachten; géén Java op de computer zal 't dan allicht moeilijker maken ... ? 
+Tue, Aug 6, 2019, 21:18:15 - s8evq: Java en javascript zijn sterk verschillend. De grootste gevaren komen van Javascript, veel eerder dan Java. Als je jezelf wil beschermen, dan zou ik veeleer NoScript als browser add-on installeren. Dit zal je veel meer beschermen dan Java niet op je PC te installeren.
+Tue, Aug 6, 2019, 21:18:54 - s8evq: https://addons.mozilla.org/nl/firefox/addon/noscript/
+Tue, Aug 6, 2019, 21:19:54 - s8evq: Bij Javascript is het vaak al voldoende om een website te bezoeken om gevaar te lopen. Bij Java moet je zelf, bewust en actief een kwadaardige applicatie opstarten. Dit laatste komt veel minder vaak voor.
+Wed, Aug 7, 2019, 10:58:35 - joost_schouppe: inderdaad, het voorbeeld dat je aanhaalt heeft te maken met javascript, niet met java. En die twee delen niet zo heel veel meer dan de eerste vier letters van de naam, zo heb ik mij laten vertellen
+Thu, Aug 8, 2019, 00:03:39 - koninklijke: <@s8evq:matrix.org "Java en javascript zijn sterk ve..."> Dank voor 't onderscheid Java en J.script; onthullend hoeveel 'ingrediënten' van diverse leveranciers geblokkeerd worden eens je noscript inzet. Blijft, dat JOSM een andere manier van werken vergt, op 't eerste gezicht minder intuitief, daarentegen veel plugins - waaronder om jpgs en PDFs als achtergrond te gebruiken : herprofilering wegen en diverse nieuwbouw.  
+Thu, Aug 8, 2019, 14:35:32 - koninklijke: What to do? Cycled along the Architectuurroute in Antwerpen the other day, following the arrows; comparing GPS-track with the existing relation on OSM find approx. 75% the same, but some loops passing in itself interesting buildings or neighbourhoods are now omitted : what would be wisest : create new Relation, add both retained and newly added roads = ways to a new relation ('Architectuurroute v.2019'), or add newly added roads = ways to the existing relation, then remove ways no longer part of the existing Cycle Route, please?  
+
+The latter seems somewhat less work, but involves adding and removing the tag from in all something in the order of half the ways : is there for example any purpose for the old Route, no longer marked in the field, but could be followed from OSM? Or is that bettter left to one of the GPS-route download sites? 
+Thu, Aug 8, 2019, 20:39:55 - joost_schouppe: 't is al moeilijk genoeg om de huidige bepijlde routes te behouden, dus ik zou met de oude versie geen rekening houden. We kunnen eventueel wel die oude route als GPX op de wiki zetten
+Thu, Aug 8, 2019, 20:40:28 - joost_schouppe: over JOSM: als ik naar je mapping stijl kijk, denk ik dat je er wel wat aan zou hebben. En de JOSM experts delen graag hun kennis.
+Thu, Aug 8, 2019, 21:12:25 - koninklijke: Dank voor de reply, was tot gelijke slotsom gekomen, heb ondertussen de bestaande Architectuurroute aangepast middels toevoegen en verwijderen ways. 
+Tue, Aug 13, 2019, 15:10:50 - Jakka_Frank: @joost bestaat er ook al een umap krt van fietsknooppunten om verschil tussen osm en dataset te verifieren. zie note https://www.openstreetmap.org/note/1882305
+Tue, Aug 13, 2019, 15:11:35 - Jakka_Frank: plus traject
+Tue, Aug 13, 2019, 15:28:17 - joost_schouppe: Hmm, is misschien wel te doen per netwerk. Maar is vrij veel data hoor. Voor zover ik weet alleszins nog niet gemaakt.
+Tue, Aug 13, 2019, 15:34:06 - s8evq: Nu ik dat lees, zal ik nog eens een verder moeten doen met dit project. Ik heb er niet meer aan gewerkt sinds we op reis waren.
+Tue, Aug 13, 2019, 15:40:54 - Jakka_Frank: @joost klopt josm heeft daar ook moeite mee gans het land.... maar staan bij de knooppunten geen nummeringen bij... dus bij nieuwe of verplaatse zie ik niet wat er gedaan moet worden.
+Tue, Aug 13, 2019, 15:42:40 - Jakka_Frank: volgens die shapes zou hier een nieuwe knooppunt zijn met vertakking https://www.openstreetmap.org/#map=19/51.00677/3.67412
+Tue, Aug 13, 2019, 15:50:03 - Jakka_Frank: via hier kan ik dat achterhalen maar is een gans gedoe http://bit.ly/305odJi
+Tue, Aug 13, 2019, 16:48:25 - Jakka_Frank: wat kan ik hier voor gebruiken? https://data.toerismevlaanderen.be/tourist/routes/cycling_node_network_v2
+Tue, Aug 13, 2019, 16:54:00 - Jakka_Frank: bingo....gelukt F12 toevoegen Maar vraag mij niet meer hoe :)  wms:http://trip.toerismevlaanderen.be/arcgis/services/routes/fietsnetwerk/MapServer/WmsServer?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=fietsknoop&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}
+Sun, Aug 25, 2019, 20:36:47 - @imputomtkas1:matrix.org joined the room
+Sun, Aug 25, 2019, 20:37:01 - @imputomtkas1:matrix.org left the room
+Fri, Aug 30, 2019, 10:22:53 - stijnrr joined the room
+Tue, Sep 3, 2019, 11:04:16 - @youki-uke:matrix.org joined the room
+Tue, Sep 3, 2019, 11:05:18 - @youki-uke:matrix.org left the room
+Wed, Sep 11, 2019, 16:24:29 - s8evq: Om hier nog eens op terug te komen. Zouden we met hetgeen we hebben al eens contact opnemen met de VZW Grote Routepaden. We hebben nu reeds 3 a 4 GR's die gecontroleerd zijn. joost_schouppe joost_schouppe wat denk je? Of beter eerst nog wat verder werken?
+Wed, Sep 11, 2019, 20:35:55 - joost_schouppe: Ik zou al contact opnemen
+Thu, Sep 12, 2019, 18:31:50 - Jakka_Frank: GR 5 nog eens overlopen. http://umap.openstreetmap.fr/nl/map/gr5_93577#9/51.2647/5.0263
+Thu, Sep 12, 2019, 19:07:12 - joost_schouppe: Willen we anders eens kort bellen een van deze om eens te overlopen?
+Mon, Sep 16, 2019, 09:05:06 - s8evq: Ja zeker, dan kan altijd.
+Mon, Sep 16, 2019, 09:06:45 - joost_schouppe: ik ben morgen overdag en 's avonds beschikbaar
+Fri, Sep 27, 2019, 11:29:26 - @emerzh:matrix.org joined the room
+Tue, Oct 1, 2019, 11:08:27 - s8evq: https://hackmd.io/GItyaawxQ_Cg9S1FIotoCw
+Tue, Oct 1, 2019, 11:08:43 - s8evq: Een keer een eerste poging om conctact op te nemen met Groteroutepaden VZW
+Tue, Oct 1, 2019, 11:08:48 - s8evq: Dit is een voorstel tekst.
+Tue, Oct 1, 2019, 11:25:12 - s8evq: Ik ga dan straks de GR 131 van Frank ook nog uittypen
+Tue, Oct 1, 2019, 14:00:46 - joost_schouppe: ha, is het daar dat er grotere afwijkingen in zitten?
+Tue, Oct 1, 2019, 14:00:54 - joost_schouppe: ik heb een kleine aanpassing gedaan
+Tue, Oct 1, 2019, 14:01:15 - joost_schouppe: en ik ga nog iets toevoegen over "eens volledig afgestemd, dan kunnen zij downloaden als gpx vanop osm"
+Tue, Oct 1, 2019, 16:57:09 - s8evq: nee, daar zitten eerder de kleine afwijkingen. GR 131 heeft meer afwijkingen
+Thu, Oct 3, 2019, 17:24:08 - s8evq: Als OSM juist is (bewezen via Mapillary), maar de GPX van hen is fout, dan zal ik dat niet vermelden in het document? Wellicht beter om alleen maar echte vragen te stellen om het volume te beperken...
+Thu, Oct 3, 2019, 17:35:48 - joost_schouppe: Goh, toch niet slecht om hen er op te wijzen dat er wat correcties bij hen nodig zijn?
+Thu, Oct 3, 2019, 18:05:40 - joost_schouppe: ik heb een stukje toegevoegd
+Thu, Oct 3, 2019, 18:06:17 - joost_schouppe: eventueel kan je daar als voorbeeld verwijzen naar de case die je net aanhaalt; maar hoeft niet
+Thu, Oct 3, 2019, 18:06:31 - joost_schouppe: om het korter te houden, zouden we ook kunnen kiezen om het nu bij één enkele route te houden
+Thu, Oct 3, 2019, 18:06:46 - joost_schouppe: en dan zeggen we gewoon dat er een tweede klaar ligt
+Sun, Oct 6, 2019, 20:44:12 - s8evq: Okay, de email is klaar denk ik. Zouden we eerst GR 130 of GR 131 versturen? Ik ben benieuwd naar de reactie.
+Sun, Oct 6, 2019, 20:44:57 - s8evq: Jakka_Frank: misschien voorlopig geen tijd en moeite meer steken in het overlopen van GR's. Eerst eens kijken wat de reply is.
+Sun, Oct 6, 2019, 20:45:39 - s8evq: Als het OK is voor jullie wil ik dit wel versturen naar de regio verantwoordelijke West-Vlaanderen. Of als je het vanuit een @openstreetmap.be adres kunt doen, nog beter.
+Sun, Oct 6, 2019, 20:48:20 - joost_schouppe: Zet misschien Reen Simoen • reen.simoen@groteroutepaden.be
+Barbara Dessein • Barbara.Dessein@groteroutepaden.be in cc
+Sun, Oct 6, 2019, 20:48:42 - joost_schouppe: En community@osm.be
+Sun, Oct 6, 2019, 21:03:20 - s8evq: Okay, voila, op hoop van zegen, het is verstuurd.
+Sun, Oct 6, 2019, 21:08:27 - joost_schouppe sent an image. (Media omitted)
+Tue, Oct 29, 2019, 08:37:39 - joost_schouppe: nog niets gehoord, toch, hé? Dan stuur ik eens een reminder
+Tue, Oct 29, 2019, 08:48:46 - s8evq: Nee, inderdaad, nog voorlopig niets gehoord
+Tue, Oct 29, 2019, 09:05:13 - s8evq: merci voor het duwtje in de rug ;)
+Tue, Oct 29, 2019, 09:05:49 - joost_schouppe: ik hoop dat het duwtje niet te hard was :)
+Tue, Oct 29, 2019, 09:06:00 - joost_schouppe: 't is balanceren op een slappe koord zoiets
+Tue, Oct 29, 2019, 09:14:14 - s8evq: Ja, inderdaad, maar ik denk dat het OK was.
+Tue, Oct 29, 2019, 22:44:25 - s8evq: We hebben al antwoord gekregen. 👍️ Misschien nog 1 opmerking: "... Het  project vraagt de nodige expertise en tijd,..." schrijft Barbara. Ik dacht, zoals de samenwerking in de huidige vorm er voor staat was de technische OSM kant voor ons (mappen in OSM), GR VZW levert enkel de kennis en feedback over de routes ter plaatse.
+Tue, Oct 29, 2019, 22:44:47 - s8evq: Voor hen valt dat dan nog mee qua tijdsinvestering denk ik.
+Tue, Oct 29, 2019, 23:09:32 - joost_schouppe: Ja, ik vond dat ook wat vreemd
+Wed, Oct 30, 2019, 07:59:20 - skyman81_ joined the room
+Wed, Oct 30, 2019, 08:02:21 - skyman81_: hoe kan ik automatisch GRB importeren via JOSM?
+Wed, Oct 30, 2019, 08:21:46 - skyman81_: moet ik een bepaalde plugin hebben voor JOSM?
+Wed, Oct 30, 2019, 08:26:21 - joost_schouppe: Daarvoor moet je bij het kanaal "hiernaast" zijn: https://matrix.to/#/#omsbe-grb:matrix.org
+Wed, Oct 30, 2019, 08:26:53 - joost_schouppe: Daar kan je een korte pdf vinden met stap voor stap instructies
+Sat, Nov 9, 2019, 22:12:13 - s8evq: Onlangs kwam ik een mooi voorbeeld tegen van de voordelen van OSM voor het gebruik van wandel GPX'en. Onderstaande screenshot komt uit een PDF van een wandelweg in Nordrhein-Westfalen.
+Sat, Nov 9, 2019, 22:12:22 - s8evq sent an image. (Media omitted)
+Sat, Nov 9, 2019, 22:12:39 - s8evq: Kan misschien handig zijn om GR VZW te tonen wat er eigenlijk wel mogelijk is.
+Sun, Nov 10, 2019, 08:40:21 - joost_schouppe: Toen we drie jaar geleden bij hen waren, was hun nieuwe website bijna af. Ze hebben nog steeds dezelfde site. Ik heb de indruk dat ze niet veelarge hebben om leuke dingetjes te doen
+Tue, Nov 12, 2019, 14:07:57 - s8evq: Ondertussen hebben we al reactie gekregen op de opmerkingen. Ik ben bezig de kleine aanpassing reeds aan het doorvoeren.
+Tue, Nov 12, 2019, 14:08:23 - s8evq: Mijn indruk is dat het momenteel 50/50. Bij de helft van de vragen is de GPX van GR VZW fout, bij de andere helft van de vragen is OSM fout.
+Tue, Nov 12, 2019, 14:08:40 - joost_schouppe: Nice, de antwoorden had ik nog niet gezien!
+Tue, Nov 12, 2019, 14:09:06 - s8evq: Het is echter wel vaak dat bij de hele grote fouten eerder bij OSM zitten. De kleinere fouten en opmerkingen zitten eerder in de GPX.
+Tue, Nov 12, 2019, 14:10:36 - joost_schouppe: Makes sense. Dat zijn grote trajectwijzigingen die wij gemist hebben dan?
+Tue, Nov 12, 2019, 14:10:59 - s8evq: Ja, recente (afgelopen jaren) aanpassingen die wij niet (nog niet) hadden.
+Tue, Nov 12, 2019, 14:11:20 - s8evq: We zijn al met niet veel mappers, en met nog minder die GR wandelingen doen ;)
+Tue, Nov 12, 2019, 14:41:23 - Jakka_Frank: zouden we daaruit kunnen besluiten dat OSM data daar niet voor gebruikt wordt......
+Tue, Nov 12, 2019, 14:42:26 - s8evq: Wellicht wel. Die GR wandelaars zijn niet allemaal mee met de nieuwste GPX technologieen (en dit bedoel ik niet onrespectvol)
+Tue, Nov 12, 2019, 14:45:42 - joost_schouppe: Goh, wordt misschien niet zo vaak gebruikt om een gpx af te halen, maar volgens mij wordt hiking.waymarkedtrails.org toch wel vrij veel gebruikt in het milieu
+Tue, Nov 12, 2019, 14:46:37 - joost_schouppe: En er zullen ook wel wat Osmand gebruikers zijn die de wandelroute laag open hebben staan
+Wed, Nov 13, 2019, 07:56:50 - @nielsdg:matrix.org joined the room
+Wed, Nov 13, 2019, 07:59:27 - @nielsdg:matrix.org left the room
+Wed, Nov 13, 2019, 15:26:39 - s8evq: Voila, ik ben zo goed als klaar. Ik had nog 1 bijkomende vraag gestuurd naar Piet, maar denk dat ik het antwoord weet.
+Wed, Nov 13, 2019, 15:27:07 - s8evq: GR 131 is dan 99,5% gelijk aan de officiele GPX. Er zijn nog een drietal heel kleine afwijkingen, die een survey zouden vereisen:
+Wed, Nov 13, 2019, 15:27:17 - s8evq: http://umap.openstreetmap.fr/nl/map/gr-131_98491#19/50.84954/2.89191
+Wed, Nov 13, 2019, 15:27:28 - s8evq: http://umap.openstreetmap.fr/nl/map/gr-131_98491#19/50.98863/2.84194
+Wed, Nov 13, 2019, 15:27:54 - s8evq: http://umap.openstreetmap.fr/nl/map/gr-131_98491#18/51.03495/2.86820
+Wed, Nov 13, 2019, 15:29:01 - s8evq: joost_schouppe: Wat zou nu onze volgende stap het best zijn?
+Wed, Nov 13, 2019, 17:36:26 - joost_schouppe: Gossie :)
+Wed, Nov 13, 2019, 17:36:33 - joost_schouppe: Effe over nadenken
+Wed, Nov 13, 2019, 17:38:21 - joost_schouppe: Ik veronderstel er een gpx en of .osm van maken en die bijhouden voor vergelijking. En voorstellen dat gr vzw die ook gebruikt?
+Mon, Nov 25, 2019, 09:36:19 - s8evq invited Peter Elderson NL
+Mon, Nov 25, 2019, 10:48:20 - Peter Elderson NL joined the room
+Mon, Nov 25, 2019, 11:06:59 - s8evq: Ik heb een heel pak Umaps up to date gezet voor de Streek-GRs. (Enkel Haspengouw is nog niet klaar)
+Mon, Nov 25, 2019, 12:38:02 - Peter Elderson NL: Wat kan ik bijdragen?
+Mon, Nov 25, 2019, 13:59:11 - Jakka_Frank: pelderson:s8evq  via de bovenste link in de titel van deze groep ga je naar de wiki, daar staan umap aangemaakte krt . Bedoeling is om de verschillen aan te duiden tussen wat reeds in OSM staat ten op zichte van de data van grote grote paden vzw.  Rode lijn is osm data, blauw GR vzw data. Daar waar ze niet gelijk lopen een pin zetten met korte info en deze opslaan "oppassen" in de laag opmerkingen zetten. Deze worden nadien nagezien met eventueel mapillary beelden en osm data bijgewerkt, is het verschil bij GR route wordt er contact genomen met hen.... 
+Mon, Nov 25, 2019, 14:00:37 - Jakka_Frank: Ik ga Vlaamse Ardennen beginnen....
+Mon, Nov 25, 2019, 14:06:59 - Peter Elderson NL: Even voor de duidelijkheid: ik heb alle LAWen en SPen en een portie knooppuntnetwerken in NL helemaal nagelopen en volledig gemaakt, waarbij ik OSM-data (+geschiedenis en viewdata) vergeleken en gelijkgeschakeld heb met de tracks en informatie van Wandelnet. LAWen en SPen zijn de GRen en streek GRen van Nederland, en Wandelnet is de Nederlandse GR VZW.  Ik probeer dat nu bij te houden mbv gpx-tracks van wandelaars. 
+
+Mon, Nov 25, 2019, 14:11:15 - Peter Elderson NL: Dus mijn bijdragen zal niet bestaan uit vergelijken en invoeren, ik kom hier in NL al tijd tekort daarvoor. Mijn werkwijze is wel anders; we hebben twee dynamische verzamelingen routes (Wandelnet GIS en OSM GIS) en ik heb ervoor gekozen om daar niet nog eens een verzameling tussen te zetten.
+Mon, Nov 25, 2019, 14:55:32 - s8evq: pelderson: In jullie project rond node network heeft een over ijverige A67-A67 de streek GR Haspengouw omgezet naar een node network door er overal network:type=node_network aan toe te voegen.
+Mon, Nov 25, 2019, 14:55:54 - s8evq: Dit is echter geen node network zoals we die kennen.
+Mon, Nov 25, 2019, 14:56:24 - s8evq: Er zijn onderweg borden en palen met nummers (nodes) maar tussen de nodes is er geen bewegwijzering die specifiek de volgende node aangeeft. Het zijn meer tussenstops
+Mon, Nov 25, 2019, 14:56:33 - s8evq: Ik zou dit willen verwijderen, maar het is een hele klus......
+Mon, Nov 25, 2019, 14:57:22 - s8evq: <@pelderson:matrix.org "Wat kan ik bijdragen?"> De bedoeling van de uitnodiging tot dit kanaal in Riot is dat wanneer er nog GR's in zowel in Belgie als Nederland lopen we eerst kunnen overleggen 
+Mon, Nov 25, 2019, 14:58:12 - s8evq: Ik heb misschien nogal defensief gereageerd via jouw changeset comments, maar ik vond het gewoon jammer dat er data verloren gegaan is en blindeling vervanen geweest is door de GPX van Grote Routepaden VZW. Dit is niet onze manier van werken.
+Mon, Nov 25, 2019, 14:58:53 - Jakka_Frank: s8evq: denk dat dit ergens besproken werd in het forum nl eens link vragen aan Marc
+Mon, Nov 25, 2019, 15:02:01 - Jakka_Frank: hier al eentje https://forum.openstreetmap.org/viewtopic.php?id=67219
+Mon, Nov 25, 2019, 15:02:42 - s8evq: Bedankt
+Mon, Nov 25, 2019, 15:03:03 - s8evq: Was er specifieke discussie over netwerk Haspengouw? Want naar het schijnt is dit een speciaal geval?
+Mon, Nov 25, 2019, 15:04:19 - s8evq: https://www.openstreetmap.org/relation/6930364
+Mon, Nov 25, 2019, 15:04:47 - s8evq: https://www.openstreetmap.org/relation/5150605
+Mon, Nov 25, 2019, 15:09:05 - Jakka_Frank: deze niet gezien of gelezen.....
+Mon, Nov 25, 2019, 15:59:53 - s8evq: Je zult zien Frank, sommige van die streek GR's zijn gemapt op basis van de GPX en daar zullen we wellicht 0 fouten in vinden.
+Mon, Nov 25, 2019, 16:27:59 - Peter Elderson NL: <@s8evq:matrix.org "Ik heb misschien nogal defensief..."> Goed dat je kontakt opneemt! Ik had destijds de indruk dat er geen wandelmapaktiviteit meer in VL was, ik zat er dus naast. Ik heb echter wel degelijk gekeken wat er nieuwer was, en aan de wijzigingenbladen op de site te zien was dat behoorlijk up to date, terwijl sommige delen op OSM echt verouderd en niet meer goed waren. Wat er goed was is behouden. UIteraard is het mogelijk dat er toch fouten inzaten, ik heb niet alles zelf gelopen. Een eenvoudige berekening leert dat je voor totale kontrole en up to date houden een veel grotere ploeg nodig hebt, en hoe hou je die over de jaren op niveau?
+Mon, Nov 25, 2019, 16:34:37 - Peter Elderson NL: Over de knooppuntnetwerken: ik heb zelf niet met Haspengouw te maken gehad. A67-A67 is dus iets te voortvarend te werk gegaan.... misschien een NL trekje? Kennelijk is Haspengouwt een tussenvorm: wel referentiepunten, maar die zijn geen knooppunten. In Duitsland komt dat ook voor, en in NL zijn kanoroutes op die manier gedaan. Uit ons overleg kwam dat we die routes met network-rwn en de punten met met rwn_ref=... taggen, maar zonder network:type=node_network. Misschien kunnen ze met een overpass-query naar JOSM geexporteerd worden?
+Mon, Nov 25, 2019, 16:38:54 - Peter Elderson NL: Is dit het netwerk? https://knooppuntnet.be/nl/network/6930364
+Mon, Nov 25, 2019, 16:39:30 - s8evq: Ja
+Mon, Nov 25, 2019, 16:40:09 - Peter Elderson NL: Oke zal ik de node_networktag van alle elementen weghalen?
+Mon, Nov 25, 2019, 16:40:23 - s8evq: Ja, dat zou mooi zijn. Bedankt.
+Mon, Nov 25, 2019, 16:41:53 - Jakka_Frank: Vlaamse Ardennen verschil gemerkt. http://umap.openstreetmap.fr/nl/map/streek-gr-vlaamse-ardennen_391925#11/50.8249/3.7551
+Mon, Nov 25, 2019, 16:42:24 - s8evq: Ah super, bedankt. En viel het mee, of erge verschillen gevonden?
+Mon, Nov 25, 2019, 16:42:46 - Jakka_Frank: hier en daar kleine omweg...
+Mon, Nov 25, 2019, 16:42:55 - s8evq: Geen al te grote blunders in OSM lijkt het me 👍️
+Mon, Nov 25, 2019, 16:43:14 - Jakka_Frank: nope twee wel groter....
+Mon, Nov 25, 2019, 16:43:34 - Jakka_Frank: kon niet achterhalen via map waren geen beelden
+Mon, Nov 25, 2019, 16:44:40 - Jakka_Frank: is toch drie uurkes werk....
+Mon, Nov 25, 2019, 16:45:03 - Peter Elderson NL: Haspengouw gekorrigeerd.
+Mon, Nov 25, 2019, 16:54:02 - Peter Elderson NL: <@pelderson:matrix.org "Haspengouw gekorrigeerd."> https://hiking.waymarkedtrails.org/#route?id=4772564&map=17!50.7568!5.3654 De refpunten staan op de kaart, de routes zijn regionaal. Ik zie wel wit-rode symbols, dat zou denk ik alleen geel-rood moeten zijn?
+Mon, Nov 25, 2019, 17:08:38 - Peter Elderson NL: <@s8evq:matrix.org "Er zijn onderweg borden en palen..."> Hoe weet je dan onderweg of je de juiste route volgt?
+Mon, Nov 25, 2019, 17:24:41 - s8evq: > > <@pelderson:matrix.org> Haspengouw gekorrigeerd.
+
+> https://hiking.waymarkedtrails.org/#route?id=4772564&map=17!50.7568!5.3654 De refpunten staan op de kaart, de routes zijn regionaal. Ik zie wel wit-rode symbols, dat zou denk ik alleen geel-rood moeten zijn?
+
+De streek GR Haspengouw volgt deels zijn eigen traject (geel/rood) en deels GR 128 (wit/rood)
+Mon, Nov 25, 2019, 17:26:22 - s8evq: > > <@s8evq:matrix.org> Er zijn onderweg borden en palen met nummers (nodes) maar tussen de nodes is er geen bewegwijzering die specifiek de volgende node aangeeft. Het zijn meer tussenstops
+
+> Hoe weet je dan onderweg of je de juiste route volgt?
+
+Er is bewegwijzering (de klassieke GR aanduiding), maar geen indicatie van node nummer.
+Tue, Nov 26, 2019, 07:53:27 - Peter Elderson NL: Maar dat is precies zoals bij alle knooppuntnetwerken! Op de genummerde knooppunten zie je pijlen naar andere nummers, maar onderweg heb je alleen markering zonder nummers.
+Tue, Nov 26, 2019, 07:58:51 - s8evq: In België staat er op de wegmarkering ook een nummer.
+Tue, Nov 26, 2019, 07:59:15 - s8evq: Daarenboven zijn er op de knooppunten vaak maar twee connecties
+Tue, Nov 26, 2019, 07:59:35 - s8evq: Waardoor het eerder een tussenpunt is ipv een knooppunt
+Tue, Nov 26, 2019, 08:22:10 - s8evq: Streek - GR Haspengouw, Kortessem kerk (law haspengouw) - Wandelen in Limburg
+https://www.wandeleninlimburg.be/nl/routes/23149042/?lon=5.354348666188302&lat=50.80234503096446&z=12
+Tue, Nov 26, 2019, 08:28:31 - Peter Elderson NL: In NL zijn er ook vaak tussenpunten in knooppuntnetwerken. Ik denk dat het gehele streekpad als een knooppuntnetwerk werkt. Je plant en loopt een route via de knooppunten/knooppunttrajekten. De tussenpunten zijn zo te zien vaak punten waar je een ander GR kruist. Dat doet niet af aan de netwerkopzet. De tussentrajekten zijn benoemd als (nn)-(nn). Dat hoeft op de weg niet aangegeven te zijn behalve op de knooppunten zelf, want elk trajekt hoeft alleen maar heen of terug gevolgd te worden. Kortom, een netwerk opgebouwd uit genummerde punten waartussen gemarkeerde routes lopen: knooppuntnetwerk. Als je de knooppunttag er weer opzet wordt het op knooppuntnet.be meegenomen in de checks, maar het wordt door waymarkedtrails met knooppuntlijntjes weergegeven ipv met streekpadlijntjes. Dat laatste weegt denk ik wel zwaar!
+Tue, Nov 26, 2019, 09:08:34 - s8evq: Tagging for the renderer?
+Tue, Nov 26, 2019, 09:10:50 - s8evq: De Streek-GR Haspengouw wordt ook nergens verkocht als een knooppuntnetwerk, niet o de site van GR VZW of op enige andere website
+Tue, Nov 26, 2019, 09:10:57 - s8evq: Het is een lusvormige langeafstandswandeling.
+Tue, Nov 26, 2019, 09:11:20 - s8evq: Ad hoc heeft men op de kruising met andere lange afstandswandelingen een referentienummer geplaatst
+Tue, Nov 26, 2019, 09:11:41 - s8evq: Maar deze wandeling is in hoofdzaak initieel als lange afstandswandeling bedacht.
+Tue, Nov 26, 2019, 09:14:36 - s8evq: Een typisch knooppuntnetwerk wordt bedacht en uitgerold als knooppuntnetwerk. Dit is bij de Streek-GR Haspengouw niet het geval. Deze is ontwikkeld en bedacht als lusvormige langeafstandswandeling (die wel toevallig op bepaalde punten kruist met andere wandelingen).
+Tue, Nov 26, 2019, 09:15:59 - s8evq: pelderson: Mag ik nog eens terugkomen op de vragen rond Streek-GR Kempen?
+Tue, Nov 26, 2019, 09:16:14 - s8evq: https://www.openstreetmap.org/relation/9513494 Deeltraject van Herentals naar Gierle
+Tue, Nov 26, 2019, 09:16:51 - s8evq: Waarom precies dit deeltraject? Van waar haal je de informatie om deze opdeling te maken? Kan een wandelaar ter plaatse dit deeltraject zien, en ook het nummer "01" dat er aan toegekend is?
+Tue, Nov 26, 2019, 11:48:17 - Peter Elderson NL: <@s8evq:matrix.org "Waarom precies dit deeltraject? ..."> De indeling en volgorde is van https://www.groteroutepaden.be/nl/route/298/streek-gr-kempen.html gehaald. Het nummer en de steden van het deeltrajekt staan niet op de weg maar dienen om een bruikbare aanduiding en volgorde in de weergave voor data-users en toolgebruikers te krijgen. Ik heb dat overgenomen van andere routemakers. Internationaal is dit redelijk gebruikelijk geworden. In NL deelt Wandelnet de langeafstandswandelingen wel op in genummerde deeltrajekten, maar ook daar is het op de weg niet te zien. Pas later begreep ik dat het eigenlijk niet wiki-korrekt is om dit zo in de name-tag te zetten. Voor de ref-tag geldt eigenlijk ook zo iets: in NL wordt het Wandelnet-nummer van een wandelroute bv SP 17 of LAW 2 niet op de weg vermeld, maar toch zetten mappers het in de ref tag. Voor lange fietsroutes is het dan weer wél gebruikelijk om het op de bordjes te zetten... 
+Tue, Nov 26, 2019, 11:52:13 - Peter Elderson NL: Wil je dat ik Streek-GR Kempen terug aanpas aan jullie tagging-standaarden? Dus alles in 1 grote relatie? Vind ik prima hoor, voor de hoofroute geen probleem, maar moeten de varianten daar dan ook in, of allemaal apart, of in een eigen variantenrelatie?
+Tue, Nov 26, 2019, 12:46:21 - Peter Elderson NL: <@s8evq:matrix.org "Een typisch knooppuntnetwerk wor..."> wij hebben ook zulke streekpaden die netwerkjes geworden zijn, bijvoorbeeld https://hiking.waymarkedtrails.org/#route?id=1570156&map=10!52.1806!6.497 het Veluwe Zwerfpad. Op veel van de kruispunten is het helemaal niet duidelijk wat de bedoeling is, er lopen gewoon alle kanten op geel-rode markeringen! Als ze daar op de kruispunten op de paaltjes (ja die zijn er wel)  nummers of letters zouden zetten met pijltjes naar de vandaaruit bereikbare volgende genummerde punten, dan werd het voor iedereen stukken duidelijker. En daarmee zou het dan ook een knooppuntennetwerk worden! Ik verwacht trouwens dat dat wel gaat gebeuren, maar dan met een leuke fantasienaam, bijvoorbeeld VeluweNatuurGenietNet met BosHeuvelKeuzeWijzers of zo. 
+Tue, Nov 26, 2019, 13:20:32 - s8evq: Bedankt Peter, maar hoeft niet. Ik kijk wel eens naar die Streek-GR Kempen later.
+Tue, Nov 26, 2019, 13:20:54 - s8evq: We zijn er nog niet uit welk data model we gebruiken voor de GR's. 
+Tue, Nov 26, 2019, 13:21:09 - s8evq: Misschien wel het Nederlandse model, maar moet nog besproken worden
+Tue, Nov 26, 2019, 15:36:09 - Peter Elderson NL: De NL afspraken staan hier: https://wiki.openstreetmap.org/wiki/WikiProject_Nederland_Wandelroutes/Helpen
+Tue, Nov 26, 2019, 19:16:02 - @marcvi:matrix.org joined the room
+Tue, Nov 26, 2019, 19:17:18 - @marcvi:matrix.org left the room
+Thu, Nov 28, 2019, 17:21:41 - Jakka_Frank: s8evq: Uilenspiegel deel belgië bewerkt verschillen aangeduid
+Thu, Nov 28, 2019, 19:38:37 - s8evq: Okay bedankt. Als ik tijd heb giet ik het in een email naar de VZW
+Fri, Nov 29, 2019, 18:04:00 - Peter Elderson NL: In het NL deel van Uilenspiegel bij Cadzand heb ik een onderbreking opgelost. https://www.openstreetmap.org/changeset/77738565
+Tue, Dec 3, 2019, 13:12:16 - @hopperpoposm:matrix.org left the room
+Tue, Dec 17, 2019, 10:42:19 - s8evq: Ik heb nog een email gestuurd naar GR afdeling West Vlaanderen ivm GR 130.
+Tue, Dec 17, 2019, 10:42:50 - s8evq: Goed nieuws: mapper Deurenkletser is ook geinteresseerd in het project. Hij heeft al meerdere GR's gewandeld en houdt ze up to date in OSM 👍️
+Wed, Dec 25, 2019, 15:46:31 - s8evq: Kleine update: ondertussen heb ik ook antwoord gekregen op onze feedback van GR 130. Deze aanpassingen zijn verwerkt en GR 130 staat nu ook 100% juist :)
+Fri, Jan 10, 2020, 06:45:42 - popeye joined the room
+Fri, Jan 10, 2020, 08:16:27 - popeyess changed their display name to popeyesss
+Fri, Jan 10, 2020, 20:45:34 - popeyesss changed their display name to popeyessss
+Tue, Jan 14, 2020, 08:57:22 - popeyessss changed their display name to popeye
+Wed, Jan 15, 2020, 09:09:33 - s8evq: De nieuwe website van groteroutepaden lijkt online te staan 👍️
+Wed, Jan 15, 2020, 09:17:05 - s8evq: En met kaarten van OSM: https://www.groteroutepaden.be/nl/gr-129-dwars-door-belgie
+Het lijkt er op dat ze dat via een API van routeyou.com doen.
+Wed, Jan 15, 2020, 09:17:12 - s8evq: Nuja, in ieder geval beter dan google maps.
+Wed, Jan 15, 2020, 13:33:12 - joost_schouppe: De achtergrondkaart is van thunderforest (het bedrijf van Andy Allan geloof ik)
+Wed, Jan 22, 2020, 09:56:57 - s8evq: Ik heb nog een email gestuurd naar de regio verantwoordelijke Oost-Vlaanderen ivm Streek-GR Vlaamse Ardennen.
+Wed, Jan 22, 2020, 10:55:53 - s8evq: En email voor Gr 561 en 564 staat ook klaar, maar ik ga eerst even luisteren naar OSM user Deurenkletser, of hij met z'n local knowledge eventueel al enkele opmerkingen kan oplossen.
+Sun, Feb 9, 2020, 15:39:22 - dentonny joined the room
+Mon, Mar 2, 2020, 14:57:47 - s8evq: Ik heb nog een email gestuurd ivm GR 129
+Mon, Mar 2, 2020, 14:58:00 - s8evq: Traag maar zeker, uiteindelijk gaan we ze nog allemaal gedaan krijgen ;)
+Sat, Mar 7, 2020, 17:35:22 - joost_schouppe: Ik vind nog een oud bericht op Meetup terug; van een Michel Dawirs die GR's in Wallonië mapt. Nog eens contact proberen opnemen?
+Sat, Mar 7, 2020, 17:37:40 - s8evq: Dat mag. Het project dat we momenteel doen focust wel uitsluitend op de vlaamse GR's. Geen idee hoe de waalse VZW staat tegenover OSM.
+Sat, Mar 7, 2020, 17:40:32 - joost_schouppe: zeer positief, en informeel mogen we hun data wel gebruiken
+Sat, Mar 7, 2020, 17:40:44 - joost_schouppe: maar een formeel akkorrd zagen ze zo niet zitten had ik de indruk
+Thu, Mar 12, 2020, 09:34:45 - s8evq: Voila, GR 129 staat nu ook up to date. We hebben nu al GR 129, GR 130 en GR 131.
+Thu, Mar 12, 2020, 09:34:56 - s8evq: Straks stuur ik een email ivm GR 561 en GR 564.
+Thu, Mar 12, 2020, 09:36:02 - joost_schouppe: indrukwekkend bezig
+Thu, Mar 12, 2020, 09:36:12 - Peter Elderson NL: Goed bezig!
+Thu, Mar 26, 2020, 09:41:56 - Hook joined the room
+Mon, Apr 6, 2020, 14:23:45 - Matrix Traveler (bot) joined the room
+Mon, Apr 6, 2020, 15:08:17 - @lgiard:matrix.org joined the room
+Mon, Apr 6, 2020, 15:08:35 - @lgiard:matrix.org left the room
+Tue, Apr 7, 2020, 00:16:17 - Steven Clays joined the room
+Mon, Apr 20, 2020, 17:34:51 - polyT joined the room
+Mon, Apr 20, 2020, 17:37:16 - polyT: Hoi!
+Wed, Apr 22, 2020, 13:49:51 - emerzh changed their display name to eMerzh
+Wed, Apr 22, 2020, 13:50:00 - @emerzh:matrix.org set a profile picture
+Wed, Apr 22, 2020, 15:35:32 - @emerzh:matrix.org left the room
+Mon, May 18, 2020, 00:06:17 - @nino:hackerspaces.be joined the room
+Thu, May 21, 2020, 00:01:51 - @brandneetjan:matrix.org joined the room
+Thu, May 21, 2020, 00:02:53 - @brandneetjan:matrix.org left the room
+Mon, Jun 1, 2020, 08:53:15 - @gizzmo:atticstudios.be joined the room
+Mon, Jun 1, 2020, 08:55:07 - @gizzmo:atticstudios.be: Hello iedereen!
+Helemaal nieuw bij OSM. Looking around, getting to know it...
+is het mogelijk dat de osmbe:matrix.org group niet (meer) te vinden is?
+Mon, Jun 1, 2020, 12:20:40 - Jakka_Frank: misschien tijdelijk ? https://riot.im/app/#/room/#osmbe:matrix.org
+Wed, Jun 3, 2020, 13:02:56 - Peter Elderson NL: Stemmen is gestart voor dit voorstel: https://wiki.openstreetmap.org/wiki/Proposed_features/Recreational_route_relation_roles
+Mon, Jun 8, 2020, 17:32:39 - gaedho joined the room
+Mon, Jun 8, 2020, 17:35:53 - gaedho: It looks like this room is NL only ☹︎ Maybe I'm in the wrong Room ...
+Mon, Jun 8, 2020, 18:19:28 - joost_schouppe: eh, it's been mostly about the Flemish region so far, but do feel free to try English or French here!
+Sun, Jun 21, 2020, 20:22:28 - Matthias  C joined the room
+Tue, Jul 7, 2020, 19:04:27 - @alani831:matrix.org joined the room
+Tue, Jul 7, 2020, 23:53:42 - @alani831:matrix.org left the room
+Mon, Aug 3, 2020, 22:30:20 - Nyseth joined the room
+Mon, Aug 17, 2020, 22:52:54 - Pascal Dk joined the room
+Tue, Sep 8, 2020, 22:40:08 - Thibaultmol joined the room
+Sat, Sep 12, 2020, 14:35:14 - ⊙ joined the room
+Sat, Sep 12, 2020, 20:37:38 - gh0st changed their display name to Kasper the doomed ghost
+Sun, Sep 13, 2020, 13:56:37 - Kasper the doomed ghost changed their display name to gh0st
+Mon, Oct 26, 2020, 17:39:41 - @almighty:matrix.org joined the room
+Thu, Nov 12, 2020, 10:17:51 - Seppe joined the room
+Fri, Nov 27, 2020, 16:38:21 - gh0st changed their display name to ⊙
+Mon, Dec 7, 2020, 15:49:13 - @nino:hackerspaces.be left the room
+Thu, Dec 17, 2020, 17:52:02 - jmfalisse joined the room
+Mon, Jan 11, 2021, 10:49:05 - strict joined the room
+Thu, Sep 16, 2021, 23:56:32 - @gizzmo:atticstudios.be left the room
+Tue, Jan 12, 2021, 11:52:55 - topsolid changed their display name to Matthias  C
+Wed, Jan 27, 2021, 11:45:27 - MikiDi joined the room
+Wed, Jan 27, 2021, 12:08:35 - mikidi-2 changed their display name to mikidi
+Wed, Jan 27, 2021, 12:08:44 - mikidi changed their display name to MikiDi
+Mon, Feb 15, 2021, 17:29:25 - ⊙ changed their profile picture
+Fri, Feb 19, 2021, 15:14:24 - @almighty:matrix.org left the room
+Fri, Apr 16, 2021, 12:38:38 - MikiDi set a profile picture
+Fri, Apr 30, 2021, 16:24:18 - @floriandierickx joined the room
+Thu, May 20, 2021, 22:21:21 - johnny_geling_innolux joined the room
+Fri, May 21, 2021, 06:27:05 - Johnny home joined the room
+Fri, May 28, 2021, 11:37:05 - doggy_daddy joined the room
+Sun, Jun 6, 2021, 12:26:44 - lennertschepers joined the room
+Thu, Jul 8, 2021, 09:06:27 - Peter Elderson NL: Hoe gaat het met dit projekt?
+Thu, Jul 8, 2021, 09:35:03 - s8evq: Traag maar zeker :)
+Thu, Jul 8, 2021, 09:35:14 - s8evq: 4 van de 13 vlaamse GR's staan volledig in orde
+Thu, Jul 8, 2021, 09:35:51 - s8evq: Ik denk dat het werk heel wat sneller zal gaan, als de tool van vmarc terug online is en werkt.
+Thu, Jul 8, 2021, 09:36:17 - s8evq: Ondertussen controleer ik handmatig af en toe een stukje, maar aan een heel traag tempo
+Thu, Jul 8, 2021, 09:37:14 - s8evq: Nu ben ik bezig met GR5. Er zitten heel weinig fouten in, omdat we een OSM mapper hebben die hem gewandeld heeft een tijdje terug
+Thu, Jul 8, 2021, 09:40:46 - Peter Elderson NL: Als je een goede/redelijke bron-gpx hebt wil ik er ook wel eentje doen. Of moet het allemaal vanuit survey gebeuren?
+Thu, Jul 8, 2021, 09:53:29 - Peter Elderson NL: Wat doet de tool van Marc precies? Hoe helpt dat?
+Fri, Jul 9, 2021, 09:13:44 - s8evq: <@pelderson:matrix.org "Wat doet de tool van Marc precie..."> De tool van Marc doet twee dingen. Ten eerste kan het een geuploade GPX (van een officiele bron of wandelaar) vergelijken met een OSM relatie. Het toont dan een lijst van afwijkingen (bv waar de GPX verder dan 10 meter ligt van de OSM relatie). Ten tweede is er ook een mogelijkheid om changeset op route relations te visualiseren. Je ziet snel wat de bewerking is, en er wordt ook vergeleken met een referentie GPX (dit deel is gebasseerd op de huidige visualisatie van changesets in knooppuntnet).
+Fri, Jul 9, 2021, 09:14:11 - s8evq: Momenteel is de tool offline, maar staat gepland voor de volgende release.
+Fri, Jul 9, 2021, 09:14:43 - s8evq: <@pelderson:matrix.org "Als je een goede/redelijke bron-..."> Momenteel werken we met umaps. Bijvoorbeeld http://umap.openstreetmap.fr/nl/map/gr5_93577#14/51.3826/4.4814
+Fri, Jul 9, 2021, 09:15:16 - s8evq: Ik laad de GPX in beschikbaar gesteld door onze vlaamse Grote Routepaden VZW (blauwe lijn in umap) en vergelijk die met de relatie in OSM (rode lijn). Ik doe dat door in te zoomen op de umap en de route gewoon te overlopen.
+Fri, Jul 9, 2021, 09:15:43 - s8evq: Als er een behoorlijke afwijking is, probeer ik via Mapillary te kijken wie van de twee er de juiste is.
+Fri, Jul 9, 2021, 09:16:40 - s8evq: Als ik met zekerheid kan zeggen dat OSM juist is, en de GPX fout, dan noteer ik dit in een Word documentje (met screenshots), zodat Grote Roudepaden VZW op de hoogte is en hun GPX kan aanpassen
+Fri, Jul 9, 2021, 09:17:01 - s8evq: Als ik op basis van Mapillary (of gezond verstand) kan zeggen dat de GPX juist is, en OSM fout, pas ik die gewoon aan in OSM.
+Fri, Jul 9, 2021, 09:17:57 - s8evq: Als ik niet zeker ben welke van de twee er correct is, dan zet ik dat ook in een Word document. De vraag wordt dan doorgespeeld aan Grote Routepaden VZW, die het probeert te beantwoorden, of op hun beurt doorspeelt aan een vrijwilliger met terreinkennis.
+Fri, Jul 9, 2021, 09:28:22 - Peter Elderson NL: Ik doe de vergelijking ietsjes anders, maar dat boeit denk ik niet. Probleem hier is dat ik de routes van Wandelnet (de NL zuster van GR VZW) wel mag gebruiken maar die zijn, ahum, van wisselende kwaliteit. Dus ik heb dan echt een andere bron nodig, bv een wandelaar (vaak ikzelf) die een stuk getrackt heeft. Mapillary is voor ons meestal te oud om zeker te zijn welke lijn goed is, en vragen aan wandelnet is lastig want zij beschouwen OSM meer als concurrent die in hun water vist dan als partner die hun zaak (en hun gisdverkoop) helpt. 
+Fri, Jul 9, 2021, 09:30:22 - Peter Elderson NL: Maar volgens mij hebben jullie met GR VZW een goede relatie en, wat ik gezien heb, lijkt het mij dat zij echt wel hun routes aktueel houden op de site, met ook kaartjes van de recnte wijzigingen. 
+Fri, Jul 9, 2021, 09:36:39 - Peter Elderson NL: Dus ik kan helpen met de vergelijking, ik kan ook volgordefouten en onderbrekingen repareren, en bij onoplosbare verschillen een note plaatsen en jou daarover berichten. Het lijkt mij het beste dat de meldingen naar GR VZW via 1 mapper bij hun komen, toch? Heb je een mooie route waar ik wat kan bijdragen op basis van de gpx van GR VZW, dan doe ik een stukje en kan jij kijken of het je helpt. (Ik verander niks aan de indeling en mappingstijl, alleen de route).
+Sun, Jul 18, 2021, 14:13:43 - cyucayne joined the room
+Tue, Jul 27, 2021, 00:10:55 - twijg joined the room
+Thu, Jul 29, 2021, 07:13:32 - s8evq: Sorry Peter, ik had je bericht en aanbod om te helpen niet gelezen. Ik zal na het verlof de tijd kunnen nemen om meer uitleg te geven
+Thu, Jul 29, 2021, 08:44:55 - Peter Elderson NL: Misschien leuk om te weten dat onze franse vrienden een hulpmiddel aan het maken zijn om de integriteit van lange paden te bewaken en te verbeteren. Ziet er niet slecht uit! https://superroute.org/
+Tue, Aug 24, 2021, 12:54:17 - johnny_for_testing changed their display name to Johnny home
+Thu, Nov 18, 2021, 12:46:08 - freha.frath joined the room
+Mon, Jan 3, 2022, 14:18:07 - Peter Elderson NL: LS
+Mon, Jan 3, 2022, 14:29:47 - Peter Elderson NL: Een Nederlandse mapper (tevens de beheerder van longdistancepaths.eu) wil de GR12 Amsterdam-Parijs helemaal goed krijgen. We hebben het Nederlandse deel helemaal op orde, maar in het Belgische deel zitten een paar dingen die ervoor zorgen dat je er geen aansluitende wegenreeks van kan maken, geen goede gpx, geen bruikbaar hoogteprofiel. Ik heb even gekeken, het is een relatie met meer dan 2000 leden dus niet echt makkelijk op te knappen! 
+Staat dit toevallig op jullie programma om te verbeteren? Anders wi ik wel een poging wagen om hem in ieder geval aansluitend en kloppend te maken, alleen survey kan ik niet doen dus dat blijft dan even openstaan. Ik gebruik bij twijfel meestal viewers en de website om een keuze te maken, maar dat klopt niet altijd met de werkelijkheid. Hoewel het volgens mij bij Grote Routepaden een stuk beter klopt dan in Nederland bij Wandelnet!
+De vraag is dus: is het akkoord als ik op die manier zorg dat het in ieder geval een kloppende relatie wordt, en dan bij twijfel waar ik niet uitkom, jullie inlicht? 
+Mon, Jan 3, 2022, 15:45:39 - joost_schouppe: Ik denk niet dat er al iemand echt mee bezig is, dus doe maar. Ik ben er am wel eens aangekomen, maar naar de sortering heb ik nooit gekeken. En ja, de gpx van grote routepaden zijn vaak heel goed. Maar kwaliteit kan wat verschillen van route tot route als ik het goed begrepen heb
+Mon, Jan 3, 2022, 17:06:33 - s8evq: Die staat op de to do list, maar voorlopig nog niet aangepakt, want die wordt route herwerkt
+Mon, Jan 3, 2022, 17:07:06 - s8evq: Of is reeds herwerkt? Ik kijk het eens na
+Mon, Jan 3, 2022, 17:10:15 - s8evq: Een mailtje van mei 2021 van groteroutepaden.be :_"We zijn nu bezig met het herwerken van de GR 12 (dus daar moet je momenteel niet veel energie en tijd insteken)."_
+Mon, Jan 3, 2022, 17:10:56 - s8evq: Je mag die gerust al nakijken hoor. 
+Dan kunnen we nadien nog een update doen als de nieuwe GPX beschikbaar komt
+Mon, Jan 3, 2022, 17:11:35 - Peter Elderson NL: Okee, ik begin gewoon, want ik verander toch niks aan de route. Ik knip uítstekende takjes weg, los dubbele wegen op, kleine ontbrekende stukjes vul ik aan op de meest waarschijnlijke manier, en sorteer-fouten werk ik weg. Backward en forward rollen zouden niet moeten voorkomen, als ik ze zie zijn het meestal kopietjes van een stukje fietsroute. Rotondes werken niet goed in wndelroutes dus die werk ik ook weg, dat soort dingetjes. O ja, vrijliggende paden waar inmiddels een foot=no op de hoofdrijbaan staat, die pas ik ook aan.
+Mon, Jan 3, 2022, 17:12:10 - s8evq: super, merci
+Mon, Jan 3, 2022, 17:12:13 - s8evq: 👍️
+Mon, Jan 3, 2022, 17:12:41 - Peter Elderson NL: <@s8evq:matrix.org "Je mag die gerust al nakijken ho..."> Ja, ik doe een snelle integriteitscontrole, geen route-wijzigingen.
+Tue, Jan 4, 2022, 01:04:22 - Peter Elderson NL: Gedaan. Viel erg mee, geen moeilijkheden. Daarna GR12 Frankrijk ook gedaan, die had 5 secties waarvan alleen de laatste een zooitje was. Daar had nog niemand met verstand van zaken naar gekeken, gewoon heel slecht ingevoerd en onderhouden. Onsorteerbaar ook. Maar ook die is nu bruikbaar. 
+Tue, Jan 4, 2022, 04:34:06 - dentonny: 2 weken geleden heb ik ook een GR aangepast. Had ik dit hier eerst moeten melden?
+
+https://www.openstreetmap.org/changeset/115116489#map=19/51.20117/4.90353
+Tue, Jan 4, 2022, 04:35:25 - dentonny: https://www.openstreetmap.org/relation/9514643#map=19/51.20130/4.90366
+
+Tue, Jan 4, 2022, 10:45:49 - s8evq: Nee dentonny , hoef je hier niet te melden
+Tue, Jan 4, 2022, 23:59:38 - Seppe sent an image. (Media omitted)
+Wed, Jan 5, 2022, 00:01:15 - Seppe: De GR 130 en GR 131 moeten in OSM nog verlegd worden door de IJzerboomgaard in Diksmuide. Het lijkt me echter sterk dat ze op dit korte stukje een verschillend tracé volgen. Opmerking achterlaten op de kaart? Of is er een vlottere manier om hier een antwoord op te krijgen?
+Wed, Jan 5, 2022, 08:49:56 - s8evq: Dat is van de website van GR zelf?
+Wed, Jan 5, 2022, 08:50:10 - s8evq: Het zou inderdaad raar zijn als ze elk hun eigen weg volgen.
+Wed, Jan 5, 2022, 08:50:29 - s8evq: Onze contactpersoon daar is Isabel Hoogewijs <isabel.hoogewijs@groteroutepaden.be>
+Wed, Jan 5, 2022, 08:51:04 - s8evq: Je kan het haar gerust vragen, of anders wil ik ook wel een mailtje sturen
+Wed, Jan 5, 2022, 09:28:42 - Seppe: <@s8evq:matrix.org "Dat is van de website van GR zel..."> Inderdaad
+Wed, Jan 5, 2022, 09:28:52 - Seppe: Ik stuur Isabel Hoogewijs een mailtje, thanks
+Tue, Jan 11, 2022, 16:05:52 - Peter Elderson NL: Een bericht uit Nederland. Wandelnet is onze "Grote Routepaden"-toko. Elke LAW en SP heeft een padgroup waar de markeerders inzitten, aangevoerd door een padcoördinator. Bij de padgroepen draait alles nog steeds om "Het Boekje", oftewel de gids. En OpenStreetMap werd algemeen als concurrent gezien die de boekjesverkoop bedreigde. Het stak Wandelnet vooral ook dat OSM vaak aktuelere informatie gaf dan zij zelf! 
+Maar er is een kentering. Veel wandelaars gebruiken voor de planning en de begeleiding onderweg digitale info; het wordt als normaal gezien, en Wandelaanbieders vinden dat ze goede gpx-en moeten aanbieden. En zelfs binnen de padgroepen is men nu wel overtuigd van de digitale noodzaak. 
+Ik ben zelf wandelaar, LAW-markeerder, OSM-mapper, én knooppunten-kenner. Daarom heb ik met Wandelnet kunnen afspreken om een pilot te doen met een padgroep, om de digitale info op beide platforms 100% overeen te laten stemmen met de gemarkeerde werkelijkheid. Dat is gedaan én volledig geslaagd voor 1 streekpad (ca 100 Km). Nu ben ik bezig met een tweede padgroep, en dat gaat ook voorspoedig! 
+Tue, Jan 11, 2022, 16:15:55 - Peter Elderson NL: Uitvoering: de basis is dat markeerders precies weten waar de gemarkeerde route loopt, dus je vraagt dat gewoon. Maar dan ingekleed. Ik vergelijk de gpx van officiele website met OSM, en dan krijg ik een verschillenlijst (ca 60-100 verschillen per nationale LAW). Dan vraag ik elke markeerder met kaartjes erbij: wie heeft er gelijk, of zit het nog anders? Als OSM fout zit, werk ik het bij. Aan het eind is OSM helemaal goed, en dan geef ik de gpx daarvan door aan Wandelnet, dan werken zij hun site en de routedatabank bij. Klaar! Het hele proces duurde de eerste keer maanden, nu heb ik een pilot die ca 1 maand doorloop gaat kosten. Het echte mapwerk is minimaal, het is vooral mailen en wachten. Maar als dit lukt, zijn er veel mogelijkheden om het proces te versnellen. 
+Wed, Jan 12, 2022, 00:41:49 - s8evq: Super. Het is eigenlijk hetzelfde proces als wat wij hier gedaan hebben.
+Wed, Jan 12, 2022, 00:42:30 - s8evq: Hoe is de verhouding bij jullie? Als je een afwijking ontdekt tussen officiele GPX en OSM, wie heeft het meestal bij het rechte eind?
+Wed, Jan 12, 2022, 00:43:19 - s8evq: > _>  Ik vergelijk de gpx van officiele website met OSM,_
+Het is precies deze stap dat de tool van vmarc volledig zou automatiseren.
+Wed, Jan 12, 2022, 09:40:12 - Peter Elderson NL: <@s8evq:matrix.org "Super. Het is eigenlijk hetzelfd..."> Doen jullie het ook samen met de vrijwilligers? En leveren jullie de resultaten ook terug aan GR?
+Wed, Jan 12, 2022, 09:45:46 - Peter Elderson NL: <@s8evq:matrix.org "Hoe is de verhouding bij jullie?..."> Dat hangt af van a. hoe populair/bekend de route is (hoe bekender, hoe vaker OSM door loslopende mappers bijgewerkt wordt); en b. hoe aktief en digitaal bewust de padgroep is. Het Krijtlandpad in NL Limburg bijvoorbeeld, is bij Wandelnet altijd 100% aktueel, daar zorgt de padcoördinator voor. Maar het Grenslandpad is een stuk minder; die padgroep is vooral van het boekje.
+Wed, Jan 12, 2022, 09:55:16 - Peter Elderson NL: <@s8evq:matrix.org "> _>  Ik vergelijk de gpx van of..."> Ja, ik vergelijk door de Wandelnet gpx te laden op de ondergrond van Waymarkedtrails, dan zie je de verschillen heel gemakkelijk, en ik stuur de markeerders dan schermkiekjes van de afwijkingen om aan te geven welke lijn klopt. Maar je kan niet direkt aanpassen. Daarvoor laad ik de gpx domweg in JOSM, kies download langs de gpx, en dan loop ik de aan te passen punten na.  
+Je moet wel zelf besluiten welke verschillen belangrijk zijn, want soms is een klein verschil heel belangrijk en een op het oog groter verschil niet. En het aanpassen zelf valt denk ik niet te automatiseren. 
+Wed, Jan 12, 2022, 14:20:49 - s8evq: <@pelderson:matrix.org "Doen jullie het ook samen met de..."> Ja en Ja :)
+Wed, Jan 12, 2022, 14:23:26 - s8evq: <@pelderson:matrix.org "Ja, ik vergelijk door de Wandeln..."> Ja, dat is zowat dezelfde werkwijze als ik ook gebruik.
+Wed, Jan 12, 2022, 14:32:09 - Peter Elderson NL: Daarnaast doe ik integriteitscontrole van alle LAWen en SPen, ieder jaar opnieuw. Eerlijk gezegd zou ik veel liever dáárvoor een tool zoals Knooppuntnet Analyse hebben, die op fouten, onderbrekingen en inconsistenties checkt, ook bij hierarchisch opgebouwde routerelaties.
+Wed, Jan 12, 2022, 16:28:02 - s8evq: Onderbrekingen en inconsistenties worden ook gecontroleerd in de vmarc tool
+Wed, Jan 12, 2022, 16:28:27 - s8evq: Maar (nog) niet met parent/super relations
+Thu, Jan 13, 2022, 04:07:17 - dentonny set a profile picture
+Sun, Jan 30, 2022, 20:55:11 - s8evq changed the room name from OSMBE - Grote Routepaden to OSMBE - SGR/GR cooperation.
+Sun, Jan 30, 2022, 20:55:44 - s8evq invited juminet
+Sun, Jan 30, 2022, 20:55:53 - s8evq invited foxandpotatoes
+Sun, Jan 30, 2022, 20:56:38 - s8evq changed the topic to "https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Long_Distance_Walking_Routes#Cooperation_with_Grote_Routepaden_and_Sentiers_GR
+https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Long_Distance_Walking_Routes/Instructions_Flanders".
+Sun, Jan 30, 2022, 21:05:57 - juminet joined the room
+Thu, Feb 3, 2022, 07:28:39 - @vnt974:matrix.org joined the room
+Thu, Feb 3, 2022, 07:30:14 - @vnt974:matrix.org left the room
+Fri, Feb 11, 2022, 16:16:26 - foxandpotatoes joined the room
+Fri, Feb 11, 2022, 17:29:27 - foxandpotatoes: sgr_osmbe_formation_maintenance_gr_20220123.pdf (Media omitted)
+Fri, Feb 11, 2022, 17:30:24 - foxandpotatoes: A fifteen-page vademecum in PDF format entitled "Maintenance des GR dans OpenStreetMap" was drawn up in consultation with the SGR. It is available in French. Feel free to comment.
+Fri, Feb 11, 2022, 18:27:30 - Peter Elderson NL: Nice work! Puis-je l'utiliser pour notre rendez-vous avec Wandelnet aux Pays-Bas ?
+Fri, Feb 11, 2022, 18:35:15 - Peter Elderson NL: I may have missed it, but in Nederland this is quite common: OSM often has more recent and more accurate itinerary than Wandelnet. Because OSM is taken from survey and Wandelnet waits for modification requests by the maintenance team leader, who is a volunteer and not always keen to take cvare of the digital infomation. So, if OSM may be more recent than SGR, shouldn't this situation be mentioned? 
+Fri, Feb 11, 2022, 18:36:57 - Peter Elderson NL: One other thing: Is this vademecum aimed at the OSM mapper, or will SGR take this on?
+Wed, Mar 9, 2022, 19:01:58 - Peter Elderson NL: Op verzoek van de maker van longdistancepaths.eu kijk ik naar de E2 van Schotland tot Nice. In Engeland zijn er 2 varianten. De zuidelijke ging vroeger via Dover naar Oostende, maar nu eerst naar Duinkerken. De zuidelijke route in België is beschreven als een aaneenschakeling van bestaande routes die uiteindelijk weer aansluit op de GR5.
+Zijn er plannen om dit aan te vullen? Of is het akkoord dat ik er iets mee doe? IK kom dan in principe niet aan de laagste niveaus, het gaat om het hierarchisch arrangeren van de routes in een internationale superroute van nationale superroutes. 
+Ik heb nog een vraagje: ik meen gezien te hebben dat er af en toe naast de nationale markering ook een europese sticker zit, mondjesmaat. Geen doorlopende bewegwijzering, maar af en toe een bevestiging dat je nog op de europese route zit.  Klopt dat? 
+Wed, Mar 9, 2022, 19:50:24 - s8evq: <@pelderson:matrix.org "Op verzoek van de maker van long..."> Ja hoor. Doe maar zeker. Ik weet niet als er iemand actief bezig is met het onderhouden van de E routes in Belgie.
+Wed, Mar 9, 2022, 19:51:58 - s8evq: En van bewegwijzering. Ik kan me niet herinneren dat ooit die stickers gezien te hebben.
+Wed, Mar 9, 2022, 23:56:44 - Peter Elderson NL: Ik dacht dat ik af en toe zo'n blauwe sticker met sterren had gezien, maar dat kan ook bij het fietsen in Duitsland geweest zijn. Soms haal ik het een beetje door elkaar.
+Thu, Mar 10, 2022, 11:36:20 - Jhowie Nitnek joined the room
+Fri, Mar 11, 2022, 20:19:14 - Peter Elderson NL: Ik kom er net achter dat het veer Dover-Duinkerken geen voetgangers vervoert. Je móet daadwerkelijk met een voertuig aan boord. Er is geen alternatieve dienst. Dat kan dus niet in de E2 zitten! Dover-Calais heeft een alternatieve veerdienst die voetgangers toelaat. Dus ik denk dat de zuidelijke variant van de E2 in België van Calais via de 120 naar de 5a bij Duinkerken moet gaan. 
+
+Verder gaat hij via de 5a naar Antwerpen - maar dat kan via de 5A Noord of via de 5a Zuid. Vroeger kwam je aan met het veer naar Oostende, dan liep je via Brugge naar Antwerpen. Toen Oostende verviel was het idee, je gaat naar Duinkerken, dan naar Oostende-Brugge-Antwerpen. Die route vind ik nog op veel plekken terug. Maar de nieuwere variant is: Duinkerken-5a Zuid langs Brussel naar Antwerpen. Dat lijkt bij Grote Routepaden nu het idee te zijn, al vind ik ook daar de oude route nog terug. Traildino en Wikipedia hinken ook op twee gedachten.
+
+Wat ik wil doen is Dover-Calais-120-Duinkerken-5A Zuid-Antwerpen als hoofdroute van deze E2-variant invoeren. 
+
+Zijn jullie het hiermee eens? Met GR zou dan MI overlegd moeten worden dat zij zowel Oostende als Duinkerken overal weghalen en melden dat het veer naar Duinkerken niet geschikt is voor hikers. De Via Francigena is wel goed omgelegd zag ik. Ik zou zelf kontakt maken met GR, maar het is voor hun misschien prettiger om met de Belgische community zaken te blijven doen, en niet met een willekeurige Hollandse mapper!
+
+Fri, Mar 11, 2022, 21:43:21 - s8evq: Ja klinkt goed. We kunnen inderdaad eens contact opnemen met GR om dit uit te klaren. 
+Thu, Mar 24, 2022, 13:59:26 - joost_schouppe: We're planning a "starting meeting" for a "route monitoring project" and related tool. I've emailed a few of you already; here is the message:
+Thu, Mar 24, 2022, 13:59:32 - joost_schouppe: Ever since we started talking with Grote Routepaden vzw, the topic of "how to synchronize OSM to official route data" and "how to monitor the quality of entire route networks" kept coming up. With OKBE/OSMBE, we've built a tool during Open Summer of Code to do this with the cycle network of the Brussels region, but the tool has not been maintained.
+
+Marc has built an entire environment to help the QA of route networks. We have been testing it first for GR in Flanders; then Pierre Parmentier used it for GR in Wallonia. Here's an example of a single route and here for the network.
+
+Last week, some of you met with ECF/Eurovelo (report here), and it seems they are struggling with similar questions.
+
+I'd like us to have a meeting to discuss the possibilities to build a tool with the kind of features mappers need; and that also can be used by the official data managers to keep track of both OSM and their own data.
+
+If we have enough time, we can go into how this topic could become an "official" OSMBE project, and who could do what for such a project.
+
+I've created this not-a-doodle to pick a time and date:
+https://www.when2meet.com/?15080129-MNMw5
+(you need to "sign in" to be able to fill in your agenda, but that just means filling in a name)
+Thu, Mar 24, 2022, 15:08:31 - vmarc joined the room
+Thu, Mar 24, 2022, 15:10:44 - Seppe: I'm interested to follow along. On 29/03 8 PM, there is already an OSM meeting, right?
+Thu, Mar 24, 2022, 15:13:16 - joost_schouppe: ehh I didn't cross reference agendas, sorry. Yes, the bimonthly meetup is then
+Thu, Mar 24, 2022, 15:15:44 - Seppe: ok
+Mon, Mar 28, 2022, 18:04:13 - foxandpotatoes: <@pelderson:matrix.org "I may have missed it, but in Ned..."> SGR is more recent than OSM. SGR is the operator. The GPX routes from SGR are coordinated with the "topoguides" as well as the modifications sheets.
+Mon, Mar 28, 2022, 18:06:00 - foxandpotatoes: <@pelderson:matrix.org "One other thing: Is this vademec..."> The "vadémécum" is aimed at OSM mappers. Some SGR members are also OSM mappers. And it is hoped that more contributors will join the maintenance task.
+Thu, Mar 31, 2022, 13:08:42 - Peter Elderson NL: <@joost_schouppe:matrix.org "Ever since we started talking wi..."> Sorry I just saw this, had corona first and then a recovery hike in Switzerland. I am very much interested and I would like to participate. I filled out the availability form, even though the first optional date have already past so maybe I am too late? 
+Thu, Mar 31, 2022, 14:18:11 - joost_schouppe: Hey Peter, I just forwarded the invite; we'd settled on a date already. Unfortunately foxandpotatoes won't be able to make it, so there's bound to be more opportunities later
+Thu, Mar 31, 2022, 17:36:18 - pietervdvn joined the room
+Fri, Apr 1, 2022, 18:02:07 - Peter Elderson NL: <@joost_schouppe:matrix.org "Hey Peter, I just forwarded the ..."> Dank je, ik zal er hoogstwaarschijnlijk wel bijzijn!
+Fri, Apr 1, 2022, 20:02:32 - s8evq: The meeting is now, at 8? Isn't it?
+Fri, Apr 1, 2022, 20:02:45 - joost_schouppe: it is
+Fri, Apr 1, 2022, 20:03:08 - joost_schouppe: https://meet.openknowledge.be/user/joo-pab-pjl-acx
+Fri, Apr 1, 2022, 20:03:45 - s8evq: 👍️
+Wed, Apr 6, 2022, 19:02:56 - Peter Elderson NL: Mijn Franse kennissen kort verslag gedaan. Zij zijn geïnteresseerd, maar hebben hetzelfde probleem als ik in Nederland: de herkomst en kwaliteit van gpx-en is, hm, wisselend, en de mensen die ermee zouden moeten werken is een erg verspreid en versnipperd publiek. Maar mijn "verschillenmethode" wordt waarschijnlijk standaard binnen Wandelnet (=de Nederlandse Grote Routepaden VZW). Ik moet hem dan gaan overdragen aan anderen en die zouden erg gebaat zijn met de tool van vmarc! Het detekteren van de verschillen neemt namelijk de meeste tijd in beslag voor mij als "projektleider". 
+@vmarc Dit is niet om druk op jou uit te oefenen hoor! We hebben alle tijd en het in alle rust afronden van de Knooppuntnet-release is veel belangrijker.
+Thu, Apr 7, 2022, 07:28:33 - joost_schouppe invited @thierry1030:matrix.org
+Thu, Apr 7, 2022, 16:32:12 - @thierry1030:matrix.org joined the room
+Sat, Apr 9, 2022, 09:59:33 - s8evq: https://experimental.knooppuntnet.nl/en/monitor/groups/GRV
+Sat, Apr 9, 2022, 09:59:36 - s8evq: Voila!
+Sat, Apr 9, 2022, 09:59:52 - s8evq: De voorlopige versie met de vlaamse GR routes staat nu ook online op vmarc zijn website
+Sat, Apr 9, 2022, 09:59:59 - s8evq: Bedankt Marc
+Sat, Apr 9, 2022, 10:00:15 - s8evq: We kunnen dit alvast tonen aan Grote Routepaden VZW. 
+Sat, Apr 9, 2022, 10:00:22 - s8evq: Echt handig om fouten uit routes te halen
+Sat, Apr 9, 2022, 10:02:39 - s8evq: Trouwens, ik zal en de komende weken eens afspreken met Isabel van Grote Routepaden (online vergadering). Enerzijds om nog eens te helpen met hun surface tags en statistieken over de routes. Ze hebben nog wat meer technische ondersteuning nodig (en misschien breng ik het idee van een mapcomplete theme nog eens naar boven) Anderzijds zal ik deze tool ook al een demonstreren. Iemand zin om mee te doen?
+Sat, Apr 9, 2022, 10:05:35 - s8evq: The tool also shows when a route relation is not continuous anymore. So, on a side note, (and perhaps something pelderson knows more about), it could be interesting to analyze why these long route relations break. Is it a specific editor that makes errors? I don't know yet, it could be interesting to have a closer look.
+Wed, Apr 13, 2022, 23:12:08 - Seppe: <@s8evq:matrix.org "De voorlopige versie met de vlaa..."> Zijn de relaties met de GR VZW goed genoeg zodat ze hun gpx zullen updaten als wij feedback geven? Anders blijven de 'fouten' natuurlijk naar boven komen wanneer we OSM en GR VZW vergelijken.
+Wed, Apr 13, 2022, 23:44:40 - s8evq: Ja hoor. Dat is in het verleden reeds gebeurd
+Wed, Apr 13, 2022, 23:45:19 - s8evq: De bedoeling is dat ze uiteindelijk een export van de OSM route relation als officiele GPX zouden gebruiken.
+Wed, Apr 13, 2022, 23:45:46 - s8evq: Dan vallen de GPX lijntjes perfect samen met OSM wegen, en zou marc zijn tool niets meer mogen detecteren.
+Wed, Apr 13, 2022, 23:46:11 - s8evq: Dat is het idee, maar ja: _"Tussen zeggen en doen verslijten er vele schoen"_
+Wed, Apr 13, 2022, 23:55:24 - Seppe: Begrijp ik, maar in tussentijd zou het goed zijn mocht er een wisselwerking zijn om aan beide kanten de data te verbeteren. Vandaag in Poeke een heel klein stukje gecheckt en daar blijken de OSM-data de juiste te zijn. In zo'n gevallen zou GR VZW hun gpx moeten aanpassen, zodat de fout uit de tool van Marc verdwijnt.
+Thu, Apr 14, 2022, 00:00:22 - s8evq: Ja dat is waar, de GR 129 in Poeke is reeds volledig gecheckt (zonder Marc's tool) samen met hen. Maar blijkbaar hebben ze hun GPX niet geupdate. Wel jammer, inderdaad.
+Thu, Apr 14, 2022, 19:08:20 - Peter Elderson NL: In Nederland ben ik naast OSM-mapper ook markeerder voor Wandelnet. De GIS-sers van Wandelnet gebruiken OSM niet omdat ze het niet betrouwbaar genoeg vinden; geen officiële bron. Ik ben dat in het algemeen wel met ze eens, theoretisch. In de praktijk komt het er echter op neer dat OSM meestal aktueler en akkurater is. Dat is waar ik als verbindende schakel in beeld kom: ik kan een lijst verschillen maken, die met de veldwerkers uitzoeken, en dan het resultaat aan de GIS-sers van Wandelnet ter beschikking stellen. Zij aanvaarden dat wél als geautoriseerde bron. 
+Thu, Apr 14, 2022, 19:17:37 - Peter Elderson NL: Ik zet dus OSM in als kwaliteitstool voor de resultaten van routecontrole. Een volgende stap zou zijn dat zo'n veldgroep dat zelf al doet. Dan zijn hun verbeteringen onmiddellijk ter beschikking en publiek. De GISsers kunnen dan periodiek of naar aanleiding van een signaal, de laatste stand van zaken zelf uit OSM halen, via waymarkedtrails, overpass, Knooppuntnet of een importer die het rechtstreeks in hun GIS inleest. Tenslotte kunnen ze hun gebruikers erop wijzen dat ze routefouten kunnen melden maar ook zelf in OSM aanpassen. vmarcs tool kan dan een signaal zijn dat er iets in het wild aangepast is, waarna het gecontroleerd kan worden en vervolgens overgenomen. 
+Volgens mij heb je dan crowd sourcing plus kwaliteitscontrole, het beste van twee werelden.
+Thu, Apr 14, 2022, 19:42:20 - Peter Elderson NL: <@s8evq:matrix.org "The tool also shows when a route..."> In the past Id broke routes all the time, but they have fixed that years ago. Now, Id and Josm both show up in the histry of the breaks. So it's user error (ignorance) most of the time. A common editor-based error is  that a way is split e.g. for speed micromapping, and the two result sections are in reverse order in the relations. This happens with Id and with JOSM. Maybe this situation is detectable so the tool could give a specific "fact"? 
+Other interruptions result from deleting/redrawing ways, extending ways, shortening ways, all without checking the relations. The editors warn the user about this but do not prevent the action. Many mappers don't have the knowledge, so they simply ignore the warnings! 
+A common problem is roundabouts. Many tools do not handle roundabouts properly in relations. E.g. gpx-export in overpass. Routers usually handle roundabouts for motorized traffic, some bicycle routers also, and foot routers I don't think so. The thing is, when you use a route, you dont actually route, so routers are not relevant! 
+Thu, Apr 14, 2022, 20:46:38 - Jakka_Frank: Hier een voorbeeld verschil verschil tussen OSM en GPX afhankelijk welke kant van de splitsing je neemt tijdens opname.
+Thu, Apr 14, 2022, 20:46:43 - Jakka_Frank sent an image. (Media omitted)
+Thu, Apr 14, 2022, 20:47:04 - Jakka_Frank: https://www.openstreetmap.org/#map=20/50.79602455021859/3.0701764137618417
+Thu, Apr 14, 2022, 20:48:30 - Jakka_Frank: Moet men hier beiden invoeren voor heen als terugweg, te voet is er geen onway verplichting. Maar zouden het kunnen doen voor ....
+Thu, Apr 14, 2022, 21:07:22 - Jakka_Frank: GPX fout is enkel voor paarden, op mapil beeld rechts zie je verbod. Over water rechts is de te volgen weg.
+Thu, Apr 14, 2022, 21:07:24 - Jakka_Frank: https://www.mapillary.com/app/?pKey=189148016405446
+Thu, Apr 14, 2022, 21:07:59 - Jakka_Frank: https://www.openstreetmap.org/#map=20/50.78697204491222/2.965928471031897
+Thu, Apr 14, 2022, 21:55:50 - s8evq: <@Jakka_Frank:matrix.org "Moet men hier beiden invoeren vo..."> Dit zou een foutje zijn dat ik negeer. De markering ter plaatse is meestal niet gedetailleerd genoeg om hier een passende oplossing voor te geven.
+Thu, Apr 14, 2022, 21:56:44 - s8evq: <@pelderson:matrix.org "In the past Id broke routes all ..."> Interessant, bedankt.
+Thu, Apr 14, 2022, 22:24:53 - Peter Elderson NL: <@s8evq:matrix.org "Dit zou een foutje zijn dat ik n..."> +1. Als je het heel strikt neemt is de markering, in de hoofdrichting, over de westkant. Vanaf de zuidkant zie je namelijk de markering aan de andere kant van de N-weg links op een paaltje staan. In de tegenrichting zie je de markering precies in het midden van de weg, maar hij lijkt meer op de westkant gericht te zijn. 
+Fri, Apr 15, 2022, 09:26:48 - joost_schouppe: <@Seppe:matrix.org "Begrijp ik, maar in tussentijd z..."> What I'm thinking is we need to be able to flag something in the tool as "we've checked and now OSM is the Absolute Truth". At that point, we extract a version and send it to the official source with the message "this is our truth, do with it what you want (but we'd like you to fix your stuff)". At that point, vmarc's tool changes the comparison: now our Absolute Truth snapshot is used for comparison to the OSM relation that is "evolving in the wild". This is pretty similar as well to using any bad GPX dataset. You put it in the tool, try to use it for fixing the OSM relation as much as possible. When there is no value anymore to extract from the GPX, you do the same swithc (cc s8evq, pelderson). I'd suggest we ask vmarc to (in his own time) build the features needed to work like this
+Fri, Apr 15, 2022, 11:19:02 - Peter Elderson NL: That's a key element, joost_schouppe . Note that truth is very fleeting, and many people can access different routes, facts, "truths" and gpx-exports at unknown times and in unknown everchanging workflows. As a former IT-advisor I recommend a. Don't build workflow into the tools; b. mark the data itself with status info including date of the "truth". 
+Ad a: because you never get workflows right and fool-proof. The business rules always limit what users can do, and users always end up wanting different things; Ad b: because that gives anyone at any time the info needed for their particular task or project.
+Fri, Apr 15, 2022, 11:50:38 - joost_schouppe: who told what is the thruth when and why, yep that's quite important :)
+Fri, Apr 15, 2022, 11:53:39 - Peter Elderson NL: On the level of the route relation, I use survey:date=yyyy[-mm[-dd]] to indicate when the whole route was found to be true to what's on the ground. When comparing it to another source, the user can -in combination with later significant changesets- assess whether this source needs to be updated or JOSM. If no survey:date is present, verification by survey or survey reports (e.g. from the field workers who ascertain the actual route) is necessary, after that the survey:date can be set.
+Fri, Apr 15, 2022, 12:12:05 - Peter Elderson NL: On the level of individual "facts", it would be helpful to somehow link significant (i.e. route-altering) and datestamped changes to the fact(s). I think by relation-Id and near-location. Showing the changes with the dates on the comparison map of the relation would achieve that visually. In the facts listing you would need to accommodate multiple changes for one fact, and one change may appear with multiple facts. 
+One OSM changeset may alter many things at once, including the geography of multiple route relations, but that's probably a thing that is solved in preprocessing, to extract singular and relevant changes from the changesets. 
+Mon, Apr 18, 2022, 11:48:59 - @wybpip:matrix.org joined the room
+Mon, Apr 18, 2022, 11:49:00 - @wybpip:matrix.org left the room
+Wed, Apr 20, 2022, 14:35:54 - mugli joined the room
+Fri, Apr 29, 2022, 12:24:32 - @thierry1030:matrix.org removed their profile picture
+Fri, Apr 29, 2022, 12:24:40 - @thierry1030:matrix.org removed their display name (thierry1030)
+Fri, Apr 29, 2022, 12:24:48 - @thierry1030:matrix.org left the room
+Fri, Apr 29, 2022, 12:49:47 - thierry.js1030 joined the room
+Sun, May 1, 2022, 22:08:47 - @wybpip:matrix.org joined the room
+Sun, May 1, 2022, 22:08:48 - @wybpip:matrix.org left the room
+Tue, May 3, 2022, 22:13:48 - dentonny: Wel geen GR maar wel de moeite denk ik:
+https://www.vrt.be/vrtnws/nl/2022/05/03/nieuwe-langeafstandswandeling-in-nationaal-park-hoge-kempen-110/
+Wed, May 4, 2022, 08:37:53 - Peter Elderson NL: De kleurenrondjes van het Nationale Park Hoge Kempen vormen samen een knooppuntnetwerk, met genummerde "wisselpunten". 
+Thu, May 12, 2022, 08:37:30 - dentonny: yesterday I went to the Ninglinspo and there were paths closed to restore the nature. Like this one for example: https://www.openstreetmap.org/way/369852803
+Thu, May 12, 2022, 08:38:44 - dentonny: There are 4 hiking routes that runs over that path. I walked the AY21 so I can edit that one, but I have no knowledge about the other ones
+Thu, May 12, 2022, 08:39:14 - dentonny: Is it ok to change the path with access=no but leave the routes on them?
+Thu, May 12, 2022, 08:44:53 - joost_schouppe: It's not the perfect solution, but at least it will let others know there's an issue. 
+Thu, May 12, 2022, 08:45:07 - dentonny: I'll add a note too
+Thu, May 12, 2022, 08:52:25 - dentonny: https://i.imgur.com/6MaVtxt.jpg
+Thu, May 12, 2022, 08:58:39 - joost_schouppe: Question is, have they signposted a detour, and if so, how permanent is it? 
+Thu, May 12, 2022, 08:59:49 - dentonny: I think it's not a detour, they really changed the signposts
+Thu, May 12, 2022, 09:00:01 - dentonny: as you can see here https://i.imgur.com/CVq13E1.jpg
+Thu, May 12, 2022, 09:01:11 - dentonny: 20 & 21 go to the right, before the bridge. But the routes on osm go over the bridge
+Thu, May 12, 2022, 09:06:36 - dentonny sent an image. (Media omitted)
+Thu, May 12, 2022, 09:07:12 - dentonny: this is part of the map, so it's also mentioned on the information board
+Thu, May 12, 2022, 09:20:49 - s8evq: <@joost_schouppe:matrix.org "It's not the perfect solution, b..."> I think so too, it's the best you can do at the moment
+Thu, May 12, 2022, 09:21:42 - s8evq: By the way, tomorrow 10, I'm having a Teams meeting with Isabel of Grote Routepaden. She'll probably ask about how they can use or contribute to OSM and I'll show her our vmarc tool
+Thu, May 12, 2022, 09:28:17 - joost_schouppe: how about we suggest a webinar? Say, let them put in their newsletter something like "on day X, OSM mappers will explain how you can map GR in OSM, so they will show up in hikiing.waymarkedtrails.org etc. . Register here to  join.". Also, mention that promoting "Pin je Punt" to their members would benefit their onw maps too. And that we could EASILY make a GR focused MapComplete theme, if they just pick "layers" from the exisiting MapComplete themese (drinking water, picnic sites, dog friendly cafes, benches, ...). With more work, we could build something with a bit more features (like perhaps making GR-specific Notes, or have it show GR related Note questions only)
+Thu, May 12, 2022, 13:54:59 - s8evq: Thanks for the input Joost, you're awesome'
+Thu, May 12, 2022, 14:02:57 - joost_schouppe: *joost tips hat*
+Tue, May 17, 2022, 22:13:36 - ericferon joined the room
+Wed, Jun 1, 2022, 18:22:18 - Twijg76 changed their display name to twijg
+Thu, Jun 9, 2022, 08:45:37 - timcouwelier joined the room
+Mon, Jun 13, 2022, 11:28:44 - thibaultmol changed their display name to Thibaultmol
+Wed, Jun 22, 2022, 04:10:48 - @better_sleeping:converser.eu joined the room
+Wed, Jun 22, 2022, 04:11:01 - @better_sleeping:converser.eu left the room
+Fri, Jul 8, 2022, 23:37:17 - Peter Elderson NL: I plan to start recording and mapillarizing timelapse photoseries with the gopro 360 camera. Still trying to work out how to fix it. Currently I have it on a stick in one hand, it works but I wouldn't want to do that for hours and hours. Backpack fixation will not give me 360, that is, 180 degrees is always my own back. I'll probably end up with a helmet with the gopro on top. Maybe a cap of some sort, it's got to have a smooth hard surface, but not like a motor helmet. 
+Sat, Jul 9, 2022, 07:02:00 - Thibaultmol: > <@pelderson:matrix.org> I plan to start recording and mapillarizing timelapse photoseries with the gopro 360 camera. Still trying to work out how to fix it. Currently I have it on a stick in one hand, it works but I wouldn't want to do that for hours and hours. Backpack fixation will not give me 360, that is, 180 degrees is always my own back. I'll probably end up with a helmet with the gopro on top. Maybe a cap of some sort, it's got to have a smooth hard surface, but not like a motor helmet. 
+
+Wrong channel btw #osmbe-openstreetview:matrix.org  😉
+Sat, Jul 9, 2022, 07:26:46 - joost_schouppe: Not really though. The images will be udeful here as well
+Sat, Jul 9, 2022, 07:39:51 - Thibaultmol: Fair enough
+Sat, Jul 9, 2022, 10:10:16 - Seppe: I still think that a pole attached to a backpack will get you the best results. It takes some work getting it right, but I got nice results with a very [ghetto setup](https://matrix-client.matrix.org/_matrix/media/r0/download/matrix.org/HjRGoDCKQTAIfTbpCjAYDJim)
+Sat, Jul 9, 2022, 10:13:04 - Seppe: [see the results on Mapillary](https://www.mapillary.com/app/?lat=51.180537399972&lng=3.1919927&z=17&dateFrom=2022-01-01&panos=true&pKey=1921964504681201&focus=photo&x=0.0836652721720284&y=0.9404780175944955&zoom=0)
+Sat, Jul 9, 2022, 10:14:07 - Seppe: With a helmet, you should keep your head as straight as possible, which is doable on a bike, but I wouldn't want to do that when walking.
+Sun, Jul 10, 2022, 12:42:58 - Peter Elderson NL: <@Seppe:matrix.org "With a helmet, you should keep y..."> Valt mee denk ik, ik kijk vooral recht vooruit en 15gr links en rechts. Voor me naar beneden kijken zal het vaakst voorkomen en dat levert surface-data!
+Sun, Jul 10, 2022, 12:53:40 - timcouwelier: Ligfietser uses a pole that reaches fairly high 
+Sun, Jul 10, 2022, 12:53:55 - timcouwelier: But then again he himself is sufficiently low to not block coverage 
+Sun, Jul 10, 2022, 15:40:05 - Seppe: Sowieso goed om eens een paar dingen uit te proberen vooraleer je lange tochten gaat doen. Zo leer je ook de camera kennen.
+Wed, Jul 13, 2022, 20:55:48 - Peter Elderson NL: <@Seppe:matrix.org "I still think that a pole attach..."> Met een priem, wat knelbandjes en strakke opvulling heb ik inderdaad een bruikbare streetcampolebackpacksetup gekregen. {geen zorgen, ik heb de priem op de rugzak gebruikt, niet op de camera!)
+Sun, Aug 14, 2022, 14:23:04 - @wisdomdeebtc:matrix.org joined the room
+Sun, Aug 14, 2022, 20:59:56 - wisdomdeebtc changed their display name to Houstonbtc
+Mon, Aug 15, 2022, 10:56:59 - @wisdomdeebtc:matrix.org left the room
+Mon, Aug 15, 2022, 15:44:26 - @michaelbtc:matrix.org joined the room
+Tue, Aug 16, 2022, 00:57:41 - @eligantbtc:matrix.org joined the room
+Tue, Aug 16, 2022, 13:03:38 - @eligantbtc:matrix.org left the room
+Tue, Aug 16, 2022, 21:11:00 - thverhulst joined the room
+Thu, Aug 18, 2022, 13:47:35 - @michaelbtc:matrix.org left the room
+Fri, Aug 19, 2022, 17:50:09 - @blackie6192:matrix.org joined the room
+Mon, Aug 22, 2022, 17:01:13 - @blackie6192:matrix.org left the room
+Wed, Aug 31, 2022, 00:11:59 - @hutchinson22:matrix.org joined the room
+Fri, Sep 9, 2022, 12:09:02 - @hutchinson22:matrix.org left the room
+Tue, Sep 20, 2022, 12:53:53 - @sandraeb:matrix.org joined the room
+Sun, Sep 25, 2022, 03:24:50 - @sandraeb:matrix.org left the room
+Fri, Sep 30, 2022, 10:50:42 - foxandpotatoes sent an invitation to e...@g... to join the room.
+Fri, Sep 30, 2022, 10:50:43 - foxandpotatoes sent an invitation to c...@g... to join the room.
+Fri, Sep 30, 2022, 10:50:44 - foxandpotatoes invited francol6833
+Sun, Oct 2, 2022, 22:30:46 - Francis Collard joined the room
+Sun, Oct 2, 2022, 22:49:30 - Francis Collard set a profile picture
+Mon, Oct 3, 2022, 13:16:58 - joost_schouppe changed the power level of foxandpotatoes from Default to Moderator.
+Mon, Oct 3, 2022, 13:20:42 - joost_schouppe sent an invitation to m...@g... to join the room.
+Mon, Oct 3, 2022, 13:20:46 - joost_schouppe invited francol6833
+Mon, Oct 3, 2022, 13:20:55 - joost_schouppe sent an invitation to c...@g... to join the room.
+Mon, Oct 3, 2022, 13:21:05 - joost_schouppe sent an invitation to c...@g... to join the room.
+Mon, Oct 3, 2022, 13:21:11 - joost_schouppe sent an invitation to e...@g... to join the room.
+Mon, Oct 3, 2022, 22:38:16 - Michel Dawirs accepted the invitation for c...@g...
+Mon, Oct 3, 2022, 22:38:16 - Michel Dawirs joined the room
+Thu, Oct 6, 2022, 00:01:30 - @satishkoma:matrix.org joined the room
+Fri, Oct 7, 2022, 19:36:29 - @satishkoma:matrix.org left the room
+Mon, Oct 10, 2022, 16:52:45 - @wyb_:matrix.org joined the room
+Mon, Oct 10, 2022, 16:52:46 - @wyb_:matrix.org left the room
+Wed, Oct 12, 2022, 10:37:12 - @allena:matrix.org joined the room
+Thu, Oct 13, 2022, 11:11:04 - @allena:matrix.org left the room
+Thu, Oct 13, 2022, 11:39:00 - boss-lefagnard accepted the invitation for c...@g...
+Thu, Oct 13, 2022, 11:39:00 - boss-lefagnard joined the room
+Thu, Oct 13, 2022, 11:44:05 - boss-lefagnard: Bonjour à tous. Me voilà présent dans cette pièce?
+Hallo zusammen. Ich bin nun diesem Raum beigetreten.
+Thu, Oct 13, 2022, 12:06:38 - juminet: Bonjour le Fagnard!
+Thu, Oct 13, 2022, 12:06:49 - juminet: Et bienvenue
+Thu, Oct 13, 2022, 12:24:37 - s8evq: 👍️
+Fri, Oct 14, 2022, 17:59:25 - foxandpotatoes: Pour la synchronisation des GR, on cherche un ou plusieurs volontaires pour créer les relations pour :
+Fri, Oct 14, 2022, 18:00:56 - foxandpotatoes: ... les liaisons et variantes du GR 126, à savoir L1 à L5 et V1 et V2. Qui prend quoi ?
+Fri, Oct 14, 2022, 18:09:48 - foxandpotatoes: GR-12-E4GR 12 - Parcours Principal. Il y a une correction à faire à l'est de Roly, rue de l'Azelle. Qui prend ?
+Fri, Oct 14, 2022, 18:11:16 - foxandpotatoes: GR-12-E4GR 12 - Parcours Principal. Idem au SW de Vogenée, bois de Seûri.
+Fri, Oct 14, 2022, 18:12:40 - foxandpotatoes: GR-12-E4GR 12 - Parcours Principal. Idem à Jamioulx, rue du Laury. Le GR est sur la rive W de l'Eau d'Heure.
+Mon, Oct 17, 2022, 15:25:22 - ericferon: Je veux bien prendre en charge le GR12, dans un premier temps.
+Eric
+Tue, Oct 18, 2022, 15:13:24 - foxandpotatoes: <@ericferon:matrix.org "Je veux bien prendre en charge l..."> Merci Eric. S'il te faut de l'aide, n'hésite pas à le faire savoir. Lorsque tu as terminé, informe-nous. 
+Wed, Oct 19, 2022, 14:03:21 - ericferon: > Merci Eric. S'il te faut de l'aide, n'hésite pas à le faire savoir. Lorsque tu as terminé, informe-nous.
+
+Voilà, les 3 modifications demandées pour le GR12 ont été effectuées. Sur knooppuntnet, il semble y avoir un écart à Morlanwelz, W du Bois des Vallées. Faut-il corriger cela aussi ?
+Thu, Oct 20, 2022, 08:05:22 - foxandpotatoes: Oui Eric, tu peux continuer. Pas de problème. Super. Pierre.
+Thu, Oct 20, 2022, 10:39:53 - s8evq: boss-lefagnard:  Hi LeFagnard. Are you reading here these messages? Maybe can have a look here at the relation 9532813 and the issues? It's easier than via email.
+Thu, Oct 20, 2022, 10:45:52 - s8evq: Perhaps pelderson  can answer one of your questions. _"On different places, I can see that people has add some of the guideposts near the nodes, they are visible on the normal map.
+So: is it interesting to add these guideposts on the maps and link them to the relation? If yes, where in the relation?"_
+Thu, Oct 20, 2022, 10:46:27 - s8evq: I think it's not really necessary. Perhaps only interesting. But I'm not sure anyone is actually doing that. Perhaps Peter can tell you more.
+Thu, Oct 20, 2022, 13:49:36 - juminet: Hello, from time to time I'm adding the guideposts (tourism=information+information=guidepost) to a hiking relation, especially for small local walking trails. I put these nodes at the end of the relation of course, to not break the continuity of the ways. IMHO, it could be interesting in case you somehow want to manage this tourism infrastructure with OSM. 
+Thu, Oct 20, 2022, 13:58:28 - Peter Elderson NL: <@juminet:matrix.org "Hello, from time to time I'm add..."> Could be... but who manages the infrastructure with OSM? In some countries they have the same habit, but the association is never used, AFAIK. And I have asked people about this. Mapping the guideposts as information=guidepost puts them on the map, and the spacial relationship  to the routes tells the rest. Official signposting agencies have their own professional management systems. 
+Thu, Oct 20, 2022, 14:07:22 - juminet: Well, I know for sure some very small local agencies that have no professional management system except some papers in a file... OSM might be a starting point for gathering info about their infrastructure. Well, for large relation, I can see they have already a large number of members, making it difficult to maintain, so I agree it might not be a good idea to add them. But for small local walking network trails? Also, by guidepost I mean some insfrastructure with at least a wooden pole (eg this one with a picture: https://www.openstreetmap.org/node/7705667404)
+Thu, Oct 20, 2022, 15:45:12 - ericferon: <@ramipenter:matrix.org "Oui Eric, tu peux continuer. Pas..."> OK. Fait.
+Je prendrai en charge les liaisons et variantes du GR126, dans la foulée.
+Fri, Oct 21, 2022, 10:07:17 - Peter Elderson NL: <@juminet:matrix.org "Well, I know for sure some very ..."> Walking networks, YM as in designated nodes (each with a named guidepost) connected by short trails, where the guideposts point to each other (by name) and in between guideposts you have always the same marker such as a yellow diamond?
+Fri, Oct 21, 2022, 10:20:31 - juminet: In Wallonia, there are mostly small walking trails managed by municipalities (but recognised by the region), and AFAIK no "walking node network" (but it is coming I think). So for instance, this one (https://hiking.waymarkedtrails.org/#route?id=4682511) is a walking trail, starting from a point and returning to this point (it is a roundtrip), with the same marker (in this case, a red triangle). The guideposts appear from time to time at some point of interest or at "important" crossroads. But there are many different schemes in small walking network in Wallonia. Many do not have guideposts. They are designed and operated by municipalities, often by volunteers. This marked trail in Marbehan was originally set up by volunteers with a ASBL ("Tarpan", not extinct) and nowadays maintained by the municipality. But I'm pretty sure that they don't have a fancy managing system (maybe they don't need it)
+Fri, Oct 21, 2022, 10:21:39 - juminet: For information, recently, a OSM contributor, jfonda, made a  lot of hiking relations in order to have GPX traces to give to the local tourism agencies, that had no or outdated GPX traces to distribute on their website.
+Fri, Oct 21, 2022, 10:22:58 - juminet: So it is at least a known application of OSM for building the virtual infrastructure for some tourism agency in Belgium!
+Fri, Oct 21, 2022, 10:25:01 - juminet: Also, it is surprising how often these marked trails can evolve. Paths can disappear, local owner make sufficient pressure on the municipality to divert a path from their land (!), a better path is available...
+Fri, Oct 21, 2022, 11:56:45 - s8evq: <@juminet:matrix.org "In Wallonia, there are mostly sm..."> There are indeed no 'node networks' in Wallonia, I wasn't aware of this.
+Fri, Oct 21, 2022, 11:56:51 - s8evq: Well there is this small odd thing:
+Fri, Oct 21, 2022, 11:56:55 - s8evq: http://www.ryponet.be/pointsnoeuds/
+Fri, Oct 21, 2022, 11:57:02 - s8evq: https://www.openstreetmap.org/relation/12080593
+Fri, Oct 21, 2022, 11:58:16 - s8evq: and Pays des Collines is rather a big one:
+Fri, Oct 21, 2022, 11:58:17 - s8evq: https://knooppuntnet.be/en/analysis/network/6661377/map?position=50.71337689,3.61510800,12
+Fri, Oct 21, 2022, 15:45:08 - Peter Elderson NL: <@juminet:matrix.org "For information, recently, a OSM..."> Nicely mapped node networks. Kudo's! 
+Fri, Oct 21, 2022, 15:50:52 - Peter Elderson NL: <@juminet:matrix.org "For information, recently, a OSM..."> Hm... if they are waymarked, fine, if not they shouldn't be in OSM... There are plenty of apps, programs and sites to create and store tracks without creating relations. I use [afstandmeten.nl](https://www.afstandmeten.nl/), with the OpenWalk baselayer which in fact is waymarkedtrails.
+Fri, Oct 21, 2022, 16:10:12 - Peter Elderson NL: <@juminet:matrix.org "So it is at least a known applic..."> I am a volunteer for maintenance of two waymarked long-distance paths, and a dozen "boucles". This is done simply by inspecting the path, instantly repairing what's changed, disappeared or damaged, and for some issues order materials and go back to fix it. No need for asset management or whatever, that's just overkill. I can see possible applications, but it would then be up to the agency to choose OSM and enter the data according to OSM rules and what they actually need. Adding the guideposts to the relations without an agency that uses and maintains them, is just work for nothing. That is my opinion! But hey, maybe it's different in Wallonia!
+Fri, Oct 21, 2022, 16:11:13 - juminet: Yes of course, it is only official marked trails with signposts...
+Sun, Nov 20, 2022, 23:20:39 - Jakka_Frank: was this GR 126 already planned to correct lot of gaps ... http://ra.osmsurround.org/analyzeMap?relationId=33768
+Mon, Nov 21, 2022, 09:09:06 - s8evq: <@Jakka_Frank:matrix.org "was this GR 126 already planned ..."> foxandpotatoes is probably working on this.
+https://knooppuntnet.be/en/monitor/groups/SGR/routes/GR-126-E5/map?mode=osm-segments&reference=false&matches=false&deviations=false&osm-relation=true&selected-deviation=0&selected-osm-segment=0&position=50.79208129,4.43094319,13 is a good tool to view the gaps.
+Mon, Nov 21, 2022, 11:53:10 - foxandpotatoes: Yes I confirm that was are working on GR 126. Eric Feron particularly.
+If anybody volunteer for other GR maintenance, please inform here.
+Thu, Nov 24, 2022, 15:53:14 - foxandpotatoes: <@ramipenter:matrix.org "Yes I confirm that was are worki..."> GR 126 (principal) now repaired.
+Fri, Nov 25, 2022, 11:37:26 - bart_dr joined the room
+Fri, Nov 25, 2022, 11:47:09 - bart_dr: Hi, i am new in the community. I am mainly active with OSM to enter corrections and additional data for the GR and other hiking trails. In particular, completing the Tag Surface. While completing the surface-tags I made a few corrections on the GR-relations, but i met also some small mistakes in the GR-GPX. I'm using the OSM-Editor for the necessary corrections on the paths and relations.
+Fri, Nov 25, 2022, 11:58:55 - bart_dr set a profile picture
+Fri, Nov 25, 2022, 12:29:56 - joost_schouppe: How are you making the comparison? Because we have a tool for that these days! For the Flemish network, it's at https://knooppuntnet.be/en/monitor/groups/GRV
+Fri, Nov 25, 2022, 14:51:08 - vmarc: bart_dr and all: if want to be able to add/update route definitions in the knooppuntnet monitor and the possibility to upload GPX traces, just let me know, then I will add your OSM username. This will give you access to the "admin" functionality. Also OK if you just want try this out and play with it, as long as you do not touch the work of other people I guess... (you can create your own group to act as your playground). The software is still work in progress with some known problems and ideas for improvement (https://github.com/vmarc/knooppuntnet/labels/1-monitor).
+Fri, Nov 25, 2022, 16:01:56 - bart_dr: I discover some off the differences between the track on the GR-website, the GR-GPX, the track on Mapcomplete (and OSM) when I'm hiking. Also the tool https://knooppuntnet.be/en/monitor/groups/GRV is an interesting help. If necessary, GR (Isabel) is informed anout the corrections.
+Fri, Nov 25, 2022, 16:04:15 - bart_dr: Some examples:
+Fri, Nov 25, 2022, 16:05:05 - bart_dr sent an image. (Media omitted)
+Fri, Nov 25, 2022, 16:05:23 - bart_dr: ik heb gisteren in Mapcomplete een foutje vastgesteld op de Streeg-GR Hageland, nabij Drieslinter. Zie bijlage. Het correcte traject is aangeduid in rood. De markering ter plaatse en het GPX-bestand zijn wel correct.
+Fri, Nov 25, 2022, 16:05:39 - s8evq: Dag Bart,
+Fri, Nov 25, 2022, 16:05:48 - s8evq: Leuk je ook hier te zien ;)
+Fri, Nov 25, 2022, 16:06:03 - s8evq: De fout in de Streek-GR Hageland zou opgelost moeten zijn.
+Fri, Nov 25, 2022, 16:06:19 - s8evq: Moest je nog foutjes ontdekken mag je ze altijd melden, dat is heel snel opgelost.
+Fri, Nov 25, 2022, 16:07:45 - s8evq: In de Streek-GR Hageland zijn de meeste grote fouten opgelost, maar er zijn nog een 7-tal kleine foutjes: 
+Fri, Nov 25, 2022, 16:07:45 - s8evq: https://knooppuntnet.be/en/monitor/groups/GRV/routes/p59/map
+Fri, Nov 25, 2022, 16:08:58 - s8evq: Van sommige is het duidelijk dat de GPX fout was (slechte ontvangst met de GPS?), zoals bijvoorbeeld nr 3, 4, 6 en 7
+Fri, Nov 25, 2022, 16:09:36 - s8evq: Soms is er ook geen probleem, maar is het de vraag hoe je een plein oversteekt, (zoals bij fout 1 en 5)
+Fri, Nov 25, 2022, 16:10:03 - s8evq: Dan rest er in dit specifieke geval enkel foutje nr 2 over https://knooppuntnet.be/en/monitor/groups/GRV/routes/p59/map?mode=comparison&reference=false&matches=true&deviations=true&osm-relation=true&selected-deviation=2&selected-osm-segment=0&position=50.96031200,5.05893751,19
+Fri, Nov 25, 2022, 16:10:50 - s8evq: Ik heb, samen met Isabel er al een en ander opgekuist. 
+Fri, Nov 25, 2022, 16:13:13 - s8evq: Maar aan sommige is er nog veel werk, bv GR5A (noord traject), GR12, GR128, GR129, GR564, GR561, GR 512 etc...
+Fri, Nov 25, 2022, 16:13:17 - s8evq: Daar is nog werk aan de winkel
+Fri, Nov 25, 2022, 16:13:40 - bart_dr: Voor foutje 2 heb ik het OSM-traject + de relatie in OSM verbeterd conform de markering ter plaatse. Ik heb dit doorgegeven aan Isabel zodat ze het GPX-bestand van GR kan wijzigen. Is ondertussen gebeurd.
+Fri, Nov 25, 2022, 16:14:25 - s8evq: Ahja, dat is goed. Als Isabel een nieuwe GPX voorziet, dan kan ik dat eenvoudig terug uploaden in de tool van vmarc 
+Fri, Nov 25, 2022, 16:18:11 - s8evq: De tool van vmarc is heel interessant om de verschillen te zien tussen de officiele GPX en wat wij in OSM hebben. De eerlijkheid gebied ons te zeggen dat het vaak gebeurt dat OSM achterloopt en fout is. Maar anderzijds is het al voorgevallen dat OSM het correcte traject heeft en de GPX fout was. Dus het is een wisselwerking (of win-win) tussen OSM en GR VZW.
+Fri, Nov 25, 2022, 16:18:37 - bart_dr: Ik heb al ondervonden dat trajectwijzigingen heel wat coördinatie vragen tussen wandelcommissie's, markeerders, cartografen, GPX-makers, en dus ook OSM. En in de ideale wereld moet bij al die actoren de wijziging op dezelfde dag in voege treden. Gelukkig betreft het meestal kleine aanpassingen.
+Fri, Nov 25, 2022, 16:20:12 - s8evq: Inderdaad. En sommige trajectwijzigingen zijn niet permanent, maar toch van lange duur, zoals de bouw van een nieuwe brug. Die worden dan wel in OSM ingebracht, maar worden op het einde van de werken niet terug aangepast.
+Fri, Nov 25, 2022, 16:21:57 - s8evq: In een ideale wereld (voor ons toch ;)) zou GR VZW zijn routes bijhouden in OSM. Daarbij kan een versie van op een bepaalde dag gezien worden als 'de officiele' versie, bevestigd door GR zelf. Alle wijzigingen nadien kunnen zo vlot een eenvoudig gemonitord worden met vmarc zijn tool.
+Fri, Nov 25, 2022, 16:22:48 - s8evq: Dan hebben jullie onmiddellijk een heel pak werk gespaard bij het aanmaken van de kaarten in de gidsen. En lopen de routes altijd precies proper op het paadje.
+Fri, Nov 25, 2022, 16:23:17 - s8evq: En kan er ook gemakkelijk heel wat informatie verzameld worden over de trajecten, zoals we nu aan het doen zijn met de ondergrond tags.
+Fri, Nov 25, 2022, 16:23:39 - s8evq: Nuja, ik ben hier weeral reclame aan het maken voor OSM ;)
+Fri, Nov 25, 2022, 16:26:43 - s8evq: <@bart_dr:matrix.org "Voor foutje 2 heb ik het OSM-tra..."> Voila, ik heb de GPX opnieuw ingeladen in de Route Monitor van vmarc. Dat foutje is onmiddellijk uit de lijst!
+Fri, Nov 25, 2022, 16:27:39 - s8evq: Maar is ondertussen wel een andere in de plaats gekomen: https://knooppuntnet.be/en/monitor/groups/GRV/routes/p59/map?mode=comparison&reference=false&matches=true&deviations=true&osm-relation=true&selected-deviation=1&selected-osm-segment=0&position=50.83881913,5.12058500,17
+Fri, Nov 25, 2022, 16:31:33 - bart_dr: Geen probleem, onze volgende etappe van GR Hageland loopt van Zoutleeuw naar Kortenaken. Vermoedelijk begin december. Ik bekijk dan hoe de markering is, en vergelijk met het GPX-bestand.
+Fri, Nov 25, 2022, 16:34:19 - s8evq: En ben jij zelf ook markeerder van een route?
+Fri, Nov 25, 2022, 16:35:46 - bart_dr: Het pad langs de beek is volgens OSM tijdelijk afgesloten, duurt tot ± april 2023 (informatie bevraagd bij domeinbeheerder).
+Fri, Nov 25, 2022, 16:39:43 - bart_dr: Ja, ik markeer Nieuwpoort Oostende. Ik help ook mee aan de opmaak van de boekjes Treinstappers. Momenteel vooral het nastapwerk van de basisteksten voor Treinstapper 4. Ter plaatse nazien of tekst, kaartjes, GPX en markering kloppen. En zo kom je af en toe wel eens iets tegen :-)
+Fri, Nov 25, 2022, 23:32:34 - @osmdoudou:matrix.org joined the room
+Mon, Nov 28, 2022, 11:32:24 - bart_dr sent an image. (Media omitted)
+Mon, Nov 28, 2022, 11:32:24 - bart_dr: Af en toe loopt een GR door een veld of duinen op een plaats waar er geen pad is. Zie voorbeeld van GR5A tussen Bredene en De Haan. Hoe kan ik de relatie GR5A koppelen op die plaats?
+Mon, Nov 28, 2022, 11:35:39 - Jakka_Frank: bart_dr: Vermoed een fictief path intekenen en https://wiki.openstreetmap.org/wiki/Key:trail_visibility
+Mon, Nov 28, 2022, 11:48:41 - bart_dr: Tx Frank. Ik heb een pad aangemaakt met visibility intermediate. Intermediate omdat de GR-tekens ter plaatse aanwezig zijn. En daarna dit "fictief" pad gekoppeld aan de relatie GR 5A. Ziet er goed uit.
+Mon, Nov 28, 2022, 11:54:59 - Jakka_Frank: En om nog gedetailleerde te gaan (micromapping) https://wiki.openstreetmap.org/wiki/Tag:information%3Dguidepost GR-tekens
+Tue, Nov 29, 2022, 12:20:39 - s8evq: bart_dr: misschien gemakkelijker langs deze weg:
+Tue, Nov 29, 2022, 12:20:48 - s8evq sent an image. (Media omitted)
+Tue, Nov 29, 2022, 12:21:29 - s8evq: Dit kreeg ik van Seppe die het op Facebook gezien heeft. Dit zal dan een voorbeeldje zijn van wat je hier al eerder schreef: markeerder, GR vzw, trajectwijzigingen etc... zitten niet steeds op 1 lijn.
+Tue, Nov 29, 2022, 15:47:11 - bart_dr: Ik heb het nagevraagd bij GR, en het klopt dat het GR-pad recent gewijzigd werd door het afsluiten van een privé-weg. Op knooppunt.net was het oude GPX-tracé nog gebruikt. Ik pas de GR-relatie in OSM opnieuw aan.
+Tue, Nov 29, 2022, 15:47:35 - s8evq: Okay 👍️
+Tue, Nov 29, 2022, 15:47:42 - s8evq: GPX was inderdaad nog niet up to date ;)
+Tue, Nov 29, 2022, 15:48:42 - s8evq: Trouwens, ik ben nu SGR Uilenspiegel aan het goedzetten samen met Isabel
+Tue, Nov 29, 2022, 18:11:13 - thierry.js1030: <@bart_dr:matrix.org "Ik heb het nagevraagd bij GR, en..."> vraagje uit nieuwsgierigheid: enig idee waarom die (privé)weg nu plots is afgesloten?
+Tue, Nov 29, 2022, 18:30:23 - dentonny: Nieuwe eigenaar die er in zijn blootje wilt rondlopen?
+Tue, Nov 29, 2022, 21:09:56 - s8evq: Geen idee. Ik ben er nog gepasseerd toen het open was. Het voelde wel aan alsof je op iemand zijn oprit liep, voorbij het huis. :)
+Wed, Nov 30, 2022, 18:26:14 - Jakka_Frank: une note: https://www.openstreetmap.org/note/3462029#map=17/49.93706/5.39734&layers=N
+Wed, Nov 30, 2022, 18:27:20 - Jakka_Frank: une note: https://www.openstreetmap.org/note/3462026#map=19/49.97129/5.39713&layers=N
+Fri, Dec 2, 2022, 09:02:58 - bart_dr: Een vraagje: wanneer er een wijziging is aan een GR-pad, bijvoorbeeld de GR5A noord, en er volgt ook een Europese wandelroute dit traject, in dit geval de Europese wandelroute E2, wijzigt die dan ook automatisch mee? Zo te zien niet. Bestaat er één of andere tool om beide te vergelijken? Zou mss wel eens nuttig kunnen zijn.
+Fri, Dec 2, 2022, 09:05:08 - bart_dr: ...  wandelroute E9 ... 🫢
+Fri, Dec 2, 2022, 09:39:53 - s8evq: pelderson volgt een beetje de europese wandelroutes op (wel, dat denk ik toch ;) )
+Fri, Dec 2, 2022, 09:39:57 - s8evq: In dit geval van de E2:
+Fri, Dec 2, 2022, 09:40:50 - s8evq: Wel, sta me toe om een algemeen woordje uitleg te doen over hoe routes in OSM zitten, om dit goed te kunnen snappen.
+Fri, Dec 2, 2022, 09:41:45 - s8evq: Enerzijds heb je de simpele, (normale) routes relations die bestaan uit een lange rij van weg segmenten. Als je zo'n route in OSM ziet, aan de linkerkant beneden zie je alle 'members' en die zijn allemaal 'ways'. Bijvoorbeeld:
+Fri, Dec 2, 2022, 09:42:44 - s8evq: https://www.openstreetmap.org/relation/13658
+Fri, Dec 2, 2022, 09:43:12 - s8evq sent an image. (Media omitted)
+Fri, Dec 2, 2022, 09:44:33 - s8evq: Anderzijds zijn er ook 'superrelations' of 'parent relations'. Dat zijn ook route relations, maar die bevatten andere relations. Dus een relatie in een relatie. Een voorbeeld daar van:
+Fri, Dec 2, 2022, 09:45:09 - s8evq: https://www.openstreetmap.org/relation/14005445
+Fri, Dec 2, 2022, 09:45:26 - s8evq sent an image. (Media omitted)
+Fri, Dec 2, 2022, 09:46:25 - s8evq: Hier zie je dat de relatie 'E2 West Belgium alternative' eigenlijk bestaat uit twee members, namelijk relatie GR5A Noord en relatie GR5A Antwerpen
+Fri, Dec 2, 2022, 09:46:48 - s8evq: In de terminologie van OSM noemen ze de E2 hier de 'parent relation' en de 'GR 5a Noord' een child relation.
+Fri, Dec 2, 2022, 09:47:21 - s8evq: Concreet antwoord op je vraag: Ja, als het traject van de GR5A wijzigt, zou de E2 ook direct moeten mee wijzigen.
+Fri, Dec 2, 2022, 09:47:50 - s8evq: Trouwens, die structuur kun je mooi opzoeken via https://hiking.waymarkedtrails.org
+Fri, Dec 2, 2022, 09:48:22 - s8evq: Bijvoorbeeld als je klikt op route E2 (https://hiking.waymarkedtrails.org/#route?id=14018636&type=relation)
+Fri, Dec 2, 2022, 09:48:51 - s8evq: Dan heb je daar aan de rechterkant een stukje **'sections'**. En dat zijn de 'child relations' van die 'parent'
+Fri, Dec 2, 2022, 09:50:47 - s8evq: bart_dr: Je schrijft _"Zo te zien niet. "_ Waar heb je gezien dat de E2 niet aangepast wordt na een aanpassen van de GR 5A? Misschien is er dan ergens iets fout gelopen?
+Fri, Dec 2, 2022, 09:51:03 - s8evq: <@bart_dr:matrix.org "...  wandelroute E9 ... 🫢"> Is hier ook iets fout mee?
+Fri, Dec 2, 2022, 09:57:28 - bart_dr: E9 en E2 lopen allebei gelijk, toch voor een stuk, met GR5A Noord. Ik heb gisteren gewerkt aan de GR 5A noord. Met de uitleg van pelderson en de handige tool van hiking.waymarkedtrails zie ik nu dat de E2 wel, maar de E9 niet, mijn wijzigingen in Oostduinkerke hebben overgenomen. Ik zal nog eens nazien of dit aan mij te wijten is, of aan het al dan niet aanwezig zijn van een "parent relation".
+Fri, Dec 2, 2022, 09:58:16 - s8evq: Ik ga eens meekijken naar die E9 in Oostduinkerke
+Fri, Dec 2, 2022, 09:58:51 - s8evq: Hier bijvoorbeeld:
+Fri, Dec 2, 2022, 09:58:57 - s8evq sent an image. (Media omitted)
+Fri, Dec 2, 2022, 09:59:06 - bart_dr: Idd
+Fri, Dec 2, 2022, 09:59:51 - s8evq: Dat is omdat de E9 daar geen parent/child constructie is.
+Fri, Dec 2, 2022, 10:00:04 - s8evq: Maar net zoals de GR5A gewoon een lijstje met wegsegmenten is:
+Fri, Dec 2, 2022, 10:00:07 - s8evq: https://www.openstreetmap.org/relation/1956096
+Fri, Dec 2, 2022, 10:01:03 - s8evq: Op zich is dat ook geen foute aanpak. Maar dan moet je wijzigingen twee maal doen. Een keer in de GR 5A en dan nog een keer in de E9
+Fri, Dec 2, 2022, 10:01:51 - s8evq: Natuurlijk is het gemakkelijker in onderhoud als dat 100% hetzelfde is.
+Fri, Dec 2, 2022, 10:02:15 - bart_dr: Dat wordt een aandachtspunt!! Ik heb op andere plaatsen ook al wat gewijzigd. Ik zal ze één voor één nazien.
+Fri, Dec 2, 2022, 10:02:25 - bart_dr: Zonet gekregen van Isabel:
+Fri, Dec 2, 2022, 10:02:29 - bart_dr: Op Vlaams grondgebied lopen de E2 en de E9:
+ 
+E9 is de kustroute of de GR 5A (eerst GR 120 in Fra, dan overschakelen op onze GR 5A tot Hoeke, dan het Grenslandpad tot in Cadzand, en dan verder het Nederlands Kustpad)
+De E2 heeft 2 takken in West- en Oost-Vlaanderen. Die komt van Dover om daar het Kanaal over te steken naar Fra, dan via GR 120 weer naar onze kust, daar is er keuze uit de GR 5A Zuid en de GR 5A Noord tot in Kruibeke, daar is er een eigen E2-verbinding naar Deurne, in Deurne wordt verder de GR 565 gevolgd om in Grobbendonk over te schakelen naar de GR 5 en zo naar Nice toe. Er is ook nog een tak van de E2 die van Nederland komt, en die volgt daar ook de GR 5.
+Fri, Dec 2, 2022, 10:04:44 - s8evq: We zouden de GR5A in stukken kunnen snijden en als child member toevoegen aan de E9. Dan moeten we geen dubbel werk doen.
+Fri, Dec 2, 2022, 10:05:02 - s8evq: Maar ik wacht graag eens tot pelderson hier eens naar kijkt. Want ik weet dat hij daar ook rond gewerkt heeft.
+Fri, Dec 2, 2022, 10:06:33 - s8evq: Concreet gaat het dus over deze relatie: https://www.openstreetmap.org/relation/1956096 die in plaats van 760 individuele wegsegmentjes gewoon heel de tijd de GR5A zou volgen
+Fri, Dec 2, 2022, 10:07:06 - s8evq: Aan de franse grens begint die E9 direct op de GR5A:
+Fri, Dec 2, 2022, 10:07:14 - s8evq sent an image. (Media omitted)
+Fri, Dec 2, 2022, 10:08:07 - s8evq: En net voor de Nederlandse grens splitst de GR5A af en gaat z'n eigen weg:
+Fri, Dec 2, 2022, 10:08:15 - s8evq sent an image. (Media omitted)
+Fri, Dec 2, 2022, 10:08:57 - s8evq: (een heel klein stukje tot aan de grens volgt de E9 een andere route, maar dat valt ook op te lossen)
+Fri, Dec 2, 2022, 10:09:33 - s8evq: We gaan dat zo doen bart_dr , dan gaat dat niet meer gebeuren dat een wijziging aan een onderliggende GR niet automatisch doorgevoerd wordt bij een E route 👍️
+Fri, Dec 2, 2022, 10:48:09 - bart_dr: "We zouden de GR5A in stukken kunnen snijden en als child member toevoegen aan de E9", EN ook nog eens aan de E2. Op sommige plaatsen zullen er dan stukjes GR5A child member zijn van E2 alleen, van E9 alleen, of van beide. Ook nog andere GR kunnen child member zijn, bijvoorbeeld de Uilenspiegelroute. Ik denk dat die werkmethode overzichtelijker is dan bijvoorbeeld stukken E9 parent maken van stukken E2, of omgekeerd.
+Fri, Dec 2, 2022, 10:49:52 - s8evq: Ja inderdaad. Dat is beter zo denk ik. Als ik je goed begrijp, dus GR en Streek-GR altijd als child. E.. als parent. Geen E.. child van een andere E.. parent.
+Fri, Dec 2, 2022, 11:40:50 - bart_dr: Lijkt me beter. Ik wacht nog eventjes om te beginnen, mss komt https://matrix.to/#/@pelderson:matrix.org nog met iets voor de dag.
+Sun, Dec 4, 2022, 22:27:43 - bart_dr: Ik heb mijn foutjes tussen E9 en GR5 A verbeterd. Ondertussen heb ik ook vastgesteld dat het niet evident is om een superrelatie te maken van de E9. Mss beter alles laten zoals het is, en telkens we een stukje GR 5 A wijzigen ook het overeenkomstig stukje E9 veranderen.
+Sun, Dec 4, 2022, 22:29:18 - bart_dr: Btw, waar vind ik ergens een instructie over hoe je een superrelatie maakt met de Editor van OSM?
+Sun, Dec 4, 2022, 22:49:55 - Peter Elderson NL: <@bart_dr:matrix.org "Btw, waar vind ik ergens een ins..."> Een "superrelatie" is gewoon een relatie van type superroute, met uitsluitend relaties als member. Aangezien de child relaties ook weer superrelaties van weer kleinere stukken kunnen zijn, maar tegelijk ook child relaties van weer andere superroutes, maakt het nauwelijks uit of je type=superroute of type=route gebruikt. De help in de editor van JOSM vertelt ergens wel hoe je een route aanmaakt... maar ik kopieer altijd gewoon een bestaande route relatie en pas dan alles aan.
+Sun, Dec 4, 2022, 23:02:10 - Peter Elderson NL: <@bart_dr:matrix.org "Ik heb mijn foutjes tussen E9 en..."> Ik weet niet precies wat de vraag is.... internationale routes zijn altijd een jungle. Maar de E9 superroute heeft een keurige belgische sectie als aparte route, eenvoudiger krijg je het niet. Als dat komplete stuk precies samenvalt met een deel van een nationale route, dan zou je van dat stuk een deelroute kunnen maken. Om het netjes te houden zou je dan wel de nationale route tot superroute moeten promoveren met minstens twee children. 
+
+Route opknippen tot superrelatie met children is best wel eenvoudig in JOSM! Je kan hem bv simpelweg twee keer kopieren, dan heb je heb je er 3. De eerste maak je superroute XYX door alle ways eruit te gooien en type=superroute te geven. De tweede noem je XYX - deel 1 en je gooit alle wegen eruit die niet in deel 1 zitten. De derde noem je XYX - deel 2 en je gooit alle wegen eruit die niet in deel 2 zitten. En dan maak je routes member van de superroute. 
+
+Sun, Dec 4, 2022, 23:12:24 - Peter Elderson NL: Ah, ik zie dat de GR5A al een superroute is, omdat de E2 (Westelijke variant) er deels mee samenvalt. Het was best een geklooi om dat goed te krijgen, ik moest losse aansluitstukjes maken en zo. Opknippen voor E9 zou daar ook weer aanpassingen voor nodig maken... dat wordt er uiteindelijk niet duidelijker op, en ook kwetsbaar. Want in al die dingen moet je ook nog de volgordes en de aansluitingen goed houden.
+Mijn advies in dit geval: gewoon een aparte relatie houden voor E9 België. 
+Sun, Dec 4, 2022, 23:20:28 - Peter Elderson NL: Het punt dat de E-route dan niet meer automatisch meewijzigt als de nationale route wijzigt is juist maar als je met een ploegje de routes onderhoudt is dit geen groot punt. Je ziet het zo! Als je een wijziging doorvoert ga je automatisch denken aan andere routes die daar ook lopen, en dan pas je het aan. Weet je het niet zeker, dan weet je waar je de info kan vinden. Ik vind oplossen van 'wilde' wijzigingen en het basisonderhoud (periodieke checks op volgorde, aansluiting etappes, onderbrekingen) veel lastiger in met elkaar verweven relaties. De simpelheid wint bij mij in dit geval.
+Mon, Dec 5, 2022, 09:11:03 - bart_dr: Tx voor je uitleg. In de eerste plaats maakt het me duidelijk dat ik de opmaak van E2 en E9 min of meer goed begrepen had, en ten tweede dat jouw voorgestelde werkwijze overeenkomt met wat ik vermoedde. Voor mij is de conclusie of de les: goed naar de relaties kijken vooraleer je stukje route aanpast. En dat ik mss ook eens JOSM moet uitproberen :-)
+Mon, Dec 5, 2022, 09:14:43 - timcouwelier: Als het over relaties gaat: absoluut.
+Mon, Dec 5, 2022, 09:15:10 - timcouwelier: Ik heb er nog altijd schrik voor in JOSM, laat staan dat ik er in iD mee durf klooien.
+Mon, Dec 5, 2022, 09:15:36 - timcouwelier: (schrik is een groot woord, maar ik ben toch altijd iets kritischer dat ik zeker niks kapot maak in relaties )
+Mon, Dec 5, 2022, 23:10:36 - Peter Elderson NL: <@bart_dr:matrix.org "Tx voor je uitleg. In de eerste ..."> Serieus goochelen met grote routerelaties lukt alleen met de JOSM relatie-editor. Je kan alle dingen die je daar kan ook met veel gedoe in Id doen- maar alleen als je er eerst in JOSM goed mee gestoeid hebt zodat je de boel grondig snapt!
+Ik doe hele kleine dingetjes wel eens in Id, survey:date zetten op een etappe of zo. Maar niet te lang geleden heb ik alle LAWen en SPen (dus alle wit-rode en geel-rode paden) volledig op integriteit, volgorde, etappe-aansluitingen, onderbrekingen, lussen en ongewenste zijtakken gekontroleerd, en daarbij alle etappes (wij hebben ze allemaal onderverdeeld naar de officiële etappes) van from en to en section_ref voorzien, in een paar dagen, enkele uren per dag. Met Id had ik daar maanden voor nodig gehad, als het al gelukt was, want ik denk niet dat mijn routefanatisme daartegen bestand is.
+En toch ontdekte ik nog iets nieuws tijdens de start van dat klusje: alles werkt prima als de parent relatie een type=route is. Maar als je er een superroute van maakt, dan geeft de continuity line van JOSM relatie-editor ook nog aan of de etappes geografisch op elkaar aansluiten! Sindsdien gebruik ik type=superroute voor de LAWen en SPen. 
+Ik moet het trouwens nog weer eens controleren allemaal. Jammer dat de tools daarvoor nog niet doorgebroken zijn, er is wel wat maar niet open genoeg, en ze ondersteunen routehierarchieën nog niet.
+Mon, Dec 5, 2022, 23:17:32 - Peter Elderson NL: <@timcouwelier:matrix.org "Ik heb er nog altijd schrik voor..."> Het is echt niks om bang van te zijn! Een routerelatie is een zak ways. Als je hem verklooit, gooi je hem weg of slaat niet op en begint opnieuw, de ways liggen er gewoon nog. Volgorde verklooid? klik op Sorteren. Fietsrouterelatie zijn een stukje lastiger, geef ik toe, met hun systeem om de heen- en de terugroute (die gewoonlijk van elkaar verschillen) tegelijk in die zak te gooien met tegenintuItieve forward en backward rollen. Daar moet ik me altijd weer opnieuw in verdiepen voor ik het weer snap. Maar dat ligt niet aan JOSM, in feite is ook dat alleen te beheersen in JOSM. 
+Tue, Dec 6, 2022, 08:56:35 - s8evq: <@pelderson:matrix.org "Serieus goochelen met grote rout..."> Over dat sorteren van superrelaties. Ik heb een superrelatie bestaande uit 3 segmenten. Alle 3 na elkaar vormen ze een lus. Maar zou JOSM dat niet als lus moeten tonen in de editor? Nu toont die dat als een continue lijn. Ik toon even een screenshot....
+Tue, Dec 6, 2022, 08:58:29 - s8evq: Zo zou het moeten zijn (volgens mij):
+Tue, Dec 6, 2022, 08:58:35 - s8evq sent an image. (Media omitted)
+Tue, Dec 6, 2022, 08:58:41 - s8evq: En zo is het:
+Tue, Dec 6, 2022, 09:05:17 - s8evq sent an image. (Media omitted)
+Tue, Dec 6, 2022, 09:05:35 - s8evq: Ik heb me hier al te pletter op gezocht, maar vind het niet....
+Tue, Dec 6, 2022, 09:05:58 - s8evq: Concreet gaat het over deze https://www.openstreetmap.org/relation/9420256
+Tue, Dec 6, 2022, 09:08:17 - s8evq: Ah, ik heb het waarschijnlijk gevonden, tijdens het maken van de screenshots...
+Tue, Dec 6, 2022, 09:08:39 - s8evq: Er zitten gewoon gaps in de child route zelf..... 🤦‍♂️
+Tue, Dec 6, 2022, 09:10:22 - s8evq: Hmmm, maar dat is het toch niet... Ik vind het niet :)
+Tue, Dec 6, 2022, 09:10:59 - Peter Elderson NL: <@s8evq:matrix.org "Over dat sorteren van superrelat..."> Dat klopt, deze check werkt voor routes maar niet voor superroutes. Ik zou die functie fijn vinden, maar ik vond het niet belangrijk genoeg om een issue bij JOSM te maken. Jij hebt nu wel precies juiste issue weergegeven, dus....
+Tue, Dec 6, 2022, 09:11:31 - s8evq: Aha, het is dus niet geprogrammeerd in JOSM, dat verklaart 😜
+Tue, Dec 6, 2022, 09:21:59 - Peter Elderson NL: <@s8evq:matrix.org "Ah, ik heb het waarschijnlijk ge..."> Nee, de continuity lijn van de superroute checkt niet of de onderliggende routes ononderbroken zijn. Iemand heeft mij een keer uit proberen te leggen wat daar de moeilijkheden bij zijn - ik begreep de uitleg al niet... ik had gesuggereerd om in de superrelatie een breuklijntje te tonen in het streepje van de deelrelatie als die een onderbreking heeft. 
+Je komt bijvoorbeeld al heel gauw op het punt dat de relatieeditor bij de superrelatie ook volautomatisch alle leden moet ophalen, en de leden daarvan, en de leden daarvan... bij E-routes wordt dat al gauw heel diep, en tegenwoordig hebben we ook nog de rollen (alternative, excursion, ...) waar je rekening mee zou willen houden... 
+Als het zo complex wordt is het vaak verstandig om je knopen te tellen. Tot een slimmerik iets heel simpels bedenkt waardoor het probleem simpeler wordt. 
+Tue, Dec 6, 2022, 09:33:28 - bart_dr: Even een vraagje tussendoor: is het van belang dat alle lijnen dezelfde richting hebben als je een relatie maakt?
+Tue, Dec 6, 2022, 09:35:01 - s8evq: Wat bedoel je precies met "dezelfde richting"?
+Tue, Dec 6, 2022, 18:54:25 - bart_dr: Wanneer je met de Editor een pad maakt, creëer je een lijn, die een richting heeft van punt 1 naar 2. Je kiest daarna als objecttype "pad". Sommige relaties bevatten een aantal lijnen/paden in tegenovergestelde richting. Zie bijv. de relatie GR5 A. Ik vroeg me nu af of er één of ander voordeel bestaat als alle paden in dezelfde richting gecreëerd zijn. Ik veronderstel van niet.
+Tue, Dec 6, 2022, 19:15:32 - Seppe: Nee, de segmenten moeten inderdaad niet allemaal dezelfde richting hebben.
+Tue, Dec 6, 2022, 19:17:31 - Seppe: Wanneer de richting in een route aangegeven moet worden (uit de wiki: "If a route should be followed in only one direction for some or all of its length"), dan doe je dat met role=forward als de route de weg volgt zoals die ingetekend is en role=backward indien de route de tegenovergestelde richting volgt.
+Tue, Dec 6, 2022, 19:23:37 - s8evq: Klopt wat Seppe zegt.
+Tue, Dec 6, 2022, 19:24:02 - s8evq: Bij wandelroutes ga je normaal gezien niet zo snel die role=forward/backward nodig hebben.
+Tue, Dec 6, 2022, 19:24:55 - s8evq: Dit kan wel gebruikt wordt bij fietsroutes, zoals pelderson eerder al schreef. Waarbij je bijvoorbeeld eenrichtingstraten hebt. Als je de route in een richting of in de andere richting fietst, worden er andere straten genomen.
+Tue, Dec 6, 2022, 19:25:52 - s8evq: Maar de richting van een lijn is dus wel belangrijk bij eenrichtingsverkeer, en ook om de richting van de stroming van een rivier aan te geven. 
+Tue, Dec 6, 2022, 19:57:15 - bart_dr: Tx voor de info. Nog even dit: GR is zijn troepen aan het mobiliseren om een perfecte match te creëren tussen GR-paden en OSM. In W-Vl zijn we al met een 6-tal personen actief om de tag "ondergrond" van de paden overal aan te vullen. We proberen ook om de verschillen tussen de trajecten GR en de trajecten OSM weg te werken. OSM heeft ons daarvoor enkele mooie tools aangeleverd. Waarvoor dank.
+Tue, Dec 6, 2022, 20:01:56 - Peter Elderson NL: In Nederland is Wandelnet nog lang niet zo ver - ze staan mij nu wel toe om OSM in te zetten om de LAWen, GR'en en SPen na te lopen op verschillen en verwerken dan daaruit voortvloeiende aanpassingen in één run ipv via allemaal losse meldingen.
+Tue, Dec 6, 2022, 20:53:34 - s8evq: pelderson: Gebruik je al de tool van vmarc om de routes te controleren? Ik veronderstel van wel, want ik zag een groep "NL-LAW".
+Ik weet dat jullie geen GPX hebben die goed genoeg is om zo te controleren. Maar de tool kan nu ook een route relation  vergelijken met een bepaalde versie in het verleden! Alsook onderbroken segmenten opsporen. Handig!
+Tue, Dec 6, 2022, 20:54:27 - s8evq: <@bart_dr:matrix.org "Tx voor de info. Nog even dit: G..."> Ik zie het :) Dat is super! Ik krijg van Isabel heel veel mails met feedback op de verschillen tussen OSM en de GR database via https://knooppuntnet.be/en/monitor/groups/GRV
+Tue, Dec 6, 2022, 21:14:31 - Peter Elderson NL: <@s8evq:matrix.org "pelderson: Gebruik je al de tool..."> Ik wou dat het hielp - maar het ligt hier gewoon anders. Wandelnet geeft bijvoorbeeld geen totaal-gpx van een route, alleen losse etappes. Ik heb even gekeken naar de tool, maar ik zie voor NL gewoon geen workflow waar dit in past, en al helemaal als het werk dan helemaal bij mij komt te liggen! 
+Een tool die hier zou passen zou 1. Uit OSM de LAWen en SPen en ev andere routes)  halen waarbij de hierarchie verwerkt wordt; 2 een serie integriteitschecks doen (o.m. op hierarchische opbouw en continuIteit) waarvan JOSM al een deel doet, dus de tool zou het handiger moeten doen of meer checks! ; 3 De bevindingenlijst presenteren met linkjes naar de editor. Vergelijken met een gpx is zeker handig, maar als ik daarvoor zelf alle etappes van alle routes moet aanmaken en opladen, vervolgens moet leuren met de resultaten, dan pas ik daarvoor! Vandaar dat ik erg jaloers ben op een team van 6 personen om zulke dingen te doen!
+Wed, Dec 7, 2022, 08:45:29 - s8evq: Ik wil je niet pushen, maar ik denk toch dat de tool een meerwaarde heeft bij jouw workflow:
+
+1. Ja, de tool kan parent/child relations aan (of is toch in test fase momenteel)
+2. Ja, de tool toont fouten in continuiteit (dit zijn 'segmenten'. Als een route 1 segment heeft, is die continue)
+3. Ook dat kan de tool. Er is een knopje 'JOSM". Vandaar uit kan je snel naar de editor.
+Wed, Dec 7, 2022, 08:48:49 - s8evq: > _> Vergelijken met een gpx is zeker handig, maar als ik daarvoor zelf alle etappes van alle routes moet aanmaken en opladen, vervolgens moet leuren met de resultaten, dan pas ik daarvoor!_
+
+Je hebt geen GPX nodig. Je zet een route goed en stelt in de tool dan die versie in als referentie. Alle toekomstige wijzigingen ten opzichte van deze referentie worden getoond. 
+Ik ben hier reclame aan het maken he, maar het spaart ons heel wat werk!
+Wed, Dec 7, 2022, 08:56:33 - Peter Elderson NL: Dank! Dat klinkt heel goed, dus ik ga maar eens opnieuw kijken! Die parent/child-handling is echt nodig, in Nederland, want alle lange wandelroutes zijn in dagetappes onderverdeeld om de relaties onder de ca 300 leden te houden.
+Thu, Dec 8, 2022, 13:26:10 - h4n5antw joined the room
+Mon, Dec 12, 2022, 18:12:09 - foxandpotatoes: The 'knooppuntnet' table (https://experimental.knooppuntnet.nl/en/monitor/groups/SGR) for SGR hiking trails has now been completed with all 'official' GPX files. Detecting little errors is now made simple. Do not hesitate to modify/correct/rectify/amend the relations accordingly.
+Mon, Dec 12, 2022, 19:20:21 - dentonny: Wanneer een wandelroute over een highway=residential loopt met surface=asphalt. Maar ook met sidewalk:both:surface=paving_stones , met welke tag houden routers dan rekening?
+Mon, Dec 12, 2022, 22:14:32 - bart_dr: We zijn bij GR druk bezig om zo veel als mogelijk de tag 'surface' aan te vullen. Mapcomplete is daarbij een geweldig handig hulpmiddel. Maar dat wist je wellicht allemaal. De situatie die jij schetst wordt door ons als volgt bekeken: "Wanneer de verharding van de rijweg verschillend is van de verharding van de strook voor de wandelaar, is het de bedoeling om de verharding van de rijweg in te geven. Bv: de rijweg bestaat uit asfalt en het voetpad zijn straatstenen, dan dient ‘asfalt’ gekozen te worden. Wanneer het voetpad/fietspad apart is ingetekend op de kaart, is het vanzelfsprekend dat de verharding van het voetpad wordt ingegeven." Aangezien OSM niet alleen voor wandelaars gemaakt is, is deze benadering voor OSM best OK. En voor GR maakt het eigenlijk niet veel uit of het nu asfalt is of straatstenen. Beiden vallen onder "verhard".
+Mon, Dec 12, 2022, 22:21:19 - thierry.js1030: > <@bart_dr:matrix.org> We zijn bij GR druk bezig om zo veel als mogelijk de tag 'surface' aan te vullen. Mapcomplete is daarbij een geweldig handig hulpmiddel. Maar dat wist je wellicht allemaal. De situatie die jij schetst wordt door ons als volgt bekeken: "Wanneer de verharding van de rijweg verschillend is van de verharding van de strook voor de wandelaar, is het de bedoeling om de verharding van de rijweg in te geven. Bv: de rijweg bestaat uit asfalt en het voetpad zijn straatstenen, dan dient ‘asfalt’ gekozen te worden. Wanneer het voetpad/fietspad apart is ingetekend op de kaart, is het vanzelfsprekend dat de verharding van het voetpad wordt ingegeven." Aangezien OSM niet alleen voor wandelaars gemaakt is, is deze benadering voor OSM best OK. En voor GR maakt het eigenlijk niet veel uit of het nu asfalt is of straatstenen. Beiden vallen onder "verhard".
+
+als het voetpad/trottoir/berm NIET apart is ingetekend, is het dan een optie/wenselijk om een tag zoals deze toe te voegen? -> sidewalk:surface=*
+Mon, Dec 12, 2022, 23:13:42 - pietervdvn: <@bart_dr:matrix.org "We zijn bij GR druk bezig om zo ..."> Blij om te horen dat MapComplete bevalt! Deze is door mij gemaakt, s8evq heeft hierop dan een thema gemaakt specifiek voor de GR.
+Tue, Dec 13, 2022, 07:56:49 - Peter Elderson NL: <@pelderson:matrix.org "Dank! Dat klinkt heel goed, dus ..."> Ik ben aan de slag en het is al heel bruikbaar geworden! Omdat ik ik ben, heb ik natuurlijk gelijk een serie verbetervoorstellen ingediend, vooral gericht op werkbaarheid voor doorlopend onderhoud - vmarc zal weer errug blij met mij zijn...
+Tue, Dec 13, 2022, 09:10:55 - bart_dr: Als het voetpad (sidewalk) net zoals de weg verhard is, maakt het eigenlijk niet veel uit om die tag toe te voegen. Althans voor GR. Wel interessant is de voetpaden afzonderlijk in te tekenen wanneer ze gescheiden zijn van de weg door bijvoorbeeld een grasberm, vangrails, ... In dergelijke gevallen is het dan ook nuttig de GPX te tekenen op die afzonderlijk getekende voetpaden, en niet op de hoofdweg. Bijvoorbeeld om duidelijk te maken waar je best oversteekt.
+Tue, Dec 13, 2022, 11:52:32 - s8evq: thierry.js1030:
+
+> als het voetpad/trottoir/berm NIET apart is ingetekend, is het dan een optie/wenselijk om een tag zoals deze toe te voegen? -> sidewalk:surface=\*
+
+Inderdaad, dat zou ideaal zijn. Maar ik weet niet als dat kan met MapComplete, en zo ja, hoe dat dat precies moet 😃
+Lijkt me nogal complex om dit in een MapComplete thema te steken. Daarenboven moet je dat dan nog in verstaanbaar nederlands uitgelegd krijgen aan de gebruiker van het thema.
+Tue, Dec 13, 2022, 11:53:47 - pietervdvn: Er is daar wat prior art voor: mapcomplete.osm.be/sidewalks
+Tue, Dec 13, 2022, 11:53:52 - pietervdvn: maar 't werkt niet fantastisch goed
+Tue, Dec 13, 2022, 17:24:08 - @wyb-pip:matrix.org joined the room
+Tue, Dec 13, 2022, 17:24:09 - @wyb-pip:matrix.org left the room
+Thu, Dec 15, 2022, 22:46:58 - bart_dr: Wanneer je in Mapcomplete de streek-GR Uilenspiegel kiest, zie je op de kaart ook een stuk van de GR5A verschijnen. Bizar.
+Thu, Dec 15, 2022, 22:51:57 - bart_dr: Oh nee, ik zie het al: het is de Krekenvariant van GR-Uilenspiegel.
+Tue, Dec 20, 2022, 13:21:19 - @osmdoudou:matrix.org left the room
+Thu, Dec 22, 2022, 19:02:32 - Peter Elderson NL: Ik heb een streekpad van 11  dagetappes verwerkt met de Knooppuntnet Monitor. OSM vergeleken met de gpx-en die Wandelnet op de site ter beschikking stelt. De verschillenlijstjes heb ik besproken met de veldmedewerkers, hun antwoorden in OSM verwerkt en daarna de etappe-gpx-en uit OSM naar Wandelnet gestuurd. Die heeft binnen een week alles verwerkt door de OSM-gpx-en in hun GIS in te lezen. Nu zijn er geen verschillen meer, alleen maar lachebekjes!
+Thu, Dec 22, 2022, 19:07:20 - Peter Elderson NL: De tool werkt dus goed genoeg, al zijn er natuurlijk altijd verbeteringen mogelijk om hem voor niet-nerds zo bruikbaar mogelijk te krijgen. De volgende stap is om mensen van Wandelnet én mensen van de vrijwilligersgroepen zover te krijgen dat ze zelf naar de Monitor gaan kijken. Dan kunnen de tussenstappen via mij eruit, en kan iedere padgroep zijn eigen kwaliteitsbewaking doen.
+Thu, Dec 22, 2022, 20:08:23 - s8evq: super 👍️
+Thu, Dec 22, 2022, 23:03:09 - bart_dr: De Knooppuntnet-monitor is idd een uitstekende tool om foutjes op te sporen. Ik ben bijna klaar met de GR-paden in de provincie W-VL. De foutjes OSM behandel ik zelf, en de foutjes GPX-GR zend ik door naar de GPX-verantwoordelijke van GR. Enkele "vergeten" trajectwijzigingen zijn op die manier al in orde gebracht.
+Thu, Dec 22, 2022, 23:14:36 - Peter Elderson NL: Bij ons vind ik voor één route rustig 200 verschillen tussen OSM en de Wandelnet-gpx-en die in principe juist horen te zijn. Dat is een hoop uitzoekwerk... daarna blijkt bij verreweg de meeste verschillen de fout aan de Wandelnetkant te liggen. Voorheen werd dat opgelost door de routelijn op de kaartjes zo dik te maken dat er rustig een snelweg, een kanaal en een spoorlijn onder verborgen kunnen liggen!
+Sun, Dec 25, 2022, 13:22:20 - bart_dr: Zou het kunnen dat de Knooppunt-monitor niet 100% uptodate is? Of is het GR die de meest recente GPX nog moet doorsturen?  Hoe is de workflow eigenlijk? Maar laat er geen twijfel over bestaan:  Knooppunt  is een fantastisch hulpmiddel om foutjes op te sporren. Goe bezig !!
+Sun, Dec 25, 2022, 14:23:19 - vmarc: @bart\_dr: De monitor analyse resultaten worden normaal gezien elk uur bijgewerkt (op dit moment zie ik in de log dat de meest recente updates om 14:10u klaar waren). De datum in de kolom "Referentie" in het route overzicht van de groep zou normaal gezien de datum moeten zijn waarop de GPX geldig was. Of dit klopt hangt wel af van of de datum juist wordt ingevuld door de gebruiker die de GPX upload.
+Sun, Dec 25, 2022, 14:41:37 - Peter Elderson NL: <@bart_dr:matrix.org "Zou het kunnen dat de Knooppunt-..."> Een gpx is een bevroren spoor, die is bijna per definitie maar korte tijd 100% geldig. Ik heb nu een streekpad 100% gelijk met de gpx-en van Wandelnet, die heb ik zelf door hen laten bijwerken met de OSM-informatie. Dus nu kan ik geregeld kijken, als er een verschil ontstaat heeft iemand in OSM een wijziging doorgevoerd, wat normaal gesproken betekent dat er een routewijziging is doorgevoerd. Dat kan ik dan verifiëren. Wijzigingen aan de Wandelnetkant daar heb ik geen signaal van. Ik zou geregeld op hun site de routes opnieuw kunnen gaan ophalen, maar tegelijk zou OSM gewijzigd kunnen zijn.  
+Sun, Dec 25, 2022, 14:44:18 - Peter Elderson NL: Dus zoals het nu staat is er bij ons geen goede workflow voor onderhoud van de route. Er zou een koppeling met het Wandelnet GIS moeten zijn, dan zouden de gpx-en er tussenuit kunnen en zou ook die kant automatisch gemonitord kunnen worden.
+Mon, Dec 26, 2022, 08:13:42 - s8evq: <@bart_dr:matrix.org "Zou het kunnen dat de Knooppunt-..."> Bij Grote Routepaden is de workflow momenteel zo: Isabel overloop een voor een alle routes in knooppuntnet en stuurt mij een e-mail met een lijstje wie correct is 
+(bv 
+1) OSM
+2) OSM
+3) GR
+4) OSM etc...)
+Mon, Dec 26, 2022, 08:14:04 - s8evq: Zij update onmiddellijk ook de GPX en stuurt die via email naar mij. 
+Mon, Dec 26, 2022, 08:14:33 - s8evq: Ik doe dan de aanpassen in OSM en steek de nieuwe GPX in knooppuntnet. Dan zou er 100% gelijkenis moeten zijn (lachebekje :) )
+Mon, Dec 26, 2022, 08:14:47 - s8evq: Hoe we in de toekomst dit zullen opvolgen, eenmaal alles goed staat, is niet duidelijk.
+Mon, Dec 26, 2022, 08:16:11 - s8evq: Zoals Peter zegt: ideaal zou zijn als Grote Routepaden direct in knooppuntnet werkt, of zelfs hun routes volledig in OSM steekt. Dan kan die onnauwkeurige GPX er van tussen.
+Mon, Dec 26, 2022, 09:18:35 - bart_dr: <@s8evq:matrix.org "Bij Grote Routepaden is de workf..."> Voor W-VL zijn er tot nu toe 30 correcties aangevraagd. Waar mogelijk heb ik ook al de OSM bijgewerkt. Af en toe was een nieuw pad in OSM nodig. De meeste GPX zijn ondertussen aangepast, enkele nog niet. Ik hou dit in de gaten. Er zijn nog enkele wijzigingen op komst, oa waar de GPX onvoldoende fijn opgesteld is, en daardoor te ver afwijkt van het gebruikte pad. Dmv knooppuntnet is toch al heel veel opgelost. Met dit hulpmiddel blijft het heel eenvoudig alles bij te houden. Mooi werk!
+Sat, Dec 31, 2022, 09:10:56 - dentonny: https://www.mapillary.com/app/?pKey=157929573385263
+deze aanlooproute draait hier naar rechts, maar is niet correct in osm: https://www.openstreetmap.org/way/727275634
+heb zelf iets te weinig info om ze aan te passen. Had ik het op voorhand geweten had ik een betere survey gedaan
+Sat, Dec 31, 2022, 10:18:31 - s8evq: OK, merci, ik heb het geupdate. Via andere mapillary beelden heb ik de rest kunnen vinden (https://www.mapillary.com/app/?pKey=325813555756620)
+Sat, Dec 31, 2022, 10:19:32 - s8evq: Message deleted
+Sat, Dec 31, 2022, 10:19:42 - s8evq: Message deleted
+Sat, Dec 31, 2022, 11:06:29 - lennertschepers sent an image. (Media omitted)
+Sat, Dec 31, 2022, 11:06:30 - lennertschepers: Hi all, I was walking near Aubel yesterday, and part of our walk was along a GR route that wasn't in osm yet. The 'liberation route europe' uses existing GR tracks, but apparently this part is a variant of GR563 between  Julémont and Hombourg and  that is specifically made for the liberation route? These are the parts not yet in osm: https://www.liberationroute.com/fr/routes/115, https://www.liberationroute.com/fr/routes/114, https://www.liberationroute.com/fr/routes/113, https://www.liberationroute.com/fr/routes/91 
+Sat, Dec 31, 2022, 11:14:55 - lennertschepers: Can I try to add this part to osm based on the routes from the liberationroute website? Or what is the best workflow?
+Sat, Dec 31, 2022, 11:38:51 - s8evq: Yes, you can do that (at least for the part in Belgium, it's okay concerning copyright)
+Sat, Dec 31, 2022, 11:39:20 - s8evq: You can also use the GPX files from https://grsentiers.org/ to map a route that doesn't exist yet.
+Sat, Dec 31, 2022, 11:39:54 - s8evq: Currently, the most up to date table of OSM route relations and GR Routes in Wallonia is probable the table here: https://knooppuntnet.be/en/monitor/groups/SGR
+Sat, Dec 31, 2022, 11:40:46 - s8evq: Mapper foxandpotatoes is always happy when somebody can help mapping the missing relations.
+Sat, Dec 31, 2022, 11:41:46 - s8evq: If you need any help, let us know here.
+Sun, Jan 1, 2023, 09:47:24 - dentonny: hm found something strange: looking at https://www.mapillary.com/app/?pKey=135021962487996 , this should go north using this path https://www.openstreetmap.org/way/35959952
+Sun, Jan 1, 2023, 09:49:04 - dentonny: but if you come from the east, from the campsite, the route should go south? https://www.mapillary.com/app/?pKey=427055289548064
+Sun, Jan 1, 2023, 18:45:02 - Jakka_Frank: info https://www.openstreetmap.org/note/3499571 bridge gone GR 57 - Sentier de l'Ourthe (Ed9 - Avril 2022)
+Tue, Jan 3, 2023, 10:05:14 - foxandpotatoes: <@Jakka_Frank:matrix.org "info https://www.openstreetmap.o..."> See https://grsentiers.org/topo-guides/27-gr-57-vallee-de-l-ourthe-et-sentier-du-nord-9782931078181.html for the update related to the GR 57 trail and this bridge.
+Fri, Jan 6, 2023, 21:42:14 - lennertschepers: <@lennertschepers:matrix.org "Hi all, I was walking near Aubel..."> I've added a new relation '[LRE - Liberation Route Europe - Var Pays de Herve - Wallonia](https://www.openstreetmap.org/relation/15091909)'
+However, I have still some questions:
+* what kind of walking network should this be?
+  * rwn - regional (as it's a kind of variation on the GRP563 Tour du Pays de Herve)
+  * nwn - national (like most GR routes)
+  * iwn - international (part of the international Liberation Route) -> for the moment I selected this
+* naming: in [GRS Wallonie](https://qgiscloud.com/grsentiers/Reseau_GR_wallon/) this route is simply called 'LRE', in the [LiberationRoute](https://www.liberationroute.com/fr/explore?q=&zoom=12&ne=50.76708282338847,6.082992553710938&sw=50.63138940266324,5.555648803710938) 'Var Pays de Herve'. I combined both parts in the name that I gave: *LRE - Liberation Route Europe - var Pays De Herve - Wallonia*. However I'm doubting if it's too long, and if I should add a 'GR' in the name as this route is signed with white/red GR signs? 
+* Should this new relation be added to the [WikiProject Belgium/Long Distance Walking Routes](https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Long_Distance_Walking_Routes) be adjusted? And the [Knooppuntnet table](https://knooppuntnet.be/en/monitor/groups/SGR)?
+* I had a look on the osm fora, but it seems that there is no international Liberation Route (relation) to connect to. It's not my ambition to do this - so I will just leave it as it is.
+
+I noted three cases where there is a differences in the route between [GRS Wallonie](https://qgiscloud.com/grsentiers/Reseau_GR_wallon/) and the [LiberationRoute map](https://www.liberationroute.com/fr/explore?q=&zoom=12&ne=50.76708282338847,6.082992553710938&sw=50.63138940266324,5.555648803710938). I followed the GRS Wallonie in all cases because this seemed most correct, but should I report this to someone?
+Sun, Jan 8, 2023, 23:50:48 - Peter Elderson NL: Hoe zie je op de weg dat je de LRE volgt?
+Tue, Jan 10, 2023, 22:43:22 - lennertschepers: In general - this part is indicated with white-red GR signs - see my picture in this channel on 31/12. In the doubt cases I did some detective work on Mapillary - in 2 cases I found GR signs on recent footage indicating the 'correct' route, for the first one I don't have 100% proof (but nice town square with existing hiking trails passing by vs proprietary backstreet). See here the details: https://hackmd.io/@fjAcq4r-QqWoFqvDXENbMw/Hyjvhnr5o 
+Tue, Jan 10, 2023, 23:13:34 - Peter Elderson NL: <@lennertschepers:matrix.org "In general - this part is indica..."> Ah, I missed the picture! I am not terribly strict with signage, I don't see any need to have all signs and symbols mention the ref or the name. But IMO there should be enough route-specific signs (with name and/or ref) to warrant a separate relation. I couldn't find this anywhere online!
+Wed, Jan 11, 2023, 08:41:33 - s8evq: So if I understand correctly, the LRE just follows existing local GR tracks?
+Wed, Jan 11, 2023, 10:30:35 - lennertschepers: I understood that they use existing local/regional/national GR tracks where possible (or other long-distance hikes) - and they try to work with local partners (such as local GR partners - SGR/Wandelnet), see https://www.liberationroute.com/explore. But the part that I encountered and added (https://www.openstreetmap.org/relation/15091909) seemed specifically made for LRE.
+Wed, Jan 11, 2023, 21:03:49 - foxandpotatoes: The three LRE trails have been added to knooppuntnet. Feel free to prepare three correct relations incl. parts from existing GR trails and specific parts for LRE. Give me their references. I shall add them to the knooppuntnet table.
+Sat, Jan 14, 2023, 09:59:39 - dentonny: https://www.mapillary.com/app/?pKey=3022851574676078
+hier hangt een rood/wit plaatje op. Maar online nergens iets te vinden van een GR op die locatie?
+Sat, Jan 14, 2023, 12:50:09 - Seppe: GR 561 Kempen - Maaspad loopt daar in de buurt, dus ik zou gokken op
+a) de GR liep vroeger hierlangs, maar nu niet meer, bordje hebben ze vergeten verwijderen
+b) ze hebben een paal die eerst op het GR-traject stond hergebruikt op deze locatie.
+
+Aangezien het bordje op een paal van de provincie hangt, kan je hier ook eens proberen: https://www.provincieantwerpen.be/aanbod/dvt/fietsen-en-wandelen/meldpunt-routedokter.html
+Thu, Jan 26, 2023, 23:26:35 - bart_dr: Morgen stappen we Kortenaken - Diest langs de Streek-GR Hageland. Ik stel vast dat er iets misloopt met Mapcomplete.osm.be voor deze Streek-GR. Is dit bij jullie ook zo?
+Fri, Jan 27, 2023, 10:21:09 - joost_schouppe: Ik zie niet direct iets mis
+Fri, Jan 27, 2023, 13:57:01 - pietervdvn: bart_dr: Kan je de link eens doorsturen?
+Fri, Jan 27, 2023, 17:06:44 - joost_schouppe: Zie https://openstreetmap.be/nl/2022/10/25/gr-surface.html
+Fri, Jan 27, 2023, 20:30:50 - dentonny: In de keuzelijst voor ondergrond komt 'ground' niet in voor. Hoewel ik persoonlijk deze tag al zeer veel gebruikt heb. Wordt deze dan niet zo veel gebruikt door de jullie?
+Fri, Jan 27, 2023, 20:48:43 - bart_dr: Deze morgen was alles terug normaal. Ik heb probleemloos nieuwe gegevns kunnen invoeren. Moest dit zich nog eens voordoen, neem ik een screenshot.
+Sat, Jan 28, 2023, 09:41:44 - bart_dr: Deze morgen (10u) opnieuw iets vreemd met de Mapcomplete voor GR Hageland. Zie screenshot.
+Sat, Jan 28, 2023, 09:41:51 - bart_dr sent an image. (Media omitted)
+Sat, Jan 28, 2023, 09:42:08 - bart_dr: En iets meer ingezoomd:
+Sat, Jan 28, 2023, 09:42:17 - bart_dr sent an image. (Media omitted)
+Sat, Jan 28, 2023, 09:59:01 - joost_schouppe: Juist, gebeurt bij mij ook nu
+Sat, Jan 28, 2023, 10:01:44 - joost_schouppe: Lijkt me een puur mapcomplete issue. In osm.org ziet de relatie er normaal uit
+Sat, Jan 28, 2023, 10:15:03 - s8evq: Dat is inderdaad raar. Ik ga eens de update van de geojson file draaien, en kijken als het probleem weg is.
+Sat, Jan 28, 2023, 10:16:04 - s8evq: Message deleted
+Sat, Jan 28, 2023, 10:16:39 - s8evq: Message deleted
+Sat, Jan 28, 2023, 10:23:45 - s8evq: Ik denk niet dat het probleem bij mapcomplete ligt. Maar de geojson file die mijn script gedownload is, is blijkbaar kapot....
+Sat, Jan 28, 2023, 10:23:52 - s8evq sent an image. (Media omitted)
+Sat, Jan 28, 2023, 10:36:45 - s8evq: The russian overpass server I use is acting up.
+Sat, Jan 28, 2023, 10:36:55 - s8evq: This is my query from https://maps.mail.ru/osm/tools/overpass/# :
+Sat, Jan 28, 2023, 10:37:12 - s8evq sent an image. (Media omitted)
+Sat, Jan 28, 2023, 10:37:21 - s8evq: And this is the result from https://overpass-turbo.eu/#
+Sat, Jan 28, 2023, 10:37:42 - s8evq sent an image. (Media omitted)
+Sat, Jan 28, 2023, 10:38:00 - s8evq: 🥶🙀🥸🤐
+Sat, Jan 28, 2023, 10:38:37 - s8evq: pietervdvn: I thought you also use maps.mail.ru/osm/tools/overpass for your queries, or not?
+Sat, Jan 28, 2023, 10:46:18 - pietervdvn: <@s8evq:matrix.org "pietervdvn: I thought you also u..."> Only as fallback-server if overpass.de and the kumi-overpass instance don't work, so that rarely happens
+Sat, Jan 28, 2023, 11:48:32 - s8evq: OK, ik heb geswitcht naar die kumi instance.
+Sat, Jan 28, 2023, 11:48:53 - s8evq: bart_dr: bedankt voor de melding. Probleem zou moeten opgelost zijn, veel plezier op de wandeling vandaag.
+Sat, Jan 28, 2023, 12:32:23 - pietervdvn: <@s8evq:matrix.org "OK, ik heb geswitcht naar die ku..."> Jup, das echt een performant beest
+Sat, Jan 28, 2023, 18:27:27 - bart_dr: Bij mij is ook alles OK. De gegevens die ik gisteren tijdens het wandelen ingevoerd heb via mijn iphone zijn netjes verwerkt. Nog 2 etappes te gaan en GR Hageland zal nagenoeg volledig klaar zijn.
+Sun, Feb 5, 2023, 22:58:25 - foxandpotatoes: GR 121 Parcours principal Wavre - Bon-Secours - SGR cherche volontaire pour corriger la relation 1320213 du côté de Baulers et à Nivelles. 
+Mon, Feb 6, 2023, 09:43:39 - joost_schouppe: s8evq: geef je mijn opmerking door aan de mensen van GR (naar aanleiding van https://www.openstreetmap.org/note/3542778)?
+Mon, Feb 6, 2023, 09:43:56 - s8evq: Ja, zal ik doen.
+Mon, Feb 6, 2023, 09:44:58 - s8evq: Zelf schreef Isabelle _"De brug over het kanaal in Halle was vroeger ontoegankelijk voor wandelaars/fietsers maar is ondertussen een voetgangersbrug geworden (er liggen nu eigenlijk 2 voetgangersbruggen naast elkaar….). Een beetje verder is een nieuwe brug voor autoverkeer aangelegd. Maar de markering zal op heel korte termijn aangepast worden"_
+Mon, Feb 6, 2023, 09:45:23 - s8evq: Dus in principe mag je over de Bospoortbrug wandelen, en is dit ook de definitieve situatie?
+Mon, Feb 6, 2023, 09:46:10 - s8evq: Aha sorry
+Mon, Feb 6, 2023, 09:46:16 - s8evq: Ik lees nu ja antwoord op de note.
+Mon, Feb 6, 2023, 09:46:21 - s8evq: Dat zal ik doorgeven :) got it
+Mon, Feb 6, 2023, 09:48:16 - joost_schouppe: Mijn advies: niets doen tot de bruggen effectief verwijderd zijn / de Baileybrug verplaatst is. Of nog: voorlopig via de Klarabrug doen.
+Mon, Feb 6, 2023, 09:48:26 - s8evq: okay
+Mon, Feb 6, 2023, 13:53:46 - ericferon: <@ramipenter:matrix.org "GR 121 Parcours principal Wavre ..."> Ok, je veux bien prendre en charge.
+Mon, Feb 6, 2023, 13:54:55 - ericferon: <@ramipenter:matrix.org "GR 121 Parcours principal Wavre ..."> OK, je veux bien prendre en charge
+Eric
+Mon, Feb 6, 2023, 16:13:30 - pelderson changed their display name to Peter Elderson NL
+Mon, Feb 6, 2023, 16:13:35 - Peter Elderson NL set a profile picture
+Mon, Feb 6, 2023, 19:20:33 - foxandpotatoes: <@ericferon:matrix.org "OK, je veux bien prendre en char..."> Merci Eric ! 
+Thu, Feb 9, 2023, 20:32:31 - juminet invited francol6833
+Sun, Feb 12, 2023, 16:30:11 - ericferon: <@ramipenter:matrix.org "GR 121 Parcours principal Wavre ..."> OK, c'est fait.
+Eric
+Fri, Feb 17, 2023, 12:04:58 - foxandpotatoes: Merci Eric. Je reviens avec d'autres tâches.
+Fri, Feb 17, 2023, 16:27:21 - Seppe: Are there (somewhat) official GPX'es for the GRs in France? I'm looking at a GR that is definitely wrong / impossible in OSM and I would like to change it to what the GR organization has as the official version.
+Fri, Feb 17, 2023, 17:05:58 - joost_schouppe: It used to be illegal to map GR's in France. I don't know if that changed by now
+Fri, Feb 17, 2023, 17:12:35 - dentonny: Odd that mapping a route can be illegal
+Fri, Feb 17, 2023, 20:07:23 - Peter Elderson NL: <@joost_schouppe:matrix.org "It used to be illegal to map GR'..."> A lot of GRs have been mapped in France, and still the sky hasn't fallen down. Maybe they are preparing the law suit very very thoroughly?
+Fri, Feb 17, 2023, 21:04:20 - bart_dr: Try this one: https://boutique.ffrandonnee.fr/gr-access
+Fri, Feb 17, 2023, 22:10:03 - Peter Elderson NL: <@bart_dr:matrix.org "Try this one: https://boutique.f..."> "On entend par contenu du Site : la structure générale, la charte graphique, l’ensemble des contenus diffusés sur ce Site (images, articles, photos, logos, marques, vidéos, interview, sons, textes, bases de données, newsletters…).
+
+Ce contenu est protégé par la législation en vigueur en France notamment en matière de propriété intellectuelle et notamment le droit d’auteur, les droits voisins, le droit des marques, le droit à l’image.
+
+Toute représentation et/ou reproduction et/ou exploitation totale(s) ou partielle(s) de ce Site et de son contenu, par quelques procédés que ce soient, à quelque titre que ce soit, sans l’autorisation préalable et expresse de la FFRandonnée, est interdite et constituerait une contrefaçon sanctionnée notamment par les articles L. 335-2 et suivants du code de la Propriété Intellectuelle, et/ou un acte de concurrence déloyale et/ou un acte de parasitisme susceptible d’engager la responsabilité des personnes qui s’y sont livrées."
+
+Nothing about the routes in the field.
+Fri, Feb 17, 2023, 22:37:25 - bart_dr: Réf.  GR-ACCESS
+Plus de 450 suggestions présentes sur le logiciel GR@ccess ...
+Ainsi que les traces GPX et des parcours sur l'ensemble de la France.
+Mon, Feb 20, 2023, 09:19:12 - s8evq: I'm having a small discussion about naming a GR route: https://www.openstreetmap.org/changeset/131741093
+Mon, Feb 20, 2023, 09:19:32 - s8evq: The mapper claims that 'GR 5' is not a `name` but, rather a reference
+Mon, Feb 20, 2023, 09:20:01 - s8evq: I think "GR 5" could be seen as a proper name in OSM terms
+Mon, Feb 20, 2023, 09:20:13 - s8evq: Agree or not?
+Mon, Feb 20, 2023, 09:38:09 - joost_schouppe: In France, the name generally does not seem to include "GR 123"
+Mon, Feb 20, 2023, 09:45:53 - foxandpotatoes: With s8evq we have agreed about a template for SGR trails. Just to follow SGR asbl denominations. Please do not change it.
+Mon, Feb 20, 2023, 09:46:36 - s8evq: <@ramipenter:matrix.org "With s8evq we have agreed about ..."> Yes, but here, the discussion is about the international GR 5 relation, that contains the local relations.
+Mon, Feb 20, 2023, 09:47:08 - foxandpotatoes: Okay
+Mon, Feb 20, 2023, 09:47:12 - s8evq: <@joost_schouppe:matrix.org "In France, the name generally do..."> I wasn't aware of that 👍️.
+Mon, Feb 20, 2023, 09:47:34 - joost_schouppe: Me neither :)
+Wed, Mar 1, 2023, 16:02:37 - disvello joined the room
+Thu, Mar 2, 2023, 20:18:16 - erikbeer joined the room
+Thu, Mar 2, 2023, 20:30:26 - erikbeer: GR561 blijft onderbroken op OSM op de Tweelingsterril in Eisden (Maasmechelen).
+Thu, Mar 2, 2023, 20:35:20 - erikbeer: https://hiking.waymarkedtrails.org/#route?id=144503&type=relation&map=16.0/51.0017/5.6744 Ik merkte enkele maanden geleden dat de GR561 een  ander traject volgt over de terril in plaats van rond de terril zoals de GPX op de website van Grote Routepaden. Ik heb dat enkele maanden geleden ook gemeld via die website. Daar is nog niets mee gebeurd. Ik vermoed dat niet GR een gewijzigde traject heeft gemaakt maar dat dit dit gebeurde door Regionaal Landschap samen met het gewijzigde traject van de National Park Trail. Is er iemand met contacten met GR die dat nog eens onder de aandacht kan brengen?
+Thu, Mar 2, 2023, 22:44:37 - bart_dr: Bedoel je dat de markering aangeeft dat je over de tweelingsterril moet stappen ipv er rond?
+Fri, Mar 3, 2023, 13:07:40 - bart_dr: erikbeer Ik heb ondertussen de relatie GR561 in overeenstemming gebracht met het GPX-bestand van GR.
+Fri, Mar 3, 2023, 16:15:43 - erikbeer: De markering wijst een route aan over de Tweelingterril. De GPX van GR is dus al een hele tijd fout. Als OSM wordt aangepast volgens de GPX van GR is OSM fout.
+Fri, Mar 3, 2023, 16:17:31 - erikbeer: Ik heb die gemarkeerde route in OSM al enkele keren geactualiseerd (voor een stuk). Ik heb de route niet volledig gedaan omdat ik met mijn fiets niet over de top geraakte.
+Fri, Mar 3, 2023, 18:46:15 - bart_dr: Misschien is er een trajectwijziging geweest ter gelegenheid van de creatie van de National Park Trail. Ik zal doorgeven aan GR dat markering en GPX+OSM  niet overeen komen met markering ter plaatse.
+Mon, Mar 6, 2023, 12:28:09 - bart_dr: @erikbeer:matrix.org   GR meldt me: "De GR 561 loopt rond de terrils en niet erover. Ik heb deze melding doorgestuurd naar de Limburgse collega’s en die moeten dat maar eens bekijken (en desnoods weer aanpassen naar de juiste situatie). De nieuwe Streek-GR Limburgse Mijnen gaat wel over die terrils (markering is geel-rood en dat is maar voor later)."
+Tue, Mar 7, 2023, 23:03:27 - Peter Elderson NL: In NL heb ik geregeld te maken met wensroutes en geplande routes, terwijl de markering anders is. Net nog een collega-markeerder erop "betrapt" dat hij de door hem per mail tot in detail aangegeven en uiterst noodzakelijk geachte routewijziging na meer dan een jaar nog steeds niet gemarkeerd heeft! En de "officiële" knooppuntplanner heeft tientallen knooppunten die in het veld niet bestaan, omdat ze de geplande knooppunten alvast ingevoerd hadden, maar die zijn nu, na jaren, nog steeds niet in het veld te vinden. Dus ik kijk nergens meer van op!
+Wed, Mar 8, 2023, 07:58:02 - s8evq: wat een zootje
+Wed, Mar 8, 2023, 13:55:48 - Peter Elderson NL: <@s8evq:matrix.org "wat een zootje"> Valt mee hoor, dit zijn de negatieve uitzonderingen. Maar mensen zijn mensen, dus ik denk dat dit in België net zo goed wel eens gebeurt.
+Mon, Mar 20, 2023, 06:34:56 - @mighty3:matrix.org joined the room
+Wed, Mar 22, 2023, 12:40:12 - @mighty3:matrix.org left the room
+Tue, Mar 28, 2023, 18:30:53 - Jakka_Frank: an note GR 5 request/gaps https://www.openstreetmap.org/note/3617687#map=16/50.4592/5.8932&layers=N
+Tue, Mar 28, 2023, 22:16:00 - foxandpotatoes: <@Jakka_Frank:matrix.org "an note GR 5 request/gaps https:..."> Gaps repaired.
+Wed, Mar 29, 2023, 12:32:51 - @mighty8:matrix.org joined the room
+Wed, Mar 29, 2023, 13:51:31 - @mighty8:matrix.org: Message deleted by s8evq
+Wed, Mar 29, 2023, 15:39:55 - @mighty8:matrix.org left the room
+Sat, Apr 1, 2023, 12:19:33 - juminet: Hello foxandpotatoes . I started to add new relations for GR liaison to stations. I'm planning to make all liaisons between stations and GRP151. 
+Sat, Apr 1, 2023, 12:19:40 - juminet: See the 1st one: https://www.openstreetmap.org/relation/15669034
+Sat, Apr 1, 2023, 12:20:04 - juminet: But I didn't put the osmc:symbol tag as I'm not sure about it.
+Sat, Apr 1, 2023, 12:36:55 - bart_dr: You have a similar exemple in Schoonaarde. "GR 128 Aanlooproute Schoonaarde"
+Sun, Apr 2, 2023, 08:16:01 - foxandpotatoes: <@juminet:matrix.org "But I didn't put the osmc:symbol..."> 
+We usually add the following 'osmc:symbol's:
+- pour les GR : 'red:white:red_lower:129S:black'
+- pour les GRP : 'red:yellow:red_lower:129S:black'
+Sun, Apr 2, 2023, 08:18:53 - foxandpotatoes: And also the 'ref': here '151L'. Maximum four digits. No 'GR' or 'GRP'. No space.
+Sat, Apr 8, 2023, 13:36:46 - @williams45:matrix.org joined the room
+Sun, Apr 9, 2023, 00:02:46 - @williams45:matrix.org: Message deleted by s8evq
+Sun, Apr 9, 2023, 12:39:07 - s8evq banned @williams45:matrix.org: spam
+Sun, Apr 23, 2023, 10:20:47 - @frank20:matrix.org joined the room
+Mon, Apr 24, 2023, 09:25:59 - bart_dr: erikbeer Ik kom nog even terug op je melding van een GR-markering over de Tweeterril. Ik verneem vandaag van GR dat ze de markering van de GR 561 wel degelijk hebben aangepast óver de terril van Eisden (maar ze waren dat wat vergeten te melden én de markeerder was iets te vroeg geweest). Dus de GR 561 loopt nu over de tweelingterril van Eisden! Er zijn daar heel wat wijzigingen aan de gang ter voorbereiding van een nieuwe Streek-GR. Ik heb de laatste versie van de GPX GR561 ontvangen, en ik zal eens nazien in hoeverre die overeenkomt met OSM.
+Mon, Apr 24, 2023, 15:26:20 - @frank20:matrix.org left the room
+Tue, Apr 25, 2023, 09:10:51 - foxandpotatoes: Le GRP 577 attend un volontaire pour quelques corrections de parcours. Intéressé ?
+Tue, Apr 25, 2023, 11:50:12 - ericferon: OK, je veux bien m'en occuper.
+Eric
+Tue, Apr 25, 2023, 14:00:20 - foxandpotatoes: C'est noté. Merci Eric ! 
+Thu, Apr 27, 2023, 14:30:29 - @mercy45:matrix.org joined the room
+Sat, Apr 29, 2023, 18:21:38 - imlostlmao joined the room
+Tue, May 9, 2023, 05:12:46 - @g-tenko-r:matrix.freyachat.eu joined the room
+Tue, May 9, 2023, 13:04:26 - @mercy45:matrix.org left the room
+Wed, May 10, 2023, 01:57:48 - @ralph:fx45.in joined the room
+Sat, May 13, 2023, 09:13:16 - @leohoo_sdu:matrix.org joined the room
+Sat, May 13, 2023, 09:13:17 - @leohoo_sdu:matrix.org left the room
+Thu, May 18, 2023, 06:21:13 - @g-tenko-r:matrix.freyachat.eu left the room
+Sat, May 20, 2023, 23:48:22 - @ralph:fx45.in left the room
+Sun, May 21, 2023, 15:39:09 - @mighty4:matrix.org joined the room
+Thu, Jun 1, 2023, 13:51:07 - jl.stanus joined the room
+Sat, Jun 3, 2023, 02:15:07 - niggerius joined the room
+Wed, Jun 7, 2023, 18:00:29 - Peter Elderson NL: Dit bericht komt van de OsmAnd googlegroup: 
+Vincent Carlson <venbcarlson@gmail.com>
+Bijlagen
+12:22 (5 uur geleden)
+aan OsmAnd Afmelden
+
+I just had a hike on the GR16/E3 (Semois river, BE - FR)
+I noticed a few minors issues:
+
+1) a +/- 200m missing segment between
+49.87969 N, 4.92805 E
+and
+49.87831 N, 4.92906 E
+(see pict1: GR16/E3 path is thick light red, hiking track is narrow dark red)
+
+2) the GR16 has been slightly modified, due to a recent "quiet zone"
+between 49.88401 N, 4.78390 E (pict3) and 49.87931 N, 4.78762 E
+(see pict 2: incorrect GR16 path is thick light blue, hiking track is narrow dark red and follows an unnamed path present on the map: the corrected GR16)
+pict4 taken at 49.881337 N, 4.785058 E
+
+3) the GR16 has been slightly modified
+between 49.88960 N, 4.72610 E and  49.88901 N, 4.72473 E
+(see pict5: GR16 path is thick light blue, hiking track is narrow dark red and follows an unnamed path present on the map: the corrected GR16)
+pict6 taken at 49.88982 N, 4.72468 E
+
+Wed, Jun 7, 2023, 18:02:08 - Peter Elderson NL: De plaatjes staan in het originele bericht, ik denk dat het het handigst als degene die het oppakt daar zelf even op inschrijft voor die Google Group.
+Wed, Jun 7, 2023, 20:18:04 - bart_dr: The difference between the map data, the GPX and the marks can have several causes. Perhaps there has been a recent track change and the GPX hasn't been updated yet. Or maybe it's just a glitch in the GPX.
+GR16 is managed by GRSentiers. Just send an email to:  gr@grsentiers.org
+Wed, Jun 7, 2023, 21:36:56 - Peter Elderson NL: I'm just passing on the message. There's probably errors on all sides.
+Wed, Jun 7, 2023, 21:39:23 - foxandpotatoes: I shall forward this to cartes@grsentiers.org and investigate. Thanks for the comments.
+Wed, Jun 7, 2023, 21:52:07 - foxandpotatoes: On one of the screen capture, I read 'GR 16 ... Ed 6 - Juin 2016'. This is of course obsolete.
+Sat, Jun 10, 2023, 11:05:14 - @fredieac45:matrix.org joined the room
+Thu, Jun 15, 2023, 16:12:37 - @fredieac45:matrix.org: Message deleted by joost_schouppe
+Thu, Jun 15, 2023, 16:16:31 - joost_schouppe banned @fredieac45:matrix.org: spammer
+Thu, Jul 6, 2023, 21:05:18 - s8evq: https://www.focus-wtv.be/nieuws/5000-stickers-markeren-nieuwe-gr-route-langs-de-kust
+Thu, Jul 6, 2023, 21:05:26 - s8evq: 😃👍️
+Sat, Jul 8, 2023, 11:13:29 - Peter Elderson NL: <@s8evq:matrix.org "https://www.focus-wtv.be/nieuws/..."> En al helemaal ingevoerd ook, kudo's! Zie ik nou goed dat het grootste deel gelijk loopt met de GR5A en alleen het stuk langs Zeebrugge tot Nederland er echt bijgekomen is?
+Sat, Jul 8, 2023, 11:53:54 - bart_dr: Ja en nee. Het tracé van de Streek-GR Kust is km per km ge-evaleerd door heel wat GR-medewerkers, en begin dit jaar in zijn definitieve vorm gegoten. De GR5A is vanaf de grens met Frankrijk tot aan de afslag tussen De Haan en Wenduine aangepast aan dit tracé. De GR5A heeft daardoor talrijke wijzigingen ondergaan. Dus je hebt nu ook een klein beetje "nieuwe" GR5A 😊. De relatie "GR5A" en Europese route E9 zijn in OSM aangepast. Samen met het creëren van de relatie "Streek-GR Kust". Hier en daar zijn er nog enkele kleine correcties in OSM nodig. De Tool Knooppuntnet is daarbij heel handig!
+Fri, Jul 21, 2023, 13:51:17 - joost_schouppe: @room: I'm organizing an OSM garden party at my place on Sunday August 27th. All OSMbe community members welcome (and feel free to bring your partners, kids & pets). We'll provide food & drinks. My place is at walking distance from Halle station (only 15 minutes from Brussels-Centraal). Please [register here](https://docs.google.com/forms/d/e/1FAIpQLSekrCR-VVf1dyyJGYYhGcUcfki2TBwpjsbxQcMk3bDv_kZNPw/viewform?usp=sf_link) so I know how many people to expect!
+Mon, Jul 24, 2023, 10:11:57 - midgard joined the room
+Sat, Aug 26, 2023, 10:34:48 - bart_dr: Hi, the link  hgcvm.github.io/mcsurfacegr doesn't work properly anymore. Do we have to use another one?
+Sat, Aug 26, 2023, 11:51:16 - joost_schouppe: Probably broke because of all the mapcomplete updates. s8evq any idea what's going on?
+Sat, Aug 26, 2023, 11:56:07 - pietervdvn: https://mapcomplete.org/theme?z=16.8&lat=51.11503&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fhgcvm%2Fmcsurfacegr%2Fmain%2Fmcsurfacegr.json
+Sat, Aug 26, 2023, 11:56:35 - pietervdvn: Custom themes still work AFAIK
+Sat, Aug 26, 2023, 13:51:52 - s8evq: <@bart_dr:matrix.org "Hi, the link  hgcvm.github.io/mc..."> The correct link is: https://hgcvm.github.io/mcsurfacegr/html/overview.html
+Sat, Aug 26, 2023, 13:52:50 - s8evq: I didn't change anything :)
+Sat, Aug 26, 2023, 13:54:17 - s8evq sent an image. (Media omitted)
+Sat, Aug 26, 2023, 14:01:26 - s8evq: Oops, maybe there is something wrong. I'll have a look
+Sat, Aug 26, 2023, 14:09:06 - s8evq: It seems links I was generating point to "mapcomplete.osm.be/...", but this redirects now to mapcomplete.org.
+Sat, Aug 26, 2023, 14:09:22 - s8evq: I'll update the links and all should be good
+Sat, Aug 26, 2023, 14:12:28 - s8evq: @bart_dr It will work again in about 10 to 15 minutes, when the github actions refreshed everything.
+Sat, Aug 26, 2023, 14:12:46 - s8evq: Thanks  for letting me know :)
+Sat, Aug 26, 2023, 14:21:45 - s8evq: @pietervdvn I used https://mapcomplete.org/?mode=statistics&filter-theme-search=%7B%22search%22%3A%22hgcvm%22%7D&filter-theme-search-search=hgcvm
+I can now only find https://mapcomplete.org/statistics.html
+Is it still possible to directly see statistics, without manually entering a search string?
+Sat, Aug 26, 2023, 14:44:13 - pietervdvn: <@s8evq:matrix.org "@pietervdvn I used https://mapco..."> Apperantly not. Make an issue, but it is very low on my list of priorities
+Tue, Sep 19, 2023, 06:12:54 - Peter Elderson NL: I have walked GR57 from Liège Guillemins à Sy. Le balisage était presque parfait. J'ai fait des corrections mineures en OSM.
+Mon, Oct 2, 2023, 15:59:10 - @temp4096:matrix.org joined the room
+Tue, Oct 3, 2023, 12:10:58 - @temp4096:matrix.org left the room
+Fri, Oct 13, 2023, 10:05:44 - joost_schouppe invited Bruno Peten
+Fri, Oct 13, 2023, 10:10:35 - Bruno Peten joined the room
+Fri, Oct 13, 2023, 15:13:17 - Bruno Peten: Hi all, I found this relation by chance while looking for something eles and it looks strange to me :https://www.openstreetmap.org/relation/15907000
+It is a part of Liberation Route Europe, but not one of their 'Thematic routes', uses existing GR routes (12, 121...)
+All segments are linked 4 times.
+Question 1 : Is that a problem? If yes, how could we clean that quickly ?
+Question 2 : As it follows existing GR routes, does it make sense to have it on the map? I don't know if there is any specific signposting is present. The route seems to stop at the limit between Brussels and Meise anyway. It doesn't continue une France either.
+Mon, Oct 16, 2023, 12:52:00 - @mighty4:matrix.org left the room
+Wed, Oct 25, 2023, 13:36:47 - wegspotter changed their display name to Steven Clays (afka wegspotter)
+Wed, Nov 15, 2023, 12:20:51 - foxandpotatoes: Bruno Peten: Hello Bruno, LRE is managed by SGR. It is intentional that all trails have their own relation. Even if they are sometimes on the same highways as others. See https://grsentiers.be/randos-uniquement-balisees/92-liberation-route-europe.html.
+Pierre
+Sun, Nov 19, 2023, 12:06:34 - dentonny: https://www.openstreetmap.org/way/567511197
+this segment has practically no strava usage, although visible on areal imagery
+Tue, Dec 5, 2023, 01:32:19 - esomar joined the room
+Tue, Dec 5, 2023, 14:57:44 - Jakka_Frank: a note concerning fjord on GR 57 Sentier de l'Ourthe Parcours principal https://www.openstreetmap.org/note/4015861#map=19/50.36814/5.53569&layers=N 
+
+
+
+Tue, Dec 5, 2023, 16:02:03 - jl.stanus: image.png (Media omitted)
+Tue, Dec 5, 2023, 16:02:23 - jl.stanus: ?
+Tue, Dec 5, 2023, 16:04:02 - joost_schouppe: See also https://www.openstreetmap.org/note/3867595#map=19/50.36816/5.53598&layers=N
+Tue, Dec 5, 2023, 16:04:46 - joost_schouppe: Seems to imply the bridge is lost
+Tue, Dec 5, 2023, 16:06:10 - joost_schouppe: https://www.openstreetmap.org/way/305689766
+Tue, Dec 5, 2023, 16:06:22 - jl.stanus: should be mapped as disused to avoid confusion
+Tue, Dec 5, 2023, 16:06:24 - joost_schouppe: Bridge was deleted by RoutteYou  mapper after a report
+Tue, Dec 5, 2023, 16:07:03 - joost_schouppe: For this kind of issue, I often use this query: https://overpass-turbo.eu/s/1El5
+Tue, Dec 5, 2023, 16:24:28 - joost_schouppe: he usually does a good job
+Tue, Dec 5, 2023, 23:02:19 - foxandpotatoes: <@Jakka_Frank:matrix.org "a note concerning fjord on GR 57..."> Look at https://grsentiers.be/topo-guides/45-gr-57-vallee-de-l-ourthe-et-sentier-du-nord.html for the 2023-11-15 update of the route. The relation has to be changed.
+Wed, Dec 6, 2023, 07:49:33 - Jakka_Frank: It is not a variant or connection, will look this evening thx
+Fri, Dec 8, 2023, 11:10:55 - Jakka_Frank: correction faites passerelle Bomal http://ra.osmsurround.org/analyzeMap?relationId=9294292
+Fri, Dec 8, 2023, 21:04:21 - foxandpotatoes: Jakka_Frank: Thanks for the correction. 
+Sat, Dec 9, 2023, 01:41:47 - esomar left the room
+Sun, Dec 17, 2023, 14:30:24 - dentonny left the room
+Mon, Jan 8, 2024, 11:23:38 - Steven Clays (afka wegspotter) changed their display name to Steven Clays
+Mon, Jan 29, 2024, 20:48:10 - h4n5antw left the room
+Thu, Feb 22, 2024, 13:01:48 - jl.stanus: Btw, i fixed missing parts on TransArdenaise MTB https://www.openstreetmap.org/changeset/147765909
+Thu, Feb 22, 2024, 13:02:56 - jl.stanus: https://mtb.waymarkedtrails.org/#route?id=11562031&type=relation
